@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![Portfolio Banner](https://via.placeholder.com/800x200/667eea/ffffff?text=👩‍💻+Reezma+Hanan+-+Student+Developer)
-
 **IT Student | Web Developer | Java & Python Enthusiast**
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live_Website-success?style=for-the-badge)](https://reezmahanan.github.io/Portfolio-Website/portfolio.html)
