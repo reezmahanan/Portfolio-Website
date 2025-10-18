@@ -1,0 +1,34 @@
+# Ignore Java files
+*.java
+*.class
+
+# Ignore Python files
+*.py
+
+# Ignore text files
+*.txt
+
+# Ignore other project folders
+bookhaven-*/
+bookstore/
+
+# Ignore backup and copy files
+*Copy*
+*copy*
+
+# Ignore individual project HTML files (keep only portfolio files)
+digital-clock.html
+interactive-calendar.html
+mobile.html
+todo.html
+simple*.html
+index.html
+
+# Ignore individual project CSS/JS files
+todostyles.css
+doc.js
+script.js
+style.css
+
+# Ignore documentation files that aren't portfolio related
+PORTFOLIO-GUIDE.md
