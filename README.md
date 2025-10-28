@@ -8,6 +8,11 @@
 [![GitHub](https://img.shields.io/badge/GitHub-reezmahanan-black?style=for-the-badge&logo=github)](https://github.com/reezmahanan)
 [![Projects](https://img.shields.io/badge/Projects-15+-blue?style=for-the-badge)](https://github.com/reezmahanan?tab=repositories)
 
+#Implement Coming 🔜 
+
+This is my personal portfolio website built using HTML, CSS, and JavaScript.  
+💡 This portfolio is still growing — new features coming soon!
+
 **🚀 [View Live Portfolio](https://reezmahanan.github.io/Portfolio-Website/portfolio.html)**
 
 </div>
