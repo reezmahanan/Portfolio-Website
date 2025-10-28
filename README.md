@@ -20,7 +20,7 @@ Welcome to my professional portfolio website! I'm **Reezma Hanan**, an IT studen
 
 ---
 
-## ⭐ Featured Project: BookHaven E-Commerce Platform
+## ⭐ Featured Project: NETH BookHive E-Commerce Platform
 
 <div align="center">
 
