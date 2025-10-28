@@ -24,10 +24,9 @@ Welcome to my professional portfolio website! I'm **Reezma Hanan**, an IT studen
 
 <div align="center">
 
-### 📚 BookHaven - Complete E-Commerce Bookstore
+### 📚 NETH BookHive - Complete E-Commerce Bookstore
 
-[![BookHaven Live](https://img.shields.io/badge/🌐_Live_Demo-BookHaven-e74c3c?style=for-the-badge)](https://reezmahanan.github.io/bookhaven-ecommerce)
-[![BookHaven Code](https://img.shields.io/badge/📁_Source_Code-GitHub-black?style=for-the-badge)](https://github.com/reezmahanan/bookhaven-ecommerce)
+coming 🔜 
 
 </div>
 
