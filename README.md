@@ -30,7 +30,7 @@ coming 🔜
 
 </div>
 
-**BookHaven** is my flagship project - a fully functional e-commerce platform specializing in Psychology & Finance books for the Sri Lankan market.
+**BookHive** is my flagship project - a fully functional e-commerce platform specializing in Psychology & Finance books for the Sri Lankan market.
 
 ### 🌟 Key Features:
 - 🛒 **Complete Shopping Cart** - Add, remove, quantity management
