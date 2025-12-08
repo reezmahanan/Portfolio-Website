@@ -5,25 +5,21 @@ A modern, responsive portfolio website showcasing AI/ML projects, web developmen
 ## 📋 Features
 
 ### ✨ Main Features
-- 🎨 **Modern Design** - Clean, professional UI with smooth animations
+- 🎨 **Modern Design** - Clean, professional UI with glassmorphism effects
 - 🌓 **Dark/Light Theme** - Toggle between themes with persistent storage
 - 📱 **Fully Responsive** - Works perfectly on all devices
-- 🚀 **Fast Loading** - Optimized performance with loading screen
-- 💼 **Portfolio Showcase** - Featured projects with live demos
-- 🤖 **AI/ML Section** - Dedicated section for AI/ML projects
-- 🏆 **Certificates** - Display your achievements and certifications
+- 🚀 **Fast Loading** - Optimized performance with smooth animations
+- 💼 **Portfolio Showcase** - 18 featured projects with detailed cards
 - 📧 **Contact Form** - Functional contact form with validation
 - 👁️ **Visitor Counter** - Track unique daily visitors
 - ⚡ **Smooth Animations** - Beautiful fade-in effects and transitions
 
 ### 🎯 Sections
 1. **Hero Section** - Eye-catching introduction with typing animation
-2. **About Me** - Professional background and passion for AI/ML
+2. **About Me** - Professional background and journey as IT student
 3. **Skills** - Technical skills organized by categories
-4. **AI/ML Projects** - Machine learning and AI projects showcase
-5. **Certificates** - Professional certifications and achievements
-6. **Projects** - Full-stack web development projects
-7. **Contact** - Contact form and social media links
+4. **Projects** - 18 full-stack web development projects with feature badges
+5. **Contact** - Contact form and social media links
 
 ## 🚀 Getting Started
 
@@ -76,12 +72,13 @@ In `index.php`, find the `$projects` array and add your projects:
 ```php
 $projects = [
     [
-        'featured' => true, // Set to true for featured projects
-        'title' => '🎯 Your Project Name',
+        'featured' => true, // All projects now shown with featured layout
+        'icon' => '🎯', // Large icon for the project
+        'title' => 'Your Project Name',
         'description' => 'Project description...',
-        'live_demo' => 'https://your-demo-link.com',
+        'live_demo' => 'https://your-demo-link.com', // Optional
         'github' => 'https://github.com/yourusername/project',
-        'features' => ['Feature 1', 'Feature 2'],
+        'features' => ['Feature 1', 'Feature 2', 'Feature 3'], // Feature badges
         'technologies' => ['PHP', 'JavaScript', 'MySQL']
     ],
     // Add more projects...
@@ -89,7 +86,7 @@ $projects = [
 ```
 
 ### Add/Edit Certificates
-In `index.php`, find the `$certificates` array:
+In `index.php`, find the `$certificates` array and update with your certifications:
 
 ```php
 $certificates = [
@@ -97,7 +94,6 @@ $certificates = [
         'icon' => '🏆',
         'title' => 'Certificate Name',
         'issuer' => 'Issuing Organization',
-        'date' => '2024',
         'skills' => ['Skill 1', 'Skill 2', 'Skill 3']
     ],
     // Add more certificates...
@@ -148,27 +144,27 @@ Change form action to:
 portfolio/
 │
 ├── index.php                 # Main HTML structure with PHP
-├── styles.css               # Main CSS styles
-├── portfolio-styles.css     # Additional CSS (AI/ML section)
+├── styles.css               # Main CSS styles with glassmorphism
 ├── portfolio-script.js      # JavaScript functionality
 ├── send_message.php         # Contact form handler
 ├── visitor_count.txt        # Visitor counter data
-├── Profile.jpg             # Your profile photo (add this)
+├── Profile.jpg             # Your profile photo
 ├── contact_messages.log    # Contact form logs (auto-generated)
+├── .gitignore              # Git ignore file
 └── README.md              # This file
 ```
 
 ## 🌟 Features to Add (Optional)
 
-- [ ] Add actual certificates images/PDFs
+- [ ] Add certificates section with your achievements
 - [ ] Integrate with a database for dynamic content
 - [ ] Add a blog section
-- [ ] Add more AI/ML projects
 - [ ] Add testimonials section
 - [ ] Add resume download feature
 - [ ] Integrate with Google Analytics
 - [ ] Add email notifications for contact form
 - [ ] Add reCAPTCHA for spam protection
+- [ ] Add project demo videos/screenshots
 
 ## 🐛 Troubleshooting
 
@@ -224,6 +220,10 @@ This portfolio is open source. Feel free to use it as a template for your own po
 ---
 
 ⭐ **Star this repository if you found it helpful!**
+
+**Built with ❤️ by Reezma Hanan**
+
+*Showcasing the journey of a passionate IT student*
 
 🔧 **Need help?** Open an issue or reach out via email.
 

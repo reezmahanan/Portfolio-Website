@@ -87,8 +87,8 @@ $visitor_count = updateVisitorCount();
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div style="display: flex; align-items: center; gap: 10px;">
@@ -235,6 +235,11 @@ $visitor_count = updateVisitorCount();
                         <span class="stat-label">Certificates Earned</span>
                     </div>
                     <div class="stat-item">
+                        <div class="stat-icon">🏆</div>
+                        <span class="stat-number" id="certificatesCount">19</span>
+                        <span class="stat-label">Certificates Earned</span>
+                    </div>
+                    <div class="stat-item">
                         <div class="stat-icon">⭐</div>
                         <span class="stat-number" id="hackerRankCount">HackerRank</span>
                         <span class="stat-label">Certified</span>
@@ -337,133 +342,114 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🐍',
                         'title' => 'Python for Beginners',
                         'issuer' => 'UOM CODL',
-                        'date' => '2024',
                         'skills' => ['Python', 'Programming', 'Basics']
                     ],
                     [
                         'icon' => '🌐',
                         'title' => 'Web Design for Beginners',
                         'issuer' => 'UOM CODL',
-                        'date' => '2024',
                         'skills' => ['HTML', 'CSS', 'Web Design']
                     ],
                     [
                         'icon' => '🐍',
                         'title' => 'Python for Beginners',
                         'issuer' => 'SoloLearn',
-                        'date' => '2024',
                         'skills' => ['Python', 'Coding']
                     ],
                     [
                         'icon' => '🗄️',
                         'title' => 'SQL',
                         'issuer' => 'SoloLearn',
-                        'date' => '2024',
                         'skills' => ['SQL', 'Database', 'Queries']
                     ],
                     [
                         'icon' => '📄',
                         'title' => 'HTML',
                         'issuer' => 'SoloLearn',
-                        'date' => '2024',
                         'skills' => ['HTML5', 'Web Development']
                     ],
                     [
                         'icon' => '☕',
                         'title' => 'Java',
                         'issuer' => 'SoloLearn',
-                        'date' => '2024',
                         'skills' => ['Java', 'OOP', 'Programming']
                     ],
                     [
                         'icon' => '🔐',
                         'title' => 'Cyber Security',
                         'issuer' => 'Cisco Networking Academy',
-                        'date' => '2024',
                         'skills' => ['Security', 'Networking', 'Protection']
                     ],
                     [
                         'icon' => '🚀',
                         'title' => 'Agile Scrum Foundation',
                         'issuer' => 'Simplilearn',
-                        'date' => '2024',
                         'skills' => ['Agile', 'Scrum', 'Project Management']
                     ],
                     [
                         'icon' => '🎨',
                         'title' => 'UI/UX for Beginners',
                         'issuer' => 'Great Learning Academy',
-                        'date' => '2024',
                         'skills' => ['UI/UX', 'Design', 'User Experience']
                     ],
                     [
                         'icon' => '📄',
                         'title' => 'HTML',
                         'issuer' => 'Great Learning Academy',
-                        'date' => '2024',
                         'skills' => ['HTML', 'Web Development']
                     ],
                     [
                         'icon' => '🗄️',
                         'title' => 'MySQL Tutorial',
                         'issuer' => 'Great Learning Academy',
-                        'date' => '2024',
                         'skills' => ['MySQL', 'Database', 'SQL']
                     ],
                     [
                         'icon' => '💻',
                         'title' => 'Programming Basics',
                         'issuer' => 'Great Learning Academy',
-                        'date' => '2024',
                         'skills' => ['Programming', 'Logic', 'Fundamentals']
                     ],
                     [
                         'icon' => '🐍',
                         'title' => 'Python Fundamentals for Beginners',
                         'issuer' => 'Great Learning Academy',
-                        'date' => '2024',
                         'skills' => ['Python', 'Basics', 'Programming']
                     ],
                     [
                         'icon' => '🔨',
                         'title' => 'Python Project for Beginners',
                         'issuer' => 'Great Learning Academy',
-                        'date' => '2024',
                         'skills' => ['Python', 'Project', 'Hands-on']
                     ],
                     [
                         'icon' => '☕',
                         'title' => 'OOPs in Java',
                         'issuer' => 'Simplilearn',
-                        'date' => '2024',
                         'skills' => ['Java', 'OOP', 'Programming']
                     ],
                     [
                         'icon' => '🔐',
                         'title' => 'Introduction to Cyber Security',
                         'issuer' => 'Simplilearn',
-                        'date' => '2024',
                         'skills' => ['Security', 'Cyber Threats']
                     ],
                     [
                         'icon' => '🎨',
                         'title' => 'CSS (Basic)',
                         'issuer' => 'HackerRank',
-                        'date' => '2024',
                         'skills' => ['CSS', 'Styling', 'Web Design']
                     ],
                     [
                         'icon' => '☁️',
                         'title' => 'Introduction to Cloud Computing',
                         'issuer' => 'Simplilearn',
-                        'date' => '2024',
                         'skills' => ['Cloud', 'AWS', 'Azure']
                     ],
                     [
                         'icon' => '🎨',
                         'title' => 'Introduction to CSS',
                         'issuer' => 'SoloLearn',
-                        'date' => '2024',
                         'skills' => ['CSS3', 'Styling', 'Design']
                     ]
                 ];
@@ -473,7 +459,6 @@ $visitor_count = updateVisitorCount();
                     echo '<div class="certificate-icon">' . $cert['icon'] . '</div>';
                     echo '<h3>' . $cert['title'] . '</h3>';
                     echo '<p class="certificate-issuer">' . $cert['issuer'] . '</p>';
-                    echo '<p class="certificate-date"><i class="fas fa-calendar"></i> ' . $cert['date'] . '</p>';
                     echo '<div class="certificate-skills">';
                     foreach ($cert['skills'] as $skill) {
                         echo '<span class="cert-skill-tag">' . $skill . '</span>';
@@ -819,8 +804,8 @@ $visitor_count = updateVisitorCount();
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
                         <li><a href="#certificates">Certificates</a></li>
+                        <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
