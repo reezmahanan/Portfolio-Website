@@ -1,0 +1,20 @@
+# Ignore setup and documentation files (keep only essential files)
+GETTING_STARTED.txt
+setup.html
+
+# Ignore visitor count data
+visitor_count.txt
+
+# Ignore contact form logs
+contact_messages.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
