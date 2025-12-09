@@ -61,29 +61,6 @@ A modern, responsive portfolio website showcasing AI/ML projects, web developmen
    - Open browser and go to: `http://localhost/portfolio`
    - Your portfolio is now live locally!
 
-## 🌐 Deploy Your Portfolio
-
-### Recommended: Deploy to InfinityFree (Free PHP Hosting)
-
-Since this portfolio uses PHP, you need a PHP-compatible host. **Vercel does not support PHP**.
-
-📚 **See [DEPLOY.md](DEPLOY.md) for detailed step-by-step deployment instructions**
-
-#### Quick Steps:
-1. Sign up at [InfinityFree](https://www.infinityfree.net) (Free)
-2. Create a hosting account
-3. Upload all files via FTP or File Manager
-4. Your site will be live at: `http://yourname.rf.gd`
-
-#### Alternative PHP Hosts:
-- **000webhost** - https://www.000webhost.com
-- **Awardspace** - https://www.awardspace.com
-- **Render** - https://render.com (supports PHP)
-
-### Files Included for Deployment:
-- ✅ `.htaccess` - Server configuration
-- ✅ `DEPLOY.md` - Detailed deployment guide
-
 ## 🛠️ Customization
 
 ### Update Personal Information
