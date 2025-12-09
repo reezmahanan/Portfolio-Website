@@ -4,9 +4,9 @@ A modern, responsive portfolio website showcasing AI/ML projects, web developmen
 
 ## 🔗 Live Demo
 
-[![View Demo](https://img.shields.io/badge/View-Live%20Demo-blue?style=for-the-badge&logo=vercel)](https://your-portfolio-url.vercel.app)
+[![View Demo](https://img.shields.io/badge/View-Live%20Demo-blue?style=for-the-badge&logo=vercel)](https://portfolio-website-414x.vercel.app/)
 
-> **Note:** Replace `https://your-portfolio-url.vercel.app` with your actual Vercel deployment URL
+🌐 **Live Site:** [https://portfolio-website-414x.vercel.app/](https://portfolio-website-414x.vercel.app/)
 
 ## 📋 Features
 
