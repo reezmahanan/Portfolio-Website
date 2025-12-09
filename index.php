@@ -76,7 +76,39 @@ $visitor_count = updateVisitorCount();
 <body>
     <!-- Loading Screen -->
     <div class="loading" id="loading">
-        <div class="loader"></div>
+        <div class="loading-content">
+            <div class="loading-logo">
+                <i class="fas fa-laptop-code loading-icon"></i>
+            </div>
+            <div class="loading-animation">
+                <div class="code-brackets">
+                    <span class="bracket left"><i class="fas fa-code"></i></span>
+                    <div class="loading-text">
+                        <span class="name-letter">R</span>
+                        <span class="name-letter">e</span>
+                        <span class="name-letter">e</span>
+                        <span class="name-letter">z</span>
+                        <span class="name-letter">m</span>
+                        <span class="name-letter">a</span>
+                    </div>
+                    <span class="bracket right"><i class="fas fa-terminal"></i></span>
+                </div>
+            </div>
+            <div class="loading-progress">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="loading-message">
+                <i class="fas fa-rocket"></i> Loading Portfolio...
+            </div>
+            <div class="loading-icons">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-php"></i>
+                <i class="fab fa-python"></i>
+                <i class="fab fa-react"></i>
+            </div>
+        </div>
     </div>
 
     <!-- Navigation -->
@@ -150,6 +182,10 @@ $visitor_count = updateVisitorCount();
                         <a href="#projects" class="btn btn-primary">
                             <i class="fas fa-rocket"></i>
                             Explore My Work
+                        </a>
+                        <a href="cv.php" class="btn btn-secondary">
+                            <i class="fas fa-eye"></i>
+                            View CV
                         </a>
                         <a href="#certificates" class="btn btn-secondary">
                             <i class="fas fa-certificate"></i>
@@ -269,49 +305,98 @@ $visitor_count = updateVisitorCount();
                 <?php
                 $skills_categories = [
                     [
-                        'icon' => '💻',
+                        'icon' => '<i class="fas fa-code"></i>',
                         'title' => 'Programming Languages',
-                        'skills' => ['Java', 'Python', 'PHP', 'JavaScript', 'MATLAB']
+                        'skills' => [
+                            ['name' => 'Java', 'icon' => '<i class="fab fa-java"></i>'],
+                            ['name' => 'Python', 'icon' => '<i class="fab fa-python"></i>'],
+                            ['name' => 'PHP', 'icon' => '<i class="fab fa-php"></i>'],
+                            ['name' => 'JavaScript', 'icon' => '<i class="fab fa-js"></i>'],
+                            ['name' => 'MATLAB', 'icon' => '<i class="fas fa-calculator"></i>']
+                        ]
                     ],
                     [
-                        'icon' => '🌐',
+                        'icon' => '<i class="fas fa-globe"></i>',
                         'title' => 'Web Development',
-                        'skills' => ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design', 'Web APIs']
+                        'skills' => [
+                            ['name' => 'HTML5', 'icon' => '<i class="fab fa-html5"></i>'],
+                            ['name' => 'CSS3', 'icon' => '<i class="fab fa-css3-alt"></i>'],
+                            ['name' => 'JavaScript', 'icon' => '<i class="fab fa-js-square"></i>'],
+                            ['name' => 'Responsive Design', 'icon' => '<i class="fas fa-mobile-alt"></i>'],
+                            ['name' => 'Web APIs', 'icon' => '<i class="fas fa-plug"></i>']
+                        ]
                     ],
                     [
-                        'icon' => '🗄️',
+                        'icon' => '<i class="fas fa-database"></i>',
                         'title' => 'Databases',
-                        'skills' => ['MySQL', 'SQL', 'Database Design', 'Query Optimization']
+                        'skills' => [
+                            ['name' => 'MySQL', 'icon' => '<i class="fas fa-database"></i>'],
+                            ['name' => 'SQL', 'icon' => '<i class="fas fa-table"></i>'],
+                            ['name' => 'Database Design', 'icon' => '<i class="fas fa-project-diagram"></i>'],
+                            ['name' => 'Query Optimization', 'icon' => '<i class="fas fa-tachometer-alt"></i>']
+                        ]
                     ],
                     [
-                        'icon' => '☁️',
+                        'icon' => '<i class="fas fa-cloud"></i>',
                         'title' => 'Cloud Computing (Beginner)',
-                        'skills' => ['AWS', 'Azure', 'Google Cloud', 'Cloud Fundamentals']
+                        'skills' => [
+                            ['name' => 'AWS', 'icon' => '<i class="fab fa-aws"></i>'],
+                            ['name' => 'Azure', 'icon' => '<i class="fab fa-microsoft"></i>'],
+                            ['name' => 'Google Cloud', 'icon' => '<i class="fab fa-google"></i>'],
+                            ['name' => 'Cloud Fundamentals', 'icon' => '<i class="fas fa-cloud-upload-alt"></i>']
+                        ]
                     ],
                     [
-                        'icon' => '🎨',
+                        'icon' => '<i class="fas fa-palette"></i>',
                         'title' => 'Design Tools',
-                        'skills' => ['Figma', 'Canva', 'UI/UX Design Basics']
+                        'skills' => [
+                            ['name' => 'Figma', 'icon' => '<i class="fab fa-figma"></i>'],
+                            ['name' => 'Canva', 'icon' => '<i class="fas fa-pen-fancy"></i>'],
+                            ['name' => 'UI/UX Design Basics', 'icon' => '<i class="fas fa-paint-brush"></i>']
+                        ]
                     ],
                     [
-                        'icon' => '🔧',
+                        'icon' => '<i class="fas fa-tools"></i>',
                         'title' => 'Development Tools',
-                        'skills' => ['IntelliJ IDEA', 'VS Code', 'Git', 'GitHub']
+                        'skills' => [
+                            ['name' => 'IntelliJ IDEA', 'icon' => '<i class="fas fa-laptop-code"></i>'],
+                            ['name' => 'VS Code', 'icon' => '<i class="fas fa-code"></i>'],
+                            ['name' => 'Git', 'icon' => '<i class="fab fa-git-alt"></i>'],
+                            ['name' => 'GitHub', 'icon' => '<i class="fab fa-github"></i>']
+                        ]
                     ],
                     [
-                        'icon' => '💼',
+                        'icon' => '<i class="fas fa-briefcase"></i>',
                         'title' => 'Productivity Tools',
-                        'skills' => ['Microsoft Excel', 'Word', 'PowerPoint', 'Gamma AI']
+                        'skills' => [
+                            ['name' => 'Microsoft Excel', 'icon' => '<i class="fas fa-file-excel"></i>'],
+                            ['name' => 'Word', 'icon' => '<i class="fas fa-file-word"></i>'],
+                            ['name' => 'PowerPoint', 'icon' => '<i class="fas fa-file-powerpoint"></i>'],
+                            ['name' => 'Gamma AI', 'icon' => '<i class="fas fa-robot"></i>']
+                        ]
                     ],
                     [
-                        'icon' => '🎬',
+                        'icon' => '<i class="fas fa-video"></i>',
                         'title' => 'Content Creation',
-                        'skills' => ['CapCut', 'InShot', 'Video Editing']
+                        'skills' => [
+                            ['name' => 'CapCut', 'icon' => '<i class="fas fa-cut"></i>'],
+                            ['name' => 'InShot', 'icon' => '<i class="fas fa-film"></i>'],
+                            ['name' => 'Video Editing', 'icon' => '<i class="fas fa-video"></i>']
+                        ]
                     ],
                     [
-                        'icon' => '📚',
+                        'icon' => '<i class="fas fa-graduation-cap"></i>',
                         'title' => 'Learning Platforms',
-                        'skills' => ['HackerRank', 'Cisco Academy', 'Microsoft Learn', 'AWS Educate', 'SoloLearn', 'GeeksforGeeks', 'W3Schools', 'Simplilearn']
+                        'skills' => [
+                            ['name' => 'HackerRank', 'icon' => '<i class="fas fa-code"></i>'],
+                            ['name' => 'Cisco Academy', 'icon' => '<i class="fas fa-network-wired"></i>'],
+                            ['name' => 'Microsoft Learn', 'icon' => '<i class="fab fa-microsoft"></i>'],
+                            ['name' => 'AWS Educate', 'icon' => '<i class="fab fa-aws"></i>'],
+                            ['name' => 'SoloLearn', 'icon' => '<i class="fas fa-user-graduate"></i>'],
+                            ['name' => 'GeeksforGeeks', 'icon' => '<i class="fas fa-laptop-code"></i>'],
+                            ['name' => 'W3Schools', 'icon' => '<i class="fas fa-school"></i>'],
+                            ['name' => 'Simplilearn', 'icon' => '<i class="fas fa-book-reader"></i>']
+                        ]
                     ]
                 ];
 
@@ -320,7 +405,7 @@ $visitor_count = updateVisitorCount();
                     echo '<h3>' . $category['icon'] . ' ' . $category['title'] . '</h3>';
                     echo '<div class="skill-tags">';
                     foreach ($category['skills'] as $skill) {
-                        echo '<span class="skill-tag">' . $skill . '</span>';
+                        echo '<span class="skill-tag">' . $skill['icon'] . ' ' . $skill['name'] . '</span>';
                     }
                     echo '</div></div>';
                 }
@@ -339,118 +424,137 @@ $visitor_count = updateVisitorCount();
                 <?php
                 $certificates = [
                     [
-                        'icon' => '🐍',
+                        'icon' => '<i class="fab fa-python"></i>',
                         'title' => 'Python for Beginners',
                         'issuer' => 'UOM CODL',
-                        'skills' => ['Python', 'Programming', 'Basics']
+                        'skills' => ['Python', 'Programming', 'Basics'],
+                        'link' => 'https://open.uom.lk/verify'
                     ],
                     [
-                        'icon' => '🌐',
+                        'icon' => '<i class="fas fa-globe"></i>',
                         'title' => 'Web Design for Beginners',
                         'issuer' => 'UOM CODL',
-                        'skills' => ['HTML', 'CSS', 'Web Design']
+                        'skills' => ['HTML', 'CSS', 'Web Design'],
+                        'link' => 'https://open.uom.lk/verify'
                     ],
                     [
-                        'icon' => '🐍',
+                        'icon' => '<i class="fab fa-python"></i>',
                         'title' => 'Python for Beginners',
                         'issuer' => 'SoloLearn',
-                        'skills' => ['Python', 'Coding']
+                        'skills' => ['Python', 'Coding'],
+                        'link' => 'https://api2.sololearn.com/v2/certificates/CC-ZZGGBJBM/image/png?t=638965751414194114'
                     ],
                     [
-                        'icon' => '🗄️',
+                        'icon' => '<i class="fas fa-database"></i>',
                         'title' => 'SQL',
                         'issuer' => 'SoloLearn',
-                        'skills' => ['SQL', 'Database', 'Queries']
+                        'skills' => ['SQL', 'Database', 'Queries'],
+                        'link' => 'https://api2.sololearn.com/v2/certificates/CC-ZZGGBJBM/image/png?t=638965751414194114'
                     ],
                     [
-                        'icon' => '📄',
+                        'icon' => '<i class="fab fa-html5"></i>',
                         'title' => 'HTML',
                         'issuer' => 'SoloLearn',
-                        'skills' => ['HTML5', 'Web Development']
+                        'skills' => ['HTML5', 'Web Development'],
+                        'link' => 'https://api2.sololearn.com/v2/certificates/CC-RBU2XEQB/image/png?t=638857708473986790'
                     ],
                     [
-                        'icon' => '☕',
+                        'icon' => '<i class="fab fa-java"></i>',
                         'title' => 'Java',
                         'issuer' => 'SoloLearn',
-                        'skills' => ['Java', 'OOP', 'Programming']
+                        'skills' => ['Java', 'OOP', 'Programming'],
+                        'link' => 'https://api2.sololearn.com/v2/certificates/CC-SQOTIPNO/image/png?t=638900670629150830'
                     ],
                     [
-                        'icon' => '🔐',
+                        'icon' => '<i class="fas fa-shield-alt"></i>',
                         'title' => 'Cyber Security',
                         'issuer' => 'Cisco Networking Academy',
-                        'skills' => ['Security', 'Networking', 'Protection']
+                        'skills' => ['Security', 'Networking', 'Protection'],
+                        'link' => 'https://support.credly.com/hc/en-us/articles/360026639872-Can-I-download-and-print-my-badge-certificate-'
                     ],
                     [
-                        'icon' => '🚀',
+                        'icon' => '<i class="fas fa-rocket"></i>',
                         'title' => 'Agile Scrum Foundation',
                         'issuer' => 'Simplilearn',
-                        'skills' => ['Agile', 'Scrum', 'Project Management']
+                        'skills' => ['Agile', 'Scrum', 'Project Management'],
+                        'link' => 'https://lms.simplilearn.com/#/course/7414-Agile-Scrum-Foundation_SkillUp/showCertificate/'
                     ],
                     [
-                        'icon' => '🎨',
+                        'icon' => '<i class="fas fa-paint-brush"></i>',
                         'title' => 'UI/UX for Beginners',
                         'issuer' => 'Great Learning Academy',
-                        'skills' => ['UI/UX', 'Design', 'User Experience']
+                        'skills' => ['UI/UX', 'Design', 'User Experience'],
+                        'link' => 'https://www.mygreatlearning.com/certificate/QYCNOODA'
                     ],
                     [
-                        'icon' => '📄',
+                        'icon' => '<i class="fab fa-html5"></i>',
                         'title' => 'HTML',
                         'issuer' => 'Great Learning Academy',
-                        'skills' => ['HTML', 'Web Development']
+                        'skills' => ['HTML', 'Web Development'],
+                        'link' => 'https://www.mygreatlearning.com/academy/learn-for-free/courses/front-end-development-html?utm_source=public_certificate_view&utm_medium=certificate_page&utm_campaign=course_name_link'
                     ],
                     [
-                        'icon' => '🗄️',
+                        'icon' => '<i class="fas fa-database"></i>',
                         'title' => 'MySQL Tutorial',
                         'issuer' => 'Great Learning Academy',
-                        'skills' => ['MySQL', 'Database', 'SQL']
+                        'skills' => ['MySQL', 'Database', 'SQL'],
+                        'link' => 'https://www.mygreatlearning.com/certificate/YADZEDEN'
                     ],
                     [
-                        'icon' => '💻',
+                        'icon' => '<i class="fas fa-laptop-code"></i>',
                         'title' => 'Programming Basics',
                         'issuer' => 'Great Learning Academy',
-                        'skills' => ['Programming', 'Logic', 'Fundamentals']
+                        'skills' => ['Programming', 'Logic', 'Fundamentals'],
+                        'link' => 'https://www.mygreatlearning.com/certificate/JDWSMZKM'
                     ],
                     [
-                        'icon' => '🐍',
+                        'icon' => '<i class="fab fa-python"></i>',
                         'title' => 'Python Fundamentals for Beginners',
                         'issuer' => 'Great Learning Academy',
-                        'skills' => ['Python', 'Basics', 'Programming']
+                        'skills' => ['Python', 'Basics', 'Programming'],
+                        'link' => 'https://www.mygreatlearning.com/certificate/UBKRGSMR'
                     ],
                     [
-                        'icon' => '🔨',
+                        'icon' => '<i class="fas fa-project-diagram"></i>',
                         'title' => 'Python Project for Beginners',
                         'issuer' => 'Great Learning Academy',
-                        'skills' => ['Python', 'Project', 'Hands-on']
+                        'skills' => ['Python', 'Project', 'Hands-on'],
+                        'link' => '#' // Add your certificate link here
                     ],
                     [
-                        'icon' => '☕',
+                        'icon' => '<i class="fab fa-java"></i>',
                         'title' => 'OOPs in Java',
                         'issuer' => 'Simplilearn',
-                        'skills' => ['Java', 'OOP', 'Programming']
+                        'skills' => ['Java', 'OOP', 'Programming'],
+                        'link' => '#' // Add your certificate link here
                     ],
                     [
-                        'icon' => '🔐',
+                        'icon' => '<i class="fas fa-shield-alt"></i>',
                         'title' => 'Introduction to Cyber Security',
                         'issuer' => 'Simplilearn',
-                        'skills' => ['Security', 'Cyber Threats']
+                        'skills' => ['Security', 'Cyber Threats'],
+                        'link' => 'https://lms.simplilearn.com/#/course/3736-Introduction-to-Cyber-Security/showCertificate/'
                     ],
                     [
-                        'icon' => '🎨',
+                        'icon' => '<i class="fab fa-css3-alt"></i>',
                         'title' => 'CSS (Basic)',
                         'issuer' => 'HackerRank',
-                        'skills' => ['CSS', 'Styling', 'Web Design']
+                        'skills' => ['CSS', 'Styling', 'Web Design'],
+                        'link' => 'https://www.hackerrank.com/certificates/3c7f4b161fcf'
                     ],
                     [
-                        'icon' => '☁️',
+                        'icon' => '<i class="fas fa-cloud"></i>',
                         'title' => 'Introduction to Cloud Computing',
                         'issuer' => 'Simplilearn',
-                        'skills' => ['Cloud', 'AWS', 'Azure']
+                        'skills' => ['Cloud', 'AWS', 'Azure'],
+                        'link' => 'https://lms.simplilearn.com/#/course/3971-Introduction-to-Cloud-Computing/showCertificate/'
                     ],
                     [
-                        'icon' => '🎨',
+                        'icon' => '<i class="fab fa-css3-alt"></i>',
                         'title' => 'Introduction to CSS',
                         'issuer' => 'SoloLearn',
-                        'skills' => ['CSS3', 'Styling', 'Design']
+                        'skills' => ['CSS3', 'Styling', 'Design'],
+                        'link' => 'https://www.sololearn.com/certificates/CC-8BTBXIXY'
                     ]
                 ];
 
@@ -463,7 +567,11 @@ $visitor_count = updateVisitorCount();
                     foreach ($cert['skills'] as $skill) {
                         echo '<span class="cert-skill-tag">' . $skill . '</span>';
                     }
-                    echo '</div></div>';
+                    echo '</div>';
+                    echo '<a href="' . $cert['link'] . '" class="certificate-link" target="_blank" rel="noopener noreferrer">';
+                    echo '<i class="fas fa-external-link-alt"></i> View Certificate';
+                    echo '</a>';
+                    echo '</div>';
                 }
                 ?>
             </div>

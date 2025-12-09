@@ -9,17 +9,23 @@ A modern, responsive portfolio website showcasing AI/ML projects, web developmen
 - 🌓 **Dark/Light Theme** - Toggle between themes with persistent storage
 - 📱 **Fully Responsive** - Works perfectly on all devices
 - 🚀 **Fast Loading** - Optimized performance with smooth animations
-- 💼 **Portfolio Showcase** - 18 featured projects with detailed cards
+- 💼 **Portfolio Showcase** - 18+ featured projects with detailed cards
 - 📧 **Contact Form** - Functional contact form with validation
 - 👁️ **Visitor Counter** - Track unique daily visitors
 - ⚡ **Smooth Animations** - Beautiful fade-in effects and transitions
+- 🎓 **CV Viewer** - Professional CV page with print/view functionality
+- 🏆 **Certificate Showcase** - Clickable certificates with verification links
+- 🎬 **Animated Loading Screen** - Beautiful loading animation with tech icons
+- 💎 **Brand Color Icons** - Real technology icons with authentic brand colors
 
 ### 🎯 Sections
-1. **Hero Section** - Eye-catching introduction with typing animation
+1. **Hero Section** - Eye-catching introduction with typing animation and quick action buttons
 2. **About Me** - Professional background and journey as IT student
-3. **Skills** - Technical skills organized by categories
-4. **Projects** - 18 full-stack web development projects with feature badges
-5. **Contact** - Contact form and social media links
+3. **Skills** - Technical skills with real branded icons and authentic colors
+4. **Certificates** - 19+ professional certificates with live verification links
+5. **Projects** - Featured projects including EventHub, BookNest, and Weather App
+6. **Contact** - Contact form and social media links
+7. **CV Page** - Professional curriculum vitae with print functionality
 
 ## 🚀 Getting Started
 
@@ -154,17 +160,26 @@ portfolio/
 └── README.md              # This file
 ```
 
+## 🎉 Recent Updates (December 2025)
+
+### New Features Added:
+- ✅ **CV Viewer Page** (`cv.php`) - Professional CV with print/view functionality
+- ✅ **Animated Loading Screen** - Tech-themed loading animation with floating icons
+- ✅ **Certificate Links** - All certificates now link to verification pages
+- ✅ **Real Tech Icons** - Font Awesome icons with authentic brand colors
+- ✅ **Project Updates** - Added EventHub, BookNest, and Weather App projects
+- ✅ **Enhanced UI** - Transparent background patterns and improved animations
+
 ## 🌟 Features to Add (Optional)
 
-- [ ] Add certificates section with your achievements
 - [ ] Integrate with a database for dynamic content
 - [ ] Add a blog section
 - [ ] Add testimonials section
-- [ ] Add resume download feature
 - [ ] Integrate with Google Analytics
 - [ ] Add email notifications for contact form
 - [ ] Add reCAPTCHA for spam protection
 - [ ] Add project demo videos/screenshots
+- [ ] Add remaining certificate verification links
 
 ## 🐛 Troubleshooting
 

@@ -131,17 +131,199 @@ body::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--bg-color);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 9999;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
+    transition: opacity 0.8s ease, visibility 0.8s ease;
+    overflow: hidden;
+}
+
+.loading::before {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: 
+        repeating-linear-gradient(
+            45deg,
+            transparent,
+            transparent 20px,
+            rgba(255, 255, 255, 0.03) 20px,
+            rgba(255, 255, 255, 0.03) 40px
+        );
+    animation: moveBackground 20s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(50px, 50px); }
 }
 
 .loading.hidden {
     opacity: 0;
     visibility: hidden;
+    pointer-events: none;
+}
+
+.loading-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.loading-logo {
+    margin-bottom: 20px;
+}
+
+.loading-icon {
+    font-size: 5em;
+    color: white;
+    animation: floatIcon 3s ease-in-out infinite;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.6);
+}
+
+@keyframes floatIcon {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    25% { transform: translateY(-20px) rotate(-5deg); }
+    75% { transform: translateY(-10px) rotate(5deg); }
+}
+
+.loading-animation {
+    margin-bottom: 30px;
+}
+
+.code-brackets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+    font-family: 'Fira Code', monospace;
+}
+
+.bracket {
+    animation: pulse 1.5s ease-in-out infinite;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.bracket i {
+    font-size: 0.8em;
+}
+
+.bracket.left {
+    animation-delay: 0s;
+}
+
+.bracket.right {
+    animation-delay: 0.2s;
+}
+
+.loading-text {
+    display: flex;
+    gap: 5px;
+}
+
+.name-letter {
+    animation: bounce 1.5s ease-in-out infinite;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+}
+
+.name-letter:nth-child(1) { animation-delay: 0.1s; }
+.name-letter:nth-child(2) { animation-delay: 0.2s; }
+.name-letter:nth-child(3) { animation-delay: 0.3s; }
+.name-letter:nth-child(4) { animation-delay: 0.4s; }
+.name-letter:nth-child(5) { animation-delay: 0.5s; }
+.name-letter:nth-child(6) { animation-delay: 0.6s; }
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.7; transform: scale(1.1); }
+}
+
+.loading-progress {
+    width: 300px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #fff, #f0f0f0);
+    border-radius: 10px;
+    animation: loadProgress 2s ease-in-out infinite;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+@keyframes loadProgress {
+    0% { width: 0%; }
+    50% { width: 70%; }
+    100% { width: 100%; }
+}
+
+.loading-message {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    animation: fadeInOut 2s ease-in-out infinite;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.loading-message i {
+    animation: rocket 2s ease-in-out infinite;
+}
+
+@keyframes rocket {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+.loading-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.loading-icons i {
+    font-size: 2.5em;
+    color: white;
+    animation: techIconFloat 3s ease-in-out infinite;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.loading-icons i:nth-child(1) { animation-delay: 0s; color: #e34c26; }
+.loading-icons i:nth-child(2) { animation-delay: 0.2s; color: #264de4; }
+.loading-icons i:nth-child(3) { animation-delay: 0.4s; color: #f7df1e; }
+.loading-icons i:nth-child(4) { animation-delay: 0.6s; color: #777bb4; }
+.loading-icons i:nth-child(5) { animation-delay: 0.8s; color: #3776ab; }
+.loading-icons i:nth-child(6) { animation-delay: 1s; color: #61dafb; }
+
+@keyframes techIconFloat {
+    0%, 100% { transform: translateY(0) scale(1); opacity: 0.7; }
+    50% { transform: translateY(-15px) scale(1.2); opacity: 1; }
 }
 
 .loader {
@@ -667,12 +849,52 @@ body::after {
     font-size: 0.85rem;
     font-weight: 500;
     transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
 }
 
 .skill-tag:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 10px var(--shadow);
 }
+
+/* Brand Color Icons for Skills */
+.skill-tag .fa-java { color: #007396; }
+.skill-tag .fa-python { color: #3776AB; }
+.skill-tag .fa-php { color: #777BB4; }
+.skill-tag .fa-js, .skill-tag .fa-js-square { color: #F7DF1E; }
+.skill-tag .fa-html5 { color: #E34F26; }
+.skill-tag .fa-css3-alt { color: #1572B6; }
+.skill-tag .fa-react { color: #61DAFB; }
+.skill-tag .fa-node-js { color: #339933; }
+.skill-tag .fa-git-alt { color: #F05032; }
+.skill-tag .fa-github { color: #181717; }
+.skill-tag .fa-aws { color: #FF9900; }
+.skill-tag .fa-microsoft { color: #00A4EF; }
+.skill-tag .fa-google { color: #4285F4; }
+.skill-tag .fa-figma { color: #F24E1E; }
+.skill-tag .fa-database { color: #4479A1; }
+.skill-tag .fa-mobile-alt { color: #34A853; }
+.skill-tag .fa-file-excel { color: #217346; }
+.skill-tag .fa-file-word { color: #2B579A; }
+.skill-tag .fa-file-powerpoint { color: #D24726; }
+.skill-tag .fa-robot { color: #00D9FF; }
+
+/* Light background for better icon visibility */
+.skill-tag {
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--text-color);
+    border: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+[data-theme="dark"] .skill-tag {
+    background: rgba(30, 41, 59, 0.8);
+    color: var(--text-color);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+[data-theme="dark"] .skill-tag .fa-github { color: #ffffff; }
 
 /* Projects Section */
 .projects-grid {
@@ -891,6 +1113,32 @@ body::after {
     border-radius: 15px;
     font-size: 0.75rem;
     font-weight: 500;
+}
+
+.certificate-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.certificate-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+}
+
+.certificate-link i {
+    font-size: 0.85rem;
 }
 
 /* AI/ML Section - Additional Styles */
