@@ -2,6 +2,12 @@
 
 A modern, responsive portfolio website showcasing AI/ML projects, web development skills, and professional achievements.
 
+## 🔗 Live Demo
+
+[![View Demo](https://img.shields.io/badge/View-Live%20Demo-blue?style=for-the-badge&logo=vercel)](https://your-portfolio-url.vercel.app)
+
+> **Note:** Replace `https://your-portfolio-url.vercel.app` with your actual Vercel deployment URL
+
 ## 📋 Features
 
 ### ✨ Main Features
@@ -54,6 +60,25 @@ A modern, responsive portfolio website showcasing AI/ML projects, web developmen
 4. **Access Your Portfolio**:
    - Open browser and go to: `http://localhost/portfolio`
    - Your portfolio is now live locally!
+
+## 🌐 Deploy to Vercel
+
+### Quick Deploy
+1. Push your code to GitHub
+2. Go to [Vercel](https://vercel.com)
+3. Sign in with GitHub
+4. Click "Import Project"
+5. Select your `Portfolio-Website` repository
+6. Configure:
+   - Framework Preset: **Other**
+   - Build Command: (leave empty)
+   - Output Directory: (leave empty)
+   - Install Command: (leave empty)
+7. Click **Deploy**
+8. Your portfolio will be live at: `https://your-username.vercel.app`
+
+### Update README with Your Vercel URL
+After deployment, update the live demo link in README.md with your actual Vercel URL.
 
 ## 🛠️ Customization
 
