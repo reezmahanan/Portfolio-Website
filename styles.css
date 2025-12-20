@@ -55,6 +55,124 @@ body {
     font-weight: 400;
 }
 
+/* Animated Particles Background */
+.particles-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.particle {
+    position: absolute;
+    border-radius: 50%;
+    animation: float-particle linear infinite;
+    opacity: 0;
+}
+
+.particle:nth-child(1) { width: 80px; height: 80px; background: radial-gradient(circle, rgba(96, 165, 250, 0.3), transparent); left: 10%; animation-duration: 25s; animation-delay: 0s; }
+.particle:nth-child(2) { width: 60px; height: 60px; background: radial-gradient(circle, rgba(59, 130, 246, 0.25), transparent); left: 20%; animation-duration: 30s; animation-delay: 2s; }
+.particle:nth-child(3) { width: 100px; height: 100px; background: radial-gradient(circle, rgba(147, 197, 253, 0.2), transparent); left: 35%; animation-duration: 28s; animation-delay: 4s; }
+.particle:nth-child(4) { width: 70px; height: 70px; background: radial-gradient(circle, rgba(37, 99, 235, 0.3), transparent); left: 50%; animation-duration: 32s; animation-delay: 1s; }
+.particle:nth-child(5) { width: 90px; height: 90px; background: radial-gradient(circle, rgba(96, 165, 250, 0.25), transparent); left: 65%; animation-duration: 27s; animation-delay: 3s; }
+.particle:nth-child(6) { width: 75px; height: 75px; background: radial-gradient(circle, rgba(59, 130, 246, 0.2), transparent); left: 75%; animation-duration: 29s; animation-delay: 5s; }
+.particle:nth-child(7) { width: 85px; height: 85px; background: radial-gradient(circle, rgba(147, 197, 253, 0.3), transparent); left: 85%; animation-duration: 26s; animation-delay: 2.5s; }
+.particle:nth-child(8) { width: 65px; height: 65px; background: radial-gradient(circle, rgba(37, 99, 235, 0.25), transparent); left: 15%; animation-duration: 31s; animation-delay: 4.5s; }
+.particle:nth-child(9) { width: 95px; height: 95px; background: radial-gradient(circle, rgba(96, 165, 250, 0.2), transparent); left: 45%; animation-duration: 33s; animation-delay: 1.5s; }
+.particle:nth-child(10) { width: 80px; height: 80px; background: radial-gradient(circle, rgba(59, 130, 246, 0.3), transparent); left: 60%; animation-duration: 28s; animation-delay: 3.5s; }
+
+@keyframes float-particle {
+    0% {
+        transform: translateY(100vh) translateX(0) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.6;
+    }
+    90% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(-100px) translateX(100px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* Animated Grid Lines */
+.grid-lines {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.15;
+}
+
+.grid-line {
+    position: absolute;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+    animation: slide-line linear infinite;
+}
+
+.grid-line.horizontal {
+    width: 100%;
+    height: 1px;
+    left: 0;
+}
+
+.grid-line.vertical {
+    width: 1px;
+    height: 100%;
+    top: 0;
+}
+
+.grid-line:nth-child(1) { top: 10%; animation-duration: 8s; animation-delay: 0s; }
+.grid-line:nth-child(2) { top: 30%; animation-duration: 12s; animation-delay: 2s; }
+.grid-line:nth-child(3) { top: 50%; animation-duration: 10s; animation-delay: 4s; }
+.grid-line:nth-child(4) { top: 70%; animation-duration: 14s; animation-delay: 1s; }
+.grid-line:nth-child(5) { top: 90%; animation-duration: 11s; animation-delay: 3s; }
+.grid-line.vertical:nth-child(6) { left: 15%; animation-duration: 9s; animation-delay: 1.5s; }
+.grid-line.vertical:nth-child(7) { left: 45%; animation-duration: 13s; animation-delay: 3.5s; }
+.grid-line.vertical:nth-child(8) { left: 75%; animation-duration: 11s; animation-delay: 2.5s; }
+
+@keyframes slide-line {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+.grid-line.vertical {
+    animation-name: slide-line-vertical;
+}
+
+@keyframes slide-line-vertical {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}
+
 body::before {
     content: '';
     position: fixed;

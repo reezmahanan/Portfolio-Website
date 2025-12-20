@@ -74,6 +74,30 @@ $visitor_count = updateVisitorCount();
     <link rel="stylesheet" href="portfolio-styles.css?v=<?php echo time(); ?>">
 </head>
 <body>
+    <!-- Animated Background Elements -->
+    <div class="particles-background">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    <div class="grid-lines">
+        <div class="grid-line horizontal"></div>
+        <div class="grid-line horizontal"></div>
+        <div class="grid-line horizontal"></div>
+        <div class="grid-line horizontal"></div>
+        <div class="grid-line horizontal"></div>
+        <div class="grid-line vertical"></div>
+        <div class="grid-line vertical"></div>
+        <div class="grid-line vertical"></div>
+    </div>
+
     <!-- Loading Screen -->
     <div class="loading" id="loading">
         <div class="loading-content">
