@@ -632,7 +632,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🎓',
                         'title' => 'Student Management System',
                         'description' => 'Comprehensive Java application for managing student records, attendance tracking, grade management, and report generation. Built with object-oriented programming principles.',
-                        'image' => 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=500&fit=crop',
+                        'image' => 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Student-Management-System',
                         'features' => ['📝 Student Records', '📊 Attendance Tracking', '🎯 Grade Management', '📄 Report Generation'],
                         'technologies' => ['Java', 'Java Swing', 'MySQL', 'JDBC']
