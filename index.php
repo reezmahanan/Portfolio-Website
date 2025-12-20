@@ -273,7 +273,7 @@ $visitor_count = updateVisitorCount();
                         <div class="about-icon">🚀</div>
                         <div class="about-info">
                             <h3>My Vision & Goal</h3>
-                            <p>Passionate about building real-world software solutions and becoming a <strong>skilled Software Developer by 2028</strong>. Love solving logic puzzles and UI redesigns for fun! 🧩</p>
+                            <p>Passionate about building real-world software solutions and becoming a <strong>skilled Software Developer by 2028</strong>.</p>
                         </div>
                     </div>
                 </div>
@@ -288,11 +288,6 @@ $visitor_count = updateVisitorCount();
                         <div class="stat-icon">🏆</div>
                         <span class="stat-number" id="certificatesCount">19</span>
                         <span class="stat-label">Certificates Earned</span>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-icon">⭐</div>
-                        <span class="stat-number" id="hackerRankCount">HackerRank</span>
-                        <span class="stat-label">Certified</span>
                     </div>
                     <div class="stat-item">
                         <div class="stat-icon">👁️</div>
