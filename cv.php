@@ -4,8 +4,8 @@ $cv_config = [
     'name' => 'Reezma Hanan',
     'title' => 'Software Engineer in Training',
     'email' => 'reezmahanan@gmail.com',
-    'phone' => '+94 XXX XXX XXX', // Update with your phone
-    'location' => 'Sri Lanka',
+    'phone' => '+94 77 123 4567', // Update with your actual phone number
+    'location' => 'Batticaloa, Sri Lanka',
     'github' => 'github.com/reezmahanan',
     'linkedin' => 'linkedin.com/in/reezma-hanan',
     'website' => 'reezmahanan.github.io',
@@ -13,10 +13,25 @@ $cv_config = [
 
 $education = [
     [
-        'degree' => 'Higher National Diploma in Information Technology',
+        'degree' => 'National Diploma in Information Technology (NDIT)',
         'institution' => 'Institute of Technology, University of Moratuwa',
-        'period' => '2024 - Present',
-        'details' => 'Specialized in Software Engineering, AI/ML, and Cloud Computing'
+        'location' => 'Diyagama, Homagama, Sri Lanka',
+        'period' => 'Oct 2024 - Present',
+        'details' => 'Currently studying software development, web technologies, database management, and modern IT practices'
+    ],
+    [
+        'degree' => 'GCE Advanced Level - Physical Science Stream',
+        'institution' => 'BT/BC Oddamavadi Central College National School',
+        'location' => 'Batticaloa',
+        'period' => '2018 - 2020',
+        'details' => 'Completed with strong foundation in scientific and analytical thinking'
+    ],
+    [
+        'degree' => 'GCE Ordinary Level',
+        'institution' => 'BT/BC Oddamavadi Fathima Balika Maha Vidyalaya',
+        'location' => 'Batticaloa',
+        'period' => '2007 - 2018',
+        'details' => 'Achieved 8 A\'s and B\'s with excellent academic performance'
     ]
 ];
 
@@ -32,13 +47,15 @@ $skills = [
 $experience = [
     [
         'position' => 'Student Developer',
-        'company' => 'Personal Projects',
+        'company' => 'Personal Projects & Learning',
         'period' => '2024 - Present',
         'responsibilities' => [
-            'Developed 18+ web applications using PHP, JavaScript, and modern frameworks',
-            'Implemented machine learning models for real-world problem solving',
-            'Built responsive and interactive portfolio websites',
-            'Collaborated on open-source projects and contributed to GitHub community'
+            'Developed 22+ web applications using PHP, JavaScript, Java, Python and modern frameworks',
+            'Built Java Swing desktop applications including Library Management, Student Management, and Inventory Management Systems',
+            'Implemented responsive web designs with modern UI/UX principles and animations',
+            'Created full-stack projects with MySQL database integration and CRUD operations',
+            'Earned 19+ professional certificates in web development, Python, and cloud computing',
+            'Actively contributed to open-source projects on GitHub and maintained clean code practices'
         ]
     ]
 ];
@@ -474,9 +491,10 @@ $certificates = [
                 <h2><i class="fas fa-user"></i> Professional Summary</h2>
                 <p class="details">
                     Passionate IT student and aspiring software engineer with hands-on experience in full-stack development, 
-                    AI/ML, and cloud computing. Proven track record of building 18+ projects and earning 19+ professional 
+                    AI/ML, and cloud computing. Proven track record of building 22+ projects and earning 19+ professional 
                     certificates. Dedicated to continuous learning and creating innovative solutions using modern technologies. 
-                    Strong foundation in software development principles, data structures, and problem-solving.
+                    Strong foundation in software development principles, data structures, and problem-solving. Goal-oriented 
+                    developer aiming to become a skilled Software Developer by 2028.
                 </p>
             </div>
 
@@ -486,7 +504,7 @@ $certificates = [
                 <?php foreach ($education as $edu): ?>
                 <div class="education-item">
                     <h3><?php echo $edu['degree']; ?></h3>
-                    <div class="institution"><?php echo $edu['institution']; ?></div>
+                    <div class="institution"><?php echo $edu['institution']; ?><?php if(isset($edu['location'])): ?> - <?php echo $edu['location']; ?><?php endif; ?></div>
                     <div class="period"><?php echo $edu['period']; ?></div>
                     <div class="details"><?php echo $edu['details']; ?></div>
                 </div>
