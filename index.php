@@ -379,6 +379,41 @@ $visitor_count = updateVisitorCount();
                         </div>
                     </div>
                 </div>
+
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3 class="education-degree">GCE Ordinary Level</h3>
+                            <span class="education-duration">2007 - 2017</span>
+                        </div>
+                        <div class="education-institution">
+                            <i class="fas fa-school"></i>
+                            <strong>BT/BC Oddamavadi Fathima Balika Maha Vidyalaya</strong>
+                        </div>
+                        <div class="education-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Batticaloa
+                        </div>
+                        <div class="education-status">
+                            <span class="status-badge completed">
+                                <i class="fas fa-check-circle"></i>
+                                Completed - 2017
+                            </span>
+                        </div>
+                        <div class="education-achievement">
+                            <div class="achievement-badge">
+                                <i class="fas fa-trophy"></i>
+                                <strong>8 A's and B's</strong>
+                            </div>
+                        </div>
+                        <div class="education-description">
+                            <p>Successfully completed Ordinary Level education with excellent results, demonstrating strong academic performance across all subjects.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
