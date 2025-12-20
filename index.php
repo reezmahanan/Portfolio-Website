@@ -602,7 +602,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🌤️',
                         'title' => 'Weather App',
                         'description' => 'Real-time weather application with API integration displaying current conditions, forecasts, and weather visualization.',
-                        'image' => 'https://media.istockphoto.com/id/654100042/photo/woman-checking-up-the-weather-forecast-from-tablet-application.jpg?s=612x612&w=0&k=20&c=xvW9cSZXWE1OGBqJ9eKpL-nrEzL9L5-9S0bNPZ7NVNM=',
+                        'image' => 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Weather-App',
                         'features' => ['🌡️ Current Weather', '📊 Forecasts', '🗺️ Location Search', '📱 Responsive'],
                         'technologies' => ['HTML', 'CSS', 'JavaScript', 'PHP', 'Weather API']
