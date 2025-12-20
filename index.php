@@ -206,6 +206,10 @@ $visitor_count = updateVisitorCount();
                             <i class="fas fa-eye"></i>
                             View CV
                         </a>
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-briefcase"></i>
+                            Hire Me
+                        </a>
                         <a href="#certificates" class="btn btn-secondary">
                             <i class="fas fa-certificate"></i>
                             View Certificates
