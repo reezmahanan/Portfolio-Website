@@ -337,7 +337,7 @@ $visitor_count = updateVisitorCount();
                         </div>
                         <div class="education-location">
                             <i class="fas fa-map-marker-alt"></i>
-                            Homagama, Thiyagama
+                            Diyagama, Homagama, Sri Lanka
                         </div>
                         <div class="education-status">
                             <span class="status-badge">
