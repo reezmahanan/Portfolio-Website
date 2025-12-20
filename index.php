@@ -639,6 +639,16 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'icon' => '📦',
+                        'title' => 'Inventory Management System (IMS)',
+                        'description' => 'Java-based inventory management system for tracking products, managing stock levels, handling suppliers, and generating inventory reports. Features robust database integration.',
+                        'image' => 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&h=500&fit=crop',
+                        'github' => 'https://github.com/reezmahanan/IMS',
+                        'features' => ['📊 Stock Tracking', '🏪 Supplier Management', '📈 Reports', '⚠️ Low Stock Alerts'],
+                        'technologies' => ['Java', 'Java Swing', 'MySQL', 'JDBC']
+                    ],
+                    [
+                        'featured' => true,
                         'icon' => '🐍',
                         'title' => 'Python Calculator',
                         'description' => 'Feature-rich calculator application built with Python and Tkinter GUI. Supports basic arithmetic operations, scientific calculations, and history tracking.',
