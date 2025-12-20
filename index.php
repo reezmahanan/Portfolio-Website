@@ -592,7 +592,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '📚',
                         'title' => 'Book Nest - Online E-Commerce Website',
                         'description' => 'Group project: Full-featured online bookstore e-commerce platform with book catalog, shopping cart, member system, and secure checkout functionality.',
-                        'image' => 'https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?w=800&h=500&fit=crop',
+                        'image' => 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/BookNest',
                         'features' => ['📖 Book Catalog', '🛒 Shopping Cart', '👤 Member System', '🔍 Search Engine'],
                         'technologies' => ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']
@@ -602,7 +602,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🌤️',
                         'title' => 'Weather App',
                         'description' => 'Real-time weather application with API integration displaying current conditions, forecasts, and weather visualization.',
-                        'image' => 'https://images.unsplash.com/photo-1561470508-fd4df1ed90b2?w=800&h=500&fit=crop',
+                        'image' => 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Weather-App',
                         'features' => ['🌡️ Current Weather', '📊 Forecasts', '🗺️ Location Search', '📱 Responsive'],
                         'technologies' => ['HTML', 'CSS', 'JavaScript', 'PHP', 'Weather API']
