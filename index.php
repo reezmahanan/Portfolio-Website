@@ -7,7 +7,7 @@ $portfolio_config = [
     'github' => 'https://github.com/reezmahanan',
     'linkedin' => 'https://www.linkedin.com/in/reezma-hanan',
     'hackerrank' => 'https://www.hackerrank.com/profile/reezmahanan',
-    'location' => 'Sri Lanka 🇱🇰',
+    'location' => 'Batticaloa, Sri Lanka 🇱🇰',
     'university' => 'Institute of Technology, University of Moratuwa'
 ];
 
