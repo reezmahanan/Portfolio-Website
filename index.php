@@ -271,11 +271,6 @@ $visitor_count = updateVisitorCount();
                         <span class="stat-label">Certificates Earned</span>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-icon">🏆</div>
-                        <span class="stat-number" id="certificatesCount">19</span>
-                        <span class="stat-label">Certificates Earned</span>
-                    </div>
-                    <div class="stat-item">
                         <div class="stat-icon">⭐</div>
                         <span class="stat-number" id="hackerRankCount">HackerRank</span>
                         <span class="stat-label">Certified</span>
