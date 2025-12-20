@@ -70,8 +70,8 @@ $visitor_count = updateVisitorCount();
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
     
     <!-- CSS Files -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="portfolio-styles.css">
+    <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="portfolio-styles.css?v=<?php echo time(); ?>">
 </head>
 <body>
     <!-- Loading Screen -->
