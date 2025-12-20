@@ -587,6 +587,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '📅',
                         'title' => 'Event Hub - Student Event Management',
                         'description' => 'A comprehensive student event management web application with user authentication, event creation, registration, and admin panel. Features real-time updates and responsive design.',
+                        'image' => 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Student-Event-Management-Web-Application',
                         'features' => ['👥 User Management', '📅 Event Calendar', '✅ Registration System', '📊 Admin Dashboard'],
                         'technologies' => ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']
@@ -596,6 +597,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '📚',
                         'title' => 'Book Nest - Online E-Commerce Website',
                         'description' => 'Group project: Full-featured online bookstore e-commerce platform with book catalog, shopping cart, member system, and secure checkout functionality.',
+                        'image' => 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/BookNest',
                         'features' => ['📖 Book Catalog', '🛒 Shopping Cart', '👤 Member System', '🔍 Search Engine'],
                         'technologies' => ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']
@@ -605,6 +607,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🌤️',
                         'title' => 'Weather App',
                         'description' => 'Real-time weather application with API integration displaying current conditions, forecasts, and weather visualization.',
+                        'image' => 'https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Weather-App',
                         'features' => ['🌡️ Current Weather', '📊 Forecasts', '🗺️ Location Search', '📱 Responsive'],
                         'technologies' => ['HTML', 'CSS', 'JavaScript', 'PHP', 'Weather API']
@@ -749,6 +752,13 @@ $visitor_count = updateVisitorCount();
                 foreach ($projects as $project) {
                     $featured_class = $project['featured'] ? 'featured-project' : '';
                     echo '<div class="card project-card ' . $featured_class . ' fade-in">';
+                    
+                    // Project Image (if available)
+                    if (isset($project['image'])) {
+                        echo '<div class="project-image">';
+                        echo '<img src="' . $project['image'] . '" alt="' . $project['title'] . '" loading="lazy">';
+                        echo '</div>';
+                    }
                     
                     // Project Header with Icon
                     echo '<div class="project-header">';
