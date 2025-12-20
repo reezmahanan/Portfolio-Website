@@ -362,7 +362,7 @@ $visitor_count = updateVisitorCount();
                         </div>
                         <div class="education-institution">
                             <i class="fas fa-school"></i>
-                            <strong>Oddamavadi Central College National School</strong>
+                            <strong>BT/BC Oddamavadi Central College National School</strong>
                         </div>
                         <div class="education-location">
                             <i class="fas fa-map-marker-alt"></i>
@@ -387,7 +387,7 @@ $visitor_count = updateVisitorCount();
                     <div class="education-content">
                         <div class="education-header">
                             <h3 class="education-degree">GCE Ordinary Level</h3>
-                            <span class="education-duration">2007 - 2017</span>
+                            <span class="education-duration">2007 - 2018</span>
                         </div>
                         <div class="education-institution">
                             <i class="fas fa-school"></i>
