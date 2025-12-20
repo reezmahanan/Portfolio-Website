@@ -579,26 +579,6 @@ $visitor_count = updateVisitorCount();
                 $projects = [
                     [
                         'featured' => true,
-                        'icon' => '📚',
-                        'title' => 'Library Management System',
-                        'description' => 'Java-based desktop application for managing library operations including book cataloging, member management, book lending, returns, and fine calculation. Features GUI built with Java Swing.',
-                        'image' => 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=500&fit=crop',
-                        'github' => 'https://github.com/reezmahanan/Library-Management-System',
-                        'features' => ['📖 Book Management', '👤 Member System', '🔄 Lending/Returns', '💰 Fine Calculator'],
-                        'technologies' => ['Java', 'Java Swing', 'MySQL', 'JDBC']
-                    ],
-                    [
-                        'featured' => true,
-                        'icon' => '🎓',
-                        'title' => 'Student Management System',
-                        'description' => 'Comprehensive Java application for managing student records, attendance tracking, grade management, and report generation. Built with object-oriented programming principles.',
-                        'image' => 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=500&fit=crop',
-                        'github' => 'https://github.com/reezmahanan/Student-Management-System',
-                        'features' => ['📝 Student Records', '📊 Attendance Tracking', '🎯 Grade Management', '📄 Report Generation'],
-                        'technologies' => ['Java', 'Java Swing', 'MySQL', 'JDBC']
-                    ],
-                    [
-                        'featured' => true,
                         'icon' => '📅',
                         'title' => 'Event Hub - Student Event Management',
                         'description' => 'A comprehensive student event management web application with user authentication, event creation, registration, and admin panel. Features real-time updates and responsive design.',
@@ -619,16 +599,6 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
-                        'icon' => '🐍',
-                        'title' => 'Python Calculator',
-                        'description' => 'Feature-rich calculator application built with Python and Tkinter GUI. Supports basic arithmetic operations, scientific calculations, and history tracking.',
-                        'image' => 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=500&fit=crop',
-                        'github' => 'https://github.com/reezmahanan/Python-Calculator',
-                        'features' => ['➕ Basic Operations', '🔬 Scientific Mode', '📜 History', '🎨 GUI Interface'],
-                        'technologies' => ['Python', 'Tkinter', 'Math Library']
-                    ],
-                    [
-                        'featured' => true,
                         'icon' => '🌤️',
                         'title' => 'Weather App',
                         'description' => 'Real-time weather application with API integration displaying current conditions, forecasts, and weather visualization.',
@@ -646,6 +616,36 @@ $visitor_count = updateVisitorCount();
                         'github' => 'https://github.com/reezmahanan/Portfolio-Website',
                         'features' => ['🎨 Modern Design', '📱 Responsive', '✨ Animations', '📬 Contact Form'],
                         'technologies' => ['PHP', 'HTML', 'CSS', 'JavaScript']
+                    ],
+                    [
+                        'featured' => true,
+                        'icon' => '📚',
+                        'title' => 'Library Management System',
+                        'description' => 'Java-based desktop application for managing library operations including book cataloging, member management, book lending, returns, and fine calculation. Features GUI built with Java Swing.',
+                        'image' => 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=500&fit=crop',
+                        'github' => 'https://github.com/reezmahanan/Library-Management-System',
+                        'features' => ['📖 Book Management', '👤 Member System', '🔄 Lending/Returns', '💰 Fine Calculator'],
+                        'technologies' => ['Java', 'Java Swing', 'MySQL', 'JDBC']
+                    ],
+                    [
+                        'featured' => true,
+                        'icon' => '🎓',
+                        'title' => 'Student Management System',
+                        'description' => 'Comprehensive Java application for managing student records, attendance tracking, grade management, and report generation. Built with object-oriented programming principles.',
+                        'image' => 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=500&fit=crop',
+                        'github' => 'https://github.com/reezmahanan/Student-Management-System',
+                        'features' => ['📝 Student Records', '📊 Attendance Tracking', '🎯 Grade Management', '📄 Report Generation'],
+                        'technologies' => ['Java', 'Java Swing', 'MySQL', 'JDBC']
+                    ],
+                    [
+                        'featured' => true,
+                        'icon' => '🐍',
+                        'title' => 'Python Calculator',
+                        'description' => 'Feature-rich calculator application built with Python and Tkinter GUI. Supports basic arithmetic operations, scientific calculations, and history tracking.',
+                        'image' => 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=500&fit=crop',
+                        'github' => 'https://github.com/reezmahanan/Python-Calculator',
+                        'features' => ['➕ Basic Operations', '🔬 Scientific Mode', '📜 History', '🎨 GUI Interface'],
+                        'technologies' => ['Python', 'Tkinter', 'Math Library']
                     ],
                     [
                         'featured' => true,
