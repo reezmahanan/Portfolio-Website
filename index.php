@@ -612,6 +612,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '💼',
                         'title' => 'My Portfolio Website',
                         'description' => 'Personal portfolio website showcasing projects, skills, and achievements with modern design and animations.',
+                        'image' => 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Portfolio-Website',
                         'features' => ['🎨 Modern Design', '📱 Responsive', '✨ Animations', '📬 Contact Form'],
                         'technologies' => ['PHP', 'HTML', 'CSS', 'JavaScript']
@@ -621,6 +622,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🕐',
                         'title' => 'Digital Clock',
                         'description' => 'Interactive digital clock with modern design, date display, and customizable themes.',
+                        'image' => 'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Digital-clock',
                         'features' => ['⏰ Real-Time', '🎨 Themes', '📅 Date Display'],
                         'technologies' => ['HTML', 'CSS', 'JavaScript']
@@ -630,6 +632,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '✅',
                         'title' => 'To-Do List App',
                         'description' => 'Task management application with add, edit, delete, and complete features. Local storage persistence.',
+                        'image' => 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/To-Do-list',
                         'features' => ['➕ Add Tasks', '✏️ Edit', '🗑️ Delete', '💾 Local Storage'],
                         'technologies' => ['HTML', 'CSS', 'JavaScript']
@@ -639,6 +642,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '📅',
                         'title' => 'Interactive Calendar',
                         'description' => 'Dynamic calendar with month/year navigation, event highlighting, and responsive design.',
+                        'image' => 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Interactive-Calendar',
                         'features' => ['📆 Month View', '➡️ Navigation', '🎉 Event Highlight'],
                         'technologies' => ['HTML', 'CSS']
@@ -648,6 +652,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🏢',
                         'title' => 'Reezma Tech Services',
                         'description' => 'Professional tech services website with service listings, contact forms, and modern UI.',
+                        'image' => 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Reezma-tech-services',
                         'features' => ['💼 Services', '📬 Contact Form', '🎨 Modern UI'],
                         'technologies' => ['HTML', 'CSS']
@@ -657,6 +662,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🧮',
                         'title' => 'Calculator',
                         'description' => 'Functional calculator with basic arithmetic operations and clean interface.',
+                        'image' => 'https://images.unsplash.com/photo-1587145820266-a5951ee6f620?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/calculator',
                         'features' => ['➕ Add', '➖ Subtract', '✖️ Multiply', '➗ Divide'],
                         'technologies' => ['HTML']
@@ -666,6 +672,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '📱',
                         'title' => 'Mobile Login Interface',
                         'description' => 'Responsive mobile-first login page with modern UI/UX design.',
+                        'image' => 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/mobile-login',
                         'features' => ['📱 Mobile First', '🎨 Modern UI', '🔒 Secure'],
                         'technologies' => ['HTML']
@@ -675,6 +682,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '📝',
                         'title' => 'Simple Application Form',
                         'description' => 'User-friendly application form with validation and responsive layout.',
+                        'image' => 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/simple-Application-Form',
                         'features' => ['✅ Validation', '📱 Responsive', '📤 Submit'],
                         'technologies' => ['HTML']
@@ -684,6 +692,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🎨',
                         'title' => 'Reezma Logo Design',
                         'description' => 'Personal branding logo created with HTML and CSS.',
+                        'image' => 'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Reezma-logo',
                         'features' => ['🎨 Creative', '💎 Branding', '💻 HTML/CSS'],
                         'technologies' => ['HTML']
@@ -693,6 +702,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🏷️',
                         'title' => 'Label Design',
                         'description' => 'Creative label designs using HTML and CSS.',
+                        'image' => 'https://images.unsplash.com/photo-1516962126636-27ad087061cc?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/label',
                         'features' => ['🎨 Design', '📜 Templates', '✨ Creative'],
                         'technologies' => ['HTML', 'CSS']
