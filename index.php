@@ -163,7 +163,13 @@ $visitor_count = updateVisitorCount();
                 <div class="hero-text fade-in">
                     <div class="hero-greeting">
                         <span class="wave">👋</span>
-                        <span class="greeting-text">Hello, World!</span>
+                        <span class="greeting-text">
+                            <span class="greeting-letter">H</span>
+                            <span class="greeting-letter">e</span>
+                            <span class="greeting-letter">l</span>
+                            <span class="greeting-letter">l</span>
+                            <span class="greeting-letter">o</span>
+                        </span>
                     </div>
                     <h1>
                         I'm <span class="highlight typing-animation" id="typingText">Reezma Hanan</span><span class="cursor">|</span>
