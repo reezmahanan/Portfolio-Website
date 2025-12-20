@@ -594,10 +594,10 @@ $visitor_count = updateVisitorCount();
                     [
                         'featured' => true,
                         'icon' => '📚',
-                        'title' => 'Book Nest - Library Management System',
-                        'description' => 'Group project: Full-featured library management system with book cataloging, member management, borrowing/return system, and search functionality.',
+                        'title' => 'Book Nest - Online E-Commerce Website',
+                        'description' => 'Group project: Full-featured online bookstore e-commerce platform with book catalog, shopping cart, member system, and secure checkout functionality.',
                         'github' => 'https://github.com/reezmahanan/BookNest',
-                        'features' => ['📖 Book Catalog', '👤 Member System', '🔄 Borrow/Return', '🔍 Search Engine'],
+                        'features' => ['📖 Book Catalog', '🛒 Shopping Cart', '👤 Member System', '🔍 Search Engine'],
                         'technologies' => ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']
                     ],
                     [
