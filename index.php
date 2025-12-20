@@ -146,7 +146,7 @@ $visitor_count = updateVisitorCount();
                     </h1>
                     <div class="hero-description">
                         <p class="main-description">
-                            <strong>"Code with passion, build with purpose, innovate with purpose"</strong> - A passionate <strong>IT student</strong> and <strong>software engineer in training</strong> building real-world applications and learning cutting-edge technologies.
+                            A passionate <strong>IT student</strong> and <strong>software engineer in training</strong> building real-world applications and learning cutting-edge technologies.
                         </p>
                         <p class="sub-description">
                             🎓 <strong>IT Student</strong> at <?php echo $portfolio_config['university']; ?> | 
@@ -172,11 +172,6 @@ $visitor_count = updateVisitorCount();
                                 <span class="highlight-text">15+ Technologies</span>
                             </div>
                         </div>
-                        <p class="mission-statement">
-                            <i class="fas fa-quote-left"></i>
-                            <em>"Code with passion, build with purpose, innovate with purpose"</em>
-                            <i class="fas fa-quote-right"></i>
-                        </p>
                     </div>
                     <div class="hero-buttons">
                         <a href="#projects" class="btn btn-primary">
