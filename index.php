@@ -712,6 +712,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '📄',
                         'title' => 'Resume Template',
                         'description' => 'Professional resume template with clean design and print-friendly layout.',
+                        'image' => 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/resume',
                         'features' => ['💼 Professional', '🖨️ Print Ready', '🎨 Clean Design'],
                         'technologies' => ['HTML', 'CSS']
@@ -721,6 +722,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🎓',
                         'title' => 'First HTML Portfolio',
                         'description' => 'My first portfolio project demonstrating HTML fundamentals.',
+                        'image' => 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/MY-FIRST-HTML-PROJECT',
                         'features' => ['🎓 First Project', '💻 HTML Basics', '🎨 CSS Styling'],
                         'technologies' => ['HTML', 'CSS']
@@ -730,6 +732,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '💌',
                         'title' => 'HTML Invitation Card',
                         'description' => 'Creative invitation card design showcasing HTML and CSS skills.',
+                        'image' => 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/firsthtml',
                         'features' => ['🎉 Creative', '🎨 Design', '💬 Card Layout'],
                         'technologies' => ['HTML', 'CSS']
@@ -739,6 +742,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🌦️',
                         'title' => 'Animated Weather System',
                         'description' => 'Python-based weather simulation with animated visualizations.',
+                        'image' => 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/weather-system',
                         'features' => ['🌞 Animation', '🐍 Python', '📊 Visualization'],
                         'technologies' => ['Python']
@@ -748,6 +752,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '🪐',
                         'title' => 'Solar System Simulator',
                         'description' => 'Educational solar system simulation demonstrating planetary mechanics.',
+                        'image' => 'https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/solar-system-simulator',
                         'features' => ['🌌 Planets', '🔭 Physics', '🎯 Educational'],
                         'technologies' => ['Python']
