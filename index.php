@@ -350,6 +350,35 @@ $visitor_count = updateVisitorCount();
                         </div>
                     </div>
                 </div>
+
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3 class="education-degree">GCE Advanced Level - Physical Science Stream</h3>
+                            <span class="education-duration">2018 - 2020</span>
+                        </div>
+                        <div class="education-institution">
+                            <i class="fas fa-school"></i>
+                            <strong>Oddamavadi Central College National School</strong>
+                        </div>
+                        <div class="education-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Batticaloa
+                        </div>
+                        <div class="education-status">
+                            <span class="status-badge completed">
+                                <i class="fas fa-check-circle"></i>
+                                Completed - 2020
+                            </span>
+                        </div>
+                        <div class="education-description">
+                            <p>Completed Advanced Level education focusing on Physical Science stream, building strong foundation in scientific and analytical thinking.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

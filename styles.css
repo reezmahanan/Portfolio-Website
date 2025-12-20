@@ -998,6 +998,9 @@ body::after {
     max-width: 900px;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .education-item {
@@ -1106,6 +1109,11 @@ body::after {
     font-size: 0.9rem;
     font-weight: 600;
     box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+}
+
+.status-badge.completed {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
 }
 
 .education-description {
