@@ -94,10 +94,18 @@ $certificates = [
 
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #3b82f6 0%, #1e40af 50%, #60a5fa 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
             padding: 20px;
             color: #333;
             position: relative;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
 
         body::before {
@@ -155,7 +163,7 @@ $certificates = [
         }
 
         .cv-header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
             color: white;
             padding: 40px;
             text-align: center;
@@ -217,23 +225,23 @@ $certificates = [
         }
 
         .btn-primary {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
             color: white;
         }
 
         .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 5px 20px rgba(59, 130, 246, 0.4);
         }
 
         .btn-secondary {
             background: white;
-            color: #667eea;
-            border: 2px solid #667eea;
+            color: #3b82f6;
+            border: 2px solid #3b82f6;
         }
 
         .btn-secondary:hover {
-            background: #667eea;
+            background: #3b82f6;
             color: white;
         }
 
@@ -246,11 +254,11 @@ $certificates = [
         }
 
         .cv-section h2 {
-            color: #667eea;
+            color: #2563eb;
             font-size: 1.8em;
             margin-bottom: 20px;
             padding-bottom: 10px;
-            border-bottom: 3px solid #667eea;
+            border-bottom: 3px solid #3b82f6;
             display: flex;
             align-items: center;
             gap: 10px;
@@ -261,7 +269,7 @@ $certificates = [
             padding: 20px;
             background: #f8f9fa;
             border-radius: 10px;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #3b82f6;
         }
 
         .education-item h3, .experience-item h3, .project-item h3 {
@@ -306,7 +314,7 @@ $certificates = [
             content: "▹";
             position: absolute;
             left: 0;
-            color: #667eea;
+            color: #3b82f6;
             font-weight: bold;
             font-size: 1.2em;
         }
@@ -321,11 +329,11 @@ $certificates = [
             background: #f8f9fa;
             padding: 20px;
             border-radius: 10px;
-            border-left: 4px solid #764ba2;
+            border-left: 4px solid #1e40af;
         }
 
         .skill-category h3 {
-            color: #667eea;
+            color: #2563eb;
             font-size: 1.1em;
             margin-bottom: 12px;
         }
@@ -338,11 +346,11 @@ $certificates = [
 
         .skill-tag {
             background: white;
-            color: #667eea;
+            color: #3b82f6;
             padding: 6px 15px;
             border-radius: 20px;
             font-size: 0.9em;
-            border: 1px solid #667eea;
+            border: 1px solid #3b82f6;
         }
 
         .certificates-list {
@@ -355,7 +363,7 @@ $certificates = [
             background: #f8f9fa;
             padding: 15px 20px;
             border-radius: 10px;
-            border-left: 4px solid #ec4899;
+            border-left: 4px solid #60a5fa;
             display: flex;
             align-items: center;
             gap: 10px;

@@ -579,6 +579,26 @@ $visitor_count = updateVisitorCount();
                 $projects = [
                     [
                         'featured' => true,
+                        'icon' => '📚',
+                        'title' => 'Library Management System',
+                        'description' => 'Java-based desktop application for managing library operations including book cataloging, member management, book lending, returns, and fine calculation. Features GUI built with Java Swing.',
+                        'image' => 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=500&fit=crop',
+                        'github' => 'https://github.com/reezmahanan/Library-Management-System',
+                        'features' => ['📖 Book Management', '👤 Member System', '🔄 Lending/Returns', '💰 Fine Calculator'],
+                        'technologies' => ['Java', 'Java Swing', 'MySQL', 'JDBC']
+                    ],
+                    [
+                        'featured' => true,
+                        'icon' => '🎓',
+                        'title' => 'Student Management System',
+                        'description' => 'Comprehensive Java application for managing student records, attendance tracking, grade management, and report generation. Built with object-oriented programming principles.',
+                        'image' => 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=500&fit=crop',
+                        'github' => 'https://github.com/reezmahanan/Student-Management-System',
+                        'features' => ['📝 Student Records', '📊 Attendance Tracking', '🎯 Grade Management', '📄 Report Generation'],
+                        'technologies' => ['Java', 'Java Swing', 'MySQL', 'JDBC']
+                    ],
+                    [
+                        'featured' => true,
                         'icon' => '📅',
                         'title' => 'Event Hub - Student Event Management',
                         'description' => 'A comprehensive student event management web application with user authentication, event creation, registration, and admin panel. Features real-time updates and responsive design.',
