@@ -592,7 +592,7 @@ $visitor_count = updateVisitorCount();
                         'icon' => '📚',
                         'title' => 'Book Nest - Online E-Commerce Website',
                         'description' => 'Group project: Full-featured online bookstore e-commerce platform with book catalog, shopping cart, member system, and secure checkout functionality.',
-                        'image' => 'https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?ixlib=rb-4.0.3&w=800&h=500&fit=crop&q=80',
+                        'image' => 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/BookNest',
                         'features' => ['📖 Book Catalog', '🛒 Shopping Cart', '👤 Member System', '🔍 Search Engine'],
                         'technologies' => ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']
