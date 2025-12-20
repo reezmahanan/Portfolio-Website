@@ -142,6 +142,7 @@ $visitor_count = updateVisitorCount();
             <ul class="nav-menu" id="navMenu">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#certificates" class="nav-link">Certificates</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
@@ -308,6 +309,45 @@ $visitor_count = updateVisitorCount();
                         <div class="stat-icon">⚡</div>
                         <span class="stat-number" id="skillsCount">15</span>
                         <span class="stat-label">Technologies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education section" id="education">
+        <div class="container">
+            <h2 class="section-title fade-in">Education</h2>
+            <p class="section-subtitle fade-in">My Academic Background and Qualifications</p>
+            
+            <div class="education-timeline fade-in">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3 class="education-degree">National Diploma in Information Technology (NDIT)</h3>
+                            <span class="education-duration">Oct 2024 - Present</span>
+                        </div>
+                        <div class="education-institution">
+                            <i class="fas fa-university"></i>
+                            <strong>Institute of Technology, University of Moratuwa</strong>
+                        </div>
+                        <div class="education-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Homagama, Thiyagama
+                        </div>
+                        <div class="education-status">
+                            <span class="status-badge">
+                                <i class="fas fa-clock"></i>
+                                Currently Studying
+                            </span>
+                        </div>
+                        <div class="education-description">
+                            <p>Pursuing comprehensive education in software development, web technologies, database management, and modern IT practices.</p>
+                        </div>
                     </div>
                 </div>
             </div>
