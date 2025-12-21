@@ -293,24 +293,16 @@ $visitor_count = updateVisitorCount();
                 
                 <div class="about-stats fade-in">
                     <div class="stat-item">
-                        <div class="stat-icon">📊</div>
-                        <span class="stat-number" id="projectsCount">18</span>
+                        <span class="stat-number" id="projectsCount">23</span>
                         <span class="stat-label">Projects Completed</span>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-icon">🏆</div>
                         <span class="stat-number" id="certificatesCount">19</span>
                         <span class="stat-label">Certificates Earned</span>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-icon">👁️</div>
                         <span class="stat-number" id="visitorCount"><?php echo $visitor_count; ?></span>
                         <span class="stat-label">Portfolio Visitors</span>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-icon">⚡</div>
-                        <span class="stat-number" id="skillsCount">15</span>
-                        <span class="stat-label">Technologies</span>
                     </div>
                 </div>
             </div>
