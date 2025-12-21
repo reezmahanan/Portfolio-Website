@@ -953,6 +953,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Resume Template',
                         'description' => 'Professional resume template with clean design and print-friendly layout.',
                         'image' => 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/Sample_Resume/',
                         'github' => 'https://github.com/reezmahanan/resume',
                         'features' => ['💼 Professional', '🖨️ Print Ready', '🎨 Clean Design'],
                         'technologies' => ['HTML', 'CSS']
@@ -976,6 +977,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'HTML Invitation Card',
                         'description' => 'Creative invitation card design showcasing HTML and CSS skills.',
                         'image' => 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/Firsthtml_Invitation/',
                         'github' => 'https://github.com/reezmahanan/firsthtml',
                         'features' => ['🎉 Creative', '🎨 Design', '💬 Card Layout'],
                         'technologies' => ['HTML', 'CSS']
