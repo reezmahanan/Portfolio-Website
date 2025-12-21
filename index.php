@@ -789,6 +789,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'My Portfolio Website',
                         'description' => 'Personal portfolio website showcasing projects, skills, and achievements with modern design and animations.',
                         'image' => 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop',
+                        'live_demo' => 'http://reezma-hanan.great-site.net/',
                         'github' => 'https://github.com/reezmahanan/Portfolio-Website',
                         'features' => ['🎨 Modern Design', '📱 Responsive', '✨ Animations', '📬 Contact Form'],
                         'technologies' => ['PHP', 'HTML', 'CSS', 'JavaScript']
