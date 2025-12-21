@@ -7,6 +7,8 @@ $portfolio_config = [
     'github' => 'https://github.com/reezmahanan',
     'linkedin' => 'https://www.linkedin.com/in/reezma-hanan',
     'hackerrank' => 'https://www.hackerrank.com/profile/reezmahanan',
+    'google_dev' => 'https://g.dev/reezmahanan',
+    'medium' => 'https://medium.com/@reezmahanan',
     'location' => 'Batticaloa, Sri Lanka 🇱🇰',
     'university' => 'Institute of Technology, University of Moratuwa'
 ];
@@ -1118,6 +1120,26 @@ $visitor_count = updateVisitorCount();
                     
                     <div class="contact-item">
                         <div class="contact-icon">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <div>
+                            <strong>Google Developer</strong><br>
+                            <a href="<?php echo $portfolio_config['google_dev']; ?>" target="_blank">g.dev/reezmahanan</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-medium"></i>
+                        </div>
+                        <div>
+                            <strong>Medium</strong><br>
+                            <a href="<?php echo $portfolio_config['medium']; ?>" target="_blank">@reezmahanan</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div>
@@ -1188,6 +1210,8 @@ $visitor_count = updateVisitorCount();
                         <a href="<?php echo $portfolio_config['github']; ?>" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
                         <a href="<?php echo $portfolio_config['linkedin']; ?>" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
                         <a href="<?php echo $portfolio_config['hackerrank']; ?>" target="_blank" title="HackerRank"><i class="fab fa-hackerrank"></i></a>
+                        <a href="<?php echo $portfolio_config['google_dev']; ?>" target="_blank" title="Google Developer"><i class="fab fa-google"></i></a>
+                        <a href="<?php echo $portfolio_config['medium']; ?>" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
                         <a href="mailto:<?php echo $portfolio_config['email']; ?>" title="Email"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
