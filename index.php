@@ -845,6 +845,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Digital Clock',
                         'description' => 'Interactive digital clock with modern design, date display, and customizable themes.',
                         'image' => 'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/Digital-clock/',
                         'github' => 'https://github.com/reezmahanan/Digital-clock',
                         'features' => ['⏰ Real-Time', '🎨 Themes', '📅 Date Display'],
                         'technologies' => ['HTML', 'CSS', 'JavaScript']
@@ -856,6 +857,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'To-Do List App',
                         'description' => 'Task management application with add, edit, delete, and complete features. Local storage persistence.',
                         'image' => 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/To-Do-list/',
                         'github' => 'https://github.com/reezmahanan/To-Do-list',
                         'features' => ['➕ Add Tasks', '✏️ Edit', '🗑️ Delete', '💾 Local Storage'],
                         'technologies' => ['HTML', 'CSS', 'JavaScript']
@@ -867,6 +869,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Interactive Calendar',
                         'description' => 'Dynamic calendar with month/year navigation, event highlighting, and responsive design.',
                         'image' => 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/Interactive-Calendar/',
                         'github' => 'https://github.com/reezmahanan/Interactive-Calendar',
                         'features' => ['📆 Month View', '➡️ Navigation', '🎉 Event Highlight'],
                         'technologies' => ['HTML', 'CSS']
@@ -889,6 +892,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Calculator',
                         'description' => 'Functional calculator with basic arithmetic operations and clean interface.',
                         'image' => 'https://images.unsplash.com/photo-1587145820266-a5951ee6f620?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/calculator/',
                         'github' => 'https://github.com/reezmahanan/calculator',
                         'features' => ['➕ Add', '➖ Subtract', '✖️ Multiply', '➗ Divide'],
                         'technologies' => ['HTML']
@@ -900,6 +904,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Mobile Login Interface',
                         'description' => 'Responsive mobile-first login page with modern UI/UX design.',
                         'image' => 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/mobile-login/',
                         'github' => 'https://github.com/reezmahanan/mobile-login',
                         'features' => ['📱 Mobile First', '🎨 Modern UI', '🔒 Secure'],
                         'technologies' => ['HTML']
@@ -922,6 +927,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Reezma Logo Design',
                         'description' => 'Personal branding logo created with HTML and CSS.',
                         'image' => 'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/Reezma-logo/',
                         'github' => 'https://github.com/reezmahanan/Reezma-logo',
                         'features' => ['🎨 Creative', '💎 Branding', '💻 HTML/CSS'],
                         'technologies' => ['HTML']
@@ -933,6 +939,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Label Design',
                         'description' => 'Creative label designs using HTML and CSS.',
                         'image' => 'https://images.unsplash.com/photo-1516962126636-27ad087061cc?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/Sample_Label/',
                         'github' => 'https://github.com/reezmahanan/label',
                         'features' => ['🎨 Design', '📜 Templates', '✨ Creative'],
                         'technologies' => ['HTML', 'CSS']
@@ -955,6 +962,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'First HTML Portfolio',
                         'description' => 'My first portfolio project demonstrating HTML fundamentals.',
                         'image' => 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/My-First-HTML-sampleportfolio/',
                         'github' => 'https://github.com/reezmahanan/MY-FIRST-HTML-PROJECT',
                         'features' => ['🎓 First Project', '💻 HTML Basics', '🎨 CSS Styling'],
                         'technologies' => ['HTML', 'CSS']
