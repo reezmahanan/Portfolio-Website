@@ -705,13 +705,22 @@ $visitor_count = updateVisitorCount();
     <section class="projects section" id="projects">
         <div class="container">
             <h2 class="section-title fade-in">Featured Projects</h2>
-            <p class="section-subtitle fade-in">Full-stack web applications and software solutions</p>
+            <p class="section-subtitle fade-in">Showcasing my work and creative solutions</p>
+            
+            <!-- Project Filter Buttons -->
+            <div class="project-filters fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Application</button>
+                <button class="filter-btn" data-filter="desktop">Desktop Application</button>
+                <button class="filter-btn" data-filter="python">Python Projects</button>
+            </div>
             
             <div class="projects-grid">
                 <?php
                 $projects = [
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '📅',
                         'title' => 'Event Hub - Student Event Management',
                         'description' => 'A comprehensive student event management web application with user authentication, event creation, registration, and admin panel. Features real-time updates and responsive design.',
@@ -754,6 +763,7 @@ $visitor_count = updateVisitorCount();
                         'featured' => true,
                         'icon' => '📚',
                         'title' => 'Library Management System',
+                        'category' => 'desktop',
                         'description' => 'Java-based desktop application for managing library operations including book cataloging, member management, book lending, returns, and fine calculation. Features GUI built with Java Swing.',
                         'image' => 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Library-Management-System',
@@ -764,6 +774,7 @@ $visitor_count = updateVisitorCount();
                         'featured' => true,
                         'icon' => '🎓',
                         'title' => 'Student Management System',
+                        'category' => 'desktop',
                         'description' => 'Comprehensive Java application for managing student records, attendance tracking, grade management, and report generation. Built with object-oriented programming principles.',
                         'image' => 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Student-Management-System',
@@ -774,6 +785,7 @@ $visitor_count = updateVisitorCount();
                         'featured' => true,
                         'icon' => '📦',
                         'title' => 'Inventory Management System (IMS)',
+                        'category' => 'desktop',
                         'description' => 'Java-based inventory management system for tracking products, managing stock levels, handling suppliers, and generating inventory reports. Features robust database integration.',
                         'image' => 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/IMS',
@@ -784,6 +796,7 @@ $visitor_count = updateVisitorCount();
                         'featured' => true,
                         'icon' => '🐍',
                         'title' => 'Python Calculator',
+                        'category' => 'python',
                         'description' => 'Feature-rich calculator application built with Python and Tkinter GUI. Supports basic arithmetic operations, scientific calculations, and history tracking.',
                         'image' => 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Py-Calculator',
@@ -934,7 +947,8 @@ $visitor_count = updateVisitorCount();
                 
                 foreach ($projects as $project) {
                     $featured_class = $project['featured'] ? 'featured-project' : '';
-                    echo '<div class="card project-card ' . $featured_class . ' fade-in">';
+                    $category = isset($project['category']) ? $project['category'] : 'web';
+                    echo '<div class="card project-card ' . $featured_class . '" data-category="' . $category . '">';
                     
                     // Project Image (if available)
                     if (isset($project['image'])) {

@@ -439,6 +439,39 @@ console.log('%cLooking for something? Let\'s connect!', 'font-size: 12px; color:
 console.log('%c📧 reezmahanan@gmail.com', 'font-size: 12px; color: #10b981;');
 
 // ============================================
+// Project Filtering
+// ============================================
+const filterButtons = document.querySelectorAll('.filter-btn');
+const projectCards = document.querySelectorAll('.project-card');
+
+filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        button.classList.add('active');
+        
+        const filterValue = button.getAttribute('data-filter');
+        
+        projectCards.forEach(card => {
+            if (filterValue === 'all') {
+                card.classList.remove('hidden');
+                card.style.display = 'flex';
+            } else {
+                const category = card.getAttribute('data-category');
+                if (category === filterValue) {
+                    card.classList.remove('hidden');
+                    card.style.display = 'flex';
+                } else {
+                    card.classList.add('hidden');
+                    card.style.display = 'none';
+                }
+            }
+        });
+    });
+});
+
+// ============================================
 // Performance Monitoring (Optional)
 // ============================================
 if ('performance' in window) {
