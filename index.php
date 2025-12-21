@@ -301,8 +301,8 @@ $visitor_count = updateVisitorCount();
                         <span class="stat-label">Certificates Earned</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number" id="visitorCount"><?php echo $visitor_count; ?></span>
-                        <span class="stat-label">Portfolio Visitors</span>
+                        <span class="stat-number" id="technologiesCount">15+</span>
+                        <span class="stat-label">Technologies Used</span>
                     </div>
                 </div>
             </div>
