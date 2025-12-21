@@ -731,6 +731,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '📚',
                         'title' => 'Book Nest - Online E-Commerce Website',
                         'description' => 'Group project: Full-featured online bookstore e-commerce platform with book catalog, shopping cart, member system, and secure checkout functionality.',
@@ -741,6 +742,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '🌤️',
                         'title' => 'Weather App',
                         'description' => 'Real-time weather application with API integration displaying current conditions, forecasts, and weather visualization.',
@@ -751,6 +753,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '💼',
                         'title' => 'My Portfolio Website',
                         'description' => 'Personal portfolio website showcasing projects, skills, and achievements with modern design and animations.',
@@ -805,6 +808,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '🕐',
                         'title' => 'Digital Clock',
                         'description' => 'Interactive digital clock with modern design, date display, and customizable themes.',
@@ -815,6 +819,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '✅',
                         'title' => 'To-Do List App',
                         'description' => 'Task management application with add, edit, delete, and complete features. Local storage persistence.',
@@ -825,6 +830,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '📅',
                         'title' => 'Interactive Calendar',
                         'description' => 'Dynamic calendar with month/year navigation, event highlighting, and responsive design.',
@@ -835,6 +841,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '🏢',
                         'title' => 'Reezma Tech Services',
                         'description' => 'Professional tech services website with service listings, contact forms, and modern UI.',
@@ -845,6 +852,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '🧮',
                         'title' => 'Calculator',
                         'description' => 'Functional calculator with basic arithmetic operations and clean interface.',
@@ -855,6 +863,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '📱',
                         'title' => 'Mobile Login Interface',
                         'description' => 'Responsive mobile-first login page with modern UI/UX design.',
@@ -865,6 +874,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '📝',
                         'title' => 'Simple Application Form',
                         'description' => 'User-friendly application form with validation and responsive layout.',
@@ -875,6 +885,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '🎨',
                         'title' => 'Reezma Logo Design',
                         'description' => 'Personal branding logo created with HTML and CSS.',
@@ -885,6 +896,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '🏷️',
                         'title' => 'Label Design',
                         'description' => 'Creative label designs using HTML and CSS.',
@@ -895,6 +907,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '📄',
                         'title' => 'Resume Template',
                         'description' => 'Professional resume template with clean design and print-friendly layout.',
@@ -905,6 +918,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '🎓',
                         'title' => 'First HTML Portfolio',
                         'description' => 'My first portfolio project demonstrating HTML fundamentals.',
@@ -915,6 +929,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'web',
                         'icon' => '💌',
                         'title' => 'HTML Invitation Card',
                         'description' => 'Creative invitation card design showcasing HTML and CSS skills.',
@@ -925,6 +940,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'python',
                         'icon' => '🌦️',
                         'title' => 'Animated Weather System',
                         'description' => 'Python-based weather simulation with animated visualizations.',
@@ -935,6 +951,7 @@ $visitor_count = updateVisitorCount();
                     ],
                     [
                         'featured' => true,
+                        'category' => 'python',
                         'icon' => '🪐',
                         'title' => 'Solar System Simulator',
                         'description' => 'Educational solar system simulation demonstrating planetary mechanics.',
@@ -942,6 +959,17 @@ $visitor_count = updateVisitorCount();
                         'github' => 'https://github.com/reezmahanan/solar-system-simulator',
                         'features' => ['🌌 Planets', '🔭 Physics', '🎯 Educational'],
                         'technologies' => ['Python']
+                    ],
+                    [
+                        'featured' => true,
+                        'category' => 'web',
+                        'icon' => '📬',
+                        'title' => 'Contact Form',
+                        'description' => 'Professional contact form with PHP backend for secure message handling and email notifications.',
+                        'image' => 'https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=800&h=500&fit=crop',
+                        'github' => 'https://github.com/reezmahanan/Contact-Form',
+                        'features' => ['📧 Email Notifications', '✅ Validation', '🔒 Secure', '📱 Responsive'],
+                        'technologies' => ['PHP']
                     ]
                 ];
                 
@@ -975,17 +1003,6 @@ $visitor_count = updateVisitorCount();
                     echo '</div>';
                     
                     // Project Links (LIVE and CODE buttons)
-                    echo '<div class="project-links">';
-                    if (isset($project['live_demo'])) {
-                        echo '<a href="' . $project['live_demo'] . '" class="project-link live-demo" target="_blank">';
-                        echo '<i class="fas fa-external-link-alt"></i> LIVE';
-                        echo '</a>';
-                    }
-                    echo '<a href="' . $project['github'] . '" class="project-link" target="_blank">';
-                    echo '<i class="fab fa-github"></i> CODE';
-                    echo '</a>';
-                    echo '</div>';
-                    
                     echo '<div class="project-links">';
                     if (isset($project['live_demo'])) {
                         echo '<a href="' . $project['live_demo'] . '" class="project-link live-demo" target="_blank">';
