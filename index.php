@@ -2,14 +2,14 @@
 // Portfolio Configuration
 $portfolio_config = [
     'name' => 'Reezma Hanan',
-    'title' => 'Software Engineer in Training 👩‍💻',
+    'title' => 'Software Engineer in Training',
     'email' => 'reezmahanan@gmail.com',
     'github' => 'https://github.com/reezmahanan',
     'linkedin' => 'https://www.linkedin.com/in/reezma-hanan',
     'hackerrank' => 'https://www.hackerrank.com/profile/reezmahanan',
     'google_dev' => 'https://g.dev/reezmahanan',
     'medium' => 'https://medium.com/@reezmahanan',
-    'location' => 'Batticaloa, Sri Lanka 🇱🇰',
+    'location' => 'Batticaloa, Sri Lanka',
     'university' => 'Institute of Technology, University of Moratuwa'
 ];
 
@@ -50,7 +50,7 @@ $visitor_count = updateVisitorCount();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $portfolio_config['name']; ?> - <?php echo $portfolio_config['title']; ?></title>
-    <meta name="description" content="Hi! I'm Reezma, an IT student passionate about AI/ML, web development, and building intelligent solutions. Check out my journey with Python, Java, PHP and machine learning projects! 🚀">
+    <meta name="description" content="Hi! I'm Reezma, an IT student passionate about AI/ML, web development, and building intelligent solutions. Check out my journey with Python, Java, PHP and machine learning projects!">
     <meta name="keywords" content="Reezma Hanan, Student Developer, AI ML Enthusiast, IT Student, PHP Developer, Machine Learning, Python, Java, Web Development">
     <meta name="author" content="<?php echo $portfolio_config['name']; ?>">
     
@@ -65,7 +65,7 @@ $visitor_count = updateVisitorCount();
     <meta name="twitter:title" content="Reezma - AI & Web Developer Portfolio">
     <meta name="twitter:description" content="IT student passionate about AI/ML, PHP development, and building intelligent web solutions. Learning and growing in tech! 🌱">
     
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👩‍💻</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>R</text></svg>">
     
     <!-- External Resources -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -182,26 +182,22 @@ $visitor_count = updateVisitorCount();
                             A passionate <strong>IT student</strong> and <strong>software engineer in training</strong> building real-world applications and learning cutting-edge technologies.
                         </p>
                         <p class="sub-description">
-                            🎓 <strong>IT Student</strong> at <?php echo $portfolio_config['university']; ?> | 
-                            ☁️ <strong>Cloud Computing Explorer</strong> | 
-                            💻 <strong>Full-Stack Developer</strong> | 
-                            🤖 <strong>AI/ML Learner</strong>
+                            <strong>IT Student</strong> at <?php echo $portfolio_config['university']; ?> | 
+                            <strong>Cloud Computing Explorer</strong> | 
+                            <strong>Full-Stack Developer</strong> | 
+                            <strong>AI/ML Learner</strong>
                         </p>
                         <div class="achievement-highlights">
                             <div class="highlight-item">
-                                <span class="highlight-icon">🚀</span>
                                 <span class="highlight-text">18+ Projects Built</span>
                             </div>
                             <div class="highlight-item">
-                                <span class="highlight-icon">🏆</span>
                                 <span class="highlight-text">19+ Certificates Earned</span>
                             </div>
                             <div class="highlight-item">
-                                <span class="highlight-icon">🎯</span>
                                 <span class="highlight-text">Goal: Skilled Dev by 2028</span>
                             </div>
                             <div class="highlight-item">
-                                <span class="highlight-icon">⚡</span>
                                 <span class="highlight-text">15+ Technologies</span>
                             </div>
                         </div>
@@ -236,12 +232,12 @@ $visitor_count = updateVisitorCount();
                         </div>
                         <div class="profile-info">
                             <h3><?php echo $portfolio_config['name']; ?></h3>
-                            <p>Software Engineer in Training | Full-Stack Developer | Cloud Explorer 🚀</p>
+                            <p>Software Engineer in Training | Full-Stack Developer | Cloud Explorer</p>
                             <div class="profile-badges">
-                                <span class="badge">🎓 IT Student @ UOM</span>
-                                <span class="badge">☁️ Cloud Computing</span>
-                                <span class="badge">💻 Full-Stack Dev</span>
-                                <span class="badge">🎯 Goal: 2028</span>
+                                <span class="badge">IT Student @ UOM</span>
+                                <span class="badge">Cloud Computing</span>
+                                <span class="badge">Full-Stack Dev</span>
+                                <span class="badge">Goal: 2028</span>
                             </div>
                         </div>
                     </div>
@@ -259,7 +255,6 @@ $visitor_count = updateVisitorCount();
             <div class="about-content">
                 <div class="about-text fade-in">
                     <div class="about-card">
-                        <div class="about-icon">🎓</div>
                         <div class="about-info">
                             <h3>My Academic Journey</h3>
                             <p>Currently pursuing my <strong>Diploma in Information Technology</strong> at <strong><?php echo $portfolio_config['university']; ?></strong>. Building strong foundations in <strong>Java, Python, PHP, MySQL & Web Development</strong>.</p>
@@ -267,7 +262,6 @@ $visitor_count = updateVisitorCount();
                     </div>
 
                     <div class="about-card">
-                        <div class="about-icon">☁️</div>
                         <div class="about-info">
                             <h3>Cloud & Emerging Tech</h3>
                             <p>Exploring <strong>Cloud Computing (AWS, Azure, Google Cloud), AI/ML basics, and Backend Development</strong>. Passionate about understanding how modern infrastructure powers scalable applications.</p>
@@ -275,7 +269,6 @@ $visitor_count = updateVisitorCount();
                     </div>
 
                     <div class="about-card">
-                        <div class="about-icon">💻</div>
                         <div class="about-info">
                             <h3>Full-Stack Development</h3>
                             <p>Building real-world software and full-stack applications using <strong>Java, Python, PHP, JavaScript, HTML5, CSS3, and MySQL</strong>. Completed 18+ projects from simple web pages to complex management systems.</p>
@@ -283,7 +276,6 @@ $visitor_count = updateVisitorCount();
                     </div>
 
                     <div class="about-card">
-                        <div class="about-icon">🚀</div>
                         <div class="about-info">
                             <h3>My Vision & Goal</h3>
                             <p>Passionate about building real-world software solutions and becoming a <strong>skilled Software Developer by 2028</strong>.</p>
