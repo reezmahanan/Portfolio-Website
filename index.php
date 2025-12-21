@@ -957,43 +957,44 @@ $visitor_count = updateVisitorCount();
                         echo '</div>';
                     }
                     
-                    // Project Header with Icon
+                    // Project Header
                     echo '<div class="project-header">';
-                    if (isset($project['icon'])) {
-                        echo '<div class="project-icon">' . $project['icon'] . '</div>';
-                    }
                     echo '<div class="project-header-content">';
                     echo '<h3 class="project-title">' . $project['title'] . '</h3>';
-                    echo '<div class="project-links">';
-                    if (isset($project['live_demo'])) {
-                        echo '<a href="' . $project['live_demo'] . '" class="project-link live-demo" target="_blank">';
-                        echo '<i class="fas fa-globe"></i> Live';
-                        echo '</a>';
-                    }
-                    echo '<a href="' . $project['github'] . '" class="project-link" target="_blank">';
-                    echo '<i class="fab fa-github"></i> Code';
-                    echo '</a>';
-                    echo '</div>';
-                    echo '</div>';
-                    echo '</div>';
                     
                     // Description
                     echo '<p class="project-description">' . $project['description'] . '</p>';
-                    
-                    // Features
-                    if (isset($project['features'])) {
-                        echo '<div class="project-features">';
-                        foreach ($project['features'] as $feature) {
-                            echo '<span class="feature-badge">' . $feature . '</span>';
-                        }
-                        echo '</div>';
-                    }
+                    echo '</div>';
+                    echo '</div>';
                     
                     // Technologies
                     echo '<div class="project-tech">';
                     foreach ($project['technologies'] as $tech) {
                         echo '<span class="tech-tag">' . $tech . '</span>';
                     }
+                    echo '</div>';
+                    
+                    // Project Links (LIVE and CODE buttons)
+                    echo '<div class="project-links">';
+                    if (isset($project['live_demo'])) {
+                        echo '<a href="' . $project['live_demo'] . '" class="project-link live-demo" target="_blank">';
+                        echo '<i class="fas fa-external-link-alt"></i> LIVE';
+                        echo '</a>';
+                    }
+                    echo '<a href="' . $project['github'] . '" class="project-link" target="_blank">';
+                    echo '<i class="fab fa-github"></i> CODE';
+                    echo '</a>';
+                    echo '</div>';
+                    
+                    echo '<div class="project-links">';
+                    if (isset($project['live_demo'])) {
+                        echo '<a href="' . $project['live_demo'] . '" class="project-link live-demo" target="_blank">';
+                        echo '<i class="fas fa-external-link-alt"></i> LIVE';
+                        echo '</a>';
+                    }
+                    echo '<a href="' . $project['github'] . '" class="project-link" target="_blank">';
+                    echo '<i class="fab fa-github"></i> CODE';
+                    echo '</a>';
                     echo '</div>';
                     
                     echo '</div>';
