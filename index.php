@@ -758,7 +758,7 @@ $visitor_count = updateVisitorCount();
                         'image' => 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Library-Management-System',
                         'features' => ['📖 Book Management', '👤 Member System', '🔄 Lending/Returns', '💰 Fine Calculator'],
-                        'technologies' => ['Java', 'Java Swing', 'MySQL', 'JDBC']
+                        'technologies' => ['Java']
                     ],
                     [
                         'featured' => true,
@@ -768,7 +768,7 @@ $visitor_count = updateVisitorCount();
                         'image' => 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/Student-Management-System',
                         'features' => ['📝 Student Records', '📊 Attendance Tracking', '🎯 Grade Management', '📄 Report Generation'],
-                        'technologies' => ['Java', 'Java Swing', 'MySQL', 'JDBC']
+                        'technologies' => ['Java']
                     ],
                     [
                         'featured' => true,
@@ -778,7 +778,7 @@ $visitor_count = updateVisitorCount();
                         'image' => 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&h=500&fit=crop',
                         'github' => 'https://github.com/reezmahanan/IMS',
                         'features' => ['📊 Stock Tracking', '🏪 Supplier Management', '📈 Reports', '⚠️ Low Stock Alerts'],
-                        'technologies' => ['Java', 'Java Swing', 'MySQL', 'JDBC']
+                        'technologies' => ['Java']
                     ],
                     [
                         'featured' => true,
