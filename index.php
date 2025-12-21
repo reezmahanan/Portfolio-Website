@@ -881,6 +881,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Reezma Tech Services',
                         'description' => 'Professional tech services website with service listings, contact forms, and modern UI.',
                         'image' => 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/Reezma-tech-services/',
                         'github' => 'https://github.com/reezmahanan/Reezma-tech-services',
                         'features' => ['💼 Services', '📬 Contact Form', '🎨 Modern UI'],
                         'technologies' => ['HTML', 'CSS']
@@ -916,6 +917,7 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Simple Application Form',
                         'description' => 'User-friendly application form with validation and responsive layout.',
                         'image' => 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/simple-Application-Form/',
                         'github' => 'https://github.com/reezmahanan/simple-Application-Form',
                         'features' => ['✅ Validation', '📱 Responsive', '📤 Submit'],
                         'technologies' => ['HTML']
