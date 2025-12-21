@@ -480,6 +480,46 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log('Visible cards:', visibleCount);
         });
     });
+
+    // Certificate Filtering
+    const certFilterButtons = document.querySelectorAll('.cert-filter-btn');
+    const certificateCards = document.querySelectorAll('.certificate-card');
+    
+    console.log('Certificate filter buttons found:', certFilterButtons.length);
+    console.log('Certificate cards found:', certificateCards.length);
+
+    certFilterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Remove active class from all buttons
+            certFilterButtons.forEach(btn => btn.classList.remove('active'));
+            // Add active class to clicked button
+            button.classList.add('active');
+            
+            const filterValue = button.getAttribute('data-filter');
+            console.log('Certificate filter clicked:', filterValue);
+            
+            let visibleCount = 0;
+            certificateCards.forEach(card => {
+                if (filterValue === 'all') {
+                    card.classList.remove('hidden');
+                    card.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    const category = card.getAttribute('data-category');
+                    if (category === filterValue) {
+                        card.classList.remove('hidden');
+                        card.style.display = 'block';
+                        visibleCount++;
+                    } else {
+                        card.classList.add('hidden');
+                        card.style.display = 'none';
+                    }
+                }
+            });
+            
+            console.log('Visible certificates:', visibleCount);
+        });
+    });
 });
 
 // ============================================

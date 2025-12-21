@@ -543,10 +543,22 @@ $visitor_count = updateVisitorCount();
             <h2 class="section-title fade-in">Certificates & Achievements</h2>
             <p class="section-subtitle fade-in">Continuous learning and professional development</p>
             
+            <!-- Certificate Filter Buttons -->
+            <div class="certificate-filters fade-in">
+                <button class="cert-filter-btn active" data-filter="all">All</button>
+                <button class="cert-filter-btn" data-filter="python">Python</button>
+                <button class="cert-filter-btn" data-filter="java">Java</button>
+                <button class="cert-filter-btn" data-filter="web">Web Development</button>
+                <button class="cert-filter-btn" data-filter="database">Database</button>
+                <button class="cert-filter-btn" data-filter="security">Cyber Security</button>
+                <button class="cert-filter-btn" data-filter="other">Other</button>
+            </div>
+            
             <div class="certificates-grid">
                 <?php
                 $certificates = [
                     [
+                        'category' => 'python',
                         'icon' => '<i class="fab fa-python"></i>',
                         'title' => 'Python for Beginners',
                         'issuer' => 'UOM CODL',
@@ -554,6 +566,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://open.uom.lk/verify'
                     ],
                     [
+                        'category' => 'web',
                         'icon' => '<i class="fas fa-globe"></i>',
                         'title' => 'Web Design for Beginners',
                         'issuer' => 'UOM CODL',
@@ -561,6 +574,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://open.uom.lk/verify'
                     ],
                     [
+                        'category' => 'python',
                         'icon' => '<i class="fab fa-python"></i>',
                         'title' => 'Python for Beginners',
                         'issuer' => 'SoloLearn',
@@ -568,6 +582,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://api2.sololearn.com/v2/certificates/CC-ZZGGBJBM/image/png?t=638965751414194114'
                     ],
                     [
+                        'category' => 'database',
                         'icon' => '<i class="fas fa-database"></i>',
                         'title' => 'SQL',
                         'issuer' => 'SoloLearn',
@@ -575,6 +590,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://api2.sololearn.com/v2/certificates/CC-ZZGGBJBM/image/png?t=638965751414194114'
                     ],
                     [
+                        'category' => 'web',
                         'icon' => '<i class="fab fa-html5"></i>',
                         'title' => 'HTML',
                         'issuer' => 'SoloLearn',
@@ -582,6 +598,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://api2.sololearn.com/v2/certificates/CC-RBU2XEQB/image/png?t=638857708473986790'
                     ],
                     [
+                        'category' => 'java',
                         'icon' => '<i class="fab fa-java"></i>',
                         'title' => 'Java',
                         'issuer' => 'SoloLearn',
@@ -589,6 +606,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://api2.sololearn.com/v2/certificates/CC-SQOTIPNO/image/png?t=638900670629150830'
                     ],
                     [
+                        'category' => 'security',
                         'icon' => '<i class="fas fa-shield-alt"></i>',
                         'title' => 'Cyber Security',
                         'issuer' => 'Cisco Networking Academy',
@@ -596,6 +614,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://support.credly.com/hc/en-us/articles/360026639872-Can-I-download-and-print-my-badge-certificate-'
                     ],
                     [
+                        'category' => 'other',
                         'icon' => '<i class="fas fa-rocket"></i>',
                         'title' => 'Agile Scrum Foundation',
                         'issuer' => 'Simplilearn',
@@ -603,6 +622,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://lms.simplilearn.com/#/course/7414-Agile-Scrum-Foundation_SkillUp/showCertificate/'
                     ],
                     [
+                        'category' => 'other',
                         'icon' => '<i class="fas fa-paint-brush"></i>',
                         'title' => 'UI/UX for Beginners',
                         'issuer' => 'Great Learning Academy',
@@ -610,6 +630,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://www.mygreatlearning.com/certificate/QYCNOODA'
                     ],
                     [
+                        'category' => 'web',
                         'icon' => '<i class="fab fa-html5"></i>',
                         'title' => 'HTML',
                         'issuer' => 'Great Learning Academy',
@@ -617,6 +638,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://www.mygreatlearning.com/academy/learn-for-free/courses/front-end-development-html?utm_source=public_certificate_view&utm_medium=certificate_page&utm_campaign=course_name_link'
                     ],
                     [
+                        'category' => 'database',
                         'icon' => '<i class="fas fa-database"></i>',
                         'title' => 'MySQL Tutorial',
                         'issuer' => 'Great Learning Academy',
@@ -624,6 +646,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://www.mygreatlearning.com/certificate/YADZEDEN'
                     ],
                     [
+                        'category' => 'other',
                         'icon' => '<i class="fas fa-laptop-code"></i>',
                         'title' => 'Programming Basics',
                         'issuer' => 'Great Learning Academy',
@@ -631,6 +654,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://www.mygreatlearning.com/certificate/JDWSMZKM'
                     ],
                     [
+                        'category' => 'python',
                         'icon' => '<i class="fab fa-python"></i>',
                         'title' => 'Python Fundamentals for Beginners',
                         'issuer' => 'Great Learning Academy',
@@ -638,6 +662,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://www.mygreatlearning.com/certificate/UBKRGSMR'
                     ],
                     [
+                        'category' => 'python',
                         'icon' => '<i class="fas fa-project-diagram"></i>',
                         'title' => 'Python Project for Beginners',
                         'issuer' => 'Great Learning Academy',
@@ -645,6 +670,7 @@ $visitor_count = updateVisitorCount();
                         'link' => '#' // Add your certificate link here
                     ],
                     [
+                        'category' => 'java',
                         'icon' => '<i class="fab fa-java"></i>',
                         'title' => 'OOPs in Java',
                         'issuer' => 'Simplilearn',
@@ -652,6 +678,7 @@ $visitor_count = updateVisitorCount();
                         'link' => '#' // Add your certificate link here
                     ],
                     [
+                        'category' => 'security',
                         'icon' => '<i class="fas fa-shield-alt"></i>',
                         'title' => 'Introduction to Cyber Security',
                         'issuer' => 'Simplilearn',
@@ -659,6 +686,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://lms.simplilearn.com/#/course/3736-Introduction-to-Cyber-Security/showCertificate/'
                     ],
                     [
+                        'category' => 'web',
                         'icon' => '<i class="fab fa-css3-alt"></i>',
                         'title' => 'CSS (Basic)',
                         'issuer' => 'HackerRank',
@@ -666,6 +694,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://www.hackerrank.com/certificates/3c7f4b161fcf'
                     ],
                     [
+                        'category' => 'other',
                         'icon' => '<i class="fas fa-cloud"></i>',
                         'title' => 'Introduction to Cloud Computing',
                         'issuer' => 'Simplilearn',
@@ -673,6 +702,7 @@ $visitor_count = updateVisitorCount();
                         'link' => 'https://lms.simplilearn.com/#/course/3971-Introduction-to-Cloud-Computing/showCertificate/'
                     ],
                     [
+                        'category' => 'web',
                         'icon' => '<i class="fab fa-css3-alt"></i>',
                         'title' => 'Introduction to CSS',
                         'issuer' => 'SoloLearn',
@@ -682,7 +712,8 @@ $visitor_count = updateVisitorCount();
                 ];
 
                 foreach ($certificates as $cert) {
-                    echo '<div class="card certificate-card fade-in">';
+                    $category = isset($cert['category']) ? $cert['category'] : 'other';
+                    echo '<div class="card certificate-card fade-in" data-category="' . $category . '">';
                     echo '<div class="certificate-icon">' . $cert['icon'] . '</div>';
                     echo '<h3>' . $cert['title'] . '</h3>';
                     echo '<p class="certificate-issuer">' . $cert['issuer'] . '</p>';
