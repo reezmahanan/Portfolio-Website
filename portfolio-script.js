@@ -95,45 +95,6 @@ window.addEventListener('scroll', () => {
 });
 
 // ============================================
-// Typing Animation
-// ============================================
-const typingText = document.getElementById('typingText');
-const texts = ['Reezma Hanan', 'AI Enthusiast', 'Full-Stack Developer', 'Tech Innovator'];
-let textIndex = 0;
-let charIndex = 0;
-let isDeleting = false;
-let typingSpeed = 100;
-
-function type() {
-    const currentText = texts[textIndex];
-    
-    if (isDeleting) {
-        typingText.textContent = currentText.substring(0, charIndex - 1);
-        charIndex--;
-        typingSpeed = 50;
-    } else {
-        typingText.textContent = currentText.substring(0, charIndex + 1);
-        charIndex++;
-        typingSpeed = 100;
-    }
-    
-    if (!isDeleting && charIndex === currentText.length) {
-        // Pause at end
-        typingSpeed = 2000;
-        isDeleting = true;
-    } else if (isDeleting && charIndex === 0) {
-        isDeleting = false;
-        textIndex = (textIndex + 1) % texts.length;
-        typingSpeed = 500;
-    }
-    
-    setTimeout(type, typingSpeed);
-}
-
-// Start typing animation
-setTimeout(type, 1000);
-
-// ============================================
 // Smooth Scroll Animation
 // ============================================
 const observer = new IntersectionObserver((entries) => {

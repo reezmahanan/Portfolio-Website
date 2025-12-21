@@ -164,84 +164,61 @@ $visitor_count = updateVisitorCount();
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text fade-in">
-                    <div class="hero-greeting">
-                        <span class="wave">👋</span>
-                        <span class="greeting-text">
-                            <span class="greeting-letter">H</span>
-                            <span class="greeting-letter">e</span>
-                            <span class="greeting-letter">l</span>
-                            <span class="greeting-letter">l</span>
-                            <span class="greeting-letter">o</span>
-                        </span>
-                    </div>
-                    <h1>
-                        I'm <span class="highlight typing-animation" id="typingText">Reezma Hanan</span><span class="cursor">|</span>
+                    <p class="hero-greeting-text">HELLO, I'M</p>
+                    <h1 class="hero-name">
+                        <?php echo $portfolio_config['name']; ?>
                     </h1>
-                    <div class="hero-description">
-                        <p class="main-description">
-                            A passionate <strong>IT student</strong> and <strong>software engineer in training</strong> building real-world applications and learning cutting-edge technologies.
-                        </p>
-                        <p class="sub-description">
-                            <strong>IT Student</strong> at <?php echo $portfolio_config['university']; ?> | 
-                            <strong>Cloud Computing Explorer</strong> | 
-                            <strong>Full-Stack Developer</strong> | 
-                            <strong>AI/ML Learner</strong>
-                        </p>
-                        <div class="achievement-highlights">
-                            <div class="highlight-item">
-                                <span class="highlight-text">18+ Projects Built</span>
-                            </div>
-                            <div class="highlight-item">
-                                <span class="highlight-text">19+ Certificates Earned</span>
-                            </div>
-                            <div class="highlight-item">
-                                <span class="highlight-text">Goal: Skilled Dev by 2028</span>
-                            </div>
-                            <div class="highlight-item">
-                                <span class="highlight-text">15+ Technologies</span>
-                            </div>
-                        </div>
+                    <div class="hero-role-animated">
+                        <span class="role-letter">S</span><span class="role-letter">o</span><span class="role-letter">f</span><span class="role-letter">t</span><span class="role-letter">w</span><span class="role-letter">a</span><span class="role-letter">r</span><span class="role-letter">e</span>
+                        <span class="role-letter"> </span>
+                        <span class="role-letter">E</span><span class="role-letter">n</span><span class="role-letter">g</span><span class="role-letter">i</span><span class="role-letter">n</span><span class="role-letter">e</span><span class="role-letter">e</span><span class="role-letter">r</span>
+                        <span class="role-separator"> / </span>
+                        <span class="role-letter">F</span><span class="role-letter">u</span><span class="role-letter">l</span><span class="role-letter">l</span><span class="role-letter">-</span><span class="role-letter">S</span><span class="role-letter">t</span><span class="role-letter">a</span><span class="role-letter">c</span><span class="role-letter">k</span>
+                        <span class="role-letter"> </span>
+                        <span class="role-letter">D</span><span class="role-letter">e</span><span class="role-letter">v</span><span class="role-letter">e</span><span class="role-letter">l</span><span class="role-letter">o</span><span class="role-letter">p</span><span class="role-letter">e</span><span class="role-letter">r</span>
                     </div>
+                    <p class="hero-description-text">
+                        Passionate about creating innovative digital solutions with a focus on web and software development. Transforming ideas into elegant, user-friendly applications with modern technologies.
+                    </p>
                     <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">
-                            <i class="fas fa-rocket"></i>
-                            Explore My Work
+                        <a href="cv.php" class="btn btn-download" target="_blank">
+                            <i class="fas fa-file-alt"></i>
+                            VIEW CV
                         </a>
-                        <a href="cv.php" class="btn btn-secondary">
-                            <i class="fas fa-eye"></i>
-                            View CV
-                        </a>
-                        <a href="#contact" class="btn btn-primary">
-                            <i class="fas fa-briefcase"></i>
-                            Hire Me
-                        </a>
-                        <a href="#certificates" class="btn btn-secondary">
-                            <i class="fas fa-certificate"></i>
-                            View Certificates
-                        </a>
-                        <a href="#contact" class="btn btn-outline">
-                            <i class="fas fa-coffee"></i>
-                            Let's Connect
+                        <a href="#contact" class="btn btn-hire">
+                            <i class="fas fa-envelope"></i>
+                            HIRE ME
                         </a>
                     </div>
                 </div>
                 <div class="hero-image fade-in">
-                    <div class="profile-card">
-                        <div class="profile-avatar">
-                            <img src="Profile.jpg?v=<?php echo time(); ?>" alt="<?php echo $portfolio_config['name']; ?>" class="profile-img">
-                        </div>
-                        <div class="profile-info">
-                            <h3><?php echo $portfolio_config['name']; ?></h3>
-                            <p>Software Engineer in Training | Full-Stack Developer | Cloud Explorer</p>
-                            <div class="profile-badges">
-                                <span class="badge">IT Student @ UOM</span>
-                                <span class="badge">Cloud Computing</span>
-                                <span class="badge">Full-Stack Dev</span>
-                                <span class="badge">Goal: 2028</span>
+                    <div class="profile-badge-container">
+                        <div class="badge-circle">
+                            <div class="badge-ring blue-ring"></div>
+                            <div class="badge-ring white-ring"></div>
+                            <div class="badge-ring brown-ring"></div>
+                            <div class="profile-circle">
+                                <img src="Profile.jpg?v=<?php echo time(); ?>" alt="<?php echo $portfolio_config['name']; ?>" class="profile-img">
                             </div>
+                            <svg class="badge-text-svg" viewBox="0 0 200 200">
+                                <defs>
+                                    <path id="circlePath" d="M 100, 100 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0"/>
+                                </defs>
+                                <text class="badge-text">
+                                    <textPath href="#circlePath" startOffset="50%" text-anchor="middle">
+                                        REEZMA HANAN
+                                    </textPath>
+                                </text>
+                            </svg>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse-icon">
+                    <div class="mouse-wheel"></div>
+                </div>
+                <p>SCROLL DOWN</p>
             </div>
         </div>
     </section>
@@ -249,53 +226,43 @@ $visitor_count = updateVisitorCount();
     <!-- About Section -->
     <section class="about section" id="about">
         <div class="container">
-            <h2 class="section-title fade-in">About Me</h2>
-            <p class="section-subtitle fade-in">AI enthusiast & full-stack developer crafting intelligent solutions</p>
+            <h2 class="section-title fade-in">About</h2>
+            <p class="section-subtitle fade-in">Crafting Digital Experiences with Passion</p>
             
             <div class="about-content">
-                <div class="about-text fade-in">
-                    <div class="about-card">
-                        <div class="about-info">
-                            <h3>My Academic Journey</h3>
-                            <p>Currently pursuing my <strong>Diploma in Information Technology</strong> at <strong><?php echo $portfolio_config['university']; ?></strong>. Building strong foundations in <strong>Java, Python, PHP, MySQL & Web Development</strong>.</p>
-                        </div>
-                    </div>
-
-                    <div class="about-card">
-                        <div class="about-info">
-                            <h3>Cloud & Emerging Tech</h3>
-                            <p>Exploring <strong>Cloud Computing (AWS, Azure, Google Cloud), AI/ML basics, and Backend Development</strong>. Passionate about understanding how modern infrastructure powers scalable applications.</p>
-                        </div>
-                    </div>
-
-                    <div class="about-card">
-                        <div class="about-info">
-                            <h3>Full-Stack Development</h3>
-                            <p>Building real-world software and full-stack applications using <strong>Java, Python, PHP, JavaScript, HTML5, CSS3, and MySQL</strong>. Completed 18+ projects from simple web pages to complex management systems.</p>
-                        </div>
-                    </div>
-
-                    <div class="about-card">
-                        <div class="about-info">
-                            <h3>My Vision & Goal</h3>
-                            <p>Passionate about building real-world software solutions and becoming a <strong>skilled Software Developer by 2028</strong>.</p>
-                        </div>
+                <div class="about-image-container fade-in">
+                    <div class="about-profile-frame">
+                        <img src="About Me.jpg?v=<?php echo time(); ?>" alt="<?php echo $portfolio_config['name']; ?>" class="about-profile-img">
                     </div>
                 </div>
                 
-                <div class="about-stats fade-in">
-                    <div class="stat-item">
-                        <span class="stat-number" id="projectsCount">23</span>
-                        <span class="stat-label">Projects Completed</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" id="certificatesCount">19</span>
-                        <span class="stat-label">Certificates Earned</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" id="technologiesCount">15+</span>
-                        <span class="stat-label">Technologies Used</span>
-                    </div>
+                <div class="about-text fade-in">
+                    <p class="about-intro">
+                        I'm <strong><?php echo $portfolio_config['name']; ?></strong>, an IT student and aspiring Software Engineer currently seeking a <strong>software engineering role or internship</strong>. Currently studying <strong>Diploma in Information Technology</strong> at <strong><?php echo $portfolio_config['university']; ?></strong>, I have a strong foundation in both mobile and web development, specializing in creating intuitive, user-centered applications that solve real-world problems.
+                    </p>
+                    
+                    <p class="about-description">
+                        My journey in software engineering has equipped me with expertise in modern technologies including <strong>Java, Python, PHP, JavaScript</strong>, and various frameworks. I'm also passionate about <strong>Cloud Computing (AWS, Azure, Google Cloud)</strong>, UI/UX design and believe that great code should always be paired with an exceptional user experience.
+                    </p>
+                    
+                    <p class="about-description">
+                        When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or mentoring aspiring developers in the tech community.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="about-stats fade-in">
+                <div class="stat-item">
+                    <span class="stat-number" id="technologiesCount">10+</span>
+                    <span class="stat-label">Technologies Used</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="projectsCount">23</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="certificatesCount">19</span>
+                    <span class="stat-label">Certificates Earned</span>
                 </div>
             </div>
         </div>

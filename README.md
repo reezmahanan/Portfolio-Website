@@ -1,6 +1,6 @@
 # 🌟 Reezma Hanan - Portfolio Website
 
-A modern, responsive portfolio website showcasing AI/ML projects, web development skills, and professional achievements.
+A modern, responsive portfolio website showcasing software engineering projects, web development skills, and professional achievements with animated effects and professional design.
 
 ## 🔗 Live Demo
 
@@ -11,27 +11,28 @@ A modern, responsive portfolio website showcasing AI/ML projects, web developmen
 ## 📋 Features
 
 ### ✨ Main Features
-- 🎨 **Modern Design** - Clean, professional UI with glassmorphism effects
-- 🌓 **Dark/Light Theme** - Toggle between themes with persistent storage
-- 📱 **Fully Responsive** - Works perfectly on all devices
+- 🎨 **Modern Minimalist Design** - Professional UI with glassmorphism effects and animated elements
+- 🌓 **Dark/Light Theme** - Toggle between themes with persistent storage (Dark mode default)
+- 📱 **Fully Responsive** - Works perfectly on all devices with optimized layouts
 - 🚀 **Fast Loading** - Optimized performance with smooth animations
-- 💼 **Portfolio Showcase** - 18+ featured projects with detailed cards
+- 💼 **Portfolio Showcase** - 23 featured projects with modern boxed cards
 - 📧 **Contact Form** - Functional contact form with validation
-- 👁️ **Visitor Counter** - Track unique daily visitors
-- ⚡ **Smooth Animations** - Beautiful fade-in effects and transitions
+- ⚡ **Animated Hero** - Circular badge profile with rotating rings and animated role text
+- 🎯 **Professional Stats** - 10+ Technologies, 23 Projects, 19 Certificates
 - 🎓 **CV Viewer** - Professional CV page with print/view functionality
-- 🏆 **Certificate Showcase** - Clickable certificates with verification links
-- 🎬 **Animated Loading Screen** - Beautiful loading animation with tech icons
+- 🏆 **Certificate Filtering** - Browse certificates by category (Python, Java, Web, Database, Security, Other)
 - 💎 **Brand Color Icons** - Real technology icons with authentic brand colors
+- 🔄 **Project Filtering** - Filter projects by category (All, Web, Desktop, Python)
 
 ### 🎯 Sections
-1. **Hero Section** - Eye-catching introduction with typing animation and quick action buttons
-2. **About Me** - Professional background and journey as IT student
-3. **Skills** - Technical skills with real branded icons and authentic colors
-4. **Certificates** - 19+ professional certificates with live verification links
-5. **Projects** - Featured projects including EventHub, BookNest, and Weather App
-6. **Contact** - Contact form and social media links
-7. **CV Page** - Professional curriculum vitae with print functionality
+1. **Hero Section** - Minimalist design with "HELLO, I'M" greeting, circular badge profile, and animated role text
+2. **About Me** - Professional background seeking software engineering role or internship
+3. **Education** - Academic qualifications and achievements
+4. **Skills** - Technical skills with real branded icons and authentic colors
+5. **Certificates** - 19 professional certificates with category filtering and verification links
+6. **Projects** - 23 projects with filtering and live demo links
+7. **Contact** - Contact form and social media links (GitHub, LinkedIn, Medium, Google Developer)
+8. **CV Page** - Professional curriculum vitae with print functionality
 
 ## 🚀 Getting Started
 
@@ -47,9 +48,10 @@ A modern, responsive portfolio website showcasing AI/ML projects, web developmen
    c:\xampp\htdocs\portfolio
    ```
 
-2. **Add Your Profile Image**:
-   - Add your profile photo as `Profile.jpg` in the portfolio folder
-   - Recommended size: 400x400px or larger (square)
+2. **Add Your Profile Images**:
+   - Add your hero profile photo as `Profile.jpg` in the portfolio folder
+   - Add your about section photo as `About Me.jpg` in the portfolio folder
+   - Recommended size: 400x400px or larger (square for hero, any size for about)
    - Supported formats: JPG, PNG
 
 3. **Start XAMPP**:
@@ -156,25 +158,38 @@ Change form action to:
 portfolio/
 │
 ├── index.php                 # Main HTML structure with PHP
-├── styles.css               # Main CSS styles with glassmorphism
-├── portfolio-script.js      # JavaScript functionality
+├── styles.css               # Main CSS styles with glassmorphism and animations
+├── portfolio-script.js      # JavaScript functionality (filtering, theme toggle)
+├── cv.php                   # CV viewer page
 ├── send_message.php         # Contact form handler
 ├── visitor_count.txt        # Visitor counter data
-├── Profile.jpg             # Your profile photo
+├── Profile.jpg             # Hero section profile photo (circular badge)
+├── About Me.jpg            # About section profile photo
 ├── contact_messages.log    # Contact form logs (auto-generated)
 ├── .gitignore              # Git ignore file
 └── README.md              # This file
 ```
 
-## 🎉 Recent Updates (December 2025)
+## 🎉 Recent Updates (December 2024)
 
-### New Features Added:
+### Latest Features (December 21, 2024):
+- ✅ **Circular Badge Profile** - Hero section with rotating rings and name text around circle
+- ✅ **Animated Role Text** - "Software Engineer / Full-Stack Developer" with gradient flowing letters
+- ✅ **Minimalist Hero Design** - Professional "HELLO, I'M" greeting with 2 action buttons
+- ✅ **Updated About Section** - Professional image frame with new About Me.jpg
+- ✅ **Updated Stats** - 10+ Technologies, 23 Projects, 19 Certificates
+- ✅ **Seeking Opportunities** - Clear messaging about seeking software engineering role/internship
+- ✅ **Scroll Indicator** - Animated mouse icon with "SCROLL DOWN" text
+
+### Previous Updates:
 - ✅ **CV Viewer Page** (`cv.php`) - Professional CV with print/view functionality
-- ✅ **Animated Loading Screen** - Tech-themed loading animation with floating icons
-- ✅ **Certificate Links** - All certificates now link to verification pages
+- ✅ **Certificate Filtering** - Filter by Python, Java, Web, Database, Security, Other
+- ✅ **Project Filtering** - Filter by All, Web, Desktop, Python
 - ✅ **Real Tech Icons** - Font Awesome icons with authentic brand colors
-- ✅ **Project Updates** - Added EventHub, BookNest, and Weather App projects
-- ✅ **Enhanced UI** - Transparent background patterns and improved animations
+- ✅ **Modern Boxed Cards** - Rounded corners with glassmorphism effects
+- ✅ **Dark Mode Default** - Professional dark theme as default
+- ✅ **Professional Profiles** - Google Developer and Medium links added
+- ✅ **Enhanced UI** - Blue theme with gradient effects and smooth animations
 
 ## 🌟 Features to Add (Optional)
 
