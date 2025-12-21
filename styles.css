@@ -1557,6 +1557,43 @@ body::after {
     margin-bottom: 1rem;
 }
 
+/* Brand-specific certificate icon colors */
+.certificate-icon .fa-python {
+    color: #3776AB;
+}
+
+.certificate-icon .fa-java {
+    color: #007396;
+}
+
+.certificate-icon .fa-html5 {
+    color: #E34F26;
+}
+
+.certificate-icon .fa-css3-alt {
+    color: #1572B6;
+}
+
+.certificate-icon .fa-database {
+    color: #00758F;
+}
+
+.certificate-icon .fa-shield-alt {
+    color: #00BCEB;
+}
+
+.certificate-icon .fa-cloud {
+    color: #FF9900;
+}
+
+.certificate-icon .fa-hackerrank {
+    color: #2EC866;
+}
+
+.certificate-icon .fa-globe {
+    color: #4A90E2;
+}
+
 .certificate-card h3 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
