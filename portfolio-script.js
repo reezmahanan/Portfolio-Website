@@ -441,32 +441,43 @@ console.log('%c📧 reezmahanan@gmail.com', 'font-size: 12px; color: #10b981;');
 // ============================================
 // Project Filtering
 // ============================================
-const filterButtons = document.querySelectorAll('.filter-btn');
-const projectCards = document.querySelectorAll('.project-card');
+document.addEventListener('DOMContentLoaded', () => {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+    
+    console.log('Filter buttons found:', filterButtons.length);
+    console.log('Project cards found:', projectCards.length);
 
-filterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        // Remove active class from all buttons
-        filterButtons.forEach(btn => btn.classList.remove('active'));
-        // Add active class to clicked button
-        button.classList.add('active');
-        
-        const filterValue = button.getAttribute('data-filter');
-        
-        projectCards.forEach(card => {
-            if (filterValue === 'all') {
-                card.classList.remove('hidden');
-                card.style.display = 'flex';
-            } else {
-                const category = card.getAttribute('data-category');
-                if (category === filterValue) {
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Remove active class from all buttons
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            // Add active class to clicked button
+            button.classList.add('active');
+            
+            const filterValue = button.getAttribute('data-filter');
+            console.log('Filter clicked:', filterValue);
+            
+            let visibleCount = 0;
+            projectCards.forEach(card => {
+                if (filterValue === 'all') {
                     card.classList.remove('hidden');
-                    card.style.display = 'flex';
+                    card.style.display = 'block';
+                    visibleCount++;
                 } else {
-                    card.classList.add('hidden');
-                    card.style.display = 'none';
+                    const category = card.getAttribute('data-category');
+                    if (category === filterValue) {
+                        card.classList.remove('hidden');
+                        card.style.display = 'block';
+                        visibleCount++;
+                    } else {
+                        card.classList.add('hidden');
+                        card.style.display = 'none';
+                    }
                 }
-            }
+            });
+            
+            console.log('Visible cards:', visibleCount);
         });
     });
 });

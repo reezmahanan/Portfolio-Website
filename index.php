@@ -1157,6 +1157,6 @@ $visitor_count = updateVisitorCount();
     </footer>
 
     <!-- JavaScript -->
-    <script src="portfolio-script.js"></script>
+    <script src="portfolio-script.js?v=<?php echo time(); ?>"></script>
 </body>
 </html>
