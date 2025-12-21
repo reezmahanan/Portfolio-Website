@@ -786,9 +786,9 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Python Calculator',
                         'description' => 'Feature-rich calculator application built with Python and Tkinter GUI. Supports basic arithmetic operations, scientific calculations, and history tracking.',
                         'image' => 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=500&fit=crop',
-                        'github' => 'https://github.com/reezmahanan/Python-Calculator',
+                        'github' => 'https://github.com/reezmahanan/Py-Calculator',
                         'features' => ['➕ Basic Operations', '🔬 Scientific Mode', '📜 History', '🎨 GUI Interface'],
-                        'technologies' => ['Python', 'Tkinter', 'Math Library']
+                        'technologies' => ['Python']
                     ],
                     [
                         'featured' => true,
