@@ -693,9 +693,31 @@ body::after {
     margin-bottom: 1.5rem;
     letter-spacing: 1px;
     background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 50%, #2563eb 100%);
+    background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    animation: roleSlideIn 1s ease-out, roleGradientPush 3s ease-in-out infinite 1s;
+}
+
+@keyframes roleSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes roleGradientPush {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
 }
 
 .hero-role-animated {
