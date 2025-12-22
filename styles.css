@@ -2179,6 +2179,11 @@ body::after {
         margin-bottom: 1rem;
     }
 
+    .role-separator {
+        width: 100%;
+        margin: 0;
+    }
+
     .hero-description-text {
         font-size: 0.85rem;
         line-height: 1.6;
@@ -2325,6 +2330,11 @@ body::after {
 
     .hero-role-animated {
         font-size: 0.75rem;
+    }
+
+    .role-separator {
+        width: 100%;
+        margin: 0;
     }
 
     .hero-description-text {
