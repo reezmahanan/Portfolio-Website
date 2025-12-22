@@ -58,7 +58,7 @@ $visitor_count = updateVisitorCount();
     <meta property="og:title" content="<?php echo $portfolio_config['name']; ?> - AI & Web Developer">
     <meta property="og:description" content="AI/ML enthusiast & full-stack developer. Building intelligent web solutions with Python, PHP, and modern technologies.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="profile design.png">
+    <meta property="og:image" content="profile-design.png">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -198,7 +198,7 @@ $visitor_count = updateVisitorCount();
                             <div class="badge-ring white-ring"></div>
                             <div class="badge-ring brown-ring"></div>
                             <div class="profile-circle">
-                                <img src="profile design.png?v=<?php echo time(); ?>" alt="<?php echo $portfolio_config['name']; ?>" class="profile-img">
+                                <img src="profile-design.png?v=<?php echo time(); ?>" alt="<?php echo $portfolio_config['name']; ?>" class="profile-img">
                             </div>
                             <svg class="badge-text-svg" viewBox="0 0 200 200">
                                 <defs>
