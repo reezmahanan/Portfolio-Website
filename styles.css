@@ -2299,7 +2299,18 @@ body::after {
     }
 
     .scroll-indicator {
-        bottom: 1px;
+        bottom: 10px;
+        gap: 0.3rem;
+    }
+
+    .mouse-icon {
+        width: 24px;
+        height: 38px;
+    }
+
+    .scroll-indicator p {
+        font-size: 0.65rem;
+        letter-spacing: 1.5px;
     }
 }
 /* Extra Small Devices (phones, less than 480px) */
@@ -2346,5 +2357,26 @@ body::after {
 
     .hero-buttons {
         gap: 0.8rem;
+    }
+
+    .scroll-indicator {
+        bottom: 8px;
+        gap: 0.25rem;
+    }
+
+    .mouse-icon {
+        width: 20px;
+        height: 32px;
+        border-width: 1.5px;
+    }
+
+    .mouse-wheel {
+        width: 3px;
+        height: 6px;
+    }
+
+    .scroll-indicator p {
+        font-size: 0.6rem;
+        letter-spacing: 1px;
     }
 }
