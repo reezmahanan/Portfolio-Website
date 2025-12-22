@@ -4,9 +4,9 @@ A modern, responsive portfolio website showcasing software engineering projects,
 
 ## 🔗 Live Demo
 
-[![View Demo](https://img.shields.io/badge/View-Live%20Demo-blue?style=for-the-badge&logo=internet-explorer)](http://reezma-hanan.great-site.net)
+[![View Demo](https://img.shields.io/badge/View-Live%20Demo-blue?style=for-the-badge&logo=internet-explorer)](https://reezmaportfolio.great-site.net)
 
-🌐 **Live Site:** [http://reezma-hanan.great-site.net](http://reezma-hanan.great-site.net)
+🌐 **Live Site:** [https://reezmaportfolio.great-site.net](https://reezmaportfolio.great-site.net)
 
 ## 📋 Features
 
