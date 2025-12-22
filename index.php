@@ -167,15 +167,7 @@ $visitor_count = updateVisitorCount();
                     <h1 class="hero-name">
                         <?php echo $portfolio_config['name']; ?>
                     </h1>
-                    <div class="hero-role-animated">
-                        <span class="role-letter">S</span><span class="role-letter">o</span><span class="role-letter">f</span><span class="role-letter">t</span><span class="role-letter">w</span><span class="role-letter">a</span><span class="role-letter">r</span><span class="role-letter">e</span>
-                        <span class="role-letter"> </span>
-                        <span class="role-letter">E</span><span class="role-letter">n</span><span class="role-letter">g</span><span class="role-letter">i</span><span class="role-letter">n</span><span class="role-letter">e</span><span class="role-letter">e</span><span class="role-letter">r</span>
-                        <span class="role-separator"> / </span>
-                        <span class="role-letter">F</span><span class="role-letter">u</span><span class="role-letter">l</span><span class="role-letter">l</span><span class="role-letter">-</span><span class="role-letter">S</span><span class="role-letter">t</span><span class="role-letter">a</span><span class="role-letter">c</span><span class="role-letter">k</span>
-                        <span class="role-letter"> </span>
-                        <span class="role-letter">D</span><span class="role-letter">e</span><span class="role-letter">v</span><span class="role-letter">e</span><span class="role-letter">l</span><span class="role-letter">o</span><span class="role-letter">p</span><span class="role-letter">e</span><span class="role-letter">r</span>
-                    </div>
+                    <p class="hero-role">Software Engineer | Full-Stack Developer</p>
                     <p class="hero-description-text">
                         Passionate about creating innovative digital solutions with a focus on web and software development. Transforming ideas into elegant, user-friendly applications with modern technologies.
                     </p>
@@ -212,12 +204,6 @@ $visitor_count = updateVisitorCount();
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="scroll-indicator">
-                <div class="mouse-icon">
-                    <div class="mouse-wheel"></div>
-                </div>
-                <p>SCROLL DOWN</p>
             </div>
         </div>
     </section>

@@ -687,6 +687,17 @@ body::after {
     background-clip: text;
 }
 
+.hero-role {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 50%, #2563eb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 .hero-role-animated {
     font-size: 1.5rem;
     font-weight: 700;
@@ -2080,6 +2091,10 @@ body::after {
         font-size: 2.5rem;
     }
 
+    .hero-role {
+        font-size: 1.1rem;
+    }
+
     .hero-role-animated {
         font-size: 1.1rem;
         justify-content: center;
@@ -2171,6 +2186,11 @@ body::after {
         font-size: 1.8rem;
         letter-spacing: -1px;
         margin-bottom: 0.5rem;
+    }
+
+    .hero-role {
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
     }
 
     .hero-role-animated {
@@ -2328,13 +2348,12 @@ body::after {
         font-size: 1.5rem;
     }
 
-    .hero-role-animated {
+    .hero-role {
         font-size: 0.75rem;
     }
 
-    .role-separator {
-        width: 100%;
-        margin: 0;
+    .hero-role-animated {
+        font-size: 0.75rem;
     }
 
     .hero-description-text {
