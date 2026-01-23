@@ -197,7 +197,7 @@ This project is open source and available for personal and educational use.
 ## 👤 Author
 
 **Reezma Hanan**
-- 🌐 Portfolio: [reezmaportfolio.great-site.net](https://reezmaportfolio.great-site.net)
+- 🌐 Portfolio: [reezmahanan.github.io/Portfolio-Website/](https://reezmahanan.github.io/Portfolio-Website/)
 - 💼 LinkedIn: [linkedin.com/in/reezma-hanan](https://linkedin.com/in/reezma-hanan)
 - 🐙 GitHub: [github.com/reezmahanan](https://github.com/reezmahanan)
 - 📧 Email: reezmahanan@gmail.com
