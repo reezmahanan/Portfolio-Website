@@ -1,34 +1,26 @@
 // Portfolio JavaScript Functionality
 
 // ============================================
-// Visitor Counter (using localStorage)
+// Visitor Counter (counts every visit)
 // ============================================
 function updateVisitorCount() {
-    const today = new Date().toDateString();
-    let visitorData = localStorage.getItem('visitorData');
+    let visitorCount = localStorage.getItem('visitorCount');
     
-    if (visitorData) {
-        visitorData = JSON.parse(visitorData);
-        if (visitorData.lastVisit !== today) {
-            visitorData.count++;
-            visitorData.lastVisit = today;
-        }
+    if (visitorCount) {
+        visitorCount = parseInt(visitorCount) + 1;
     } else {
-        visitorData = {
-            count: 1,
-            lastVisit: today
-        };
+        visitorCount = 1;
     }
     
-    localStorage.setItem('visitorData', JSON.stringify(visitorData));
+    localStorage.setItem('visitorCount', visitorCount);
     
     // Update visitor count in footer
     const visitorCountElements = document.querySelectorAll('#footerVisitorCount, #visitorCount');
     visitorCountElements.forEach(el => {
-        if (el) el.textContent = visitorData.count;
+        if (el) el.textContent = visitorCount;
     });
     
-    return visitorData.count;
+    return visitorCount;
 }
 
 // Initialize visitor count on page load
