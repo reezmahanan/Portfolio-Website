@@ -9,8 +9,8 @@
     /* Light Theme Colors - Light Blue & Dark Blue */
     --primary-color: #3b82f6;
     --secondary-color: #1e40af;
-    --accent-color: #60a5fa;
-    --text-color: #1e293b;
+    --accent-color: #2563eb;
+    --text-color: #0f172a;
     --bg-color: #eff6ff;
     --card-bg: rgba(239, 246, 255, 0.7);
     --border-color: rgba(147, 197, 253, 0.3);
@@ -21,6 +21,7 @@
     --gradient-3: linear-gradient(135deg, #93c5fd 0%, #3b82f6 100%);
     --glass-bg: rgba(239, 246, 255, 0.25);
     --glass-border: rgba(147, 197, 253, 0.18);
+    --heading-color: #0c1a2e;
 }
 
 [data-theme="dark"] {
@@ -36,6 +37,7 @@
     --code-bg: rgba(30, 58, 138, 0.8);
     --glass-bg: rgba(15, 23, 42, 0.4);
     --glass-border: rgba(59, 130, 246, 0.1);
+    --heading-color: #ffffff;
 }
 
 html {
@@ -53,6 +55,15 @@ body {
     overflow-x: hidden;
     position: relative;
     font-weight: 400;
+}
+
+/* Typography for better readability in light mode */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+}
+
+p, span, a, li {
+    color: var(--text-color);
 }
 
 /* Animated Particles Background */
