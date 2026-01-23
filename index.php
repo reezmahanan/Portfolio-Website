@@ -227,7 +227,7 @@ $visitor_count = updateVisitorCount();
                     </p>
                     
                     <p class="about-description">
-                        My journey in software engineering has equipped me with expertise in modern technologies including <strong>Java, Python, PHP, JavaScript</strong>, and various frameworks. I'm also passionate about <strong>Cloud Computing (AWS, Azure, Google Cloud)</strong>, UI/UX design and believe that great code should always be paired with an exceptional user experience.
+                        My journey in software engineering has equipped me with expertise in modern technologies including <strong>Java, Python, PHP, JavaScript</strong>, and various frameworks. I'm currently exploring <strong>Node.js, React.js, and C++</strong> to expand my development skills. I'm also passionate about <strong>Cloud Computing (AWS, Azure, Google Cloud)</strong>, <strong>Cyber Security</strong>, and UI/UX design, believing that great code should always be paired with an exceptional user experience.
                     </p>
                     
                     <p class="about-description">
@@ -266,7 +266,7 @@ $visitor_count = updateVisitorCount();
                     </div>
                     <div class="education-content">
                         <div class="education-header">
-                            <h3 class="education-degree">National Diploma in Information Technology (NDIT)</h3>
+                            <h3 class="education-degree">National Diploma in Information Technology (NDT IT)</h3>
                             <span class="education-duration">Oct 2024 - Present</span>
                         </div>
                         <div class="education-institution">
@@ -276,12 +276,6 @@ $visitor_count = updateVisitorCount();
                         <div class="education-location">
                             <i class="fas fa-map-marker-alt"></i>
                             Diyagama, Homagama, Sri Lanka
-                        </div>
-                        <div class="education-status">
-                            <span class="status-badge">
-                                <i class="fas fa-clock"></i>
-                                Currently Studying
-                            </span>
                         </div>
                         <div class="education-description">
                             <p>Pursuing comprehensive education in software development, web technologies, database management, and modern IT practices.</p>
@@ -306,12 +300,6 @@ $visitor_count = updateVisitorCount();
                             <i class="fas fa-map-marker-alt"></i>
                             Batticaloa
                         </div>
-                        <div class="education-status">
-                            <span class="status-badge completed">
-                                <i class="fas fa-check-circle"></i>
-                                Completed - 2020
-                            </span>
-                        </div>
                         <div class="education-description">
                             <p>Completed Advanced Level education focusing on Physical Science stream, building strong foundation in scientific and analytical thinking.</p>
                         </div>
@@ -335,12 +323,6 @@ $visitor_count = updateVisitorCount();
                             <i class="fas fa-map-marker-alt"></i>
                             Batticaloa
                         </div>
-                        <div class="education-status">
-                            <span class="status-badge completed">
-                                <i class="fas fa-check-circle"></i>
-                                Completed - 2017
-                            </span>
-                        </div>
                         <div class="education-achievement">
                             <div class="achievement-badge">
                                 <i class="fas fa-trophy"></i>
@@ -360,116 +342,38 @@ $visitor_count = updateVisitorCount();
     <section class="skills section" id="skills">
         <div class="container">
             <h2 class="section-title fade-in">Technical Skills</h2>
-            <p class="section-subtitle fade-in">Technologies and tools I work with</p>
+            <p class="section-subtitle fade-in">Technologies I Focus</p>
             
             <div class="skills-grid">
                 <?php
-                $skills_categories = [
-                    [
-                        'icon' => '<i class="fas fa-code"></i>',
-                        'title' => 'Programming Languages',
-                        'skills' => [
-                            ['name' => 'Java', 'icon' => '<i class="fab fa-java"></i>'],
-                            ['name' => 'Python', 'icon' => '<i class="fab fa-python"></i>'],
-                            ['name' => 'PHP', 'icon' => '<i class="fab fa-php"></i>'],
-                            ['name' => 'JavaScript', 'icon' => '<i class="fab fa-js"></i>'],
-                            ['name' => 'MATLAB', 'icon' => '<i class="fas fa-calculator"></i>']
-                        ]
-                    ],
-                    [
-                        'icon' => '<i class="fas fa-globe"></i>',
-                        'title' => 'Web Development',
-                        'skills' => [
-                            ['name' => 'HTML5', 'icon' => '<i class="fab fa-html5"></i>'],
-                            ['name' => 'CSS3', 'icon' => '<i class="fab fa-css3-alt"></i>'],
-                            ['name' => 'JavaScript', 'icon' => '<i class="fab fa-js-square"></i>'],
-                            ['name' => 'Responsive Design', 'icon' => '<i class="fas fa-mobile-alt"></i>'],
-                            ['name' => 'Web APIs', 'icon' => '<i class="fas fa-plug"></i>']
-                        ]
-                    ],
-                    [
-                        'icon' => '<i class="fas fa-database"></i>',
-                        'title' => 'Databases',
-                        'skills' => [
-                            ['name' => 'MySQL', 'icon' => '<i class="fas fa-database"></i>'],
-                            ['name' => 'SQL', 'icon' => '<i class="fas fa-table"></i>'],
-                            ['name' => 'Database Design', 'icon' => '<i class="fas fa-project-diagram"></i>'],
-                            ['name' => 'Query Optimization', 'icon' => '<i class="fas fa-tachometer-alt"></i>']
-                        ]
-                    ],
-                    [
-                        'icon' => '<i class="fas fa-cloud"></i>',
-                        'title' => 'Cloud Computing (Beginner)',
-                        'skills' => [
-                            ['name' => 'AWS', 'icon' => '<i class="fab fa-aws"></i>'],
-                            ['name' => 'Azure', 'icon' => '<i class="fab fa-microsoft"></i>'],
-                            ['name' => 'Google Cloud', 'icon' => '<i class="fab fa-google"></i>'],
-                            ['name' => 'Cloud Fundamentals', 'icon' => '<i class="fas fa-cloud-upload-alt"></i>']
-                        ]
-                    ],
-                    [
-                        'icon' => '<i class="fas fa-palette"></i>',
-                        'title' => 'Design Tools',
-                        'skills' => [
-                            ['name' => 'Figma', 'icon' => '<i class="fab fa-figma"></i>'],
-                            ['name' => 'Canva', 'icon' => '<i class="fas fa-pen-fancy"></i>'],
-                            ['name' => 'UI/UX Design Basics', 'icon' => '<i class="fas fa-paint-brush"></i>']
-                        ]
-                    ],
-                    [
-                        'icon' => '<i class="fas fa-tools"></i>',
-                        'title' => 'Development Tools',
-                        'skills' => [
-                            ['name' => 'IntelliJ IDEA', 'icon' => '<i class="fas fa-laptop-code"></i>'],
-                            ['name' => 'VS Code', 'icon' => '<i class="fas fa-code"></i>'],
-                            ['name' => 'Git', 'icon' => '<i class="fab fa-git-alt"></i>'],
-                            ['name' => 'GitHub', 'icon' => '<i class="fab fa-github"></i>']
-                        ]
-                    ],
-                    [
-                        'icon' => '<i class="fas fa-briefcase"></i>',
-                        'title' => 'Productivity Tools',
-                        'skills' => [
-                            ['name' => 'Microsoft Excel', 'icon' => '<i class="fas fa-file-excel"></i>'],
-                            ['name' => 'Word', 'icon' => '<i class="fas fa-file-word"></i>'],
-                            ['name' => 'PowerPoint', 'icon' => '<i class="fas fa-file-powerpoint"></i>'],
-                            ['name' => 'Gamma AI', 'icon' => '<i class="fas fa-robot"></i>']
-                        ]
-                    ],
-                    [
-                        'icon' => '<i class="fas fa-video"></i>',
-                        'title' => 'Content Creation',
-                        'skills' => [
-                            ['name' => 'CapCut', 'icon' => '<i class="fas fa-cut"></i>'],
-                            ['name' => 'InShot', 'icon' => '<i class="fas fa-film"></i>'],
-                            ['name' => 'Video Editing', 'icon' => '<i class="fas fa-video"></i>']
-                        ]
-                    ],
-                    [
-                        'icon' => '<i class="fas fa-graduation-cap"></i>',
-                        'title' => 'Learning Platforms',
-                        'skills' => [
-                            ['name' => 'HackerRank', 'icon' => '<i class="fas fa-code"></i>'],
-                            ['name' => 'Cisco Academy', 'icon' => '<i class="fas fa-network-wired"></i>'],
-                            ['name' => 'Microsoft Learn', 'icon' => '<i class="fab fa-microsoft"></i>'],
-                            ['name' => 'AWS Educate', 'icon' => '<i class="fab fa-aws"></i>'],
-                            ['name' => 'SoloLearn', 'icon' => '<i class="fas fa-user-graduate"></i>'],
-                            ['name' => 'GeeksforGeeks', 'icon' => '<i class="fas fa-laptop-code"></i>'],
-                            ['name' => 'W3Schools', 'icon' => '<i class="fas fa-school"></i>'],
-                            ['name' => 'Simplilearn', 'icon' => '<i class="fas fa-book-reader"></i>']
-                        ]
-                    ]
+                $skills = [
+                    ['name' => 'Java', 'icon' => '<i class="fab fa-java"></i>'],
+                    ['name' => 'Python', 'icon' => '<i class="fab fa-python"></i>'],
+                    ['name' => 'C++', 'icon' => '<i class="fas fa-code"></i>'],
+                    ['name' => 'JavaScript', 'icon' => '<i class="fab fa-js"></i>'],
+                    ['name' => 'React', 'icon' => '<i class="fab fa-react"></i>'],
+                    ['name' => 'Node.js', 'icon' => '<i class="fab fa-node-js"></i>'],
+                    ['name' => 'PHP', 'icon' => '<i class="fab fa-php"></i>'],
+                    ['name' => 'HTML5', 'icon' => '<i class="fab fa-html5"></i>'],
+                    ['name' => 'CSS3', 'icon' => '<i class="fab fa-css3-alt"></i>'],
+                    ['name' => 'MySQL', 'icon' => '<i class="fas fa-database"></i>'],
+                    ['name' => 'Git', 'icon' => '<i class="fab fa-git-alt"></i>'],
+                    ['name' => 'GitHub', 'icon' => '<i class="fab fa-github"></i>'],
+                    ['name' => 'AWS', 'icon' => '<i class="fab fa-aws"></i>'],
+                    ['name' => 'Azure', 'icon' => '<i class="fab fa-microsoft"></i>'],
+                    ['name' => 'REST APIs', 'icon' => '<i class="fas fa-plug"></i>'],
+                    ['name' => 'Responsive Design', 'icon' => '<i class="fas fa-mobile-alt"></i>'],
+                    ['name' => 'VS Code', 'icon' => '<i class="fas fa-code"></i>'],
+                    ['name' => 'IntelliJ IDEA', 'icon' => '<i class="fas fa-laptop-code"></i>'],
+                    ['name' => 'Figma', 'icon' => '<i class="fab fa-figma"></i>']
                 ];
 
-                foreach ($skills_categories as $category) {
-                    echo '<div class="card skill-category fade-in">';
-                    echo '<h3>' . $category['icon'] . ' ' . $category['title'] . '</h3>';
-                    echo '<div class="skill-tags">';
-                    foreach ($category['skills'] as $skill) {
-                        echo '<span class="skill-tag">' . $skill['icon'] . ' ' . $skill['name'] . '</span>';
-                    }
-                    echo '</div></div>';
+                echo '<div class="card skill-category fade-in">';
+                echo '<div class="skill-tags">';
+                foreach ($skills as $skill) {
+                    echo '<span class="skill-tag">' . $skill['icon'] . ' ' . $skill['name'] . '</span>';
                 }
+                echo '</div></div>';
                 ?>
             </div>
         </div>
@@ -479,7 +383,7 @@ $visitor_count = updateVisitorCount();
     <section class="certificates section" id="certificates">
         <div class="container">
             <h2 class="section-title fade-in">Certificates & Achievements</h2>
-            <p class="section-subtitle fade-in">Continuous learning and professional development</p>
+            <p class="section-subtitle fade-in">Professional certifications and continuous learning journey</p>
             
             <!-- Certificate Filter Buttons -->
             <div class="certificate-filters fade-in">
@@ -489,51 +393,30 @@ $visitor_count = updateVisitorCount();
                 <button class="cert-filter-btn" data-filter="web">Web Development</button>
                 <button class="cert-filter-btn" data-filter="database">Database</button>
                 <button class="cert-filter-btn" data-filter="security">Cyber Security</button>
-                <button class="cert-filter-btn" data-filter="other">Other</button>
+                <button class="cert-filter-btn" data-filter="cloud">Cloud</button>
             </div>
             
             <div class="certificates-grid">
                 <?php
                 $certificates = [
+                    // Industry-Needed Certificates (Priority)
                     [
-                        'category' => 'python',
-                        'icon' => '<i class="fab fa-python"></i>',
-                        'title' => 'Python for Beginners',
-                        'issuer' => 'UOM CODL',
-                        'skills' => ['Python', 'Programming', 'Basics'],
-                        'link' => 'https://open.uom.lk/verify'
+                        'category' => 'security',
+                        'icon' => '<i class="fas fa-shield-alt"></i>',
+                        'title' => 'Cyber Security',
+                        'issuer' => 'Cisco Networking Academy',
+                        'skills' => ['Security', 'Networking', 'Protection'],
+                        'link' => 'https://support.credly.com/hc/en-us/articles/360026639872-Can-I-download-and-print-my-badge-certificate-',
+                        'priority' => true
                     ],
                     [
-                        'category' => 'web',
-                        'icon' => '<i class="fas fa-globe"></i>',
-                        'title' => 'Web Design for Beginners',
-                        'issuer' => 'UOM CODL',
-                        'skills' => ['HTML', 'CSS', 'Web Design'],
-                        'link' => 'https://open.uom.lk/verify'
-                    ],
-                    [
-                        'category' => 'python',
-                        'icon' => '<i class="fab fa-python"></i>',
-                        'title' => 'Python for Beginners',
-                        'issuer' => 'SoloLearn',
-                        'skills' => ['Python', 'Coding'],
-                        'link' => 'https://api2.sololearn.com/v2/certificates/CC-ZZGGBJBM/image/png?t=638965751414194114'
-                    ],
-                    [
-                        'category' => 'database',
-                        'icon' => '<i class="fas fa-database"></i>',
-                        'title' => 'SQL',
-                        'issuer' => 'SoloLearn',
-                        'skills' => ['SQL', 'Database', 'Queries'],
-                        'link' => 'https://api2.sololearn.com/v2/certificates/CC-ZZGGBJBM/image/png?t=638965751414194114'
-                    ],
-                    [
-                        'category' => 'web',
-                        'icon' => '<i class="fab fa-html5"></i>',
-                        'title' => 'HTML',
-                        'issuer' => 'SoloLearn',
-                        'skills' => ['HTML5', 'Web Development'],
-                        'link' => 'https://api2.sololearn.com/v2/certificates/CC-RBU2XEQB/image/png?t=638857708473986790'
+                        'category' => 'cloud',
+                        'icon' => '<i class="fas fa-cloud"></i>',
+                        'title' => 'Introduction to Cloud Computing',
+                        'issuer' => 'Simplilearn',
+                        'skills' => ['Cloud', 'AWS', 'Azure'],
+                        'link' => 'https://lms.simplilearn.com/#/course/3971-Introduction-to-Cloud-Computing/showCertificate/',
+                        'priority' => true
                     ],
                     [
                         'category' => 'java',
@@ -541,71 +424,8 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Java',
                         'issuer' => 'SoloLearn',
                         'skills' => ['Java', 'OOP', 'Programming'],
-                        'link' => 'https://api2.sololearn.com/v2/certificates/CC-SQOTIPNO/image/png?t=638900670629150830'
-                    ],
-                    [
-                        'category' => 'security',
-                        'icon' => '<i class="fas fa-shield-alt"></i>',
-                        'title' => 'Cyber Security',
-                        'issuer' => 'Cisco Networking Academy',
-                        'skills' => ['Security', 'Networking', 'Protection'],
-                        'link' => 'https://support.credly.com/hc/en-us/articles/360026639872-Can-I-download-and-print-my-badge-certificate-'
-                    ],
-                    [
-                        'category' => 'other',
-                        'icon' => '<i class="fas fa-rocket"></i>',
-                        'title' => 'Agile Scrum Foundation',
-                        'issuer' => 'Simplilearn',
-                        'skills' => ['Agile', 'Scrum', 'Project Management'],
-                        'link' => 'https://lms.simplilearn.com/#/course/7414-Agile-Scrum-Foundation_SkillUp/showCertificate/'
-                    ],
-                    [
-                        'category' => 'other',
-                        'icon' => '<i class="fas fa-paint-brush"></i>',
-                        'title' => 'UI/UX for Beginners',
-                        'issuer' => 'Great Learning Academy',
-                        'skills' => ['UI/UX', 'Design', 'User Experience'],
-                        'link' => 'https://www.mygreatlearning.com/certificate/QYCNOODA'
-                    ],
-                    [
-                        'category' => 'web',
-                        'icon' => '<i class="fab fa-html5"></i>',
-                        'title' => 'HTML',
-                        'issuer' => 'Great Learning Academy',
-                        'skills' => ['HTML', 'Web Development'],
-                        'link' => 'https://www.mygreatlearning.com/academy/learn-for-free/courses/front-end-development-html?utm_source=public_certificate_view&utm_medium=certificate_page&utm_campaign=course_name_link'
-                    ],
-                    [
-                        'category' => 'database',
-                        'icon' => '<i class="fas fa-database"></i>',
-                        'title' => 'MySQL Tutorial',
-                        'issuer' => 'Great Learning Academy',
-                        'skills' => ['MySQL', 'Database', 'SQL'],
-                        'link' => 'https://www.mygreatlearning.com/certificate/YADZEDEN'
-                    ],
-                    [
-                        'category' => 'other',
-                        'icon' => '<i class="fas fa-laptop-code"></i>',
-                        'title' => 'Programming Basics',
-                        'issuer' => 'Great Learning Academy',
-                        'skills' => ['Programming', 'Logic', 'Fundamentals'],
-                        'link' => 'https://www.mygreatlearning.com/certificate/JDWSMZKM'
-                    ],
-                    [
-                        'category' => 'python',
-                        'icon' => '<i class="fab fa-python"></i>',
-                        'title' => 'Python Fundamentals for Beginners',
-                        'issuer' => 'Great Learning Academy',
-                        'skills' => ['Python', 'Basics', 'Programming'],
-                        'link' => 'https://www.mygreatlearning.com/certificate/UBKRGSMR'
-                    ],
-                    [
-                        'category' => 'python',
-                        'icon' => '<i class="fas fa-project-diagram"></i>',
-                        'title' => 'Python Project for Beginners',
-                        'issuer' => 'Great Learning Academy',
-                        'skills' => ['Python', 'Project', 'Hands-on'],
-                        'link' => '#' // Add your certificate link here
+                        'link' => 'https://api2.sololearn.com/v2/certificates/CC-SQOTIPNO/image/png?t=638900670629150830',
+                        'priority' => true
                     ],
                     [
                         'category' => 'java',
@@ -613,15 +433,44 @@ $visitor_count = updateVisitorCount();
                         'title' => 'OOPs in Java',
                         'issuer' => 'Simplilearn',
                         'skills' => ['Java', 'OOP', 'Programming'],
-                        'link' => '#' // Add your certificate link here
+                        'link' => '#',
+                        'priority' => true
                     ],
                     [
-                        'category' => 'security',
-                        'icon' => '<i class="fas fa-shield-alt"></i>',
-                        'title' => 'Introduction to Cyber Security',
-                        'issuer' => 'Simplilearn',
-                        'skills' => ['Security', 'Cyber Threats'],
-                        'link' => 'https://lms.simplilearn.com/#/course/3736-Introduction-to-Cyber-Security/showCertificate/'
+                        'category' => 'database',
+                        'icon' => '<i class="fas fa-database"></i>',
+                        'title' => 'SQL',
+                        'issuer' => 'SoloLearn',
+                        'skills' => ['SQL', 'Database', 'Queries'],
+                        'link' => 'https://api2.sololearn.com/v2/certificates/CC-ZZGGBJBM/image/png?t=638965751414194114',
+                        'priority' => true
+                    ],
+                    [
+                        'category' => 'database',
+                        'icon' => '<i class="fas fa-database"></i>',
+                        'title' => 'MySQL Tutorial',
+                        'issuer' => 'Great Learning Academy',
+                        'skills' => ['MySQL', 'Database', 'SQL'],
+                        'link' => 'https://www.mygreatlearning.com/certificate/YADZEDEN',
+                        'priority' => true
+                    ],
+                    [
+                        'category' => 'python',
+                        'icon' => '<i class="fab fa-python"></i>',
+                        'title' => 'Python for Beginners',
+                        'issuer' => 'SoloLearn',
+                        'skills' => ['Python', 'Coding'],
+                        'link' => 'https://api2.sololearn.com/v2/certificates/CC-ZZGGBJBM/image/png?t=638965751414194114',
+                        'priority' => true
+                    ],
+                    [
+                        'category' => 'web',
+                        'icon' => '<i class="fab fa-html5"></i>',
+                        'title' => 'HTML',
+                        'issuer' => 'SoloLearn',
+                        'skills' => ['HTML5', 'Web Development'],
+                        'link' => 'https://api2.sololearn.com/v2/certificates/CC-RBU2XEQB/image/png?t=638857708473986790',
+                        'priority' => true
                     ],
                     [
                         'category' => 'web',
@@ -629,15 +478,91 @@ $visitor_count = updateVisitorCount();
                         'title' => 'CSS (Basic)',
                         'issuer' => 'HackerRank',
                         'skills' => ['CSS', 'Styling', 'Web Design'],
-                        'link' => 'https://www.hackerrank.com/certificates/3c7f4b161fcf'
+                        'link' => 'https://www.hackerrank.com/certificates/3c7f4b161fcf',
+                        'priority' => true
                     ],
                     [
-                        'category' => 'other',
-                        'icon' => '<i class="fas fa-cloud"></i>',
-                        'title' => 'Introduction to Cloud Computing',
+                        'category' => 'security',
+                        'icon' => '<i class="fas fa-shield-alt"></i>',
+                        'title' => 'Introduction to Cyber Security',
                         'issuer' => 'Simplilearn',
-                        'skills' => ['Cloud', 'AWS', 'Azure'],
-                        'link' => 'https://lms.simplilearn.com/#/course/3971-Introduction-to-Cloud-Computing/showCertificate/'
+                        'skills' => ['Security', 'Cyber Threats'],
+                        'link' => 'https://lms.simplilearn.com/#/course/3736-Introduction-to-Cyber-Security/showCertificate/',
+                        'priority' => true
+                    ],
+                    
+                    // Additional Certificates (Show More)
+                    [
+                        'category' => 'python',
+                        'icon' => '<i class="fab fa-python"></i>',
+                        'title' => 'Python for Beginners',
+                        'issuer' => 'UOM CODL',
+                        'skills' => ['Python', 'Programming', 'Basics'],
+                        'link' => 'https://open.uom.lk/verify',
+                        'priority' => false
+                    ],
+                    [
+                        'category' => 'web',
+                        'icon' => '<i class="fas fa-globe"></i>',
+                        'title' => 'Web Design for Beginners',
+                        'issuer' => 'UOM CODL',
+                        'skills' => ['HTML', 'CSS', 'Web Design'],
+                        'link' => 'https://open.uom.lk/verify',
+                        'priority' => false
+                    ],
+                    [
+                        'category' => 'cloud',
+                        'icon' => '<i class="fas fa-rocket"></i>',
+                        'title' => 'Agile Scrum Foundation',
+                        'issuer' => 'Simplilearn',
+                        'skills' => ['Agile', 'Scrum', 'Project Management'],
+                        'link' => 'https://lms.simplilearn.com/#/course/7414-Agile-Scrum-Foundation_SkillUp/showCertificate/',
+                        'priority' => false
+                    ],
+                    [
+                        'category' => 'web',
+                        'icon' => '<i class="fas fa-paint-brush"></i>',
+                        'title' => 'UI/UX for Beginners',
+                        'issuer' => 'Great Learning Academy',
+                        'skills' => ['UI/UX', 'Design', 'User Experience'],
+                        'link' => 'https://www.mygreatlearning.com/certificate/QYCNOODA',
+                        'priority' => false
+                    ],
+                    [
+                        'category' => 'web',
+                        'icon' => '<i class="fab fa-html5"></i>',
+                        'title' => 'HTML',
+                        'issuer' => 'Great Learning Academy',
+                        'skills' => ['HTML', 'Web Development'],
+                        'link' => 'https://www.mygreatlearning.com/academy/learn-for-free/courses/front-end-development-html?utm_source=public_certificate_view&utm_medium=certificate_page&utm_campaign=course_name_link',
+                        'priority' => false
+                    ],
+                    [
+                        'category' => 'cloud',
+                        'icon' => '<i class="fas fa-laptop-code"></i>',
+                        'title' => 'Programming Basics',
+                        'issuer' => 'Great Learning Academy',
+                        'skills' => ['Programming', 'Logic', 'Fundamentals'],
+                        'link' => 'https://www.mygreatlearning.com/certificate/JDWSMZKM',
+                        'priority' => false
+                    ],
+                    [
+                        'category' => 'python',
+                        'icon' => '<i class="fab fa-python"></i>',
+                        'title' => 'Python Fundamentals for Beginners',
+                        'issuer' => 'Great Learning Academy',
+                        'skills' => ['Python', 'Basics', 'Programming'],
+                        'link' => 'https://www.mygreatlearning.com/certificate/UBKRGSMR',
+                        'priority' => false
+                    ],
+                    [
+                        'category' => 'python',
+                        'icon' => '<i class="fas fa-project-diagram"></i>',
+                        'title' => 'Python Project for Beginners',
+                        'issuer' => 'Great Learning Academy',
+                        'skills' => ['Python', 'Project', 'Hands-on'],
+                        'link' => '#',
+                        'priority' => false
                     ],
                     [
                         'category' => 'web',
@@ -645,13 +570,17 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Introduction to CSS',
                         'issuer' => 'SoloLearn',
                         'skills' => ['CSS3', 'Styling', 'Design'],
-                        'link' => 'https://www.sololearn.com/certificates/CC-8BTBXIXY'
+                        'link' => 'https://www.sololearn.com/certificates/CC-8BTBXIXY',
+                        'priority' => false
                     ]
                 ];
 
                 foreach ($certificates as $cert) {
-                    $category = isset($cert['category']) ? $cert['category'] : 'other';
-                    echo '<div class="card certificate-card fade-in" data-category="' . $category . '">';
+                    $category = isset($cert['category']) ? $cert['category'] : 'cloud';
+                    $isPriority = isset($cert['priority']) && $cert['priority'];
+                    $extraClass = $isPriority ? '' : ' certificate-extra';
+                    
+                    echo '<div class="card certificate-card fade-in' . $extraClass . '" data-category="' . $category . '">';
                     echo '<div class="certificate-icon">' . $cert['icon'] . '</div>';
                     echo '<h3>' . $cert['title'] . '</h3>';
                     echo '<p class="certificate-issuer">' . $cert['issuer'] . '</p>';
@@ -667,6 +596,12 @@ $visitor_count = updateVisitorCount();
                 }
                 ?>
             </div>
+            
+            <div class="see-more-container">
+                <button id="seeMoreCerts" class="btn see-more-btn">
+                    <i class="fas fa-chevron-down"></i> See More Certificates
+                </button>
+            </div>
         </div>
     </section>
 
@@ -674,7 +609,7 @@ $visitor_count = updateVisitorCount();
     <section class="projects section" id="projects">
         <div class="container">
             <h2 class="section-title fade-in">Featured Projects</h2>
-            <p class="section-subtitle fade-in">Showcasing my work and creative solutions</p>
+            <p class="section-subtitle fade-in">Innovative solutions crafted with focus on real-world impact</p>
             
             <!-- Project Filter Buttons -->
             <div class="project-filters fade-in">
@@ -687,7 +622,9 @@ $visitor_count = updateVisitorCount();
             <div class="projects-grid">
                 <?php
                 $projects = [
+                    // Priority Industry-Needed Projects
                     [
+                        'priority' => true,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '📅',
@@ -699,6 +636,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']
                     ],
                     [
+                        'priority' => true,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '📚',
@@ -710,6 +648,43 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']
                     ],
                     [
+                        'priority' => true,
+                        'featured' => true,
+                        'icon' => '📚',
+                        'title' => 'Library Management System',
+                        'category' => 'desktop',
+                        'description' => 'Java-based desktop application for managing library operations including book cataloging, member management, book lending, returns, and fine calculation. Features GUI built with Java Swing.',
+                        'image' => 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=500&fit=crop',
+                        'github' => 'https://github.com/reezmahanan/Library-Management-System',
+                        'features' => ['📖 Book Management', '👤 Member System', '🔄 Lending/Returns', '💰 Fine Calculator'],
+                        'technologies' => ['Java']
+                    ],
+                    [
+                        'priority' => true,
+                        'featured' => true,
+                        'icon' => '🎓',
+                        'title' => 'Student Management System',
+                        'category' => 'desktop',
+                        'description' => 'Comprehensive Java application for managing student records, attendance tracking, grade management, and report generation. Built with object-oriented programming principles.',
+                        'image' => 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=500&fit=crop',
+                        'github' => 'https://github.com/reezmahanan/Student-Management-System',
+                        'features' => ['📝 Student Records', '📊 Attendance Tracking', '🎯 Grade Management', '📄 Report Generation'],
+                        'technologies' => ['Java']
+                    ],
+                    [
+                        'priority' => true,
+                        'featured' => true,
+                        'icon' => '📦',
+                        'title' => 'Inventory Management System (IMS)',
+                        'category' => 'desktop',
+                        'description' => 'Java-based inventory management system for tracking products, managing stock levels, handling suppliers, and generating inventory reports. Features robust database integration.',
+                        'image' => 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&h=500&fit=crop',
+                        'github' => 'https://github.com/reezmahanan/IMS',
+                        'features' => ['📊 Stock Tracking', '🏪 Supplier Management', '📈 Reports', '⚠️ Low Stock Alerts'],
+                        'technologies' => ['Java']
+                    ],
+                    [
+                        'priority' => true,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '🌤️',
@@ -721,6 +696,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML', 'CSS', 'JavaScript', 'PHP', 'Weather API']
                     ],
                     [
+                        'priority' => true,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '💼',
@@ -733,39 +709,34 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['PHP', 'HTML', 'CSS', 'JavaScript']
                     ],
                     [
+                        'priority' => true,
                         'featured' => true,
-                        'icon' => '📚',
-                        'title' => 'Library Management System',
-                        'category' => 'desktop',
-                        'description' => 'Java-based desktop application for managing library operations including book cataloging, member management, book lending, returns, and fine calculation. Features GUI built with Java Swing.',
-                        'image' => 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=500&fit=crop',
-                        'github' => 'https://github.com/reezmahanan/Library-Management-System',
-                        'features' => ['📖 Book Management', '👤 Member System', '🔄 Lending/Returns', '💰 Fine Calculator'],
-                        'technologies' => ['Java']
+                        'category' => 'web',
+                        'icon' => '📬',
+                        'title' => 'Contact Form',
+                        'description' => 'Professional contact form with PHP backend for secure message handling and email notifications.',
+                        'image' => 'https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=800&h=500&fit=crop',
+                        'github' => 'https://github.com/reezmahanan/Contact-Form',
+                        'features' => ['📧 Email Notifications', '✅ Validation', '🔒 Secure', '📱 Responsive'],
+                        'technologies' => ['PHP']
                     ],
                     [
+                        'priority' => true,
                         'featured' => true,
-                        'icon' => '🎓',
-                        'title' => 'Student Management System',
-                        'category' => 'desktop',
-                        'description' => 'Comprehensive Java application for managing student records, attendance tracking, grade management, and report generation. Built with object-oriented programming principles.',
-                        'image' => 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=500&fit=crop',
-                        'github' => 'https://github.com/reezmahanan/Student-Management-System',
-                        'features' => ['📝 Student Records', '📊 Attendance Tracking', '🎯 Grade Management', '📄 Report Generation'],
-                        'technologies' => ['Java']
+                        'category' => 'web',
+                        'icon' => '🏢',
+                        'title' => 'Reezma Tech Services',
+                        'description' => 'Professional tech services business website with comprehensive service listings, contact forms, and modern UI/UX design.',
+                        'image' => 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=500&fit=crop',
+                        'live_demo' => 'https://reezmahanan.github.io/Reezma-tech-services/',
+                        'github' => 'https://github.com/reezmahanan/Reezma-tech-services',
+                        'features' => ['💼 Services', '📬 Contact Form', '🎨 Modern UI', '📱 Responsive'],
+                        'technologies' => ['HTML', 'CSS', 'JavaScript']
                     ],
+                    
+                    // Additional Projects (See More)
                     [
-                        'featured' => true,
-                        'icon' => '📦',
-                        'title' => 'Inventory Management System (IMS)',
-                        'category' => 'desktop',
-                        'description' => 'Java-based inventory management system for tracking products, managing stock levels, handling suppliers, and generating inventory reports. Features robust database integration.',
-                        'image' => 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&h=500&fit=crop',
-                        'github' => 'https://github.com/reezmahanan/IMS',
-                        'features' => ['📊 Stock Tracking', '🏪 Supplier Management', '📈 Reports', '⚠️ Low Stock Alerts'],
-                        'technologies' => ['Java']
-                    ],
-                    [
+                        'priority' => false,
                         'featured' => true,
                         'icon' => '🐍',
                         'title' => 'Python Calculator',
@@ -777,6 +748,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['Python']
                     ],
                     [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '🕐',
@@ -789,6 +761,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML', 'CSS', 'JavaScript']
                     ],
                     [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '✅',
@@ -801,6 +774,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML', 'CSS', 'JavaScript']
                     ],
                     [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '📅',
@@ -813,18 +787,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML', 'CSS']
                     ],
                     [
-                        'featured' => true,
-                        'category' => 'web',
-                        'icon' => '🏢',
-                        'title' => 'Reezma Tech Services',
-                        'description' => 'Professional tech services website with service listings, contact forms, and modern UI.',
-                        'image' => 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=500&fit=crop',
-                        'live_demo' => 'https://reezmahanan.github.io/Reezma-tech-services/',
-                        'github' => 'https://github.com/reezmahanan/Reezma-tech-services',
-                        'features' => ['💼 Services', '📬 Contact Form', '🎨 Modern UI'],
-                        'technologies' => ['HTML', 'CSS']
-                    ],
-                    [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '🧮',
@@ -837,6 +800,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML']
                     ],
                     [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '📱',
@@ -849,6 +813,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML']
                     ],
                     [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '📝',
@@ -861,6 +826,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML']
                     ],
                     [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '🎨',
@@ -873,6 +839,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML']
                     ],
                     [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '🏷️',
@@ -885,6 +852,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML', 'CSS']
                     ],
                     [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '📄',
@@ -897,6 +865,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML', 'CSS']
                     ],
                     [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '🎓',
@@ -909,6 +878,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML', 'CSS']
                     ],
                     [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'web',
                         'icon' => '💌',
@@ -921,6 +891,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['HTML', 'CSS']
                     ],
                     [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'python',
                         'icon' => '🌦️',
@@ -932,6 +903,7 @@ $visitor_count = updateVisitorCount();
                         'technologies' => ['Python']
                     ],
                     [
+                        'priority' => false,
                         'featured' => true,
                         'category' => 'python',
                         'icon' => '🪐',
@@ -941,24 +913,16 @@ $visitor_count = updateVisitorCount();
                         'github' => 'https://github.com/reezmahanan/solar-system-simulator',
                         'features' => ['🌌 Planets', '🔭 Physics', '🎯 Educational'],
                         'technologies' => ['Python']
-                    ],
-                    [
-                        'featured' => true,
-                        'category' => 'web',
-                        'icon' => '📬',
-                        'title' => 'Contact Form',
-                        'description' => 'Professional contact form with PHP backend for secure message handling and email notifications.',
-                        'image' => 'https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=800&h=500&fit=crop',
-                        'github' => 'https://github.com/reezmahanan/Contact-Form',
-                        'features' => ['📧 Email Notifications', '✅ Validation', '🔒 Secure', '📱 Responsive'],
-                        'technologies' => ['PHP']
                     ]
                 ];
                 
                 foreach ($projects as $project) {
                     $featured_class = $project['featured'] ? 'featured-project' : '';
                     $category = isset($project['category']) ? $project['category'] : 'web';
-                    echo '<div class="card project-card ' . $featured_class . '" data-category="' . $category . '">';
+                    $isPriority = isset($project['priority']) && $project['priority'];
+                    $extraClass = $isPriority ? '' : ' project-extra';
+                    
+                    echo '<div class="card project-card ' . $featured_class . $extraClass . '" data-category="' . $category . '">';
                     
                     // Project Image (if available)
                     if (isset($project['image'])) {
@@ -999,6 +963,13 @@ $visitor_count = updateVisitorCount();
                     echo '</div>';
                 }
                 ?>
+            </div>
+            
+            <!-- See More Projects Button -->
+            <div class="see-more-container">
+                <button id="seeMoreProjects" class="btn see-more-btn">
+                    <i class="fas fa-chevron-down"></i> See More Projects
+                </button>
             </div>
         </div>
     </section>
@@ -1123,25 +1094,28 @@ $visitor_count = updateVisitorCount();
             <div class="footer-content">
                 <div class="footer-section">
                     <h3><?php echo $portfolio_config['name']; ?></h3>
-                    <p>Software Engineer in Training</p>
-                    <p>Building real-world applications with Java, Python, PHP, and exploring Cloud Computing</p>
-                    <p style="opacity: 0.8; font-size: 0.9rem; margin-top: 0.5rem;">🎯 Goal: Skilled Developer by 2028</p>
+                    <p class="footer-tagline">💻 Crafting Code, Building Dreams</p>
+                    <p>Passionate about creating impactful solutions with Java, Python, React, PHP, Cloud Technologies & Cyber Security</p>
+                    <p style="opacity: 0.8; font-size: 0.9rem; margin-top: 0.5rem;">
+                        <i class="fas fa-rocket"></i> Journey to Excellence: 2028
+                    </p>
                 </div>
                 
                 <div class="footer-section">
-                    <h3>Quick Links</h3>
+                    <h3>Explore</h3>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#certificates">Certificates</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                        <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                        <li><a href="#certificates"><i class="fas fa-certificate"></i> Certificates</a></li>
+                        <li><a href="#projects"><i class="fas fa-folder-open"></i> Projects</a></li>
+                        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
-                    <h3>Connect</h3>
+                    <h3>Let's Connect</h3>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem; opacity: 0.9;">Building connections, one line of code at a time</p>
                     <div class="social-links">
                         <a href="<?php echo $portfolio_config['github']; ?>" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
                         <a href="<?php echo $portfolio_config['linkedin']; ?>" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
@@ -1154,8 +1128,15 @@ $visitor_count = updateVisitorCount();
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; <?php echo date('Y'); ?> <?php echo $portfolio_config['name']; ?>. All rights reserved. | 
-                   <span id="footerVisitorCount"><?php echo $visitor_count; ?></span> Visitors</p>
+                <p>
+                    <span style="opacity: 0.7;">Made with</span> <i class="fas fa-heart" style="color: #ef4444;"></i> 
+                    <span style="opacity: 0.7;">and</span> <i class="fas fa-coffee" style="color: #8b5cf6;"></i> 
+                    <span style="opacity: 0.7;">by</span> <?php echo $portfolio_config['name']; ?> 
+                    <span style="margin: 0 0.5rem;">•</span>
+                    © <?php echo date('Y'); ?> 
+                    <span style="margin: 0 0.5rem;">•</span>
+                    <i class="fas fa-users"></i> <span id="footerVisitorCount"><?php echo $visitor_count; ?></span> Visitors
+                </p>
             </div>
         </div>
     </footer>

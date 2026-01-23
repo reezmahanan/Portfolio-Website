@@ -481,6 +481,66 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log('Visible certificates:', visibleCount);
         });
     });
+    
+    // See More Certificates functionality
+    const seeMoreBtn = document.getElementById('seeMoreCerts');
+    const extraCerts = document.querySelectorAll('.certificate-extra');
+    let certsExpanded = false;
+    
+    // Initially hide extra certificates
+    extraCerts.forEach(cert => {
+        cert.style.display = 'none';
+    });
+    
+    if (seeMoreBtn) {
+        seeMoreBtn.addEventListener('click', () => {
+            certsExpanded = !certsExpanded;
+            
+            extraCerts.forEach(cert => {
+                if (certsExpanded) {
+                    cert.style.display = 'block';
+                } else {
+                    cert.style.display = 'none';
+                }
+            });
+            
+            if (certsExpanded) {
+                seeMoreBtn.innerHTML = '<i class="fas fa-chevron-up"></i> Show Less';
+            } else {
+                seeMoreBtn.innerHTML = '<i class="fas fa-chevron-down"></i> See More Certificates';
+            }
+        });
+    }
+    
+    // See More Projects functionality
+    const seeMoreProjectsBtn = document.getElementById('seeMoreProjects');
+    const extraProjects = document.querySelectorAll('.project-extra');
+    let projectsExpanded = false;
+    
+    // Initially hide extra projects
+    extraProjects.forEach(project => {
+        project.style.display = 'none';
+    });
+    
+    if (seeMoreProjectsBtn) {
+        seeMoreProjectsBtn.addEventListener('click', () => {
+            projectsExpanded = !projectsExpanded;
+            
+            extraProjects.forEach(project => {
+                if (projectsExpanded) {
+                    project.style.display = 'block';
+                } else {
+                    project.style.display = 'none';
+                }
+            });
+            
+            if (projectsExpanded) {
+                seeMoreProjectsBtn.innerHTML = '<i class="fas fa-chevron-up"></i> Show Less';
+            } else {
+                seeMoreProjectsBtn.innerHTML = '<i class="fas fa-chevron-down"></i> See More Projects';
+            }
+        });
+    }
 });
 
 // ============================================
