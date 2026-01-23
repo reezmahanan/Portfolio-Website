@@ -2132,10 +2132,12 @@ body::after {
 .footer-section h3 {
     margin-bottom: 1rem;
     color: var(--primary-color);
+    text-align: center;
 }
 
 .footer-section ul {
     list-style: none;
+    text-align: center;
 }
 
 .footer-section ul li {
