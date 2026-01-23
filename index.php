@@ -1154,7 +1154,7 @@ $visitor_count = updateVisitorCount();
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 <?php echo $portfolio_config['name']; ?>. All rights reserved. | 
+                <p>&copy; <?php echo date('Y'); ?> <?php echo $portfolio_config['name']; ?>. All rights reserved. | 
                    <span id="footerVisitorCount"><?php echo $visitor_count; ?></span> Visitors</p>
             </div>
         </div>
