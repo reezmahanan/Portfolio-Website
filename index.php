@@ -227,7 +227,7 @@ $visitor_count = updateVisitorCount();
                     </p>
                     
                     <p class="about-description">
-                        My journey in software engineering has equipped me with expertise in modern technologies including <strong>Java, Python, PHP, JavaScript</strong>, and various frameworks. I'm currently exploring <strong>Node.js, React.js, and C++</strong> to expand my development skills. I'm also passionate about <strong>Cloud Computing (AWS, Azure, Google Cloud)</strong>, <strong>Cyber Security</strong>, and UI/UX design, believing that great code should always be paired with an exceptional user experience.
+                        My journey in software engineering has equipped me with expertise in modern technologies including <strong>Java, Python, PHP, JavaScript</strong>, and various frameworks. I'm currently exploring <strong>Node.js, React.js, and C++</strong> to expand my development skills. I'm deeply passionate about <strong>Cyber Security</strong>, understanding network security fundamentals, secure coding practices, and threat prevention. I also focus on <strong>Cloud Computing (AWS, Azure, Google Cloud)</strong> and UI/UX design, believing that great code should always be paired with security-first thinking and an exceptional user experience.
                     </p>
                     
                     <p class="about-description">
@@ -248,6 +248,50 @@ $visitor_count = updateVisitorCount();
                 <div class="stat-item">
                     <span class="stat-number" id="certificatesCount">19</span>
                     <span class="stat-label">Certificates Earned</span>
+                </div>
+            </div>
+            
+            <!-- GitHub Stats Section -->
+            <div class="github-stats-section fade-in">
+                <h3 class="github-stats-title">
+                    <i class="fab fa-github"></i> GitHub Contributions & Activity
+                </h3>
+                <div class="github-stats-content">
+                    <div class="github-profile-link">
+                        <a href="<?php echo $portfolio_config['github']; ?>" target="_blank" class="github-view-btn">
+                            <i class="fab fa-github"></i> View My GitHub Profile
+                        </a>
+                    </div>
+                    <div class="github-highlights">
+                        <div class="github-highlight-item">
+                            <i class="fas fa-code-branch"></i>
+                            <div>
+                                <strong>23+ Repositories</strong>
+                                <p>Public projects showcasing diverse skills</p>
+                            </div>
+                        </div>
+                        <div class="github-highlight-item">
+                            <i class="fas fa-star"></i>
+                            <div>
+                                <strong>Active Contributions</strong>
+                                <p>Regular commits and project updates</p>
+                            </div>
+                        </div>
+                        <div class="github-highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <strong>Multiple Languages</strong>
+                                <p>Java, Python, PHP, JavaScript, HTML, CSS</p>
+                            </div>
+                        </div>
+                        <div class="github-highlight-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <div>
+                                <strong>Real Projects</strong>
+                                <p>Full-stack applications with live demos</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -341,39 +385,69 @@ $visitor_count = updateVisitorCount();
     <!-- Skills Section -->
     <section class="skills section" id="skills">
         <div class="container">
-            <h2 class="section-title fade-in">Technical Skills</h2>
-            <p class="section-subtitle fade-in">Technologies I Focus</p>
+            <h2 class="section-title fade-in">My Skills</h2>
+            <p class="section-subtitle fade-in">Hands-On Expertise in Modern Technologies & Professional Development</p>
             
             <div class="skills-grid">
                 <?php
-                $skills = [
-                    ['name' => 'Java', 'icon' => '<i class="fab fa-java"></i>'],
-                    ['name' => 'Python', 'icon' => '<i class="fab fa-python"></i>'],
-                    ['name' => 'C++', 'icon' => '<i class="fas fa-code"></i>'],
-                    ['name' => 'JavaScript', 'icon' => '<i class="fab fa-js"></i>'],
-                    ['name' => 'React', 'icon' => '<i class="fab fa-react"></i>'],
-                    ['name' => 'Node.js', 'icon' => '<i class="fab fa-node-js"></i>'],
-                    ['name' => 'PHP', 'icon' => '<i class="fab fa-php"></i>'],
-                    ['name' => 'HTML5', 'icon' => '<i class="fab fa-html5"></i>'],
-                    ['name' => 'CSS3', 'icon' => '<i class="fab fa-css3-alt"></i>'],
-                    ['name' => 'MySQL', 'icon' => '<i class="fas fa-database"></i>'],
-                    ['name' => 'Git', 'icon' => '<i class="fab fa-git-alt"></i>'],
-                    ['name' => 'GitHub', 'icon' => '<i class="fab fa-github"></i>'],
-                    ['name' => 'AWS', 'icon' => '<i class="fab fa-aws"></i>'],
-                    ['name' => 'Azure', 'icon' => '<i class="fab fa-microsoft"></i>'],
-                    ['name' => 'REST APIs', 'icon' => '<i class="fas fa-plug"></i>'],
-                    ['name' => 'Responsive Design', 'icon' => '<i class="fas fa-mobile-alt"></i>'],
-                    ['name' => 'VS Code', 'icon' => '<i class="fas fa-code"></i>'],
-                    ['name' => 'IntelliJ IDEA', 'icon' => '<i class="fas fa-laptop-code"></i>'],
-                    ['name' => 'Figma', 'icon' => '<i class="fab fa-figma"></i>']
+                $skill_categories = [
+                    'Frontend Development' => [
+                        ['name' => 'HTML5', 'icon' => '<i class="fab fa-html5"></i>'],
+                        ['name' => 'CSS3', 'icon' => '<i class="fab fa-css3-alt"></i>'],
+                        ['name' => 'JavaScript', 'icon' => '<i class="fab fa-js"></i>'],
+                        ['name' => 'React', 'icon' => '<i class="fab fa-react"></i>'],
+                        ['name' => 'Bootstrap', 'icon' => '<i class="fab fa-bootstrap"></i>'],
+                        ['name' => 'Responsive Design', 'icon' => '<i class="fas fa-mobile-alt"></i>'],
+                    ],
+                    'Backend Development' => [
+                        ['name' => 'PHP', 'icon' => '<i class="fab fa-php"></i>'],
+                        ['name' => 'Node.js', 'icon' => '<i class="fab fa-node-js"></i>'],
+                        ['name' => 'Java', 'icon' => '<i class="fab fa-java"></i>'],
+                        ['name' => 'Python', 'icon' => '<i class="fab fa-python"></i>'],
+                        ['name' => 'C++', 'icon' => '<i class="fas fa-code"></i>'],
+                        ['name' => 'MySQL', 'icon' => '<i class="fas fa-database"></i>'],
+                    ],
+                    'Cloud & Security' => [
+                        ['name' => 'AWS', 'icon' => '<i class="fab fa-aws"></i>'],
+                        ['name' => 'Azure', 'icon' => '<i class="fab fa-microsoft"></i>'],
+                        ['name' => 'Google Cloud', 'icon' => '<i class="fab fa-google"></i>'],
+                        ['name' => 'Cyber Security', 'icon' => '<i class="fas fa-shield-alt"></i>'],
+                        ['name' => 'Network Security', 'icon' => '<i class="fas fa-network-wired"></i>'],
+                        ['name' => 'Security Best Practices', 'icon' => '<i class="fas fa-lock"></i>'],
+                    ],
+                    'Tools & Technologies' => [
+                        ['name' => 'Git', 'icon' => '<i class="fab fa-git-alt"></i>'],
+                        ['name' => 'GitHub', 'icon' => '<i class="fab fa-github"></i>'],
+                        ['name' => 'VS Code', 'icon' => '<i class="fas fa-code"></i>'],
+                        ['name' => 'IntelliJ IDEA', 'icon' => '<i class="fas fa-laptop-code"></i>'],
+                        ['name' => 'XAMPP', 'icon' => '<i class="fas fa-server"></i>'],
+                    ],
+                    'Design & UI/UX' => [
+                        ['name' => 'Figma', 'icon' => '<i class="fab fa-figma"></i>'],
+                        ['name' => 'Photoshop', 'icon' => '<i class="fas fa-image"></i>'],
+                        ['name' => 'Canva', 'icon' => '<i class="fas fa-paint-brush"></i>'],
+                        ['name' => 'UI/UX Design', 'icon' => '<i class="fas fa-palette"></i>'],
+                    ],
+                    'Soft Skills' => [
+                        ['name' => 'Problem Solving', 'icon' => '<i class="fas fa-puzzle-piece"></i>'],
+                        ['name' => 'Team Collaboration', 'icon' => '<i class="fas fa-users"></i>'],
+                        ['name' => 'Communication', 'icon' => '<i class="fas fa-comments"></i>'],
+                        ['name' => 'Time Management', 'icon' => '<i class="fas fa-clock"></i>'],
+                        ['name' => 'Critical Thinking', 'icon' => '<i class="fas fa-brain"></i>'],
+                        ['name' => 'Adaptability', 'icon' => '<i class="fas fa-sync-alt"></i>'],
+                    ]
                 ];
 
-                echo '<div class="card skill-category fade-in">';
-                echo '<div class="skill-tags">';
-                foreach ($skills as $skill) {
-                    echo '<span class="skill-tag">' . $skill['icon'] . ' ' . $skill['name'] . '</span>';
+                foreach ($skill_categories as $category => $skills) {
+                    echo '<div class="card skill-category fade-in">';
+                    echo '<h3 class="skill-category-title">' . $category . '</h3>';
+                    echo '<div class="skill-tags">';
+                    foreach ($skills as $skill) {
+                        echo '<span class="skill-tag">' . $skill['icon'] . ' ' . $skill['name'] . '</span>';
+                    }
+                    echo '</div>';
+                    echo '</div>';
                 }
-                echo '</div></div>';
                 ?>
             </div>
         </div>
@@ -938,6 +1012,15 @@ $visitor_count = updateVisitorCount();
                     
                     // Description
                     echo '<p class="project-description">' . $project['description'] . '</p>';
+                    
+                    // Features (if available)
+                    if (isset($project['features'])) {
+                        echo '<div class="project-features">';
+                        foreach ($project['features'] as $feature) {
+                            echo '<span class="feature-badge">' . $feature . '</span>';
+                        }
+                        echo '</div>';
+                    }
                     echo '</div>';
                     echo '</div>';
                     
@@ -1095,7 +1178,7 @@ $visitor_count = updateVisitorCount();
                 <div class="footer-section">
                     <h3><?php echo $portfolio_config['name']; ?></h3>
                     <p class="footer-tagline">💻 Crafting Code, Building Dreams</p>
-                    <p>Passionate about creating impactful solutions with Java, Python, React, PHP, Cloud Technologies & Cyber Security</p>
+                    <p>Passionate about creating secure & impactful solutions with Java, Python, React, PHP, Cloud Technologies & Cyber Security</p>
                     <p style="opacity: 0.8; font-size: 0.9rem; margin-top: 0.5rem;">
                         <i class="fas fa-rocket"></i> Journey to Excellence: 2028
                     </p>

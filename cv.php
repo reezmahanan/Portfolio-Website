@@ -4,20 +4,21 @@ $cv_config = [
     'name' => 'Reezma Hanan',
     'title' => 'Software Engineer in Training',
     'email' => 'reezmahanan@gmail.com',
-    'phone' => '+94 77 123 4567', // Update with your actual phone number
+    'phone' => '+94 77 XXX XXXX', // Contact via email
     'location' => 'Batticaloa, Sri Lanka',
     'github' => 'github.com/reezmahanan',
     'linkedin' => 'linkedin.com/in/reezma-hanan',
-    'website' => 'reezmahanan.github.io',
+    'website' => 'reezmahanan.com',
+    'hackerrank' => 'hackerrank.com/profile/reezmahanan',
 ];
 
 $education = [
     [
-        'degree' => 'National Diploma in Information Technology (NDIT)',
+        'degree' => 'National Diploma in Information Technology (NDT IT)',
         'institution' => 'Institute of Technology, University of Moratuwa',
         'location' => 'Diyagama, Homagama, Sri Lanka',
         'period' => 'Oct 2024 - Present',
-        'details' => 'Currently studying software development, web technologies, database management, and modern IT practices'
+        'details' => 'Currently pursuing comprehensive education in software development, web technologies, database management, cloud computing, and modern IT practices. Focus on full-stack development and emerging technologies.'
     ],
     [
         'degree' => 'GCE Advanced Level - Physical Science Stream',
@@ -36,62 +37,97 @@ $education = [
 ];
 
 $skills = [
-    'Programming Languages' => ['Python', 'Java', 'PHP', 'JavaScript', 'SQL', 'C'],
-    'Web Technologies' => ['HTML5', 'CSS3', 'React', 'Node.js', 'Bootstrap'],
-    'Databases' => ['MySQL', 'MongoDB', 'Firebase'],
-    'Tools & Technologies' => ['Git', 'Docker', 'VS Code', 'Postman', 'XAMPP'],
-    'AI/ML' => ['Machine Learning', 'Data Analysis', 'TensorFlow', 'Scikit-learn'],
-    'Cloud & DevOps' => ['Cloud Computing', 'AWS Basics', 'CI/CD Basics']
+    'Programming Languages' => ['Java', 'Python', 'PHP', 'JavaScript', 'C++', 'SQL'],
+    'Web Technologies' => ['HTML5', 'CSS3', 'React.js', 'Node.js', 'Bootstrap', 'Responsive Design'],
+    'Databases' => ['MySQL', 'MongoDB', 'Firebase', 'Database Design'],
+    'Development Tools' => ['Git', 'GitHub', 'VS Code', 'IntelliJ IDEA', 'Postman', 'XAMPP'],
+    'Frameworks & Libraries' => ['Java Swing', 'Express.js', 'REST APIs'],
+    'Cyber Security' => ['Network Security', 'Security Best Practices', 'Secure Coding', 'Threat Prevention', 'Data Protection'],
+    'Cloud & Others' => ['AWS', 'Azure', 'Google Cloud', 'Agile', 'UI/UX Design']
 ];
 
 $experience = [
     [
-        'position' => 'Student Developer',
-        'company' => 'Personal Projects & Learning',
+        'position' => 'Student Developer & Software Engineering Intern (Seeking)',
+        'company' => 'Personal Projects & Continuous Learning',
         'period' => '2024 - Present',
         'responsibilities' => [
-            'Developed 22+ web applications using PHP, JavaScript, Java, Python and modern frameworks',
-            'Built Java Swing desktop applications including Library Management, Student Management, and Inventory Management Systems',
-            'Implemented responsive web designs with modern UI/UX principles and animations',
-            'Created full-stack projects with MySQL database integration and CRUD operations',
-            'Earned 19+ professional certificates in web development, Python, and cloud computing',
-            'Actively contributed to open-source projects on GitHub and maintained clean code practices'
+            'Developed 23+ web and desktop applications using Java, Python, PHP, JavaScript and modern frameworks',
+            'Built robust Java Swing desktop applications including Library Management System, Student Management System, and Inventory Management System (IMS) with complete CRUD functionality',
+            'Created full-stack web applications (Event Hub, Book Nest) with user authentication, admin panels, and database integration',
+            'Implemented responsive and interactive web designs with modern UI/UX principles, animations, and accessibility standards',
+            'Earned 19+ professional certificates from Cisco, AWS Academy, HackerRank, SoloLearn, and other platforms',
+            'Actively contribute to open-source projects on GitHub with clean, well-documented code following best practices',
+            'Continuously learning new technologies including React.js, Node.js, and C++ to expand development capabilities'
         ]
     ]
 ];
 
 $projects = [
     [
-        'name' => 'EventHub',
-        'description' => 'Comprehensive event management system for organizing and managing events',
-        'technologies' => 'PHP, MySQL, JavaScript, Bootstrap, CSS3',
-        'highlights' => 'Event booking, User management, Admin dashboard, Real-time updates'
+        'name' => 'Event Hub - Student Event Management System',
+        'description' => 'Comprehensive web application for managing student events with user authentication, event registration, and admin panel. Features include event creation, participant management, and real-time updates.',
+        'technologies' => 'PHP, MySQL, JavaScript, HTML5, CSS3, Bootstrap',
+        'highlights' => 'User authentication, Event CRUD operations, Registration system, Admin dashboard, Responsive design'
     ],
     [
-        'name' => 'BookNest',
-        'description' => 'Online book management and library system for book enthusiasts',
+        'name' => 'Book Nest - E-Commerce Bookstore',
+        'description' => 'Full-featured online bookstore platform with book catalog, shopping cart, member management, and secure checkout functionality. Group project demonstrating team collaboration.',
         'technologies' => 'PHP, MySQL, JavaScript, HTML5, CSS3',
-        'highlights' => 'Book catalog, User reviews, Search functionality, Borrowing system'
+        'highlights' => 'Book catalog with search, Shopping cart, Member/Admin system, Order management, Payment integration ready'
+    ],
+    [
+        'name' => 'Library Management System',
+        'description' => 'Java Swing desktop application for comprehensive library operations including book cataloging, member management, book lending, returns, and automated fine calculation.',
+        'technologies' => 'Java, Java Swing, MySQL, JDBC',
+        'highlights' => 'Complete CRUD operations, Book lending/return tracking, Fine calculation, Member management, Inventory reports'
+    ],
+    [
+        'name' => 'Student Management System',
+        'description' => 'Java-based desktop application for managing student records, attendance tracking, grade management, and automated report generation using OOP principles.',
+        'technologies' => 'Java, Java Swing, MySQL',
+        'highlights' => 'Student records CRUD, Attendance tracking, Grade management, Report generation, Data validation'
+    ],
+    [
+        'name' => 'Inventory Management System (IMS)',
+        'description' => 'Professional inventory management system for tracking products, managing stock levels, supplier management, and generating comprehensive inventory reports.',
+        'technologies' => 'Java, Java Swing, MySQL',
+        'highlights' => 'Stock tracking, Supplier management, Low stock alerts, Inventory reports, Purchase order management'
     ],
     [
         'name' => 'Weather App',
-        'description' => 'Real-time weather forecast application with interactive UI',
-        'technologies' => 'JavaScript, Weather API, HTML5, CSS3',
-        'highlights' => 'Live weather data, Location-based forecast, Responsive design'
+        'description' => 'Real-time weather forecast application with API integration displaying current conditions, 5-day forecasts, and weather visualization with intuitive UI.',
+        'technologies' => 'JavaScript, Weather API, HTML5, CSS3, PHP',
+        'highlights' => 'Live weather data, Location search, 5-day forecast, Responsive design, Weather icons'
     ],
     [
-        'name' => 'Portfolio Website',
-        'description' => 'Personal portfolio showcasing projects, skills, and achievements',
-        'technologies' => 'PHP, JavaScript, CSS3, HTML5',
-        'highlights' => 'Responsive design, Dark mode, Visitor counter, CV viewer'
+        'name' => 'Portfolio Website with CV',
+        'description' => 'Professional portfolio website showcasing projects, skills, certificates, and achievements with integrated CV page, dark mode, and visitor counter.',
+        'technologies' => 'PHP, JavaScript, CSS3, HTML5, MySQL',
+        'highlights' => 'Responsive design, Dark/Light mode, Visitor counter, CV page, Contact form, Project filtering'
     ]
 ];
 
 $certificates = [
+    'Cyber Security - Cisco Networking Academy',
+    'Introduction to Cloud Computing - Simplilearn',
     'AWS Academy Cloud Foundations',
-    'Python Programming Certifications',
-    'Web Development Courses',
-    '19+ Professional Certificates'
+    'Java Programming - SoloLearn',
+    'Object-Oriented Programming in Java - Simplilearn',
+    'SQL - SoloLearn',
+    'MySQL Tutorial - Great Learning Academy',
+    'Python for Beginners - SoloLearn & UOM CODL',
+    'HTML - SoloLearn & Great Learning Academy',
+    'CSS (Basic) - HackerRank',
+    'Introduction to CSS - SoloLearn',
+    'Web Design for Beginners - UOM CODL',
+    'UI/UX for Beginners - Great Learning Academy',
+    'Introduction to Cyber Security - Simplilearn',
+    'Agile Scrum Foundation - Simplilearn',
+    'Programming Basics - Great Learning Academy',
+    'Python Fundamentals for Beginners - Great Learning Academy',
+    'Python Project for Beginners - Great Learning Academy',
+    'And more... (19+ total professional certificates)'
 ];
 ?>
 <!DOCTYPE html>
@@ -462,14 +498,17 @@ $certificates = [
                 <a href="mailto:<?php echo $cv_config['email']; ?>">
                     <i class="fas fa-envelope"></i> <?php echo $cv_config['email']; ?>
                 </a>
-                <a href="tel:<?php echo $cv_config['phone']; ?>">
-                    <i class="fas fa-phone"></i> <?php echo $cv_config['phone']; ?>
-                </a>
+                <span style="color: white;">
+                    <i class="fas fa-map-marker-alt"></i> <?php echo $cv_config['location']; ?>
+                </span>
                 <a href="https://<?php echo $cv_config['github']; ?>" target="_blank">
-                    <i class="fab fa-github"></i> <?php echo $cv_config['github']; ?>
+                    <i class="fab fa-github"></i> GitHub
                 </a>
                 <a href="https://<?php echo $cv_config['linkedin']; ?>" target="_blank">
-                    <i class="fab fa-linkedin"></i> <?php echo $cv_config['linkedin']; ?>
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://<?php echo $cv_config['hackerrank']; ?>" target="_blank">
+                    <i class="fab fa-hackerrank"></i> HackerRank
                 </a>
             </div>
         </div>
@@ -490,11 +529,15 @@ $certificates = [
             <div class="cv-section">
                 <h2><i class="fas fa-user"></i> Professional Summary</h2>
                 <p class="details">
-                    Passionate IT student and aspiring software engineer with hands-on experience in full-stack development, 
-                    AI/ML, and cloud computing. Proven track record of building 22+ projects and earning 19+ professional 
-                    certificates. Dedicated to continuous learning and creating innovative solutions using modern technologies. 
-                    Strong foundation in software development principles, data structures, and problem-solving. Goal-oriented 
-                    developer aiming to become a skilled Software Developer by 2028.
+                    Passionate IT student and aspiring <strong>Software Engineer</strong> currently seeking a <strong>software engineering role or internship opportunity</strong>. 
+                    Hands-on experience in full-stack development with expertise in <strong>Java, Python, PHP, and JavaScript</strong>. 
+                    Proven track record of building <strong>23+ real-world projects</strong> including web applications (Event Hub, Book Nest) 
+                    and Java desktop applications (Library Management System, Student Management System, Inventory Management System). 
+                    Earned <strong>19+ professional certificates</strong> including <strong>Cyber Security from Cisco Networking Academy</strong>, AWS Academy, HackerRank, and other reputable platforms. 
+                    Strong foundation in software development principles, <strong>cybersecurity best practices</strong>, secure coding, database design, UI/UX, and cloud computing. 
+                    Passionate about <strong>network security, data protection, and building secure applications</strong>. 
+                    Dedicated to continuous learning and creating innovative, security-first, user-centered solutions with modern technologies. 
+                    Currently exploring <strong>React.js, Node.js, C++, Cloud Computing, and Advanced Security Concepts</strong> to expand development capabilities.
                 </p>
             </div>
 
