@@ -1642,7 +1642,7 @@ body::after {
     border-radius: 12px;
     font-size: 0.95rem;
     font-weight: 600;
-    transition: all 0.3s ease;
+    transition: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1653,8 +1653,8 @@ body::after {
 
 .project-link:hover {
     background: rgba(255, 255, 255, 0.15);
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: none;
+    box-shadow: none;
     border-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -1690,13 +1690,13 @@ body::after {
     font-size: 0.85rem;
     font-weight: 500;
     color: var(--text-color);
-    transition: all 0.3s ease;
+    transition: none;
 }
 
 .feature-badge:hover {
     background: rgba(99, 102, 241, 0.25);
     border-color: rgba(99, 102, 241, 0.5);
-    transform: translateY(-2px);
+    transform: none;
 }
 
 .project-tech {
@@ -1714,28 +1714,13 @@ body::after {
     border-radius: 25px;
     font-size: 0.85rem;
     font-weight: 600;
-    transition: all 0.3s ease;
+    transition: none;
     border: none;
 }
 
 .tech-tag:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4);
-}
-
-.tech-tag {
-    background: rgba(99, 102, 241, 0.9);
-    color: white;
-    padding: 0.4rem 1rem;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-
-.tech-tag:hover {
-    background: rgba(139, 92, 246, 1);
-    transform: scale(1.05);
+    transform: none;
+    box-shadow: none;
 }
 
 /* Certificates Section */
