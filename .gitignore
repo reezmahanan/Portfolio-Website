@@ -8,6 +8,12 @@ visitor_count.txt
 # Ignore contact form logs
 contact_messages.log
 
+# Ignore PHPMailer and sensitive config
+/vendor/
+email_config.php
+*.log
+.env
+
 # Ignore system files
 .DS_Store
 Thumbs.db
