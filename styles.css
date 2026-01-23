@@ -1398,15 +1398,15 @@ body::after {
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 500;
-    transition: all 0.3s ease;
+    transition: none;
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
 }
 
 .skill-tag:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 5px 10px var(--shadow);
+    transform: none;
+    box-shadow: none;
 }
 
 /* Brand Color Icons for Skills */
@@ -1464,14 +1464,14 @@ body::after {
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: none;
     backdrop-filter: blur(10px);
 }
 
 .filter-btn:hover {
     border-color: var(--primary-color);
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
+    transform: none;
+    box-shadow: none;
 }
 
 .filter-btn.active {
@@ -1499,14 +1499,14 @@ body::after {
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: none;
     backdrop-filter: blur(10px);
 }
 
 .cert-filter-btn:hover {
     border-color: var(--primary-color);
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
+    transform: none;
+    box-shadow: none;
 }
 
 .cert-filter-btn.active {
@@ -1732,11 +1732,11 @@ body::after {
 
 .certificate-card {
     text-align: center;
-    transition: all 0.3s ease;
+    transition: none;
 }
 
 .certificate-card:hover {
-    transform: translateY(-10px) scale(1.02);
+    transform: none;
     border-color: var(--primary-color);
 }
 
