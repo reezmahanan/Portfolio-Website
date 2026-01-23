@@ -843,8 +843,8 @@ $visitor_count = updateVisitorCount();
                         'title' => 'Mobile Login Interface',
                         'description' => 'Responsive mobile-first login page with modern UI/UX design.',
                         'image' => 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=500&fit=crop',
-                        'live_demo' => 'https://reezmahanan.github.io/mobile-login/',
-                        'github' => 'https://github.com/reezmahanan/mobile-login',
+                        'live_demo' => 'https://reezmahanan.github.io/Mobile-login/',
+                        'github' => 'https://github.com/reezmahanan/Mobile-login',
                         'features' => ['📱 Mobile First', '🎨 Modern UI', '🔒 Secure'],
                         'technologies' => ['HTML']
                     ],
