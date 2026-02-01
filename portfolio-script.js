@@ -647,11 +647,11 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // See More Certificates functionality
     const seeMoreBtn = document.getElementById('seeMoreCerts');
-    const extraCerts = document.querySelectorAll('.certificate-extra');
+    const hiddenCerts = document.querySelectorAll('.certificate-hidden');
     let certsExpanded = false;
     
-    // Initially hide extra certificates
-    extraCerts.forEach(cert => {
+    // Initially hide hidden certificates
+    hiddenCerts.forEach(cert => {
         cert.style.display = 'none';
     });
     
@@ -659,7 +659,7 @@ document.addEventListener('DOMContentLoaded', () => {
         seeMoreBtn.addEventListener('click', () => {
             certsExpanded = !certsExpanded;
             
-            extraCerts.forEach(cert => {
+            hiddenCerts.forEach(cert => {
                 if (certsExpanded) {
                     cert.style.display = 'block';
                 } else {

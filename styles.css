@@ -1979,6 +1979,10 @@ body::after {
     transition: transform 0.3s ease;
 }
 
+.certificate-hidden {
+    display: none;
+}
+
 .certificate-extra {
     animation: fadeIn 0.5s ease;
 }
