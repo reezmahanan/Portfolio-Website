@@ -202,7 +202,7 @@ This project is open source and available for personal and educational use.
 - 🐙 GitHub: [github.com/reezmahanan](https://github.com/reezmahanan)
 - 📧 Email: reezmahanan@gmail.com
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Font Awesome for icons
 - Google Fonts for typography
