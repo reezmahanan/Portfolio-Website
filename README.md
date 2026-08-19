@@ -30,6 +30,50 @@ Welcome to the official repository of my developer portfolio! This is a modern, 
 
 ---
 
+## 📷 Previews & Screenshots
+
+### 🖥️ Main Portfolio Landing
+<div align="center">
+    <img src="screenshots/Portfolio Website.png" alt="Portfolio Home" width="850px" style="border-radius: 10px; border: 1px solid #3b82f6; box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2); margin-bottom: 20px;" />
+</div>
+
+### 📦 SCM - Inventory Management System
+<div align="center">
+    <img src="screenshots/Inventory Management System.png" alt="Inventory Management System" width="850px" style="border-radius: 10px; border: 1px solid #3b82f6; box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2); margin-bottom: 20px;" />
+</div>
+
+### 📅 Event Hub - Student Event Management
+<div align="center">
+    <img src="screenshots/Event Hub.png" alt="Event Hub" width="850px" style="border-radius: 10px; border: 1px solid #3b82f6; box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2); margin-bottom: 20px;" />
+</div>
+
+### 📚 Book Nest - Bookstore E-Commerce
+<div align="center">
+    <img src="screenshots/Book Nest.png" alt="Book Nest" width="850px" style="border-radius: 10px; border: 1px solid #3b82f6; box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2); margin-bottom: 20px;" />
+</div>
+
+### 🍽️ TasteVerse Restaurant Website
+<div align="center">
+    <img src="screenshots/Tasteverse.png" alt="TasteVerse Project" width="850px" style="border-radius: 10px; border: 1px solid #3b82f6; box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2); margin-bottom: 20px;" />
+</div>
+
+### 💼 CareerBridge Placement Portal
+<div align="center">
+    <img src="screenshots/Career Bridge.png" alt="Career Bridge" width="850px" style="border-radius: 10px; border: 1px solid #3b82f6; box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2); margin-bottom: 20px;" />
+</div>
+
+### 🥗 ReciPick Discovery App
+<div align="center">
+    <img src="screenshots/ReciPick.png" alt="ReciPick App" width="850px" style="border-radius: 10px; border: 1px solid #3b82f6; box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2); margin-bottom: 20px;" />
+</div>
+
+### 💻 Reezma Tech Services Landing
+<div align="center">
+    <img src="screenshots/Reezma Tech.png" alt="Reezma Tech Services" width="850px" style="border-radius: 10px; border: 1px solid #3b82f6; box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2); margin-bottom: 20px;" />
+</div>
+
+---
+
 ## 🚀 Key Features
 
 *   **Premium Space-Dark Glassmorphism**: Stunning UI aesthetics with glowing borders, translucent background backdrops, and hover micro-animations.
@@ -63,7 +107,8 @@ Portfolio-Website/
 ├── index.html              # Main single-page web structure
 ├── styles.css              # Glassmorphic themes, responsive timelines, and keyframe animations
 ├── portfolio-script.js     # Form validation, stats increments, tabs, and typewriter loops
-├── Reezma_Hanan_CV.pdf     # Resume PDF linked locally inside the Hero section
+├── Reezma_Hanan_Resume.pdf # Resume PDF linked locally inside the Hero section
+├── screenshots/            # Screenshots of the portfolio page and select web projects
 └── README.md               # This repository documentation
 ```
 
