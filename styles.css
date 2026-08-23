@@ -109,6 +109,22 @@ body {
     mix-blend-mode: multiply;
 }
 
+.tech-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.18;
+    transition: opacity 0.5s ease;
+}
+
+[data-theme="light"] .tech-canvas {
+    opacity: 0.08;
+}
+
 .sphere-1 {
     width: 600px;
     height: 600px;

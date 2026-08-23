@@ -375,4 +375,114 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => alertNode.remove(), 300);
         }, 4000);
     }
+
+    // ============================================
+    // Advanced Particle Network Animation (Canvas)
+    // ============================================
+    function initTechCanvas() {
+        const canvas = document.getElementById('techCanvas');
+        if (!canvas) return;
+        const ctx = canvas.getContext('2d');
+        
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        
+        // Handle window resizing
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        });
+        
+        const particles = [];
+        // Particle density based on screen size
+        const maxParticles = Math.min(65, Math.floor((width * height) / 20000));
+        const connectionDistance = 140;
+        
+        // Helper to get active theme primary color
+        function getPrimaryColor() {
+            const style = getComputedStyle(document.documentElement);
+            const color = style.getPropertyValue('--primary-color').trim() || '#6366f1';
+            return color;
+        }
+        
+        class Particle {
+            constructor() {
+                this.x = Math.random() * width;
+                this.y = Math.random() * height;
+                this.vx = (Math.random() - 0.5) * 0.45;
+                this.vy = (Math.random() - 0.5) * 0.45;
+                this.radius = Math.random() * 2 + 1;
+            }
+            
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                
+                // Boundary collision
+                if (this.x < 0 || this.x > width) this.vx *= -1;
+                if (this.y < 0 || this.y > height) this.vy *= -1;
+            }
+            
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.fillStyle = getPrimaryColor();
+                ctx.fill();
+            }
+        }
+        
+        // Create initial particle set
+        for (let i = 0; i < maxParticles; i++) {
+            particles.push(new Particle());
+        }
+        
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            
+            // Update & draw particles
+            particles.forEach(p => {
+                p.update();
+                p.draw();
+            });
+            
+            // Draw connections between close particles
+            ctx.lineWidth = 0.65;
+            for (let i = 0; i < particles.length; i++) {
+                for (let j = i + 1; j < particles.length; j++) {
+                    const p1 = particles[i];
+                    const p2 = particles[j];
+                    const dx = p1.x - p2.x;
+                    const dy = p1.y - p2.y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (dist < connectionDistance) {
+                        const alpha = (1 - dist / connectionDistance) * 0.25;
+                        
+                        // Parse RGB from hex/variable representation dynamically
+                        const primaryHex = getPrimaryColor();
+                        if (primaryHex.startsWith('#')) {
+                            const r = parseInt(primaryHex.slice(1, 3), 16);
+                            const g = parseInt(primaryHex.slice(3, 5), 16);
+                            const b = parseInt(primaryHex.slice(5, 7), 16);
+                            ctx.strokeStyle = `rgba(${r}, ${g}, ${b}, ${alpha})`;
+                        } else if (primaryHex.startsWith('rgb')) {
+                            ctx.strokeStyle = primaryHex.replace(')', `, ${alpha})`).replace('rgb', 'rgba');
+                        } else {
+                            ctx.strokeStyle = `rgba(99, 102, 241, ${alpha})`;
+                        }
+                        
+                        ctx.beginPath();
+                        ctx.moveTo(p1.x, p1.y);
+                        ctx.lineTo(p2.x, p2.y);
+                        ctx.stroke();
+                    }
+                }
+            }
+            
+            requestAnimationFrame(animate);
+        }
+        
+        animate();
+    }
+    initTechCanvas();
 });
