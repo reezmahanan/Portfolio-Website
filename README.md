@@ -81,7 +81,6 @@ Welcome to the official repository of my developer portfolio! This is a modern, 
 *   **Dynamic Counter Increments**: Viewport triggers that count up stats (`15+ Techs`, `8+ Projects`, `20+ Certs`) on page entry.
 *   **Collapsible Certifications Drawer**: Keeps the UI neat by placing 23 foundation certificates and interactive search sub-filters behind a "View Additional Foundations & Credentials" summary toggle.
 *   **Open Source Grid**: An interactive card showcase of my contributions to **SWOC**, **OSCG**, **SSOC**, and **GSSOC** with direct repository links.
-*   **Software Development Workflow**: A sequential layout highlighting my build-to-deploy pipeline (Requirements ➔ System Design ➔ Front-End ➔ Back-End ➔ Integration ➔ Docker ➔ Deploy).
 *   **Verified Academic & Platform Badges**: Real credential attachments from UOM CODL, Cisco Networking Academy, Simplilearn, and Linux Foundation.
 *   **Full Form Validation & Alerts**: Client-side input sanity checks (regex emails, min-length messages) linked to a customized success notification popup.
 
