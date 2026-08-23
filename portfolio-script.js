@@ -377,7 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ============================================
-    // Advanced Particle Network Animation (Canvas)
+    // Advanced Floating Glass Orbs Animation (Canvas)
     // ============================================
     function initTechCanvas() {
         const canvas = document.getElementById('techCanvas');
@@ -387,97 +387,97 @@ document.addEventListener('DOMContentLoaded', () => {
         let width = canvas.width = window.innerWidth;
         let height = canvas.height = window.innerHeight;
         
-        // Handle window resizing
         window.addEventListener('resize', () => {
             width = canvas.width = window.innerWidth;
             height = canvas.height = window.innerHeight;
         });
         
-        const particles = [];
-        // Particle density based on screen size
-        const maxParticles = Math.min(65, Math.floor((width * height) / 20000));
-        const connectionDistance = 140;
-        
-        // Helper to get active theme primary color
-        function getPrimaryColor() {
+        const orbsConfig = [
+            { varName: '--primary-color', fallback: '#6366f1' },
+            { varName: '--secondary-color', fallback: '#8b5cf6' },
+            { varName: '--accent-cyan', fallback: '#06b6d4' },
+            { varName: '--accent-green', fallback: '#10b981' }
+        ];
+
+        function getColorValue(variableName, fallback) {
             const style = getComputedStyle(document.documentElement);
-            const color = style.getPropertyValue('--primary-color').trim() || '#6366f1';
-            return color;
+            return style.getPropertyValue(variableName).trim() || fallback;
+        }
+
+        function hexToRgb(hex) {
+            hex = hex.trim();
+            if (hex.startsWith('rgb')) {
+                const parts = hex.match(/\d+/g);
+                if (parts) return { r: parseInt(parts[0]), g: parseInt(parts[1]), b: parseInt(parts[2]) };
+            }
+            if (!hex.startsWith('#')) return null;
+            const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
+            const fullHex = hex.replace(shorthandRegex, (m, r, g, b) => r + r + g + g + b + b);
+            const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(fullHex);
+            return result ? {
+                r: parseInt(result[1], 16),
+                g: parseInt(result[2], 16),
+                b: parseInt(result[3], 16)
+            } : null;
         }
         
-        class Particle {
-            constructor() {
+        class Orb {
+            constructor(colorVar, fallbackColor) {
                 this.x = Math.random() * width;
                 this.y = Math.random() * height;
-                this.vx = (Math.random() - 0.5) * 0.45;
-                this.vy = (Math.random() - 0.5) * 0.45;
-                this.radius = Math.random() * 2 + 1;
+                this.vx = (Math.random() - 0.5) * 0.8;
+                this.vy = (Math.random() - 0.5) * 0.8;
+                this.radius = Math.random() * 150 + 200; // Big soft orbs
+                this.colorVar = colorVar;
+                this.fallbackColor = fallbackColor;
+                this.growSpeed = (Math.random() - 0.5) * 0.25;
+                this.maxRadius = this.radius + 60;
+                this.minRadius = this.radius - 60;
             }
             
             update() {
                 this.x += this.vx;
                 this.y += this.vy;
+                this.radius += this.growSpeed;
                 
-                // Boundary collision
-                if (this.x < 0 || this.x > width) this.vx *= -1;
-                if (this.y < 0 || this.y > height) this.vy *= -1;
+                // Allow floating slightly off boundary
+                if (this.x < -this.radius || this.x > width + this.radius) this.vx *= -1;
+                if (this.y < -this.radius || this.y > height + this.radius) this.vy *= -1;
+                
+                // Pulsing size
+                if (this.radius > this.maxRadius || this.radius < this.minRadius) {
+                    this.growSpeed *= -1;
+                }
             }
             
             draw() {
+                const activeColor = getColorValue(this.colorVar, this.fallbackColor);
+                const rgb = hexToRgb(activeColor) || { r: 99, g: 102, b: 241 };
+                
+                const gradient = ctx.createRadialGradient(
+                    this.x, this.y, 0,
+                    this.x, this.y, this.radius
+                );
+                gradient.addColorStop(0, `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, 0.5)`);
+                gradient.addColorStop(0.5, `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, 0.15)`);
+                gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
+                
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-                ctx.fillStyle = getPrimaryColor();
+                ctx.fillStyle = gradient;
                 ctx.fill();
             }
         }
         
-        // Create initial particle set
-        for (let i = 0; i < maxParticles; i++) {
-            particles.push(new Particle());
-        }
+        const orbs = orbsConfig.map(cfg => new Orb(cfg.varName, cfg.fallback));
         
         function animate() {
             ctx.clearRect(0, 0, width, height);
             
-            // Update & draw particles
-            particles.forEach(p => {
-                p.update();
-                p.draw();
+            orbs.forEach(orb => {
+                orb.update();
+                orb.draw();
             });
-            
-            // Draw connections between close particles
-            ctx.lineWidth = 0.65;
-            for (let i = 0; i < particles.length; i++) {
-                for (let j = i + 1; j < particles.length; j++) {
-                    const p1 = particles[i];
-                    const p2 = particles[j];
-                    const dx = p1.x - p2.x;
-                    const dy = p1.y - p2.y;
-                    const dist = Math.sqrt(dx * dx + dy * dy);
-                    
-                    if (dist < connectionDistance) {
-                        const alpha = (1 - dist / connectionDistance) * 0.25;
-                        
-                        // Parse RGB from hex/variable representation dynamically
-                        const primaryHex = getPrimaryColor();
-                        if (primaryHex.startsWith('#')) {
-                            const r = parseInt(primaryHex.slice(1, 3), 16);
-                            const g = parseInt(primaryHex.slice(3, 5), 16);
-                            const b = parseInt(primaryHex.slice(5, 7), 16);
-                            ctx.strokeStyle = `rgba(${r}, ${g}, ${b}, ${alpha})`;
-                        } else if (primaryHex.startsWith('rgb')) {
-                            ctx.strokeStyle = primaryHex.replace(')', `, ${alpha})`).replace('rgb', 'rgba');
-                        } else {
-                            ctx.strokeStyle = `rgba(99, 102, 241, ${alpha})`;
-                        }
-                        
-                        ctx.beginPath();
-                        ctx.moveTo(p1.x, p1.y);
-                        ctx.lineTo(p2.x, p2.y);
-                        ctx.stroke();
-                    }
-                }
-            }
             
             requestAnimationFrame(animate);
         }
