@@ -1068,45 +1068,72 @@ body {
 /* ============================================
    ACADEMIC BACKGROUND
    ============================================ */
-.education-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
-    max-width: 900px;
+/* ============================================
+   ACADEMIC BACKGROUND TIMELINE
+   ============================================ */
+.education-timeline {
+    position: relative;
+    max-width: 850px;
     margin: 0 auto;
+    padding-left: 2.5rem;
 }
 
-.education-row {
-    padding: 1.75rem;
-    display: flex;
-    gap: 1.5rem;
-    align-items: flex-start;
+.education-timeline::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    width: 2px;
+    height: calc(100% - 25px);
+    background: linear-gradient(to bottom, var(--primary-color), var(--primary-glow));
 }
 
-.edu-icon {
-    font-size: 1.75rem;
+.edu-timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.edu-timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.edu-timeline-icon {
+    position: absolute;
+    left: -40px;
+    top: 4px;
+    width: 32px;
+    height: 32px;
+    background: var(--nav-bg);
+    border: 2px solid var(--primary-color);
     color: var(--primary-color);
-    width: 48px;
-    height: 48px;
-    background: var(--primary-glow);
-    border-radius: 10px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
+    font-size: 0.85rem;
+    z-index: 2;
+    transition: all 0.3s ease;
 }
 
-.edu-details {
+.edu-timeline-item:hover .edu-timeline-icon {
+    background: var(--primary-color);
+    color: #ffffff;
+    box-shadow: 0 0 12px var(--primary-color);
+}
+
+.edu-timeline-content {
+    padding: 1.75rem;
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: 0.35rem;
+    transition: all 0.3s ease;
 }
 
-.edu-details h4 {
+.edu-timeline-content h4 {
     font-size: 1.1rem;
     font-weight: 700;
     color: var(--text-color);
-    line-height: 1.3;
+    margin: 0;
 }
 
 .edu-institution {
@@ -1115,7 +1142,18 @@ body {
     color: var(--text-secondary);
 }
 
-.edu-date,
+.edu-date {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 2px;
+}
+
 .edu-loc,
 .edu-grade {
     font-size: 0.78rem;
