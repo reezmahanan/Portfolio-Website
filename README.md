@@ -206,7 +206,7 @@ Open your browser and navigate to `http://localhost:5500`.
 
 ## Connect & Collaborate
 
-- **Portfolio**: [spectacular-narwhal-9eb659.netlify.app](https://spectacular-narwhal-9eb659.netlify.app/)
+- **Portfolio**: [https://portfolio-website-7mdi.vercel.app](https://portfolio-website-7mdi.vercel.app/)
 - **LinkedIn**: [linkedin.com/in/reezma-hanan](https://linkedin.com/in/reezma-hanan)
 - **GitHub**: [github.com/reezmahanan](https://github.com/reezmahanan)
 - **Email**: [reezmahanan@gmail.com](mailto:reezmahanan@gmail.com)
