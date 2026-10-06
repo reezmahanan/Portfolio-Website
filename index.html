@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Unique: Crafted by Reezma Hanan, 2026 -->
-    <title>Reezma Hanan | Full-Stack Developer & Spring Boot Specialist</title>
-    <meta name="description" content="I'm Reezma Hanan, an IT student at the Institute of Technology, University of Moratuwa (ITUM), and an aspiring Full-Stack Developer seeking a Software Engineering internship. Specialized in React, Spring Boot, MySQL, Docker, and AWS. Active Open Source contributor in programs like SWOC and GSSOC.">
-    <meta name="keywords" content="Reezma Hanan, IT Undergrad, ITUM, Software Engineer, Full-Stack Developer, React, Spring Boot, Java, JavaScript, Python, Docker, AWS, Open Source, Portfolio, University of Moratuwa">
+    <title>Reezma Hanan | Full-Stack Developer & Machine Learning Enthusiast</title>
+    <meta name="description" content="Reezma Hanan is an IT Undergraduate at the Institute of Technology, University of Moratuwa (ITUM) in Sri Lanka. Full-Stack Developer (React, Spring Boot, Node.js) and Machine Learning Enthusiast (LightGBM, Scikit-Learn). Seeking Software Engineering Internships.">
+    <meta name="keywords" content="Reezma Hanan, IT Undergrad, ITUM, University of Moratuwa, Software Engineer, Full-Stack Developer, Machine Learning, LightGBM, Scikit-Learn, React, Spring Boot, Node.js, MySQL, MongoDB, Docker, AWS, Open Source, SWOC, GSSOC">
     <meta name="author" content="Reezma Hanan">
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Reezma Hanan - Full-Stack Developer & Spring Boot Specialist">
-    <meta property="og:description" content="IT student at ITUM | Full-Stack Developer specializing in React, Spring Boot, and DevOps (Docker/AWS). Active open source contributor. Seeking internships.">
+    <meta property="og:title" content="Reezma Hanan - Full-Stack Developer & Machine Learning Enthusiast">
+    <meta property="og:description" content="IT Undergrad at ITUM | Full-Stack Developer (React • Spring Boot • Node.js) & Machine Learning (LightGBM • Scikit-Learn). Open to internships.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="profile.jpg">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Reezma Hanan | React & Spring Boot Developer">
-    <meta name="twitter:description" content="React & Spring Boot Developer | IT Undergrad at ITUM | Open Source Contributor | Seeking Software Engineering Internships.">
+    <meta name="twitter:title" content="Reezma Hanan | Full-Stack & Machine Learning Developer">
+    <meta name="twitter:description" content="IT Undergrad at ITUM | Full-Stack Developer | Machine Learning Enthusiast | Open Source Contributor | Seeking Internships.">
     
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>R</text></svg>">
     
@@ -28,42 +28,68 @@
     
     <!-- CSS Files -->
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Critical Navbar Layout */
+        .navbar { position: fixed; top: 0; left: 0; width: 100%; z-index: 999; }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.25rem; font-weight: 700; color: #f8fafc; text-decoration: none; }
+        .nav-menu, .nav-menu li, .dropdown-menu, .dropdown-menu li { list-style: none !important; list-style-type: none !important; margin: 0; padding: 0; }
+        .nav-menu { display: flex; align-items: center; gap: 1.25rem; }
+        .nav-link { color: #94a3b8; text-decoration: none; font-size: 0.9rem; font-weight: 500; padding: 0.5rem 0; cursor: pointer; }
+        .nav-dropdown { position: relative; display: inline-flex; align-items: center; }
+        .dropdown-toggle { background: none !important; border: none !important; cursor: pointer; color: #94a3b8; display: inline-flex; align-items: center; gap: 6px; padding: 0.5rem 0; text-decoration: none !important; font-size: 0.9rem; font-weight: 500; font-family: inherit; }
+        .dropdown-menu { display: none; position: absolute; top: 100%; right: 0; min-width: 190px; }
+        .nav-dropdown:hover .dropdown-menu, .nav-dropdown.open .dropdown-menu { display: block; }
+        .dropdown-link { display: flex; align-items: center; gap: 10px; padding: 0.6rem 0.85rem; color: #94a3b8; text-decoration: none; font-size: 0.88rem; font-weight: 500; }
+        .dropdown-icon { color: #3b82f6; width: 18px; text-align: center; }
+    </style>
 </head>
 <body>
     <!-- Advanced Floating Glass Orbs Background Canvas -->
     <canvas id="techCanvas" class="tech-canvas"></canvas>
     
-    <!-- Loading Screen -->
-    <div class="loading" id="loading">
-        <div class="loading-content">
-            <div class="loading-logo">
-                <i class="fas fa-code loading-icon"></i>
-            </div>
-            <div class="loading-animation">
-                <span class="bracket">&lt;</span>
-                <span class="loading-name">Reezma Hanan</span>
-                <span class="bracket">/&gt;</span>
-            </div>
-            <div class="loading-progress"><div class="progress-bar"></div></div>
-            <div class="loading-message">Compiling portfolio assets...</div>
-        </div>
-    </div>
-
     <!-- Navigation Header -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#home" class="logo">
-                <span class="logo-symbol">&lt;/&gt;</span> Reezma Hanan
-            </a>
+            <a href="#home" class="logo">Reezma Hanan</a>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#opensource" class="nav-link">Open Source</a></li>
-                <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#certs" class="nav-link">Certifications</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certs" class="nav-link">Certificates</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-dropdown">
+                    <a href="javascript:void(0)" class="nav-link dropdown-toggle" id="moreDropdownBtn" role="button" aria-expanded="false" aria-haspopup="true">
+                        <span>More</span>
+                        <i class="fas fa-chevron-down dropdown-arrow"></i>
+                    </a>
+                    <ul class="dropdown-menu" id="moreDropdownMenu">
+                        <li>
+                            <a href="#opensource" class="dropdown-link">
+                                <i class="fas fa-code-branch dropdown-icon"></i>
+                                <span>Open Source</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#blogs" class="dropdown-link">
+                                <i class="fas fa-book-open dropdown-icon"></i>
+                                <span>Blogs</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#community" class="dropdown-link">
+                                <i class="fas fa-hands-helping dropdown-icon"></i>
+                                <span>Volunteering</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="dropdown-link">
+                                <i class="fas fa-envelope dropdown-icon"></i>
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
             <div class="nav-actions">
                 <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
@@ -83,31 +109,43 @@
     <section class="hero section" id="home">
         <div class="container hero-container">
             <div class="hero-text fade-in">
-                <span class="hero-greeting"><span class="status-dot"></span> Open for Internship Opportunities</span>
-                <span class="hero-subtitle-top">HELLO, I'M</span>
-                <h1 class="hero-name">Reezma Hanan</h1>
-                <div class="typewriter-container">
-                    <span class="type-prefix">IT Undergrad at </span>
-                    <span class="typewriter-text" id="typewriterText"></span><span class="typewriter-cursor">|</span>
-                </div>
-                <p class="hero-quote">"Code with passion, build with purpose, innovate with impact"</p>
-                
-                <!-- Status & Focus Badges -->
-                <div class="hero-badges">
-                    <span class="hero-badge badge-role">ROLE: SOFTWARE ENGINEER IN TRAINING</span>
-                    <span class="hero-badge badge-status">GOAL: SEEKING INTERNSHIP</span>
-                    <span class="hero-badge badge-loc">LOCATION: SRI LANKA</span>
+                <h1 class="hero-impact-title">
+                    <span class="hero-impact-first">REEZMA</span>
+                    <span class="hero-impact-accent">HANAN</span>
+                </h1>
+                <h2 class="hero-impact-role">Full-Stack &amp; AI / ML Engineer</h2>
+                <p class="hero-impact-desc">
+                    I build scalable full-stack web applications, develop intelligent AI/ML models, and turn ideas into real-world impact.
+                </p>
+
+                <!-- Career Growth & Opportunity Target -->
+                <div class="hero-growth-card">
+                    <div class="growth-dot-pulse"></div>
+                    <span class="growth-statement-text">
+                        Looking forward to a <strong class="growth-role">Software Engineering Intern</strong> or <strong class="growth-role">Full-Stack Developer</strong> role where I can learn, contribute, and grow.
+                    </span>
                 </div>
 
-                <div class="hero-tech-pills">
-                    <span class="tech-pill">&lt;Full-Stack/&gt;</span>
-                    <span class="tech-pill">{Cyber Security}</span>
-                    <span class="tech-pill">&lt;Java & Python/&gt;</span>
+                <!-- Connect With Me -->
+                <div class="hero-connect-wrap">
+                    <span class="connect-label">Connect with me</span>
+                    <div class="hero-social-boxes">
+                        <a href="https://github.com/reezmahanan" target="_blank" class="social-box" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/reezma-hanan" target="_blank" class="social-box" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:reezmahanan@gmail.com" class="social-box" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
-                
+
+                <!-- Action Buttons -->
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary">
-                        <i class="fas fa-envelope"></i> HIRE ME
+                        <i class="fas fa-paper-plane"></i> HIRE ME
                     </a>
                     <a href="Reezma_Hanan_Resume.pdf" class="btn btn-secondary" target="_blank">
                         <i class="fas fa-file-download"></i> DOWNLOAD CV
@@ -116,72 +154,129 @@
             </div>
             
             <div class="hero-image-wrap fade-in">
-                <div class="profile-badge-container">
-                    <div class="badge-circle">
-                        <div class="badge-ring ring-1"></div>
-                        <div class="badge-ring ring-2"></div>
-                        <div class="profile-circle">
-                            <img src="profile.jpg" alt="Reezma Hanan" class="profile-img">
+                <div class="hero-portrait-stage">
+                    <!-- Concentric Ambient Glow Background -->
+                    <div class="portrait-ambient-glow"></div>
+                    <div class="portrait-ambient-arc arc-outer"></div>
+                    <div class="portrait-ambient-arc arc-inner"></div>
+
+                    <!-- Main Portrait Circle (Larger Size) -->
+                    <div class="hero-portrait-frame">
+                        <img src="profile.jpg" alt="Reezma Hanan" class="hero-portrait-photo">
+                    </div>
+
+                    <!-- Floating Badge 1: Top-Left (AI & ML) -->
+                    <div class="hero-floating-card badge-top-left">
+                        <div class="floating-card-icon icon-aiml">
+                            <i class="fas fa-brain"></i>
                         </div>
-                        <svg class="badge-text-svg" viewBox="0 0 200 200">
-                            <defs>
-                                <path id="circlePath" d="M 100, 100 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0"/>
-                            </defs>
-                            <text class="badge-text">
-                                <textPath href="#circlePath" startOffset="50%" text-anchor="middle">
-                                    REEZMA HANAN • DEVELOPER •
-                                </textPath>
-                            </text>
-                        </svg>
+                        <div class="floating-card-text">
+                            <strong class="floating-card-title">AI &amp; ML</strong>
+                            <span class="floating-card-sub">Engineer</span>
+                        </div>
+                    </div>
+
+                    <!-- Floating Badge 2: Top-Right (Cloud & DevOps) -->
+                    <div class="hero-floating-card badge-top-right">
+                        <div class="floating-card-icon icon-devops">
+                            <i class="fas fa-infinity"></i>
+                        </div>
+                        <div class="floating-card-text">
+                            <strong class="floating-card-title">Cloud &amp; DevOps</strong>
+                            <span class="floating-card-sub">Solutions</span>
+                        </div>
+                    </div>
+
+                    <!-- Floating Badge 3: Bottom-Left (Full-Stack) -->
+                    <div class="hero-floating-card badge-bottom-left">
+                        <div class="floating-card-icon icon-stack">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="floating-card-text">
+                            <strong class="floating-card-title">Full-Stack</strong>
+                            <span class="floating-card-sub">Developer</span>
+                        </div>
+                    </div>
+
+                    <!-- Floating Badge 4: Bottom-Right (Software) -->
+                    <div class="hero-floating-card badge-bottom-right">
+                        <div class="floating-card-icon icon-software">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="floating-card-text">
+                            <strong class="floating-card-title">Software</strong>
+                            <span class="floating-card-sub">Engineer</span>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Scroll Down Indicator -->
+        <div class="hero-scroll-wrap fade-in">
+            <a href="#about" class="hero-scroll-btn" aria-label="Scroll down to About section">
+                <span class="scroll-text">Scroll Down</span>
+                <i class="fas fa-chevron-down scroll-chevron"></i>
+            </a>
         </div>
     </section>
 
     <!-- About Me Section -->
     <section class="about section" id="about">
         <div class="container">
-            <h2 class="section-title fade-in">About Me</h2>
-            <p class="section-subtitle fade-in">IT Student at Institute of Technology, University of Moratuwa</p>
-            
-            <div class="about-grid">
-                <div class="about-visual fade-in">
-                    <div class="about-image-frame">
-                        <img src="About Me.jpg" alt="Reezma Hanan Coding" class="about-img">
-                    </div>
+            <!-- Hero Heading matching design -->
+            <div class="about-hero-header text-center fade-in">
+                <div class="section-pill-wrap">
+                    <span class="section-pill-badge">
+                        <i class="fas fa-user"></i>
+                        <span>About Me</span>
+                    </span>
                 </div>
+                <h2 class="about-hero-title">
+                    Building Solutions,<br>
+                    <span class="about-hero-accent">ENGINEERING SCALABLE SYSTEMS.</span>
+                </h2>
+            </div>
+            
+            <!-- Story Journey Card -->
+            <div class="about-story-card fade-in">
+                <p class="about-story-p">
+                    I’m <strong>Reezma Hanan</strong>, an Information Technology undergraduate at the Institute of Technology, University of Moratuwa (ITUM) from Batticaloa, Sri Lanka, with a strong interest in full-stack software engineering, REST API architecture, and machine learning.
+                </p>
+                <p class="about-story-p">
+                    I enjoy building practical solutions, learning modern technologies, and turning ideas into useful digital experiences. My journey is focused on improving my technical skills, exploring real-world engineering practices, and continuously growing as a software engineer in the tech industry.
+                </p>
+                <p class="about-story-p">
+                    Beyond standalone development, I actively contribute to open-source software repositories, publish in-depth architectural guides on Medium exploring cloud systems and databases, and collaborate on production-ready code. I believe that engineering excellence is built on continuous learning, clean architecture, and practical execution.
+                </p>
                 
-                <div class="about-content fade-in">
-                    <h3>Reezma Hanan</h3>
-                    <p class="about-intro">
-                        I am Reezma Hanan, currently pursuing a National Diploma in Information Technology (NDT IT) at the University of Moratuwa. I specialize in building secure, user-centered web and full-stack applications. My programming journey spans Java, Python, PHP, and JavaScript, while actively expanding into Node.js, React.js, and Spring Boot.
-                    </p>
-                    <p class="about-desc">
-                        With a deep interest in Cyber Security and Cloud Computing (AWS), I incorporate threat prevention and secure coding patterns into every project. I focus on designing elegant solutions that solve real-world problems while delivering excellent, responsive user interfaces.
-                    </p>
-                    <p class="about-desc">
-                        Outside of coursework, I enjoy learning emerging technologies, contributing to open-source projects, and supporting aspiring developers in the tech community.
-                    </p>
-
-                    <!-- Quick Highlights Grid -->
-                    <div class="highlights-grid">
-                        <div class="highlight-card">
-                            <div class="hl-icon"><i class="fas fa-graduation-cap"></i></div>
-                            <h4>Education</h4>
-                            <p>IT @ UOM (University of Moratuwa)<br/>Cloud & Cyber Security focus</p>
-                        </div>
-                        <div class="highlight-card">
-                            <div class="hl-icon"><i class="fas fa-briefcase"></i></div>
-                            <h4>Experience</h4>
-                            <p>Academic, Personal & Open Source<br/>Full-Stack Fundamentals & APIs</p>
-                        </div>
-                        <div class="highlight-card">
-                            <div class="hl-icon"><i class="fas fa-award"></i></div>
-                            <h4>Achievements</h4>
-                            <p>20+ Professional Certificates<br/>HackerRank Stars & Cisco Academics</p>
-                        </div>
+                <!-- Quote Callout Box -->
+                <div class="about-quote-box">
+                    <div class="about-quote-icon">
+                        <i class="fas fa-quote-left"></i>
                     </div>
+                    <p class="about-quote-text">
+                        My goal is to keep learning, keep building, and engineer scalable software solutions that deliver real-world impact.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Quick Highlights Grid -->
+            <div class="highlights-grid about-highlights-centered fade-in">
+                <div class="highlight-card">
+                    <div class="hl-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h4>Education</h4>
+                    <p>NDT IT @ ITUM (Uni of Moratuwa)<br/>Current GPA: 3.06</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="hl-icon"><i class="fas fa-layer-group"></i></div>
+                    <h4>Full-Stack & ML</h4>
+                    <p>React, Spring Boot, Node.js<br/>LightGBM & Scikit-Learn</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="hl-icon"><i class="fas fa-award"></i></div>
+                    <h4>Credentials & Impact</h4>
+                    <p>SWOC '26 • GSSOC '26 • SSOC '26<br/>25+ Verified Certifications</p>
                 </div>
             </div>
 
@@ -192,12 +287,12 @@
                     <span class="stat-label">Technologies & Tools</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-num" data-target="8">8+</span>
+                    <span class="stat-num" data-target="12">12+</span>
                     <span class="stat-label">Real-World Projects</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-num" data-target="20">20+</span>
-                    <span class="stat-label">Certificates Earned</span>
+                    <span class="stat-num" data-target="25">25+</span>
+                    <span class="stat-label">Certifications Earned</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-num" id="visitorCount">1</span>
@@ -207,177 +302,92 @@
         </div>
     </section>
 
-    <!-- Open Source Section -->
-    <section class="opensource section" id="opensource">
-        <div class="container">
-            <h2 class="section-title fade-in">Open Source Journey</h2>
-            <p class="section-subtitle fade-in">Supporting open source development across international code repos</p>
-            
-            <!-- Open Source Cards Grid -->
-            <div class="opensource-cards-grid fade-in">
-                <div class="os-card card">
-                    <div class="os-card-header">
-                        <span class="os-badge collaborations">SWOC '26</span>
-                        <span class="os-icon"><i class="fas fa-code-branch"></i></span>
-                    </div>
-                    <h4>Social Winter of Code</h4>
-                    <p class="os-role">Open Source Contributor</p>
-                    <div class="os-repo-info">
-                        <strong>Repository:</strong>
-                        <a href="https://github.com/archangel2006/SafeHaven" target="_blank">archangel2006/SafeHaven</a>
-                    </div>
-                    <a href="https://github.com/archangel2006/SafeHaven" target="_blank" class="btn-mini-os">
-                        View Project <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>
-
-                <div class="os-card card">
-                    <div class="os-card-header">
-                        <span class="os-badge internships">OSCG '26</span>
-                        <span class="os-icon"><i class="fas fa-code-branch"></i></span>
-                    </div>
-                    <h4>Open Source Connect Global</h4>
-                    <p class="os-role">Open Source Contributor</p>
-                    <div class="os-repo-info">
-                        <strong>Repository:</strong>
-                        <a href="https://github.com/Gooichand/blockchain-evidence" target="_blank">Gooichand/blockchain-evidence</a>
-                    </div>
-                    <a href="https://github.com/Gooichand/blockchain-evidence" target="_blank" class="btn-mini-os">
-                        View Project <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>
-
-                <div class="os-card card">
-                    <div class="os-card-header">
-                        <span class="os-badge learning">SSOC '26</span>
-                        <span class="os-icon"><i class="fas fa-code-branch"></i></span>
-                    </div>
-                    <h4>Social Summer of Code</h4>
-                    <p class="os-role">Open Source Contributor</p>
-                    <div class="os-repo-info">
-                        <strong>Repository:</strong>
-                        <a href="https://github.com/AnthropicBots/E-commerce" target="_blank">AnthropicBots/E-commerce</a>
-                    </div>
-                    <a href="https://github.com/AnthropicBots/E-commerce" target="_blank" class="btn-mini-os">
-                        View Project <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>
-
-                <div class="os-card card">
-                    <div class="os-card-header">
-                        <span class="os-badge ideas">GSSOC '26</span>
-                        <span class="os-icon"><i class="fas fa-code-branch"></i></span>
-                    </div>
-                    <h4>GirlScript Summer of Code</h4>
-                    <p class="os-role">Open Source Contributor</p>
-                    <div class="os-repo-info">
-                        <strong>Repository:</strong>
-                        <a href="https://github.com/SAPTARSHI-coder/EaseMotion-css" target="_blank">SAPTARSHI/EaseMotion-css</a>
-                    </div>
-                    <a href="https://github.com/SAPTARSHI-coder/EaseMotion-css" target="_blank" class="btn-mini-os">
-                        View Project <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- Academic Background Section -->
-    <section class="education section" id="education">
-        <div class="container">
-            <h2 class="section-title fade-in">Academic Background</h2>
-            <p class="section-subtitle fade-in">My educational journey and academic qualifications</p>
-            
-            <div class="education-timeline fade-in">
-                <!-- Edu Item 1 -->
-                <div class="edu-timeline-item">
-                    <div class="edu-timeline-icon"><i class="fas fa-university"></i></div>
-                    <div class="edu-timeline-content card">
-                        <span class="edu-date"><i class="far fa-calendar-alt"></i> Oct 2024 - Present</span>
-                        <h4>National Diploma in Information Technology (NDT IT)</h4>
-                        <span class="edu-institution">Institute of Technology, University of Moratuwa</span>
-                        <span class="edu-loc"><i class="fas fa-map-marker-alt"></i> Diyagama, Homagama, Sri Lanka</span>
-                    </div>
-                </div>
-
-                <!-- Edu Item 2 -->
-                <div class="edu-timeline-item">
-                    <div class="edu-timeline-icon"><i class="fas fa-graduation-cap"></i></div>
-                    <div class="edu-timeline-content card">
-                        <span class="edu-date"><i class="far fa-calendar-alt"></i> 2018 - 2020</span>
-                        <h4>GCE Advanced Level - Physical Science Stream</h4>
-                        <span class="edu-institution">BT/BC Oddamavadi Central College National School</span>
-                        <span class="edu-loc"><i class="fas fa-map-marker-alt"></i> Batticaloa, Sri Lanka</span>
-                    </div>
-                </div>
-
-                <!-- Edu Item 3 -->
-                <div class="edu-timeline-item">
-                    <div class="edu-timeline-icon"><i class="fas fa-school"></i></div>
-                    <div class="edu-timeline-content card">
-                        <span class="edu-date"><i class="far fa-calendar-alt"></i> 2007 - 2018</span>
-                        <h4>GCE Ordinary Level</h4>
-                        <span class="edu-institution">BT/BC Oddamavadi Fathima Balika Maha Vidyalaya</span>
-                        <span class="edu-loc"><i class="fas fa-map-marker-alt"></i> Batticaloa, Sri Lanka</span>
-                        <span class="edu-grade"><i class="fas fa-award"></i> Result: 8 A's and B's</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Programming Skills Section -->
     <section class="skills section" id="skills">
         <div class="container">
-            <h2 class="section-title fade-in">Programming & Development Skills</h2>
-            <p class="section-subtitle fade-in">Expertise across languages, frameworks, cloud, dev tools, and learning paths</p>
+            <div class="section-hero-header text-center fade-in">
+                <div class="section-pill-wrap">
+                    <span class="section-pill-badge">
+                        <i class="fas fa-tools"></i>
+                        <span>Skills</span>
+                    </span>
+                </div>
+                <h2 class="section-hero-title">
+                    Skills I<br>
+                    <span class="section-hero-accent">BUILD WITH.</span>
+                </h2>
+                <p class="section-hero-subtitle">
+                    A growing toolkit of technologies I use to build solutions, solve problems, and keep learning.
+                </p>
+            </div>
             
             <div class="skills-layout fade-in">
                 <!-- Skills Panel Grid with Real SkillIcons -->
                 <div class="skills-categories-grid">
                     <!-- Languages -->
                     <div class="skills-category-card card">
-                        <h4>Languages</h4>
+                        <h4>Programming Languages</h4>
                         <div class="skills-icons-row">
                             <div class="skill-icon-item" title="Java"><img src="https://skillicons.dev/icons?i=java" alt="Java"><span>Java</span></div>
                             <div class="skill-icon-item" title="Python"><img src="https://skillicons.dev/icons?i=py" alt="Python"><span>Python</span></div>
                             <div class="skill-icon-item" title="JavaScript"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript"><span>JavaScript</span></div>
                             <div class="skill-icon-item" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript"><span>TypeScript</span></div>
                             <div class="skill-icon-item" title="PHP"><img src="https://skillicons.dev/icons?i=php" alt="PHP"><span>PHP</span></div>
-                            <div class="skill-icon-item" title="MATLAB"><img src="https://skillicons.dev/icons?i=matlab" alt="MATLAB"><span>MATLAB</span></div>
+                            <div class="skill-icon-item" title="C"><img src="https://skillicons.dev/icons?i=c" alt="C"><span>C</span></div>
                         </div>
                     </div>
-                    <!-- Web Dev -->
+                    <!-- Machine Learning & Data Science -->
                     <div class="skills-category-card card">
-                        <h4>Web Development</h4>
+                        <h4>Machine Learning & Data Science</h4>
+                        <div class="skills-icons-row">
+                            <div class="skill-icon-item" title="Python"><img src="https://skillicons.dev/icons?i=py" alt="Python"><span>Python</span></div>
+                            <div class="skill-icon-item" title="Scikit-Learn"><img src="https://skillicons.dev/icons?i=sklearn" alt="Scikit-Learn"><span>Scikit-Learn</span></div>
+                            <div class="skill-icon-item" title="Pandas"><img src="screenshots/pandas.svg" alt="Pandas"><span>Pandas</span></div>
+                            <div class="skill-icon-item" title="NumPy"><img src="screenshots/numpy.svg" alt="NumPy"><span>NumPy</span></div>
+                            <div class="skill-icon-item" title="LightGBM"><img src="screenshots/lightgbm.svg" alt="LightGBM"><span>LightGBM</span></div>
+                        </div>
+                    </div>
+                    <!-- Frameworks & Runtimes -->
+                    <div class="skills-category-card card">
+                        <h4>Frameworks & Runtimes</h4>
+                        <div class="skills-icons-row">
+                            <div class="skill-icon-item" title="Spring Boot"><img src="https://skillicons.dev/icons?i=spring" alt="Spring Boot"><span>Spring Boot</span></div>
+                            <div class="skill-icon-item" title="React"><img src="https://skillicons.dev/icons?i=react" alt="React"><span>React</span></div>
+                            <div class="skill-icon-item" title="Node.js"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"><span>Node.js</span></div>
+                            <div class="skill-icon-item" title="Express.js"><img src="https://skillicons.dev/icons?i=express" alt="Express.js"><span>Express</span></div>
+                            <div class="skill-icon-item" title="Laravel"><img src="https://skillicons.dev/icons?i=laravel" alt="Laravel"><span>Laravel</span></div>
+                        </div>
+                    </div>
+                    <!-- Databases & Persistence -->
+                    <div class="skills-category-card card">
+                        <h4>Databases & Persistence</h4>
+                        <div class="skills-icons-row">
+                            <div class="skill-icon-item" title="MySQL"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
+                            <div class="skill-icon-item" title="MongoDB"><img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB"><span>MongoDB</span></div>
+                        </div>
+                    </div>
+                    <!-- Frontend & Styling -->
+                    <div class="skills-category-card card">
+                        <h4>Frontend & Styling</h4>
                         <div class="skills-icons-row">
                             <div class="skill-icon-item" title="HTML5"><img src="https://skillicons.dev/icons?i=html" alt="HTML5"><span>HTML5</span></div>
                             <div class="skill-icon-item" title="CSS3"><img src="https://skillicons.dev/icons?i=css" alt="CSS3"><span>CSS3</span></div>
-                            <div class="skill-icon-item" title="React.js"><img src="https://skillicons.dev/icons?i=react" alt="React.js"><span>React.js</span></div>
+                            <div class="skill-icon-item" title="Tailwind CSS"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS"><span>Tailwind</span></div>
+                            <div class="skill-icon-item" title="Bootstrap"><img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap"><span>Bootstrap</span></div>
                         </div>
                     </div>
-                    <!-- Backend -->
+                    <!-- Cloud, DevOps & Systems -->
                     <div class="skills-category-card card">
-                        <h4>Backend & Databases</h4>
-                        <div class="skills-icons-row">
-                            <div class="skill-icon-item" title="Spring Boot"><img src="https://skillicons.dev/icons?i=spring" alt="Spring Boot"><span>Spring Boot</span></div>
-                            <div class="skill-icon-item" title="MySQL"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
-                            <div class="skill-icon-item" title="Node.js"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"><span>Node.js</span></div>
-                        </div>
-                    </div>
-                    <!-- Infrastructure -->
-                    <div class="skills-category-card card">
-                        <h4>Cloud & Infrastructure</h4>
+                        <h4>Cloud, DevOps & Systems</h4>
                         <div class="skills-icons-row">
                             <div class="skill-icon-item" title="AWS"><img src="https://skillicons.dev/icons?i=aws" alt="AWS"><span>AWS</span></div>
+                            <div class="skill-icon-item" title="Docker"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"><span>Docker</span></div>
                             <div class="skill-icon-item" title="Linux"><img src="https://skillicons.dev/icons?i=linux" alt="Linux"><span>Linux</span></div>
                         </div>
                     </div>
                     <!-- Developer Tools -->
                     <div class="skills-category-card card">
-                        <h4>Developer Tools</h4>
+                        <h4>Developer Tools & Testing</h4>
                         <div class="skills-icons-row">
                             <div class="skill-icon-item" title="Git"><img src="https://skillicons.dev/icons?i=git" alt="Git"><span>Git</span></div>
                             <div class="skill-icon-item" title="GitHub"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"><span>GitHub</span></div>
@@ -389,12 +399,11 @@
                     </div>
                     <!-- Design -->
                     <div class="skills-category-card card">
-                        <h4>Design & Other</h4>
+                        <h4>UI/UX & Prototyping</h4>
                         <div class="skills-icons-row">
                             <div class="skill-icon-item" title="Figma"><img src="https://skillicons.dev/icons?i=figma" alt="Figma"><span>Figma</span></div>
-                            <div class="skill-icon-item" title="Canva"><img src="https://img.icons8.com/color/96/canva.png" alt="Canva"><span>Canva</span></div>
                             <div class="skill-icon-item" title="Photoshop"><img src="https://skillicons.dev/icons?i=ps" alt="Photoshop"><span>Photoshop</span></div>
-                            <div class="skill-icon-item" title="Illustrator"><img src="https://skillicons.dev/icons?i=ai" alt="Illustrator"><span>Illustrator</span></div>
+                            <div class="skill-icon-item" title="Canva"><img src="https://img.icons8.com/color/96/canva.png" alt="Canva"><span>Canva</span></div>
                         </div>
                     </div>
                 </div>
@@ -450,6 +459,90 @@
                             <img src="https://www.google.com/s2/favicons?sz=64&domain=simplilearn.com" alt="Simplilearn">
                             Simplilearn
                         </span>
+                        <a href="https://www.kaggle.com" target="_blank" class="platform-badge card">
+                            <img src="https://www.google.com/s2/favicons?sz=64&domain=kaggle.com" alt="Kaggle">
+                            Kaggle
+                        </a>
+                        <a href="https://learn.kodekloud.com/learn/certificate/3e5f41f9-9caf-4f40-a18c-9e0a6d3f7978" target="_blank" class="platform-badge card">
+                            <img src="https://www.google.com/s2/favicons?sz=64&domain=kodekloud.com" alt="KodeKloud">
+                            KodeKloud
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Background Section -->
+    <section class="education section" id="education">
+        <div class="container">
+            <div class="section-hero-header text-center fade-in">
+                <div class="section-pill-wrap">
+                    <span class="section-pill-badge">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Education</span>
+                    </span>
+                </div>
+                <h2 class="section-hero-title">
+                    Always Learning.<br>
+                    <span class="section-hero-accent">ALWAYS GROWING.</span>
+                </h2>
+                <p class="section-hero-subtitle">
+                    Academic foundations, engineering qualifications, and continuous knowledge expansion driving my technical craft.
+                </p>
+            </div>
+            
+            <div class="education-timeline fade-in">
+                <!-- Edu Item 1 -->
+                <div class="edu-timeline-item">
+                    <div class="edu-timeline-dot"></div>
+                    <div class="edu-timeline-content card">
+                        <div class="edu-header-wrap">
+                            <img src="screenshots/Institute of Technolgy UOM Logo.jpg" alt="ITUM Logo" class="edu-content-logo">
+                            <div class="edu-header-text">
+                                <span class="edu-date"><i class="far fa-calendar-alt"></i> Oct 2024 - Present</span>
+                                <h4>National Diploma in Information Technology (NDT IT)</h4>
+                                <span class="edu-institution">Institute of Technology, University of Moratuwa (ITUM), Sri Lanka</span>
+                            </div>
+                        </div>
+                        <span class="edu-loc"><i class="fas fa-map-marker-alt"></i> Diyagama, Homagama, Sri Lanka</span>
+                        <span class="edu-grade"><i class="fas fa-award"></i> Current GPA: 3.06</span>
+                        <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.6rem; line-height: 1.5;">
+                            Coursework in Web Development, Digital Marketing, Business Intelligence, Cybersecurity, Databases, and Software Engineering principles. Hands-on training in API design and deploying secure full-stack web applications.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Edu Item 2 -->
+                <div class="edu-timeline-item">
+                    <div class="edu-timeline-dot"></div>
+                    <div class="edu-timeline-content card">
+                        <div class="edu-header-wrap">
+                            <img src="screenshots/Odd.central College Logo.jpg" alt="Oddamavadi Central College Logo" class="edu-content-logo">
+                            <div class="edu-header-text">
+                                <span class="edu-date"><i class="far fa-calendar-alt"></i> 2018 - 2020</span>
+                                <h4>GCE Advanced Level - Physical Science Stream</h4>
+                                <span class="edu-institution">BT/BC Oddamavadi Central College, Batticaloa, Sri Lanka</span>
+                            </div>
+                        </div>
+                        <span class="edu-loc"><i class="fas fa-map-marker-alt"></i> Batticaloa, Sri Lanka</span>
+                    </div>
+                </div>
+
+                <!-- Edu Item 3 -->
+                <div class="edu-timeline-item">
+                    <div class="edu-timeline-dot"></div>
+                    <div class="edu-timeline-content card">
+                        <div class="edu-header-wrap">
+                            <img src="screenshots/Odd.Fathima Balika Logo.jpg" alt="Oddamavadi Fathima Balika Logo" class="edu-content-logo">
+                            <div class="edu-header-text">
+                                <span class="edu-date"><i class="far fa-calendar-alt"></i> 2007 - 2018</span>
+                                <h4>GCE Ordinary Level</h4>
+                                <span class="edu-institution">BT/BC Oddamavadi Fathima Balika Maha Vidyalaya</span>
+                            </div>
+                        </div>
+                        <span class="edu-loc"><i class="fas fa-map-marker-alt"></i> Batticaloa, Sri Lanka</span>
+                        <span class="edu-grade"><i class="fas fa-award"></i> Result: 8 A's and B's</span>
                     </div>
                 </div>
             </div>
@@ -459,8 +552,21 @@
     <!-- Certifications & Badges Section -->
     <section class="certs section" id="certs">
         <div class="container">
-            <h2 class="section-title fade-in">Certifications & Badges</h2>
-            <p class="section-subtitle fade-in">My record of professional achievements, structured learning, and live skill verifications</p>
+            <div class="section-hero-header text-center fade-in">
+                <div class="section-pill-wrap">
+                    <span class="section-pill-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>Certificates</span>
+                    </span>
+                </div>
+                <h2 class="section-hero-title">
+                    Continuous Learning.<br>
+                    <span class="section-hero-accent">CONTINUOUS GROWTH.</span>
+                </h2>
+                <p class="section-hero-subtitle">
+                    Here are some of the certifications and learning milestones that help me deepen my knowledge and stay up to date.
+                </p>
+            </div>
             
             <div class="certs-tabs-buttons fade-in">
                 <button class="cert-tab-btn active" data-tab="certificates-pane">Certificates</button>
@@ -477,16 +583,17 @@
                         <div class="top-certs-grid">
                             <div class="cert-card card">
                                 <div class="cert-image-frame">
-                                    <img src="https://github.com/user-attachments/assets/2c597dcf-47b4-47c3-a4bb-6ba9f0e86961" alt="Docker Certificate" loading="lazy">
+                                    <img src="screenshots/docker for beginners.png" alt="Docker for Absolute Beginners Certificate" loading="lazy">
                                 </div>
                                 <div class="cert-content">
                                     <h4>Docker for Absolute Beginners</h4>
                                     <span class="cert-issuer">KodeKloud</span>
+                                    <a href="https://learn.kodekloud.com/learn/certificate/3e5f41f9-9caf-4f40-a18c-9e0a6d3f7978" target="_blank" class="verify-link" style="margin-top: 0.5rem;">Verify</a>
                                 </div>
                             </div>
                             <div class="cert-card card">
                                 <div class="cert-image-frame">
-                                    <img src="https://github.com/user-attachments/assets/e2af4b8a-df7d-4be4-91a2-c229685cb44c" alt="Linux Foundation Certificate" loading="lazy">
+                                    <img src="screenshots/cyber security essentials.png" alt="Linux Foundation Cybersecurity Certificate" loading="lazy">
                                 </div>
                                 <div class="cert-content">
                                     <h4>Cyber Security Essential (LFC108)</h4>
@@ -496,7 +603,7 @@
                             </div>
                             <div class="cert-card card">
                                 <div class="cert-image-frame">
-                                    <img src="https://github.com/user-attachments/assets/40df952e-ee56-491b-a8ec-32c704a659dd" alt="Agile Scrum Certificate" loading="lazy">
+                                    <img src="screenshots/agile scrum fountation.png" alt="Agile Scrum Foundation Certificate" loading="lazy">
                                 </div>
                                 <div class="cert-content">
                                     <h4>Agile Scrum Foundation</h4>
@@ -506,21 +613,22 @@
                             </div>
                             <div class="cert-card card">
                                 <div class="cert-image-frame">
-                                    <img src="https://github.com/user-attachments/assets/ce976dc9-1a0a-4c01-8532-71deba92aea5" alt="Java Basic Certificate" loading="lazy">
+                                    <img src="screenshots/java basic.png" alt="HackerRank Java Basic Certificate" loading="lazy">
                                 </div>
                                 <div class="cert-content">
-                                    <h4>HackerRank Verifications (Java, SQL & CSS)</h4>
-                                    <span class="cert-issuer">HackerRank Skills</span>
+                                    <h4>HackerRank Verified Skills</h4>
                                     <div style="font-size: 0.75rem; margin-top: 0.35rem;">
-                                        <a href="https://github.com/user-attachments/assets/ce976dc9-1a0a-4c01-8532-71deba92aea5" target="_blank" class="verify-link">Java</a> • 
-                                        <a href="https://github.com/user-attachments/assets/dd15f2fe-7e86-4979-b50e-cc47f980a6ae" target="_blank" class="verify-link">SQL</a> • 
-                                        <a href="https://github.com/user-attachments/assets/58fe106f-28b0-451e-82d2-9d837eb0c473" target="_blank" class="verify-link">CSS</a>
+                                        <a href="screenshots/java basic.png" target="_blank" class="verify-link">Java</a> • 
+                                        <a href="https://github.com/user-attachments/assets/213ee016-3766-48ad-96ba-af5f6d82d0cc" target="_blank" class="verify-link">Python</a> • 
+                                        <a href="screenshots/sql basic.png" target="_blank" class="verify-link">SQL</a> • 
+                                        <a href="https://github.com/user-attachments/assets/871e1c2c-f5ff-4293-85d2-1fb31d88c66e" target="_blank" class="verify-link">JS</a> • 
+                                        <a href="screenshots/css basic.png" target="_blank" class="verify-link">CSS</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="cert-card card">
                                 <div class="cert-image-frame">
-                                    <img src="https://github.com/user-attachments/assets/60d5d685-26e1-420c-845c-77f39e1e6465" alt="UOM Front End Certificate" loading="lazy">
+                                    <img src="screenshots/front end web develoment.png" alt="UOM Front End Certificate" loading="lazy">
                                 </div>
                                 <div class="cert-content">
                                     <h4>Front-End Web Development</h4>
@@ -530,7 +638,7 @@
                             </div>
                             <div class="cert-card card">
                                 <div class="cert-image-frame">
-                                    <img src="https://github.com/user-attachments/assets/39c1eb9f-1f52-4119-ab39-f3a25c404c89" alt="Cisco Certificate" loading="lazy">
+                                    <img src="screenshots/introductio to cybersecurity-cisco.png" alt="Cisco Cyber Security Certificate" loading="lazy">
                                 </div>
                                 <div class="cert-content">
                                     <h4>Cyber Security</h4>
@@ -542,8 +650,8 @@
                     </div>
 
                     <!-- Collapsible Certifications List -->
-                    <div class="extra-certs-wrapper fade-in" style="margin-top: 2.5rem;">
-                        <details class="certs-details">
+                    <div class="extra-certs-wrapper fade-in text-center" style="margin-top: 2.5rem; text-align: center;">
+                        <details class="certs-details" style="text-align: center;">
                             <summary class="btn-see-more"><i class="fas fa-chevron-down"></i> View Additional Foundations & Credentials</summary>
 
                             <div class="skills-subfilters" style="margin-top: 2rem;">
@@ -561,6 +669,7 @@
                                     <strong>Python for Beginners</strong>
                                     <span>UOM CODL</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/Python for beginners.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://open.uom.lk/lms/mod/customcert/view.php?id=675&downloadown=1" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -568,6 +677,7 @@
                                     <strong>Web Design for Beginners</strong>
                                     <span>UOM CODL</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/web design for beginners.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://open.uom.lk/lms/mod/customcert/view.php?id=697&downloadown=1" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -575,6 +685,7 @@
                                     <strong>Introduction to Python</strong>
                                     <span>SoloLearn</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/indrouction to python.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.sololearn.com/certificates/CC-ANH74SBO" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -582,6 +693,7 @@
                                     <strong>SQL</strong>
                                     <span>SoloLearn</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/introduction to sql.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.sololearn.com/certificates/CC-ZZGGBJBM" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -589,6 +701,7 @@
                                     <strong>HTML</strong>
                                     <span>SoloLearn</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/introduction to html.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.sololearn.com/certificates/CC-RBU2XEQB" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -596,6 +709,7 @@
                                     <strong>Java</strong>
                                     <span>SoloLearn</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/introduction to java.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.sololearn.com/certificates/CC-SQOTIPNO" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -603,6 +717,7 @@
                                     <strong>Introduction to Git</strong>
                                     <span>Microsoft</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/Introduction to git.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://learn.microsoft.com/en-us/users/reezmahanan-2643/achievements/print/uar62j53" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -610,6 +725,7 @@
                                     <strong>Introduction to Github Copilot</strong>
                                     <span>Microsoft</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/introduction to github co pilot.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://learn.microsoft.com/en-us/users/reezmahanan-2643/achievements/print/3a5apq2h" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -617,6 +733,7 @@
                                     <strong>Cyber Security</strong>
                                     <span>Cisco Networking Academy</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/introductio to cybersecurity-cisco.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.credly.com/badges/e39f3377-2df8-409a-a9ed-42e869c1d511" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -624,6 +741,7 @@
                                     <strong>Agile Scrum Foundation</strong>
                                     <span>Simplilearn</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/agile scrum fountation.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://simpli-web.app.link/e/pxITlA1Tb0b" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -631,6 +749,7 @@
                                     <strong>UI/UX for Beginners</strong>
                                     <span>Great Learning Academy</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/ui ux for beginners.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.mygreatlearning.com/certificate/UBKRGSMR" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -638,6 +757,7 @@
                                     <strong>HTML</strong>
                                     <span>Great Learning Academy</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/frontend development-html.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.mygreatlearning.com/certificate/DKSYPPAZ" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -645,6 +765,7 @@
                                     <strong>MySQL Tutorial</strong>
                                     <span>Great Learning Academy</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/my sql tutorial.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.mygreatlearning.com/certificate/QYCNOODA" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -652,6 +773,7 @@
                                     <strong>Programming Basics</strong>
                                     <span>Great Learning Academy</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/programing basics.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <span class="verify-link disabled">Basic Course</span>
                                     </div>
                                 </div>
@@ -659,6 +781,7 @@
                                     <strong>Python Fundamentals for Beginners</strong>
                                     <span>Great Learning Academy</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/Pythonfuntamentals for beginners.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.mygreatlearning.com/certificate/YADZEDEN" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -666,6 +789,7 @@
                                     <strong>Python Project for Beginners</strong>
                                     <span>Great Learning Academy</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/python project for beginners.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.mygreatlearning.com/certificate/JDWSMZKM" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -673,6 +797,7 @@
                                     <strong>OOPs in Java</strong>
                                     <span>Simplilearn</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/oops in java.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://simpli-web.app.link/e/1kLFevcUb0b" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -680,6 +805,7 @@
                                     <strong>Introduction to Cyber Security</strong>
                                     <span>Simplilearn</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/introduction to cyber security.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://simpli-web.app.link/e/by5AkWPTb0b" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -687,6 +813,7 @@
                                     <strong>CSS (Basic)</strong>
                                     <span>HackerRank</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/css basic.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.hackerrank.com/certificates/3c7f4b161fcf" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -694,6 +821,7 @@
                                     <strong>Introduction to Cloud Computing</strong>
                                     <span>Simplilearn</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/introduction to cloud computing.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://simpli-web.app.link/e/Sw0FuE7Tb0b" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -701,6 +829,7 @@
                                     <strong>Describe Cloud Computing</strong>
                                     <span>Microsoft</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/describe cloud computing.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://learn.microsoft.com/en-us/users/reezmahanan-2643/achievements/print/nvub3e4f" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -708,6 +837,7 @@
                                     <strong>Introduction to AI Concepts</strong>
                                     <span>Microsoft</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/introduction to ai concepts.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://learn.microsoft.com/en-us/users/reezmahanan-2643/achievements/print/3a5apq2h" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -715,27 +845,15 @@
                                     <strong>Introduction to CSS</strong>
                                     <span>SoloLearn</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/introduction to css.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.sololearn.com/certificates/CC-8BTBXIXY" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
-                                    </div>
-                                </div>
-                                <div class="cert-list-row card" data-cat="prog">
-                                    <strong>Java (Basic)</strong>
-                                    <span>HackerRank</span>
-                                    <div class="cert-row-links">
-                                        <a href="https://www.hackerrank.com/certificates/eed1e604468e" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
-                                    </div>
-                                </div>
-                                <div class="cert-list-row card" data-cat="db">
-                                    <strong>SQL (Basic)</strong>
-                                    <span>HackerRank</span>
-                                    <div class="cert-row-links">
-                                        <a href="https://www.hackerrank.com/certificates/259d46322eb5" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
                                 <div class="cert-list-row card" data-cat="web">
                                     <strong>Front-End Web Development</strong>
                                     <span>UOM CODL</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/front end web develoment.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://open.uom.lk/lms/mod/customcert/view.php?id=839&downloadown=1" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -743,6 +861,7 @@
                                     <strong>Cyber Security Essential(LFC108)</strong>
                                     <span>The Linux Foundation</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/cyber security essentials.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/0508ad4c-dfe7-4044-b2f4-145bc0c3aad5-reezma-hanan-1fee3867-40b6-4d53-a0d2-c7e97ccb3f29-certificate.pdf" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -750,6 +869,7 @@
                                     <strong>Hands-On Introduction to Git with GitHub</strong>
                                     <span>Udemy</span>
                                     <div class="cert-row-links">
+                                        <a href="screenshots/introductiom to git with github.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
                                         <a href="https://www.udemy.com/certificate/UC-4fca5676-ab20-4973-89c1-77ad87df7e8f/" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
@@ -757,7 +877,8 @@
                                     <strong>Docker for Absolute Beginner</strong>
                                     <span>KodeKloud</span>
                                     <div class="cert-row-links">
-                                        <span class="verify-link disabled">KodeKloud Course</span>
+                                        <a href="screenshots/docker for beginners.png" target="_blank" class="cert-view-btn"><i class="fas fa-image"></i> View</a>
+                                        <a href="https://learn.kodekloud.com/learn/certificate/3e5f41f9-9caf-4f40-a18c-9e0a6d3f7978" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -769,25 +890,25 @@
                 <div class="certs-tab-pane" id="badges-pane">
                     <div class="badges-showcase">
                         <div class="badge-item card">
-                            <img alt="Cyber Security Cisco Badge" src="https://github.com/user-attachments/assets/2a168050-4437-4be6-9830-984408e0307a" />
+                            <img alt="Cyber Security Cisco Badge" src="screenshots/cisco introduction to cyber security badge.png" />
                             <h4>Cyber Security</h4>
                             <span>Cisco Networking Academy</span>
                             <a href="https://www.credly.com/badges/e39f3377-2df8-409a-a9ed-42e869c1d511" target="_blank" class="verify-link">Verify Credential</a>
                         </div>
                         <div class="badge-item card">
-                            <img alt="Cyber Security Linux Foundation Badge" src="https://github.com/user-attachments/assets/22312c5a-3561-4904-b62f-bbd495d8d022" />
+                            <img alt="Cyber Security Linux Foundation Badge" src="screenshots/cyber securty essential badges.png" />
                             <h4>Cyber Security Essential (LFC108)</h4>
                             <span>The Linux Foundation</span>
                             <a href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/0508ad4c-dfe7-4044-b2f4-145bc0c3aad5-reezma-hanan-1fee3867-40b6-4d53-a0d2-c7e97ccb3f29-certificate.pdf" target="_blank" class="verify-link">Verify Credential</a>
                         </div>
                         <div class="badge-item card">
-                            <img alt="Introduction to Generative AI Google Cloud Badge" src="https://github.com/user-attachments/assets/6949b148-049c-481d-83b5-a64167c86980" />
+                            <img alt="Introduction to Generative AI Google Cloud Badge" src="screenshots/introduction to genarative AI badge.png" />
                             <h4>Introduction to Generative AI</h4>
                             <span>Google Cloud</span>
                             <a href="https://cdn.qwiklabs.com/dkQVGBYS8HvCJHFPxPExnP3JVKTEoe6CpEKnTq8o2fo%3D" target="_blank" class="verify-link">Verify Credential</a>
                         </div>
                         <div class="badge-item card">
-                            <img alt="GitHub for Beginners Badge" src="https://github.com/user-attachments/assets/3b665081-35e2-45c7-9473-b6687e689d65" />
+                            <img alt="GitHub for Beginners Badge" src="screenshots/github for beginners badge.png" />
                             <h4>GitHub for Beginners</h4>
                             <span>GitHub</span>
                             <a href="https://learn.microsoft.com/en-us/users/reezmahanan-2643/achievements/print/b99l8rgd" target="_blank" class="verify-link">Verify Credential</a>
@@ -801,109 +922,148 @@
     <!-- Featured Projects Section -->
     <section class="projects section" id="projects">
         <div class="container">
-            <h2 class="section-title fade-in">Featured Projects</h2>
-            <p class="section-subtitle fade-in">Selected full-stack systems and frontend web applications illustrating clean code and user-centered design</p>
+            <div class="section-hero-header text-center fade-in">
+                <div class="section-pill-wrap">
+                    <span class="section-pill-badge">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Projects</span>
+                    </span>
+                </div>
+                <h2 class="section-hero-title">
+                    Turning Ideas.<br>
+                    <span class="section-hero-accent">BUILDING SOLUTIONS.</span>
+                </h2>
+                <p class="section-hero-subtitle">
+                    A curated showcase of full-stack systems, cloud architectures, and practical applications engineered for real-world impact.
+                </p>
+            </div>
             
             <div class="projects-grid fade-in">
-                <!-- Project 1: Event Hub -->
+                <!-- Project 1: LibriQ LMS (Modern MERN Flagship) -->
                 <div class="card project-card">
-                    <div class="project-image-wrap">
-                        <img src="screenshots/Event Hub.png" alt="Student Event Management" loading="lazy">
+                    <div class="project-banner-visual project-banner-image-mode">
+                        <img src="screenshots/LibriQ.png" alt="LibriQ LMS Platform" class="project-banner-real-img" loading="lazy">
+                        <div class="project-banner-overlay">
+                            <div class="project-banner-title">LibriQ LMS Platform</div>
+                            <div class="project-banner-sub">MERN • Trilingual Switcher • DDC • Accession Barcoding</div>
+                            <div class="project-banner-stat" style="color: #38bdf8;"><i class="fas fa-award"></i> University Standard</div>
+                        </div>
                     </div>
                     <div class="project-body">
                         <div class="project-meta-tags">
-                            <span class="badge badge-academic"><i class="fas fa-graduation-cap"></i> Academic Project</span>
+                            <span class="badge badge-flagship"><i class="fas fa-star"></i> Flagship Platform</span>
+                            <span class="badge badge-academic"><i class="fas fa-university"></i> University Standard</span>
                         </div>
-                        <h3 class="project-title">Event Hub - Student Event Management</h3>
-                        <p class="project-description">An academic event scheduling and coordination web application. Supports user authentication, event registration, organizer controls, administrative dashboards, and email notifications.</p>
+                        <h3 class="project-title">LibriQ – Sri Lankan University Library Management System</h3>
+                        <p class="project-description">A comprehensive MERN circulation platform tailored for Sri Lankan university standards. Features a dedicated trilingual switcher (English EN, தமிழ் TA, සිංහල SI), role-based permissions (Librarian/Student), barcoded Accession No (ACC-...), Dewey Decimal Call numbers (DDC), student index rosters, and automated LKR late fine calculations (Rs. 10/day).</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React 18</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">LKR Fine Engine</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/reezmahanan/LibriQ" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: STYLEO Ceylon (3-Tier E-Commerce & ACID MySQL) -->
+                <div class="card project-card">
+                    <div class="project-banner-visual project-banner-image-mode">
+                        <img src="screenshots/STYLEO Ceylon.png" alt="STYLEO Ceylon E-Commerce" class="project-banner-real-img" loading="lazy">
+                        <div class="project-banner-overlay">
+                            <div class="project-banner-title">STYLEO Ceylon E-Commerce</div>
+                            <div class="project-banner-sub">Vanilla JS • Node.js • MySQL 8 • ACID Checkout</div>
+                            <div class="project-banner-stat" style="color: #60a5fa;"><i class="fas fa-truck-fast"></i> Live Courier Tracking</div>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-meta-tags">
+                            <span class="badge badge-featured"><i class="fas fa-shopping-cart"></i> 3-Tier Architecture</span>
+                            <span class="badge badge-role">Full-Stack Web</span>
+                        </div>
+                        <h3 class="project-title">STYLEO Ceylon – Full-Stack E-Commerce System</h3>
+                        <p class="project-description">A production-ready 3-tier apparel platform featuring an asynchronous native fetch() client engine, Express REST API, and a normalized MySQL 8 database with ACID transactional checkout and live courier tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vanilla JS</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">MySQL 8</span>
+                            <span class="tech-tag">ACID Checkout</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/reezmahanan/STYLEO-Ceylon" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Event Hub (Full-Stack Campus Event Platform) -->
+                <div class="card project-card">
+                    <div class="project-banner-visual project-banner-image-mode">
+                        <img src="screenshots/Event Hub.png" alt="Event Hub Campus Platform" class="project-banner-real-img" loading="lazy">
+                        <div class="project-banner-overlay">
+                            <div class="project-banner-title">Event Hub Platform</div>
+                            <div class="project-banner-sub">PHP • MySQL • JavaScript • Academic Event System</div>
+                            <div class="project-banner-stat" style="color: #38bdf8;"><i class="fas fa-users-gear"></i> Multi-Role RSVP & Scheduling Engine</div>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-meta-tags">
+                            <span class="badge badge-flagship"><i class="fas fa-calendar-alt"></i> Campus System</span>
+                            <span class="badge badge-academic"><i class="fas fa-shield-alt"></i> Multi-Role RBAC</span>
+                        </div>
+                        <h3 class="project-title">Event Hub – Student Event Management Web Application</h3>
+                        <p class="project-description">A dynamic full-stack academic event management platform streamlining campus event discovery, attendee registrations, and administrator approvals. Implements multi-role access controls (Organizers, Attendees, Admins), automated seat capacity tracking, calendar scheduling, instant RSVP confirmations, and automated email alerts.</p>
                         <div class="project-tech">
                             <span class="tech-tag">PHP</span>
                             <span class="tech-tag">MySQL</span>
                             <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">HTML5</span>
                             <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Role-Based Auth</span>
+                            <span class="tech-tag">Event Scheduling</span>
+                            <span class="tech-tag">RSVP Engine</span>
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/reezmahanan/Student-Event-Management-Web-Application" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i> Code
+                                <i class="fab fa-github"></i> Repository
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2: Personal Portfolio -->
+                <!-- Project 4: Electricity Demand Predictor (Machine Learning Time-Series) -->
                 <div class="card project-card">
-                    <div class="project-image-wrap">
-                        <img src="screenshots/Portfolio Website.png" alt="Portfolio Website" loading="lazy">
+                    <div class="project-banner-visual" style="background: radial-gradient(circle at center, rgba(22, 101, 52, 0.4) 0%, rgba(15, 23, 42, 0.95) 100%);">
+                        <div class="project-banner-icon" style="color: #10b981;"><i class="fas fa-bolt"></i></div>
+                        <div class="project-banner-title">Smart Meter Demand Predictor</div>
+                        <div class="project-banner-sub">LightGBM • Scikit-Learn • LIRNEasia Smart Meter Data</div>
+                        <div class="project-banner-stat" style="color: #34d399;"><i class="fas fa-chart-line"></i> 93.1% R² Regression Score</div>
                     </div>
                     <div class="project-body">
                         <div class="project-meta-tags">
-                            <span class="badge badge-personal"><i class="fas fa-user"></i> Personal Project</span>
+                            <span class="badge badge-ml"><i class="fas fa-chart-line"></i> Machine Learning</span>
+                            <span class="badge badge-personal"><i class="fas fa-bolt"></i> 93.1% R² Score</span>
                         </div>
-                        <h3 class="project-title">Reezma Hanan - Personal Portfolio Website</h3>
-                        <p class="project-description">A modern, interactive, and responsive personal portfolio website showcasing software engineering projects, academic coursework, professional certifications, and technical skills.</p>
+                        <h3 class="project-title">Electricity Demand Predictor (Sri Lanka Smart Meter)</h3>
+                        <p class="project-description">An end-to-end Machine Learning time-series pipeline forecasting 15-minute residential electricity demand across Sri Lankan households using real-world LIRNEasia smart meter data. Implements calendar clues, lag features, and a tuned LightGBM Regressor achieving an outstanding 93.1% R² score.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">LightGBM</span>
+                            <span class="tech-tag">Scikit-Learn</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Time Series</span>
+                            <span class="tech-tag">Feature Engineering</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/reezmahanan/Reezma-Hanan-Portfolio" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                            <a href="https://spectacular-narwhal-9eb659.netlify.app/" class="project-link" target="_blank">
-                                <i class="fas fa-external-link-alt"></i> Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3: SCM - IMS -->
-                <div class="card project-card">
-                    <div class="project-image-wrap">
-                        <img src="screenshots/Inventory Management System.png" alt="Supply Chain System" loading="lazy">
-                    </div>
-                    <div class="project-body">
-                        <div class="project-meta-tags">
-                            <span class="badge badge-group"><i class="fas fa-users"></i> Group Project</span>
-                            <span class="badge badge-role">Full-Stack Dev</span>
-                        </div>
-                        <h3 class="project-title">SCM - Inventory Management System</h3>
-                        <p class="project-description">A full-stack supply chain and stock management system with interactive inventory tracking dashboards, supplier control, user roles, invoice publishing, and database backup features.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Spring Boot</span>
-                            <span class="tech-tag">MySQL</span>
-                            <span class="tech-tag">REST APIs</span>
-                            <span class="tech-tag">Java</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/reezmahanan/SCM-IMS" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 4: Book Nest -->
-                <div class="card project-card">
-                    <div class="project-image-wrap">
-                        <img src="screenshots/Book Nest.png" alt="Online Bookstore" loading="lazy">
-                    </div>
-                    <div class="project-body">
-                        <div class="project-meta-tags">
-                            <span class="badge badge-group"><i class="fas fa-users"></i> Group Project</span>
-                        </div>
-                        <h3 class="project-title">Book Nest - Bookstore E-Commerce</h3>
-                        <p class="project-description">An online bookstore e-commerce platform. Features include a dynamic book catalog, custom search, multi-level category navigation, user shopping carts, checkout invoices, and client dashboards.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">PHP</span>
-                            <span class="tech-tag">MySQL</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/reezmahanan/BookNest" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i> Code
+                            <a href="https://github.com/reezmahanan/Electricity-Consumption-Prediction" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Repository
                             </a>
                         </div>
                     </div>
@@ -913,43 +1073,126 @@
             <!-- Extra Projects Grid -->
             <div class="extra-projects-wrapper fade-in" style="margin-top: 3.5rem;">
                 <details class="projects-details">
-                    <summary class="btn-see-more"><i class="fas fa-chevron-down"></i> View Additional Repositories</summary>
+                    <summary class="btn-see-more"><i class="fas fa-chevron-down"></i> View Additional Repositories & Prototypes (12+)</summary>
                     <div class="extra-projects-grid">
-                        <!-- Project 5: Reezma Tech Services -->
+                        <!-- Project: StudyScore AI -->
                         <div class="card project-card mini-project">
-                            <h4>Reezma Tech Services</h4>
-                            <p>A commercial marketing landing page for a freelance IT support and software agency showing service tiers.</p>
-                            <span class="mini-tech">HTML5, CSS3, JS</span>
+                            <h4>StudyScore AI Predictor</h4>
+                            <p>Machine Learning regression pipeline forecasting valuations and academic scores with 99.4% R² fit.</p>
+                            <span class="mini-tech">Python, Scikit-Learn, NumPy, Streamlit</span>
                             <div>
-                                <a href="https://github.com/reezmahanan/Reezma-Tech-Services" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a> • 
-                                <a href="https://reezmahanan.github.io/Reezma-tech-services/" target="_blank" class="mini-link">Demo <i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/reezmahanan/StudyScore-AI" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a>
                             </div>
                         </div>
-                        <!-- Project 6: ReciPick -->
+                        <!-- Project: AgriDirect -->
                         <div class="card project-card mini-project">
-                            <h4>ReciPick Discovery App</h4>
-                            <p>A responsive cooking recipe explorer utilizing public culinary APIs to search and filter recipes.</p>
+                            <img src="screenshots/AgriDirect.png" alt="AgriDirect Platform" class="mini-project-img" loading="lazy">
+                            <h4>AgriDirect Platform</h4>
+                            <p>Direct farmer-to-consumer digital marketplace simplifying agricultural trade and fair pricing.</p>
+                            <span class="mini-tech">Node.js, Express, MongoDB, Mongoose</span>
+                            <div>
+                                <a href="https://github.com/reezmahanan/AgriDirect" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <!-- Project: TaskFlow Management -->
+                        <div class="card project-card mini-project">
+                            <img src="screenshots/TaskFlow.png" alt="TaskFlow Management Portal" class="mini-project-img" loading="lazy">
+                            <h4>TaskFlow Management Portal</h4>
+                            <p>Collaborative project tracking system with kanban boards, task assignments, and progress analytics.</p>
+                            <span class="mini-tech">React, Node.js, Express, MongoDB</span>
+                            <div>
+                                <a href="https://github.com/reezmahanan/TaskFlow" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <!-- Project: Retail Point of Sale (POS) -->
+                        <div class="card project-card mini-project">
+                            <h4>Retail Point of Sale (POS)</h4>
+                            <p>Complete POS solution managing cash registers, product barcodes, receipts, and sales reports.</p>
+                            <span class="mini-tech">Laravel, PHP, MySQL, Bootstrap</span>
+                            <div>
+                                <a href="https://github.com/reezmahanan/POS-System" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <!-- Project: Reezma Hanan Portfolio -->
+                        <div class="card project-card mini-project">
+                            <img src="screenshots/Portfolio Website.png" alt="Reezma Hanan Portfolio" class="mini-project-img" loading="lazy">
+                            <h4>Reezma Hanan Portfolio</h4>
+                            <p>Responsive developer portfolio showcasing projects, credentials, and interactive contact channels.</p>
+                            <span class="mini-tech">React, Netlify, Responsive CSS</span>
+                            <div>
+                                <a href="https://github.com/reezmahanan/Reezma-Hanan-Portfolio" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a> • 
+                                <a href="https://spectacular-narwhal-9eb659.netlify.app/" target="_blank" class="mini-link">Demo <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <!-- Project: Book Nest -->
+                        <div class="card project-card mini-project">
+                            <img src="screenshots/Book Nest.png" alt="Book Nest Online Bookstore" class="mini-project-img" loading="lazy">
+                            <h4>Book Nest - Online Bookstore</h4>
+                            <p>E-commerce platform with dynamic catalog, search, shopping cart, and client billing invoices.</p>
+                            <span class="mini-tech">PHP, MySQL, JavaScript, HTML5/CSS3</span>
+                            <div>
+                                <a href="https://github.com/reezmahanan/BookNest" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <!-- Project: SCM - Inventory Management -->
+                        <div class="card project-card mini-project">
+                            <img src="screenshots/Inventory Management System.png" alt="SCM Inventory Management" class="mini-project-img" loading="lazy">
+                            <h4>SCM - Inventory Management</h4>
+                            <p>Supply chain and stock control system with interactive dashboards, supplier logs, and invoices.</p>
+                            <span class="mini-tech">React, Spring Boot, MySQL, REST APIs</span>
+                            <div>
+                                <a href="https://github.com/reezmahanan/SCM-IMS" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <!-- Project: ReciPick -->
+                        <div class="card project-card mini-project">
+                            <img src="screenshots/ReciPick.png" alt="ReciPick Recipe Explorer" class="mini-project-img" loading="lazy">
+                            <h4>ReciPick Recipe Explorer</h4>
+                            <p>Culinary discovery application powered by public recipes APIs with filtering and ingredients lists.</p>
                             <span class="mini-tech">React, Vite, CSS3</span>
                             <div>
                                 <a href="https://github.com/reezmahanan/RECIPICK" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a> • 
                                 <a href="https://recipick-wine.vercel.app/" target="_blank" class="mini-link">Demo <i class="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
-                        <!-- Project 7: TasteVerse -->
+                        <!-- Project: Weather App -->
                         <div class="card project-card mini-project">
-                            <h4>TasteVerse Restaurant Website</h4>
-                            <p>A visually stunning and fully responsive restaurant landing page presenting menus and booking forms.</p>
-                            <span class="mini-tech">HTML5, CSS3, JS</span>
+                            <img src="screenshots/weather App.png" alt="Real-Time Weather App" class="mini-project-img" loading="lazy">
+                            <h4>Real-Time Weather App</h4>
+                            <p>Live meteorological forecast application utilizing OpenWeatherMap API for global atmospheric data.</p>
+                            <span class="mini-tech">React, OpenWeather API, CSS3</span>
+                            <div>
+                                <a href="https://github.com/reezmahanan/Weather-App" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <!-- Project: TasteVerse -->
+                        <div class="card project-card mini-project">
+                            <img src="screenshots/Tasteverse.png" alt="TasteVerse Restaurant Portal" class="mini-project-img" loading="lazy">
+                            <h4>TasteVerse Restaurant Portal</h4>
+                            <p>Visually rich restaurant showcase presenting menus, reservation bookings, and location hours.</p>
+                            <span class="mini-tech">HTML5, CSS3, JavaScript</span>
                             <div>
                                 <a href="https://github.com/reezmahanan/Taste-Verse" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a> • 
                                 <a href="https://reezmahanan.github.io/Taste-Verse/" target="_blank" class="mini-link">Demo <i class="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
-                        <!-- Project 8: CareerBridge -->
+                        <!-- Project: Reezma Tech Services -->
                         <div class="card project-card mini-project">
-                            <h4>CareerBridge placement Portal</h4>
-                            <p>A responsive web portal designed to connect graduating students and interns with recruiters.</p>
-                            <span class="mini-tech">HTML5, CSS3, JS</span>
+                            <img src="screenshots/Reezma Tech.png" alt="Reezma Tech Services" class="mini-project-img" loading="lazy">
+                            <h4>Reezma Tech Services</h4>
+                            <p>Freelance digital agency landing page showing tech solutions, maintenance tiers, and quotes.</p>
+                            <span class="mini-tech">HTML5, CSS3, JavaScript</span>
+                            <div>
+                                <a href="https://github.com/reezmahanan/Reezma-Tech-Services" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a> • 
+                                <a href="https://reezmahanan.github.io/Reezma-tech-services/" target="_blank" class="mini-link">Demo <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <!-- Project: CareerBridge -->
+                        <div class="card project-card mini-project">
+                            <img src="screenshots/Career Bridge.png" alt="CareerBridge Placement Portal" class="mini-project-img" loading="lazy">
+                            <h4>CareerBridge Placement Portal</h4>
+                            <p>Graduation placement portal connecting undergraduates, internship seekers, and tech recruiters.</p>
+                            <span class="mini-tech">HTML5, CSS3, JavaScript</span>
                             <div>
                                 <a href="https://github.com/reezmahanan/CareerBridge" target="_blank" class="mini-link">Code <i class="fab fa-github"></i></a> • 
                                 <a href="https://reezmahanan.github.io/CareerBridge/" target="_blank" class="mini-link">Demo <i class="fas fa-external-link-alt"></i></a>
@@ -961,11 +1204,694 @@
         </div>
     </section>
 
+    <!-- Open Source Section -->
+    <section class="opensource section" id="opensource">
+        <div class="container">
+            <div class="section-hero-header text-center fade-in">
+                <div class="section-pill-wrap">
+                    <span class="section-pill-badge">
+                        <i class="fas fa-code-branch"></i>
+                        <span>Open Source</span>
+                    </span>
+                </div>
+                <h2 class="section-hero-title">
+                    Building Ideas.<br>
+                    <span class="section-hero-accent">SOLVING PROBLEMS.</span>
+                </h2>
+                <p class="section-hero-subtitle">
+                    Collaborating with global open-source codebases, building impactful software, and solving real-world challenges.
+                </p>
+            </div>
+            
+            <!-- Open Source Program Switcher Tabs -->
+            <div class="os-program-nav-tabs fade-in">
+                <button class="os-nav-tab active" data-program-filter="all">All Programs (5)</button>
+                <button class="os-nav-tab" data-program-filter="swoc">SWOC '26</button>
+                <button class="os-nav-tab" data-program-filter="oscg">OSCG '26</button>
+                <button class="os-nav-tab" data-program-filter="ssoc">SSOC '26</button>
+                <button class="os-nav-tab" data-program-filter="gssoc">GSSOC '26</button>
+                <button class="os-nav-tab" data-program-filter="osci">OSCI '26</button>
+            </div>
+
+            <!-- Open Source Cards Grid (5 Programs) -->
+            <div class="opensource-cards-grid fade-in">
+                <!-- Program 1: SWOC 2026 -->
+                <div class="os-card card" data-program="swoc">
+                    <div class="os-card-header">
+                        <span class="os-badge collaborations">SWOC '26</span>
+                        <span class="os-doc-count-badge"><i class="fas fa-file-contract"></i> 2 Verified Documents</span>
+                    </div>
+                    <h4>Social Winter of Code</h4>
+                    <p class="os-role">Open Source Contributor</p>
+                    
+                    <!-- Evidence Viewer Slider -->
+                    <div class="os-evidence-slider" data-current="0">
+                        <div class="os-slides-track">
+                            <div class="os-slide active" data-title="Contributor Acceptance Badge">
+                                <img src="screenshots/SWOC Contributer.jpg" alt="SWOC Contributor Badge" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-id-card"></i> Contributor Badge</span>
+                                    <a href="screenshots/SWOC Contributer.jpg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="os-slide" data-title="Verified Contribution Certificate">
+                                <img src="screenshots/SWOC Contribution certificate.jpg" alt="SWOC Contribution Certificate" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-award"></i> Contribution Certificate</span>
+                                    <a href="screenshots/SWOC Contribution certificate.jpg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="os-slider-controls">
+                            <button type="button" class="os-nav-btn os-prev-btn" aria-label="Previous Evidence"><i class="fas fa-chevron-left"></i></button>
+                            <div class="os-dots-wrap">
+                                <span class="os-dot active" data-idx="0"></span>
+                                <span class="os-dot" data-idx="1"></span>
+                            </div>
+                            <button type="button" class="os-nav-btn os-next-btn" aria-label="Next Evidence"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="os-repo-info">
+                        <strong>Repository:</strong>
+                        <a href="https://github.com/archangel2006/SafeHaven" target="_blank">archangel2006/SafeHaven</a>
+                    </div>
+                    <div class="os-actions-row">
+                        <a href="https://github.com/archangel2006/SafeHaven" target="_blank" class="btn-mini-os">
+                            <i class="fab fa-github"></i> Repository
+                        </a>
+                        <a href="screenshots/SWOC Contribution certificate.jpg" target="_blank" class="btn-mini-os btn-os-proof">
+                            <i class="fas fa-certificate"></i> Verified Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Program 2: OSCG 2026 -->
+                <div class="os-card card" data-program="oscg">
+                    <div class="os-card-header">
+                        <span class="os-badge internships">OSCG '26</span>
+                        <span class="os-doc-count-badge"><i class="fas fa-file-contract"></i> 5 Verified Documents</span>
+                    </div>
+                    <h4>Open Source Connect Global</h4>
+                    <p class="os-role">Open Source Contributor</p>
+                    
+                    <!-- Evidence Viewer Slider -->
+                    <div class="os-evidence-slider" data-current="0">
+                        <div class="os-slides-track">
+                            <div class="os-slide active" data-title="Contributor Badge 1">
+                                <img src="screenshots/OSCG Contributer 1.jpg" alt="OSCG Contributor Badge 1" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-id-card"></i> Contributor Badge 1</span>
+                                    <a href="screenshots/OSCG Contributer 1.jpg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="os-slide" data-title="Contributor Badge 2">
+                                <img src="screenshots/OSCG Contributor 2.jpg" alt="OSCG Contributor Badge 2" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-id-card"></i> Contributor Badge 2</span>
+                                    <a href="screenshots/OSCG Contributor 2.jpg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="os-slide" data-title="Contribution Certificate 1">
+                                <img src="screenshots/OSCG Contributor certificate.jpg" alt="OSCG Contributor Certificate 1" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-award"></i> Certificate 1</span>
+                                    <a href="screenshots/OSCG Contributor certificate.jpg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="os-slide" data-title="Contribution Certificate 2">
+                                <img src="screenshots/OSCG Contributor certificate (2).jpg" alt="OSCG Contributor Certificate 2" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-award"></i> Certificate 2</span>
+                                    <a href="screenshots/OSCG Contributor certificate (2).jpg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="os-slide" data-title="Contribution Certificate 3">
+                                <img src="screenshots/OSCG Contributor certificate (3).jpg" alt="OSCG Contributor Certificate 3" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-award"></i> Certificate 3</span>
+                                    <a href="screenshots/OSCG Contributor certificate (3).jpg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="os-slider-controls">
+                            <button type="button" class="os-nav-btn os-prev-btn" aria-label="Previous Evidence"><i class="fas fa-chevron-left"></i></button>
+                            <div class="os-dots-wrap">
+                                <span class="os-dot active" data-idx="0"></span>
+                                <span class="os-dot" data-idx="1"></span>
+                                <span class="os-dot" data-idx="2"></span>
+                                <span class="os-dot" data-idx="3"></span>
+                                <span class="os-dot" data-idx="4"></span>
+                            </div>
+                            <button type="button" class="os-nav-btn os-next-btn" aria-label="Next Evidence"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="os-repo-info">
+                        <strong>Repository:</strong>
+                        <a href="https://github.com/Gooichand/blockchain-evidence" target="_blank">Gooichand/blockchain-evidence</a>
+                    </div>
+                    <div class="os-actions-row">
+                        <a href="https://github.com/Gooichand/blockchain-evidence" target="_blank" class="btn-mini-os">
+                            <i class="fab fa-github"></i> Repository
+                        </a>
+                        <a href="screenshots/OSCG Contributor certificate.jpg" target="_blank" class="btn-mini-os btn-os-proof">
+                            <i class="fas fa-certificate"></i> Verified Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Program 3: SSOC 2026 -->
+                <div class="os-card card" data-program="ssoc">
+                    <div class="os-card-header">
+                        <span class="os-badge learning">SSOC '26</span>
+                        <span class="os-doc-count-badge"><i class="fas fa-file-contract"></i> 2 Verified Documents</span>
+                    </div>
+                    <h4>Social Summer of Code</h4>
+                    <p class="os-role">Open Source Contributor</p>
+                    
+                    <!-- Evidence Viewer Slider -->
+                    <div class="os-evidence-slider" data-current="0">
+                        <div class="os-slides-track">
+                            <div class="os-slide active" data-title="Contributor Acceptance Badge">
+                                <img src="screenshots/SSOC Contributor.jpg" alt="SSOC Contributor Badge" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-id-card"></i> Contributor Badge</span>
+                                    <a href="screenshots/SSOC Contributor.jpg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="os-slide" data-title="Verified Contribution Certificate">
+                                <img src="screenshots/SSOC Contribution certificate.jpeg" alt="SSOC Contribution Certificate" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-award"></i> Contribution Certificate</span>
+                                    <a href="screenshots/SSOC Contribution certificate.jpeg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="os-slider-controls">
+                            <button type="button" class="os-nav-btn os-prev-btn" aria-label="Previous Evidence"><i class="fas fa-chevron-left"></i></button>
+                            <div class="os-dots-wrap">
+                                <span class="os-dot active" data-idx="0"></span>
+                                <span class="os-dot" data-idx="1"></span>
+                            </div>
+                            <button type="button" class="os-nav-btn os-next-btn" aria-label="Next Evidence"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="os-repo-info">
+                        <strong>Repository:</strong>
+                        <a href="https://github.com/AnthropicBots/E-commerce" target="_blank">AnthropicBots/E-commerce</a>
+                    </div>
+                    <div class="os-actions-row">
+                        <a href="https://github.com/AnthropicBots/E-commerce" target="_blank" class="btn-mini-os">
+                            <i class="fab fa-github"></i> Repository
+                        </a>
+                        <a href="screenshots/SSOC Contribution certificate.jpeg" target="_blank" class="btn-mini-os btn-os-proof">
+                            <i class="fas fa-certificate"></i> Verified Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Program 4: GSSOC 2026 -->
+                <div class="os-card card" data-program="gssoc">
+                    <div class="os-card-header">
+                        <span class="os-badge ideas">GSSOC '26</span>
+                        <span class="os-doc-count-badge"><i class="fas fa-file-contract"></i> 3 Verified Documents</span>
+                    </div>
+                    <h4>GirlScript Summer of Code</h4>
+                    <p class="os-role">Open Source Contributor</p>
+                    
+                    <!-- Evidence Viewer Slider -->
+                    <div class="os-evidence-slider" data-current="0">
+                        <div class="os-slides-track">
+                            <div class="os-slide active" data-title="Contributor Badge 1">
+                                <img src="screenshots/GSSOC Contributor 1.jpg" alt="GSSOC Contributor Badge 1" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-id-card"></i> Contributor Badge 1</span>
+                                    <a href="screenshots/GSSOC Contributor 1.jpg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="os-slide" data-title="Contributor Badge 2">
+                                <img src="screenshots/GSSOC Contributor 2.jpg" alt="GSSOC Contributor Badge 2" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-id-card"></i> Contributor Badge 2</span>
+                                    <a href="screenshots/GSSOC Contributor 2.jpg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="os-slide" data-title="Verified Contribution Certificate">
+                                <img src="screenshots/GSSOC  contribution certificate.jpeg" alt="GSSOC Contribution Certificate" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-award"></i> Contribution Certificate</span>
+                                    <a href="screenshots/GSSOC  contribution certificate.jpeg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="os-slider-controls">
+                            <button type="button" class="os-nav-btn os-prev-btn" aria-label="Previous Evidence"><i class="fas fa-chevron-left"></i></button>
+                            <div class="os-dots-wrap">
+                                <span class="os-dot active" data-idx="0"></span>
+                                <span class="os-dot" data-idx="1"></span>
+                                <span class="os-dot" data-idx="2"></span>
+                            </div>
+                            <button type="button" class="os-nav-btn os-next-btn" aria-label="Next Evidence"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="os-repo-info">
+                        <strong>Repository:</strong>
+                        <a href="https://github.com/SAPTARSHI-coder/EaseMotion-css" target="_blank">SAPTARSHI/EaseMotion-css</a>
+                    </div>
+                    <div class="os-actions-row">
+                        <a href="https://github.com/SAPTARSHI-coder/EaseMotion-css" target="_blank" class="btn-mini-os">
+                            <i class="fab fa-github"></i> Repository
+                        </a>
+                        <a href="screenshots/GSSOC  contribution certificate.jpeg" target="_blank" class="btn-mini-os btn-os-proof">
+                            <i class="fas fa-certificate"></i> Verified Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Program 5: OSCI 2026 -->
+                <div class="os-card card" data-program="osci">
+                    <div class="os-card-header">
+                        <span class="os-badge updates">OSCI '26</span>
+                        <span class="os-doc-count-badge"><i class="fas fa-file-contract"></i> Verified Document</span>
+                    </div>
+                    <h4>Open Source Community Initiative</h4>
+                    <p class="os-role">Open Source Contributor</p>
+                    
+                    <!-- Evidence Viewer Slider -->
+                    <div class="os-evidence-slider" data-current="0">
+                        <div class="os-slides-track">
+                            <div class="os-slide active" data-title="Verified Contributor Proof">
+                                <img src="screenshots/OSCI Conributor.jpeg" alt="OSCI Contributor Proof" class="os-evidence-img" loading="lazy">
+                                <div class="os-slide-footer">
+                                    <span class="os-slide-label"><i class="fas fa-id-card"></i> Contributor Proof</span>
+                                    <a href="screenshots/OSCI Conributor.jpeg" target="_blank" class="os-expand-link" title="Open Full Evidence"><i class="fas fa-expand-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="os-slider-controls">
+                            <button type="button" class="os-nav-btn os-prev-btn" aria-label="Previous Evidence"><i class="fas fa-chevron-left"></i></button>
+                            <div class="os-dots-wrap">
+                                <span class="os-dot active" data-idx="0"></span>
+                            </div>
+                            <button type="button" class="os-nav-btn os-next-btn" aria-label="Next Evidence"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="os-repo-info">
+                        <strong>Track / Profile:</strong>
+                        <a href="https://github.com/reezmahanan" target="_blank">github.com/reezmahanan</a>
+                    </div>
+                    <div class="os-actions-row">
+                        <a href="https://github.com/reezmahanan" target="_blank" class="btn-mini-os">
+                            <i class="fab fa-github"></i> GitHub Profile
+                        </a>
+                        <a href="screenshots/OSCI Conributor.jpeg" target="_blank" class="btn-mini-os btn-os-proof">
+                            <i class="fas fa-award"></i> Verified Document
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section class="blogs section" id="blogs">
+        <div class="container">
+            <!-- Hero Headline matching user design -->
+            <div class="blog-hero-header text-center fade-in">
+                <div class="section-pill-wrap">
+                    <span class="section-pill-badge">
+                        <i class="fas fa-book-open"></i>
+                        <span>Blogs</span>
+                    </span>
+                </div>
+                <h2 class="blog-hero-title section-title">
+                    Sharing Knowledge,<br>
+                    <span class="blog-hero-accent">INSPIRING GROWTH.</span>
+                </h2>
+                <p class="blog-hero-subtitle section-subtitle">
+                    Sharing architectural breakdowns, and what I learn continuous my journey real-world engineering lessons from cloud systems, databases, and full-stack development.
+                </p>
+            </div>
+
+            <!-- Live Search Bar -->
+            <div class="blog-search-container fade-in">
+                <input type="text" id="blogSearch" class="blog-search-input" placeholder="Search blogs...">
+                <i class="fas fa-search blog-search-icon"></i>
+            </div>
+
+            <!-- Category Filter Buttons -->
+            <div class="blog-filters-container fade-in">
+                <button class="blog-filter-btn active" data-filter="all">All</button>
+                <button class="blog-filter-btn" data-filter="cloud">Cloud</button>
+                <button class="blog-filter-btn" data-filter="devops">DevOps</button>
+                <button class="blog-filter-btn" data-filter="aws">AWS</button>
+                <button class="blog-filter-btn" data-filter="databases">Databases</button>
+                <button class="blog-filter-btn" data-filter="career">Engineering</button>
+                <button class="blog-filter-btn" data-filter="other">Other</button>
+            </div>
+
+            <!-- Blog Cards Grid -->
+            <div class="blog-cards-grid fade-in" id="blogCardsGrid">
+                
+                <!-- Blog 1: Spring Boot Annotations (Real Medium Article) -->
+                <article class="blog-card" data-category="devops other career">
+                    <div class="blog-thumb-wrap has-image">
+                        <img src="screenshots/Springboot.jpg" alt="Spring Boot Annotations" class="blog-thumb-img" loading="lazy">
+                        <div class="blog-thumb-overlay">
+                            <span class="blog-thumb-badge">SPRING BOOT • JAVA • REST APIS</span>
+                        </div>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-meta-top">
+                            <span class="blog-category-tag">Spring Boot / Java</span>
+                            <span class="blog-read-time"><i class="far fa-clock"></i> 7 min read</span>
+                        </div>
+                        <h3 class="blog-card-title">Spring Boot Annotations Explained for Beginners: The Complete Guide with Examples</h3>
+                        <p class="blog-card-excerpt">
+                            A comprehensive beginner's guide breaking down fundamental Spring Boot annotations—from @SpringBootApplication, @RestController, and @Autowired to @Service, @Repository, and custom configurations.
+                        </p>
+                        <div class="blog-card-footer">
+                            <span class="blog-author-info"><i class="fab fa-medium"></i> Published on Medium</span>
+                            <a href="https://medium.com/@reezmahanan/spring-boot-annotations-explained-for-beginners-the-complete-guide-with-examples-7636e7e7af22" target="_blank" class="blog-read-link">
+                                Read on Medium <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog 2: AWS IPv4 Charges & Optimization (Real Medium Article) -->
+                <article class="blog-card" data-category="cloud aws other">
+                    <div class="blog-thumb-wrap has-image">
+                        <img src="screenshots/IPv4.png" alt="AWS IPv4 Charges Optimization" class="blog-thumb-img" loading="lazy">
+                        <div class="blog-thumb-overlay">
+                            <span class="blog-thumb-badge">AWS • IPV4 CHARGES • CLOUD NETWORKING</span>
+                        </div>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-meta-top">
+                            <span class="blog-category-tag">AWS / Cloud Networking</span>
+                            <span class="blog-read-time"><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
+                        <h3 class="blog-card-title">Why AWS Started Charging for Public IPv4 Addresses and the Modern Approach to Avoid This Cost</h3>
+                        <p class="blog-card-excerpt">
+                            An essential guide exploring why AWS introduced charges for public IPv4 addresses, how to audit IPv4 usage across VPCs, and modern cost-effective architectures using IPv6 dual-stack, Private subnets, and NAT Gateways.
+                        </p>
+                        <div class="blog-card-footer">
+                            <span class="blog-author-info"><i class="fab fa-medium"></i> Published on Medium</span>
+                            <a href="https://medium.com/@reezmahanan/why-aws-started-charging-for-public-ipv4-addresses-and-the-modern-approach-to-avoid-this-cost-bd27abb8278e" target="_blank" class="blog-read-link">
+                                Read on Medium <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog 3: AWS Load Balancers & OSI (Real Medium Article) -->
+                <article class="blog-card" data-category="cloud aws other">
+                    <div class="blog-thumb-wrap has-image">
+                        <img src="screenshots/ALB-vs-NLB-vs-GLB_03.png" alt="OSI Model and AWS Load Balancers" class="blog-thumb-img" loading="lazy">
+                        <div class="blog-thumb-overlay">
+                            <span class="blog-thumb-badge">AWS • NETWORKING • OSI LAYERS</span>
+                        </div>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-meta-top">
+                            <span class="blog-category-tag">AWS / Cloud</span>
+                            <span class="blog-read-time"><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
+                        <h3 class="blog-card-title">OSI Model & AWS Load Balancers (ALB, NLB, GLB)</h3>
+                        <p class="blog-card-excerpt">
+                            A deep dive into how AWS Elastic Load Balancing maps to the 7 layers of the OSI model, comparing Layer 7 Application Load Balancers, Layer 4 Network Load Balancers, and Gateway Load Balancers for high availability.
+                        </p>
+                        <div class="blog-card-footer">
+                            <span class="blog-author-info"><i class="fab fa-medium"></i> Published on Medium</span>
+                            <a href="https://medium.com/@reezmahanan/osi-model-aws-load-balancers-alb-nlb-glb-d2b481f2f7bf" target="_blank" class="blog-read-link">
+                                Read on Medium <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog 4: EFS vs EBS vs Amazon S3 (Real Medium Article) -->
+                <article class="blog-card" data-category="cloud aws other">
+                    <div class="blog-thumb-wrap has-image">
+                        <img src="screenshots/amazon s3.jpg" alt="EFS vs EBS vs Amazon S3 Cost Comparison" class="blog-thumb-img" loading="lazy">
+                        <div class="blog-thumb-overlay">
+                            <span class="blog-thumb-badge">EFS • EBS • S3 • CLOUD STORAGE COST</span>
+                        </div>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-meta-top">
+                            <span class="blog-category-tag">AWS / Cloud Storage</span>
+                            <span class="blog-read-time"><i class="far fa-clock"></i> 5 min read</span>
+                        </div>
+                        <h3 class="blog-card-title">EFS vs EBS vs Amazon S3: Choosing the Most Cost-Effective AWS Storage Solution</h3>
+                        <p class="blog-card-excerpt">
+                            An architectural and cost comparison analyzing file, block, and object storage across AWS workloads, breaking down access patterns, lifecycle tiering, throughput, and rightsizing strategies.
+                        </p>
+                        <div class="blog-card-footer">
+                            <span class="blog-author-info"><i class="fab fa-medium"></i> Published on Medium</span>
+                            <a href="https://medium.com/@reezmahanan/efs-vs-ebs-vs-amazon-s3-choosing-the-most-cost-effective-aws-storage-solution-cf6a34232ba4" target="_blank" class="blog-read-link">
+                                Read on Medium <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog 5: MongoDB for Beginners (Real Medium Article) -->
+                <article class="blog-card" data-category="databases other">
+                    <div class="blog-thumb-wrap has-image">
+                        <img src="screenshots/mongodb.jpg" alt="MongoDB for Beginners" class="blog-thumb-img" loading="lazy">
+                        <div class="blog-thumb-overlay">
+                            <span class="blog-thumb-badge">MONGODB • NOSQL • BSON • COLLECTIONS</span>
+                        </div>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-meta-top">
+                            <span class="blog-category-tag">Database / NoSQL</span>
+                            <span class="blog-read-time"><i class="far fa-clock"></i> 5 min read • Sep 2026</span>
+                        </div>
+                        <h3 class="blog-card-title">MongoDB for Beginners: A Simple Introduction to NoSQL Databases</h3>
+                        <p class="blog-card-excerpt">
+                            A clear, beginner-friendly introduction to NoSQL databases, exploring document-oriented storage with BSON, flexible schemas, CRUD operations, and key architectural differences from relational SQL systems.
+                        </p>
+                        <div class="blog-card-footer">
+                            <span class="blog-author-info"><i class="fab fa-medium"></i> Published on Medium</span>
+                            <a href="https://medium.com/@reezmahanan/mongodb-for-beginners-a-simple-introduction-to-nosql-databases-cfd539216e68" target="_blank" class="blog-read-link">
+                                Read on Medium <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog 6: Native vs Web vs Hybrid vs PWAs (Real Medium Article) -->
+                <article class="blog-card" data-category="career other">
+                    <div class="blog-thumb-wrap has-image">
+                        <img src="screenshots/native vs hybrid vs crossplatform.jpg" alt="Native vs Web vs Hybrid vs PWAs" class="blog-thumb-img" loading="lazy">
+                        <div class="blog-thumb-overlay">
+                            <span class="blog-thumb-badge">NATIVE • WEB • HYBRID • PWA ARCHITECTURE</span>
+                        </div>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-meta-top">
+                            <span class="blog-category-tag">Mobile & Web Architecture</span>
+                            <span class="blog-read-time"><i class="far fa-clock"></i> 6 min read • Aug 2026</span>
+                        </div>
+                        <h3 class="blog-card-title">Native Apps vs Web Apps vs Hybrid Apps vs PWAs: What’s the Difference?</h3>
+                        <p class="blog-card-excerpt">
+                            An architectural comparison breaking down performance tradeoffs, native hardware access, distribution hurdles, offline capabilities, and development costs to choose the right approach for your product.
+                        </p>
+                        <div class="blog-card-footer">
+                            <span class="blog-author-info"><i class="fab fa-medium"></i> Published on Medium</span>
+                            <a href="https://medium.com/@reezmahanan/native-apps-vs-web-apps-vs-hybrid-apps-vs-pwas-whats-the-difference-fcc7f78870a2" target="_blank" class="blog-read-link">
+                                Read on Medium <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog 7: Software Testing and Quality Control (Real Medium Article) -->
+                <article class="blog-card" data-category="career other devops">
+                    <div class="blog-thumb-wrap has-image">
+                        <img src="screenshots/Quality assurance.png" alt="Software Testing and Quality Assurance" class="blog-thumb-img" loading="lazy">
+                        <div class="blog-thumb-overlay">
+                            <span class="blog-thumb-badge">QA • TESTING • RELIABILITY</span>
+                        </div>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-meta-top">
+                            <span class="blog-category-tag">Software Quality & Testing</span>
+                            <span class="blog-read-time"><i class="far fa-clock"></i> 5 min read</span>
+                        </div>
+                        <h3 class="blog-card-title">Software Testing and Quality Control: Ensuring Better Software Quality</h3>
+                        <p class="blog-card-excerpt">
+                            Principles and methodologies of effective software quality assurance, distinguishing Verification vs Validation, and exploring Unit, Integration, and System testing pipelines to build resilient production software.
+                        </p>
+                        <div class="blog-card-footer">
+                            <span class="blog-author-info"><i class="fab fa-medium"></i> Published on Medium</span>
+                            <a href="https://medium.com/@reezmahanan/software-testing-and-quality-control-ensuring-better-software-quality-3aee1636fe3e" target="_blank" class="blog-read-link">
+                                Read on Medium <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog 8: Amazon RDS vs Amazon Aurora (Real Medium Article) -->
+                <article class="blog-card" data-category="cloud aws databases other">
+                    <div class="blog-thumb-wrap has-image">
+                        <img src="screenshots/amazonrds vs arourora.png" alt="Amazon RDS vs Amazon Aurora" class="blog-thumb-img" loading="lazy">
+                        <div class="blog-thumb-overlay">
+                            <span class="blog-thumb-badge">AMAZON RDS • AURORA • CLOUD DATABASES</span>
+                        </div>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-meta-top">
+                            <span class="blog-category-tag">AWS / Cloud Databases</span>
+                            <span class="blog-read-time"><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
+                        <h3 class="blog-card-title">Amazon RDS vs Amazon Aurora: Which AWS Database Should You Choose?</h3>
+                        <p class="blog-card-excerpt">
+                            A comprehensive architectural breakdown comparing managed Amazon RDS against high-performance Amazon Aurora, evaluating replication lag, automated storage auto-scaling, Multi-AZ failover, and pricing models.
+                        </p>
+                        <div class="blog-card-footer">
+                            <span class="blog-author-info"><i class="fab fa-medium"></i> Published on Medium</span>
+                            <a href="https://medium.com/@reezmahanan/amazon-rds-vs-amazon-aurora-which-aws-database-should-you-choose-4e9bfc98572a" target="_blank" class="blog-read-link">
+                                Read on Medium <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- Empty Search State -->
+            <div id="blogEmptyState" class="blog-empty-state" style="display: none; text-align: center; padding: 3rem 1rem;">
+                <i class="fas fa-search" style="font-size: 2.5rem; color: var(--text-secondary); margin-bottom: 1rem;"></i>
+                <h4 style="color: var(--text-color); margin-bottom: 0.5rem;">No matching articles found</h4>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Try searching with different keywords or selecting another category.</p>
+            </div>
+
+            <!-- Read All On Medium CTA Button -->
+            <div class="blog-cta text-center fade-in">
+                <a href="https://medium.com/@reezmahanan" target="_blank" class="btn btn-primary btn-medium-cta">
+                    <i class="fab fa-medium"></i> Read All Articles on Medium <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteering & Community Gallery Section -->
+    <section class="gallery section" id="community">
+        <div class="container">
+            <div class="section-hero-header text-center fade-in">
+                <div class="section-pill-wrap">
+                    <span class="section-pill-badge">
+                        <i class="fas fa-hands-helping"></i>
+                        <span>Volunteering & Community</span>
+                    </span>
+                </div>
+                <h2 class="section-hero-title">
+                    Collaborating & Giving Back.<br>
+                    <span class="section-hero-accent">COMMUNITY GALLERY.</span>
+                </h2>
+                <p class="section-hero-subtitle">
+                    Apart from my technical learning path, here is my collaborating and volunteering journey supporting student groups, cloud communities, and tech summits.
+                </p>
+            </div>
+
+            <div class="community-gallery-grid fade-in">
+                <!-- Gallery Item 1: AWS Organizing Committee -->
+                <div class="gallery-card card">
+                    <div class="gallery-img-frame">
+                        <img src="screenshots/AWS Orgainizing committee.jpg" alt="AWS Organizing Committee" class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <a href="screenshots/AWS Orgainizing committee.jpg" target="_blank" class="gallery-zoom-btn" title="View Full Document">
+                                <i class="fas fa-expand-alt"></i> View Full Image
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-content">
+                        <div class="gallery-meta">
+                            <span class="gallery-badge"><i class="fab fa-aws"></i> AWS Community</span>
+                            <span class="gallery-role-tag"><i class="fas fa-user-check"></i> Organizing Committee</span>
+                        </div>
+                        <h4>AWS Organizing Committee</h4>
+                        <p>Active member of the AWS organizing committee, coordinating community summits, attendee logistics, session planning, and cloud awareness initiatives.</p>
+                        <div class="gallery-card-footer">
+                            <a href="screenshots/AWS Orgainizing committee.jpg" target="_blank" class="btn-mini-os">
+                                <i class="fas fa-image"></i> View Document
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2: Creative Co-Lead - AWS Community Day -->
+                <div class="gallery-card card">
+                    <div class="gallery-img-frame">
+                        <img src="screenshots/creative -co lead aws community day.jpg" alt="Creative Co-Lead AWS Community Day" class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <a href="screenshots/creative -co lead aws community day.jpg" target="_blank" class="gallery-zoom-btn" title="View Full Document">
+                                <i class="fas fa-expand-alt"></i> View Full Image
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-content">
+                        <div class="gallery-meta">
+                            <span class="gallery-badge"><i class="fab fa-aws"></i> AWS Community Day</span>
+                            <span class="gallery-role-tag"><i class="fas fa-paint-brush"></i> Creative Co-Lead</span>
+                        </div>
+                        <h4>Creative Co-Lead – AWS Community Day</h4>
+                        <p>Served as Creative Co-Lead for AWS Community Day, spearheading digital media assets, visual branding, promotional campaigns, and stage design collateral.</p>
+                        <div class="gallery-card-footer">
+                            <a href="screenshots/creative -co lead aws community day.jpg" target="_blank" class="btn-mini-os btn-os-proof">
+                                <i class="fas fa-certificate"></i> Verified Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Card 3: Journey Continues -->
+                <div class="gallery-card card gallery-future-card">
+                    <div class="gallery-future-visual">
+                        <div class="gallery-future-icon"><i class="fas fa-route"></i></div>
+                        <h4>More Moments in Progress</h4>
+                        <p>My collaborative journey is actively expanding with future community hackathons, tech volunteer programs, and open summits.</p>
+                    </div>
+                    <div class="gallery-content">
+                        <div class="gallery-meta">
+                            <span class="gallery-badge"><i class="fas fa-seedling"></i> Active Journey</span>
+                            <span class="gallery-role-tag"><i class="fas fa-users"></i> Tech Community</span>
+                        </div>
+                        <h4>Continuous Collaboration</h4>
+                        <p>Engaged in peer mentoring, organizing campus tech meetups, and fostering open-source community awareness.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact & Social Section -->
     <section class="contact section" id="contact">
         <div class="container">
-            <h2 class="section-title fade-in">Let's Connect</h2>
-            <p class="section-subtitle fade-in">Let's Build Something Amazing Together!</p>
+            <div class="section-hero-header text-center fade-in">
+                <div class="section-pill-wrap">
+                    <span class="section-pill-badge">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </span>
+                </div>
+                <h2 class="section-hero-title">
+                    Let's Connect.<br>
+                    <span class="section-hero-accent">BUILD TOGETHER.</span>
+                </h2>
+                <p class="section-hero-subtitle">
+                    Open for software engineering opportunities, impactful collaborations, and innovative conversations. Let's build something remarkable.
+                </p>
+            </div>
             
             <div class="contact-grid">
                 <div class="contact-info fade-in">
@@ -995,17 +1921,10 @@
                             </div>
                         </div>
                         <div class="detail-item">
-                            <i class="fab fa-google"></i>
+                            <i class="fab fa-hackerrank"></i>
                             <div>
-                                <strong>Google Dev</strong>
-                                <a href="https://g.dev/reezmahanan" target="_blank">g.dev/reezmahanan</a>
-                            </div>
-                        </div>
-                        <div class="detail-item">
-                            <i class="fab fa-twitter"></i>
-                            <div>
-                                <strong>X (Twitter)</strong>
-                                <a href="https://x.com/HananReezma" target="_blank">x.com/HananReezma</a>
+                                <strong>HackerRank</strong>
+                                <a href="https://www.hackerrank.com/profile/reezmahanan" target="_blank">hackerrank.com/reezmahanan</a>
                             </div>
                         </div>
                         <div class="detail-item">
@@ -1013,6 +1932,13 @@
                             <div>
                                 <strong>Medium</strong>
                                 <a href="https://medium.com/@reezmahanan" target="_blank">medium.com/@reezmahanan</a>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <strong>Portfolio Site</strong>
+                                <a href="https://portfolio-website-7mdi.vercel.app" target="_blank">portfolio-website-7mdi.vercel.app</a>
                             </div>
                         </div>
                         <div class="detail-item">

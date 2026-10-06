@@ -3,18 +3,6 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // ============================================
-    // Loading Screen Dismissal
-    // ============================================
-    window.addEventListener('load', () => {
-        const loading = document.getElementById('loading');
-        if (loading) {
-            setTimeout(() => {
-                loading.classList.add('hidden');
-            }, 300);
-        }
-    });
-
-    // ============================================
     // Theme Toggle Handler
     // ============================================
     const themeToggle = document.getElementById('themeToggle');
@@ -65,12 +53,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ============================================
     // Typewriter Banner Effect
-    // ============================================
     const typewriterText = document.getElementById('typewriterText');
     const words = [
-        "Software Engineer in Training",
-        "React & Spring Boot Developer",
-        "Open Source Contributor"
+        "IT Undergraduate at ITUM",
+        "Aspiring Software Engineer",
+        "Full-Stack Developer (React | Spring Boot | Node.js)",
+        "Machine Learning Enthusiast (LightGBM | Scikit-Learn)",
+        "Open Source Contributor (SWOC | GSSOC | SSOC)"
     ];
     let wordIndex = 0;
     let charIndex = 0;
@@ -106,10 +95,13 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(type, 800);
 
     // ============================================
-    // Mobile Navigation Menu Toggle
+    // Mobile Navigation Menu & Dropdown Toggle
     // ============================================
     const mobileMenuToggle = document.getElementById('mobileMenuToggle');
     const navMenu = document.getElementById('navMenu');
+    const moreDropdownBtn = document.getElementById('moreDropdownBtn');
+    const navDropdown = document.querySelector('.nav-dropdown');
+    const dropdownLinks = document.querySelectorAll('.dropdown-link');
     
     if (mobileMenuToggle && navMenu) {
         mobileMenuToggle.addEventListener('click', () => {
@@ -120,12 +112,42 @@ document.addEventListener('DOMContentLoaded', () => {
                 icon.classList.replace('fa-bars', 'fa-times');
             } else {
                 icon.classList.replace('fa-times', 'fa-bars');
+                if (navDropdown) navDropdown.classList.remove('open');
             }
+        });
+    }
+
+    if (moreDropdownBtn && navDropdown) {
+        moreDropdownBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            const isOpen = navDropdown.classList.toggle('open');
+            moreDropdownBtn.setAttribute('aria-expanded', isOpen);
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!navDropdown.contains(e.target)) {
+                navDropdown.classList.remove('open');
+                moreDropdownBtn.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        dropdownLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navDropdown.classList.remove('open');
+                moreDropdownBtn.setAttribute('aria-expanded', 'false');
+                if (navMenu && navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    const icon = mobileMenuToggle.querySelector('i');
+                    if (icon) icon.classList.replace('fa-times', 'fa-bars');
+                }
+            });
         });
     }
 
     const navLinks = document.querySelectorAll('.nav-link');
     navLinks.forEach(link => {
+        if (link.id === 'moreDropdownBtn') return;
         link.addEventListener('click', () => {
             if (navMenu && navMenu.classList.contains('active')) {
                 navMenu.classList.remove('active');
@@ -162,12 +184,27 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         
         navLinks.forEach(link => {
+            if (link.id === 'moreDropdownBtn') return;
             link.classList.remove('active');
             const href = link.getAttribute('href');
             if (href && href.substring(1) === currentSectionId) {
                 link.classList.add('active');
             }
         });
+
+        dropdownLinks.forEach(link => {
+            link.classList.remove('active');
+            const href = link.getAttribute('href');
+            if (href && href.substring(1) === currentSectionId) {
+                link.classList.add('active');
+            }
+        });
+
+        if (['opensource', 'blogs', 'community', 'contact'].includes(currentSectionId)) {
+            if (moreDropdownBtn) moreDropdownBtn.classList.add('active');
+        } else {
+            if (moreDropdownBtn) moreDropdownBtn.classList.remove('active');
+        }
     });
 
     // ============================================
@@ -282,7 +319,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const isMessageValid = validateField(messageInput, 'messageError', 'Message must be at least 10 characters.');
             
             if (!isNameValid || !isEmailValid || !isMessageValid) {
-                showNotification('Please correct form mistakes ⚠️', 'error');
+                showNotification('Please correct form mistakes before submitting.', 'error');
                 return;
             }
             
@@ -332,7 +369,7 @@ document.addEventListener('DOMContentLoaded', () => {
         alertNode.className = `space-alert alert-${type}`;
         alertNode.innerHTML = `
             <div style="display:flex; align-items:center; gap: 10px;">
-                <span>${type === 'success' ? '🚀' : '⚠️'}</span>
+                <i class="${type === 'success' ? 'fas fa-check-circle' : 'fas fa-exclamation-circle'}"></i>
                 <span>${message}</span>
             </div>
         `;
@@ -485,4 +522,145 @@ document.addEventListener('DOMContentLoaded', () => {
         animate();
     }
     initTechCanvas();
+
+    // ============================================
+    // Blog Search & Category Filter System
+    // ============================================
+    function initBlogFilters() {
+        const searchInput = document.getElementById('blogSearch');
+        const filterButtons = document.querySelectorAll('.blog-filter-btn');
+        const blogCards = document.querySelectorAll('.blog-card');
+        const emptyState = document.getElementById('blogEmptyState');
+
+        if (!blogCards.length) return;
+
+        let activeFilter = 'all';
+        let searchQuery = '';
+
+        function applyFilters() {
+            let visibleCount = 0;
+            blogCards.forEach(card => {
+                const categories = (card.getAttribute('data-category') || '').toLowerCase().split(' ');
+                const title = (card.querySelector('.blog-card-title')?.textContent || '').toLowerCase();
+                const excerpt = (card.querySelector('.blog-card-excerpt')?.textContent || '').toLowerCase();
+
+                const matchesCategory = activeFilter === 'all' || categories.includes(activeFilter.toLowerCase());
+                const matchesSearch = !searchQuery || 
+                    title.includes(searchQuery) || 
+                    excerpt.includes(searchQuery) || 
+                    categories.some(c => c.includes(searchQuery));
+
+                if (matchesCategory && matchesSearch) {
+                    card.style.display = 'flex';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            if (emptyState) {
+                emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
+            }
+        }
+
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                searchQuery = e.target.value.trim().toLowerCase();
+                applyFilters();
+            });
+        }
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                activeFilter = btn.getAttribute('data-filter') || 'all';
+                applyFilters();
+            });
+        });
+    }
+    initBlogFilters();
+
+    // ============================================
+    // Open Source Program Tabs & Evidence Sliders
+    // ============================================
+    function initOpenSourceEvidenceSliders() {
+        // 1. Program Switcher Tabs
+        const programTabs = document.querySelectorAll('.os-nav-tab');
+        const programCards = document.querySelectorAll('.os-card[data-program]');
+
+        if (programTabs.length && programCards.length) {
+            programTabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    programTabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    const targetFilter = tab.getAttribute('data-program-filter');
+
+                    programCards.forEach(card => {
+                        const cardProgram = card.getAttribute('data-program');
+                        if (targetFilter === 'all' || cardProgram === targetFilter) {
+                            card.style.display = 'flex';
+                            card.style.animation = 'fadeIn 0.3s ease forwards';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        }
+
+        // 2. Interactive Evidence Sliders within each Program Card
+        const sliders = document.querySelectorAll('.os-evidence-slider');
+        sliders.forEach(slider => {
+            const slides = slider.querySelectorAll('.os-slide');
+            const dots = slider.querySelectorAll('.os-dot');
+            const prevBtn = slider.querySelector('.os-prev-btn');
+            const nextBtn = slider.querySelector('.os-next-btn');
+
+            if (!slides.length) return;
+
+            let currentIndex = 0;
+
+            function showSlide(index) {
+                if (index < 0) {
+                    currentIndex = slides.length - 1;
+                } else if (index >= slides.length) {
+                    currentIndex = 0;
+                } else {
+                    currentIndex = index;
+                }
+
+                slides.forEach((slide, idx) => {
+                    slide.classList.toggle('active', idx === currentIndex);
+                });
+
+                dots.forEach((dot, idx) => {
+                    dot.classList.toggle('active', idx === currentIndex);
+                });
+            }
+
+            if (prevBtn) {
+                prevBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    showSlide(currentIndex - 1);
+                });
+            }
+
+            if (nextBtn) {
+                nextBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    showSlide(currentIndex + 1);
+                });
+            }
+
+            dots.forEach((dot, idx) => {
+                dot.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    showSlide(idx);
+                });
+            });
+        });
+    }
+    initOpenSourceEvidenceSliders();
 });
+
