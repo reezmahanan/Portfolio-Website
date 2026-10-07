@@ -59,7 +59,7 @@ Built using **semantic HTML5, modern CSS3 (Custom Properties & Flexbox/Grid), an
 | **Frontend & UI Engineering** | HTML5, CSS3, Tailwind CSS, Bootstrap |
 | **Cloud, DevOps & Systems** | AWS (EC2, S3, RDS, VPC, ALB/NLB), Docker, Linux |
 | **Developer Tools & Testing** | Git, GitHub, npm, Postman, IntelliJ IDEA, VS Code |
-| **UI/UX & Creative Design** | Figma, Adobe Photoshop, Canva |
+| **UI/UX & Creative Design** | Figma, Adobe Photoshop, Adobe Illustrator, Canva |
 | **Learning & Assessment Platforms** | HackerRank, Cisco Networking Academy, Microsoft Learn, CODL LMS UOM, W3Schools, SoloLearn, GeeksforGeeks, AWS Educate, Simplilearn, Kaggle, KodeKloud |
 
 ---
@@ -135,10 +135,11 @@ Published engineering breakdowns sharing architectural principles and hands-on l
 
 ## Verified Certifications & Badges
 
+- **Frontend Developer (React)**: HackerRank ([Verify Certificate](https://www.hackerrank.com/certificates/6cae31c2c403))
 - **Docker for Absolute Beginners**: KodeKloud ([Verify Certificate](https://learn.kodekloud.com/learn/certificate/3e5f41f9-9caf-4f40-a18c-9e0a6d3f7978))
 - **Cyber Security Essential (LFC108)**: The Linux Foundation
 - **Agile Scrum Foundation**: Simplilearn ([Verify](https://simpli-web.app.link/e/pxITlA1Tb0b))
-- **HackerRank Verified Skills**: Java, Python, SQL, JavaScript, CSS ([Verify Profile](https://www.hackerrank.com/profile/reezmahanan))
+- **HackerRank Verified Skills**: React, Java, Python, SQL, JavaScript, CSS ([Verify Profile](https://www.hackerrank.com/profile/reezmahanan))
 - **Front-End Web Development**: University of Moratuwa CODL
 - **Introduction to Cybersecurity**: Cisco Networking Academy
 - **Cybersecurity Essentials**: Cisco Networking Academy
