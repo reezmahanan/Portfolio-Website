@@ -104,7 +104,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const dropdownLinks = document.querySelectorAll('.dropdown-link');
     
     if (mobileMenuToggle && navMenu) {
-        mobileMenuToggle.addEventListener('click', () => {
+        mobileMenuToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
             navMenu.classList.toggle('active');
             
             const icon = mobileMenuToggle.querySelector('i');
@@ -113,6 +114,17 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 icon.classList.replace('fa-times', 'fa-bars');
                 if (navDropdown) navDropdown.classList.remove('open');
+            }
+        });
+
+        document.addEventListener('click', (e) => {
+            if (navMenu.classList.contains('active')) {
+                if (!navMenu.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
+                    navMenu.classList.remove('active');
+                    const icon = mobileMenuToggle.querySelector('i');
+                    if (icon) icon.classList.replace('fa-times', 'fa-bars');
+                    if (navDropdown) navDropdown.classList.remove('open');
+                }
             }
         });
     }
