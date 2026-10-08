@@ -2551,7 +2551,11 @@ body {
 .project-banner-visual.project-banner-image-mode {
     padding: 0;
     align-items: stretch;
-    justify-content: flex-end;
+    justify-content: center;
+}
+
+.project-banner-visual.project-banner-image-mode::before {
+    display: none;
 }
 
 .project-banner-real-img {
@@ -2733,6 +2737,56 @@ body {
 .mini-project:hover .mini-project-img {
     transform: scale(1.02);
     border-color: var(--primary-color);
+}
+
+.mini-project-visual {
+    width: 100%;
+    height: 125px;
+    border-radius: 8px;
+    margin-bottom: 0.85rem;
+    border: 1px solid var(--card-border);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0.75rem;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.mini-project:hover .mini-project-visual {
+    transform: scale(1.02);
+    border-color: var(--primary-color);
+}
+
+.mini-project-visual .mini-banner-icon {
+    font-size: 1.75rem;
+    margin-bottom: 0.35rem;
+    z-index: 1;
+}
+
+.mini-project-visual .mini-banner-title {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--text-color);
+    z-index: 1;
+    letter-spacing: -0.01em;
+}
+
+.mini-project-visual .mini-banner-stat {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 0.35rem;
+    padding: 0.15rem 0.55rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--card-border);
+    border-radius: 50px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    z-index: 1;
 }
 
 .mini-project h4 {

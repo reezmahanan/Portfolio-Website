@@ -4,218 +4,390 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=Reezma%20Hanan&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35" width="100%"/>
 
 <!-- Animated Typing -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=880&lines=Full-Stack+Developer+%7C+AI+%2F+ML+Engineer;IT+Undergraduate+at+ITUM+(University+of+Moratuwa);Java+%E2%80%A2+Python+%E2%80%A2+React+%E2%80%A2+Spring+Boot+%E2%80%A2+Node.js;Open+to+Software+Engineering+Internships;Open+Source+Contributor+(SWOC%2C+OSCG%2C+SSOC%2C+GSSOC%2C+OSCI);AWS+Community+Volunteer+%26+Technical+Writer" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=FF61A6&center=true&vCenter=true&width=880&lines=Hi+I'm+Reezma+Hanan;IT+Undergraduate+at+ITUM;Aspiring+Software+Engineer;Full-Stack+Developer+(React+%7C+Spring+Boot+%7C+Node.js);Machine+Learning+Enthusiast+(LightGBM+%7C+Scikit-Learn);Open+to+Software+Engineering+Internships;Open+Source+Contributor" />
 
 <br/>
 
-<!-- Status and Focus Badges -->
-<a href="https://www.linkedin.com/in/reezma-hanan"><img src="https://img.shields.io/badge/Role-IT_Undergraduate_at_ITUM-2563EB?style=for-the-badge&labelColor=0f172a" /></a>
-<a href="mailto:reezmahanan@gmail.com"><img src="https://img.shields.io/badge/Status-Seeking_Internships-38BDF8?style=for-the-badge&labelColor=0f172a" /></a>
-<a href="https://github.com/reezmahanan"><img src="https://img.shields.io/badge/Stack-React_•_Spring_Boot_•_Node_•_MySQL-3B82F6?style=for-the-badge&labelColor=0f172a" /></a>
-<a href="https://github.com/reezmahanan"><img src="https://img.shields.io/badge/ML-Scikit--Learn_•_LightGBM_•_NumPy-0284C7?style=for-the-badge&labelColor=0f172a" /></a>
-<a href="https://github.com/reezmahanan"><img src="https://img.shields.io/badge/Open_Source-5_Programs_Contributor-6366F1?style=for-the-badge&labelColor=0f172a" /></a>
-<a href="https://github.com/reezmahanan"><img src="https://img.shields.io/badge/Location-Sri_Lanka-0EA5E9?style=for-the-badge&labelColor=0f172a" /></a>
+<!-- Status & Focus Badges -->
+<a href="https://www.linkedin.com/in/reezma-hanan"><img src="https://img.shields.io/badge/🎓_Role-IT_Undergraduate_at_ITUM-9B59B6?style=for-the-badge&labelColor=1a1a2e" /></a>
+<a href="mailto:reezmahanan@gmail.com"><img src="https://img.shields.io/badge/🔍_Status-Seeking_Internships-00D9FF?style=for-the-badge&labelColor=1a1a2e" /></a>
+<a href="https://github.com/reezmahanan"><img src="https://img.shields.io/badge/⚛️_Stack-React_•_Spring_Boot_•_Node-FFA500?style=for-the-badge&labelColor=1a1a2e" /></a>
+<a href="https://github.com/reezmahanan"><img src="https://img.shields.io/badge/🤖_ML-Scikit--Learn_•_LightGBM-47A248?style=for-the-badge&labelColor=1a1a2e" /></a>
+<a href="https://github.com/reezmahanan"><img src="https://img.shields.io/badge/🌍_Open_Source-Contributor-8A2BE2?style=for-the-badge&labelColor=1a1a2e" /></a>
+<a href="https://github.com/reezmahanan"><img src="https://img.shields.io/badge/📍_Location-Sri_Lanka-00FF88?style=for-the-badge&labelColor=1a1a2e" /></a>
 
 <br/><br/>
 
 <p align="center">
-  <b><i>"Learn continuously, build consistently, and engineer scalable solutions that create real-world impact."</i></b>
+  <b><i>"Learn continuously, build consistently, and engineer scalable solutions that matter. 🚀"</i></b>
 </p>
+
+<!-- Decorative Line -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+</div>
+
+## 👨‍💻 About Me
+
+Hey there! 👋 I am an **Information Technology Undergraduate at the Institute of Technology, University of Moratuwa (ITUM)** in Sri Lanka. I love building practical full-stack web applications and applying machine learning to solve real-world problems.
+
+- 🎓 **Student Life:** Currently studying IT at ITUM, building strong foundations in software engineering principles, algorithms, clean code, and database architecture.
+- 💻 **What I Build:** End-to-end full-stack systems (React, Spring Boot, Node.js) and predictive Machine Learning models (LightGBM, Scikit-Learn for time-series forecasting and regression).
+- 🔍 **Career Goal:** Actively seeking a **Software Engineering / Full-Stack Developer Internship** where I can learn from experienced mentors, contribute to real production code, and grow as an engineer.
+- 🤝 **Community & Learning:** Open source contributor (SWOC, GSSOC, SSOC) and an enthusiastic team player who enjoys continuous learning every day.
+
+---
+
+## 🛠️ Technical Skills & Architecture
+
+### 💻 Programming Languages
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=java,py,js,ts,php,c" />
+</a>
+
+### 🤖 Machine Learning & Data Science
+<a href="https://github.com/reezmahanan">
+  <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/ml-skills.svg" alt="Python, Scikit-Learn, Pandas, NumPy, LightGBM, Kaggle" />
+</a>
+
+### ⚛️ Frameworks & Runtimes
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=spring,react,nodejs,express,laravel" />
+</a>
+
+### 🗄️ Databases & Persistence
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
+</a>
+
+### 🌐 Frontend & Styling
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind" />
+</a>
+
+### ☁️ Cloud, DevOps & Systems
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=aws,docker,linux" />
+</a>
+
+### 🔧 Developer Tools & Testing
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,github,npm,postman,idea,vscode" />
+</a>
+
+### 🎨 UI/UX & Prototyping
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=figma,ps,ai" />
+</a>
+
+---
+
+## 📌 Featured Projects
+
+Highlighting full-stack web platforms, machine learning forecasting, and database design:
+
+<table width="100%">
+  <!-- Row 1: LibriQ & Electricity Demand Predictor -->
+  <tr>
+    <!-- Project 1: LibriQ LMS -->
+    <td width="50%" valign="top">
+      <h4>📚 <a href="https://github.com/reezmahanan/LibriQ">LibriQ – Sri Lankan University Library Management System</a></h4>
+      <p>A comprehensive MERN circulation platform tailored for Sri Lankan university standards. Features a dedicated trilingual switcher (English <code>EN</code>, தமிழ் <code>TA</code>, සිංහල <code>SI</code>), role-based permissions (Librarian/Student), barcoded Accession No (<code>ACC-...</code>), Dewey Decimal Call numbers (DDC), student index rosters, and automated LKR late fine calculations (Rs. 10/day).</p>
+      <p>
+        <img src="https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB" />&nbsp;
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/LKR-Rs._Fine_Engine-F4B942?style=flat-square&labelColor=1E3A5F" />
+      </p>
+    </td>
+    <!-- Project 2: Electricity Consumption Prediction -->
+    <td width="50%" valign="top">
+      <h4>⚡ <a href="https://github.com/reezmahanan/Electricity-Consumption-Prediction">Electricity Consumption Prediction (Sri Lanka Smart Meter)</a></h4>
+      <p>An end-to-end Machine Learning time-series pipeline forecasting 15-minute residential electricity demand across Sri Lankan households using real-world LIRNEasia smart meter data. Implements calendar clues, lag features, and a tuned LightGBM Regressor achieving an outstanding <b>93.1% R² score</b>.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/LightGBM-2E7D32?style=flat-square&logo=codeforces&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/R²_Score-0.9307-brightgreen?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <!-- Row 2: STYLEO Ceylon & House Price / Academic Predictor -->
+  <tr>
+    <!-- Project 3: STYLEO Ceylon -->
+    <td width="50%" valign="top">
+      <h4>🛍️ <a href="https://github.com/reezmahanan/STYLEO-Ceylon">STYLEO Ceylon – Full-Stack E-Commerce System</a></h4>
+      <p>A production-ready 3-tier apparel platform featuring an asynchronous native <code>fetch()</code> client engine, Express REST API, and a normalized MySQL 8 database with ACID transactional checkout and live courier tracking.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Vanilla_JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />&nbsp;
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/MySQL_8-4479A1?style=flat-square&logo=mysql&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />&nbsp;
+        <a href="https://project-04-production-79a4.up.railway.app/"><img src="https://img.shields.io/badge/Live_Demo-Railway-00D9FF?style=flat-square&logo=railway&logoColor=white" /></a>&nbsp;
+        <img src="https://img.shields.io/github/stars/reezmahanan/STYLEO-Ceylon?style=flat-square&color=blue" />
+      </p>
+    </td>
+    <!-- Project 4: House Price / Academic Performance Predictor -->
+    <td width="50%" valign="top">
+      <h4>🏡 <a href="https://github.com/reezmahanan/StudyScore-AI">House Price & Performance Predictor (StudyScore AI)</a></h4>
+      <p>End-to-end Machine Learning predictive application leveraging multi-variable regression, feature scaling, and outlier filtering to forecast valuations and target scores based on historical indicators, achieving up to <b>99.4% R² regression fit</b>.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/github/stars/reezmahanan/StudyScore-AI?style=flat-square&color=blue" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary>📂 <b>View More Repositories & Prototypes</b></summary>
+
+| Project | Domain / Stack | Repository |
+| :--- | :--- | :--- |
+| **TaskFlow Dashboard** | TypeScript, Vite, React | [View Code](https://github.com/reezmahanan/TaskFlow) • [Live Demo](https://task-flow-coral-iota.vercel.app/) |
+| **AgriDirect** | Node.js, Express, MongoDB, Mongoose | [View Code](https://github.com/reezmahanan/AgriDirect) |
+| **SCM - Inventory Management** | React, Spring Boot, MySQL | [View Code](https://github.com/reezmahanan/SCM-IMS) |
+| **Retail Point of Sale (POS)** | Laravel, PHP, MySQL, Bootstrap | [View Code](https://github.com/reezmahanan/POS-System) |
+| **Reezma Hanan Portfolio** | React, Netlify, Responsive CSS | [View Code](https://github.com/reezmahanan/Reezma-Hanan-Portfolio) |
+| **Book Nest** | PHP, JavaScript, MySQL | [View Code](https://github.com/reezmahanan/BookNest) |
+| **Event Hub** | PHP, JavaScript, MySQL | [View Code](https://github.com/reezmahanan/Student-Event-Management-Web-Application) |
+| **ReciPick** | React, Vite, CSS3 | [View Code](https://github.com/reezmahanan/RECIPICK) |
+| **Weather App** | React, OpenWeather API | [View Code](https://github.com/reezmahanan/Weather-App) • [Live Demo](https://weather-app-pi-teal-17.vercel.app/) |
+| **TasteVerse** | HTML5, CSS3, JavaScript | [View Code](https://github.com/reezmahanan/TasteVerse.git) |
+| **Reezma Tech Services** | HTML5, CSS3, JavaScript | [View Code](https://github.com/reezmahanan/Reezma-tech-services) |
+| **CareerBridge** | Responsive Web UI | [View Code](https://github.com/reezmahanan/CareerBridge) |
+
+</details>
+
+---
+
+## 🏆 Highlighted Certifications & Professional Badges
+
+*Selected professional credentials representing technical competence in industry standards:*
+
+### 📜 Certifications
+
+<!-- Row 1: 4 Professional Certifications (25% equal width each) -->
+<table width="100%">
+  <tr>
+    <td width="25%" align="center" valign="top">
+      <b>Frontend Developer React</b><br/>
+      <i>HackerRank</i><br/><br/>
+      <a href="https://www.hackerrank.com/certificates/6cae31c2c403">
+        <img src="https://github.com/user-attachments/assets/181c6d88-12af-4f64-9767-60074e54cbe1" width="100%" alt="Frontend Developer React Certificate"/>
+      </a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>Docker for Absolute Beginners</b><br/>
+      <i>KodeKloud</i><br/><br/>
+      <a href="https://learn.kodekloud.com/learn/certificate/3e5f41f9-9caf-4f40-a18c-9e0a6d3f7978">
+        <img src="https://github.com/user-attachments/assets/2c597dcf-47b4-47c3-a4bb-6ba9f0e86961" width="100%" alt="Docker Certificate"/>
+      </a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>Cyber Security Essential (LFC108)</b><br/>
+      <i>The Linux Foundation</i><br/><br/>
+      <a href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/0508ad4c-dfe7-4044-b2f4-145bc0c3aad5-reezma-hanan-1fee3867-40b6-4d53-a0d2-c7e97ccb3f29-certificate.pdf">
+        <img src="https://github.com/user-attachments/assets/e2af4b8a-df7d-4be4-91a2-c229685cb44c" width="100%" alt="Linux Foundation Certificate"/>
+      </a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>Agile Scrum Foundation</b><br/>
+      <i>Simplilearn</i><br/><br/>
+      <a href="https://simpli-web.app.link/e/pxITlA1Tb0b">
+        <img src="https://github.com/user-attachments/assets/40df952e-ee56-491b-a8ec-32c704a659dd" width="100%" alt="Agile Scrum Certificate"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<!-- Row 2: 3 Specialized Verified Skills & Credentials (33.33% equal width each) -->
+<table width="100%">
+  <tr>
+    <td width="33.33%" align="center" valign="top">
+      <b>HackerRank Verified Skills</b><br/>
+      <i>React • Node • Java • Python • SQL • JS • CSS</i><br/><br/>
+      <a href="https://github.com/user-attachments/assets/ce976dc9-1a0a-4c01-8532-71deba92aea5">
+        <img src="https://github.com/user-attachments/assets/ce976dc9-1a0a-4c01-8532-71deba92aea5" width="100%" alt="HackerRank Java Certificate"/>
+      </a>
+      <br/><br/>
+      <sub>
+        <b>Direct Verifications:</b><br/>
+        <a href="https://www.hackerrank.com/certificates/6cae31c2c403">React</a> •
+        <a href="https://www.hackerrank.com/certificates/c4f275cc19e0">Node</a> •
+        <a href="https://github.com/user-attachments/assets/ce976dc9-1a0a-4c01-8532-71deba92aea5">Java</a> •
+        <a href="https://github.com/user-attachments/assets/213ee016-3766-48ad-96ba-af5f6d82d0cc">Python</a> •
+        <a href="https://github.com/user-attachments/assets/dd15f2fe-7e86-4979-b50e-cc47f980a6ae">SQL</a><br/>
+        <a href="https://github.com/user-attachments/assets/871e1c2c-f5ff-4293-85d2-1fb31d88c66e">JavaScript</a> •
+        <a href="https://github.com/user-attachments/assets/58fe106f-28b0-451e-82d2-9d837eb0c473">CSS</a>
+      </sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <b>Front-End Web Development</b><br/>
+      <i>University of Moratuwa CODL</i><br/><br/>
+      <a href="https://open.uom.lk/lms/mod/customcert/view.php?id=839&downloadown=1">
+        <img src="https://github.com/user-attachments/assets/60d5d685-26e1-420c-845c-77f39e1e6465" width="100%" alt="UOM Front End Certificate"/>
+      </a>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <b>Cyber Security</b><br/>
+      <i>Cisco Networking Academy</i><br/><br/>
+      <a href="https://www.credly.com/badges/e39f3377-2df8-409a-a9ed-42e869c1d511">
+        <img src="https://github.com/user-attachments/assets/39c1eb9f-1f52-4119-ab39-f3a25c404c89" width="100%" alt="Cisco Certificate"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+### 🏅 Verified Skill Badges
+
+<div align="center">
+  <img width="160" alt="Cyber Security Cisco Badge" src="https://github.com/user-attachments/assets/2a168050-4437-4be6-9830-984408e0307a" />&nbsp;&nbsp;
+  <img width="160" alt="Cyber Security Linux Foundation Badge" src="https://github.com/user-attachments/assets/22312c5a-3561-4904-b62f-bbd495d8d022" />&nbsp;&nbsp;
+  <img width="160" alt="Introduction to Generative AI Google Cloud Badge" src="https://github.com/user-attachments/assets/6949b148-049c-481d-83b5-a64167c86980" />&nbsp;&nbsp;
+  <img width="160" alt="GitHub for Beginners Badge" src="https://github.com/user-attachments/assets/3b665081-35e2-45c7-9473-b6687e689d65" />
+</div>
+
+<details>
+<summary>📑 <b>View Additional 20+ Certifications & Technical Credentials</b></summary>
+
+| Certificate | Issuer | View Certificate |
+| :--- | :--- | :--- |
+| **Node.js (Basic)** | HackerRank | [View Credential](https://www.hackerrank.com/certificates/c4f275cc19e0) |
+| **Introduction to Git** | Microsoft | [View Credential](https://github.com/user-attachments/assets/54776ea4-ec42-4b50-9108-40ea13519724) |
+| **Introduction to Github Copilot** | Microsoft | [View Credential](https://github.com/user-attachments/assets/cef427dc-028d-44b6-b023-43f63b0d7d78) |
+| **Describe Cloud Computing** | Microsoft | [View Credential](https://github.com/user-attachments/assets/caf21974-5cce-47fc-808b-7d1cc7726e45) |
+| **Introduction to AI Concepts** | Microsoft | [View Credential](https://github.com/user-attachments/assets/68cb27b6-96cd-4b1c-86a1-25d613ab8b1d) |
+| **Python for Beginners** | UOM CODL | [View Credential](https://github.com/user-attachments/assets/b402b5d1-9a87-4fc5-a524-d908040fc256) |
+| **Web Design for Beginners** | UOM CODL | [View Credential](https://github.com/user-attachments/assets/901bd465-48d9-4a2d-85c7-d8e6f25b5a51) |
+| **OOPs in Java** | Simplilearn | [View Credential](https://github.com/user-attachments/assets/8415eddb-eed0-4d18-abb0-17b67314c71e) |
+| **Introduction to Cloud Computing** | Simplilearn | [View Credential](https://github.com/user-attachments/assets/f6f704f6-4af2-4628-b44e-19701f4e51fd) |
+| **Introduction to Cyber Security** | Simplilearn | [View Credential](https://github.com/user-attachments/assets/708a3d71-8ed8-43fa-8d48-c4c2ef780977) |
+| **UI/UX for Beginners** | Great Learning Academy | [View Credential](https://github.com/user-attachments/assets/8611355c-f9ee-4791-adab-bc72be7e9d56) |
+| **HTML** | Great Learning Academy | [View Credential](https://github.com/user-attachments/2fb025ee-46b8-4949-b3ba-4a9ceb4bc3e1) |
+| **MySQL Tutorial** | Great Learning Academy | [View Credential](https://github.com/user-attachments/assets/3c62470d-4844-4bb2-beb6-569e878bca57) |
+| **Programming Basics** | Great Learning Academy | [View Credential](https://github.com/user-attachments/assets/7c524fff-72d7-4199-8ffe-a7d3edd2a525) |
+| **Python Fundamentals for Beginners** | Great Learning Academy | [View Credential](https://github.com/user-attachments/assets/a602a5be-b2c9-476c-8b55-26afd6feddb8) |
+| **Python Project for Beginners** | Great Learning Academy | [View Credential](https://github.com/user-attachments/assets/315d12cd-f931-4b4d-83b7-20e2aec23a2a) |
+| **Hands-On Introduction to Git with GitHub** | Udemy | [View Credential](https://github.com/user-attachments/assets/a258b2af-adf3-4bb8-90af-a296a6caf7e9) |
+| **Java** | SoloLearn | [View Credential](https://github.com/user-attachments/assets/6dc5e013-7d80-4ce1-8a8d-e28ee4482824) |
+| **SQL** | SoloLearn | [View Credential](https://github.com/user-attachments/assets/75104083-2c70-48ca-aabb-efccfae77c21) |
+| **HTML** | SoloLearn | [View Credential](https://github.com/user-attachments/assets/4313cec7-e719-4858-be24-ad1b462bd5f0) |
+| **CSS** | SoloLearn | [View Credential](https://github.com/user-attachments/assets/3a0b3f8c-36a1-4df4-8611-475400b9abd6) |
+| **Python for Beginners** | SoloLearn | [View Credential](https://github.com/user-attachments/assets/ff60ec2b-4d5f-4b7b-bd10-70acb348594e) |
+| **Introduction to C** | SoloLearn | [View Credential](https://github.com/user-attachments/assets/2506be40-a342-4c38-bd8c-98065424a7b4) |
+
+</details>
+
+---
+
+## 🌍 Open Source Contributions
+
+I actively collaborate on community-driven open-source projects, which allows me to gain real-world production experience:
+
+* **SWOC (Social Winter of Code):** Open Source Contributor. Contributed to [SafeHaven](https://github.com/archangel2006/SafeHaven)
+* **OSCG (Open Source Connect Global):** Open Source Contributor. Contributed to [blockchain-evidence](https://github.com/Gooichand/blockchain-evidence)
+* **SSOC (Social Summer of Code):** Open Source Contributor. Contributed to [E-commerce](https://github.com/AnthropicBots/E-commerce.git)
+* **GSSOC (GirlScript Summer of Code):** Open Source Contributor. Contributed to [EaseMotion-css](https://github.com/SAPTARSHI-coder/EaseMotion-css.git)
+
+---
+
+## 📊 GitHub Analytics & Contributions
+
+<div align="center">
+
+<!-- Profile Analytics Badges -->
+<img src="https://komarev.com/ghpvc/?username=reezmahanan&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile views" />&nbsp;
+<img src="https://img.shields.io/github/followers/reezmahanan?label=Followers&style=for-the-badge&color=ff69b4" alt="followers" />&nbsp;
+<img src="https://img.shields.io/github/stars/reezmahanan?label=Total%20Stars&style=for-the-badge&color=yellow" alt="stars" />
+
+<br/><br/>
+  
+<!-- Dynamic Contribution Summary Wave Card -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=reezmahanan&theme=2077" alt="Reezma's GitHub Contribution Activity" width="100%" />
+
+<br/><br/>
+
+<!-- Streak & Stats side by side -->
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <a href="https://github.com/reezmahanan">
+        <img src="https://github-readme-stats.vercel.app/api?username=reezmahanan&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=ff61a6&icon_color=00d9ff&text_color=ffffff" alt="GitHub Stats" height="180"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/reezmahanan">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reezmahanan&layout=compact&theme=radical&hide_border=true&langs_count=8&bg_color=0d1117&title_color=ff61a6&text_color=ffffff" alt="Top Languages" height="180"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=reezmahanan&theme=radical&hide_border=true" alt="GitHub Streak" height="170"/>
+
+<br/><br/>
+
+<!-- Trophy Cabinet -->
+<a href="https://github.com/reezmahanan">
+  <img src="https://github-trophies.devomb.com/?username=reezmahanan&theme=radical&column=6&no-bg=true&no-frame=true" alt="Trophy Cabinet" />
+</a>
+
+<br/><br/>
+
+<!-- Snake Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/reezmahanan/reezmahanan/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/reezmahanan/reezmahanan/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/reezmahanan/reezmahanan/output/github-contribution-grid-snake-dark.svg" width="90%">
+</picture>
 
 </div>
 
 ---
 
-# Reezma Hanan - Personal Developer Portfolio
+## 🤝 Let's Connect & Collaborate
 
-Welcome to the official repository of my personal developer portfolio website. This project is a modern, high-performance, single-page application engineered to showcase my academic foundation at the **Institute of Technology, University of Moratuwa (ITUM)** (NDT in Information Technology, Current GPA: 3.06), production-grade full-stack systems, machine learning regression models, verified international open-source contributions, technical Medium publications, and community volunteering.
-
-Built using **semantic HTML5, modern CSS3 (Custom Properties & Flexbox/Grid), and vanilla ES6+ JavaScript** with zero heavyweight frameworks, the website achieves exceptional load speed, hardware-accelerated animations, and responsive adaptability across all screen viewports.
-
----
-
-## Architectural Highlights & Core Capabilities
-
-- **Interactive Glassmorphic Interface**: Custom HTML5 particle canvas engine paired with backdrop filters, gradient glow accents, and responsive layout grids.
-- **Strict Theme System**: High-contrast dark theme with cohesive cyan and blue primary accents (`#38bdf8`, `#3b82f6`) with an integrated light theme toggle.
-- **Sequential Scroll Structure**: Navigation hierarchy matching natural evaluation order:
-  `Home` -> `About` -> `Skills` -> `Education` -> `Certificates` -> `Projects` -> `More` (`Open Source` -> `Blogs` -> `Volunteering` -> `Contact`).
-- **Real-World Project Showcase**: Banners with production screenshots for flagship applications including **LibriQ**, **STYLEO Ceylon**, and **Event Hub**, plus an expandable drawer featuring **AgriDirect**, **TaskFlow**, **Weather App**, and **StudyScore AI**.
-- **Verified Open Source Evidence Trackers**: Multi-program interactive evidence carousels across 5 recognized programs (**SWOC '26**, **OSCG '26**, **SSOC '26**, **GSSOC '26**, **OSCI '26**) with live repository and certificate links.
-- **Technical Articles & Publications Hub**: 8 Medium engineering breakdowns complete with category filtering, instant keyword search, and article banner visuals.
-- **Volunteering & Community Gallery**: Documenting contributions as an **AWS Organizing Committee Member** and **Creative Co-Lead for AWS Community Day**.
-- **Validated Contact Gateway**: Client-side form sanitation with direct automated email forwarding powered by **FormSubmit.co**.
-
----
-
-## Technical Skills & Tooling
-
-| Domain | Technologies & Platforms |
-| :--- | :--- |
-| **Programming Languages** | Java, Python, JavaScript, TypeScript, PHP, C |
-| **Machine Learning & Data Science** | Python, Scikit-Learn, LightGBM, Pandas, NumPy |
-| **Frameworks & Runtimes** | Spring Boot, React, Node.js, Express.js, Laravel |
-| **Databases & Persistence** | MySQL 8 (ACID), MongoDB |
-| **Frontend & UI Engineering** | HTML5, CSS3, Tailwind CSS, Bootstrap |
-| **Cloud, DevOps & Systems** | AWS (EC2, S3, RDS, VPC, ALB/NLB), Docker, Linux |
-| **Developer Tools & Testing** | Git, GitHub, npm, Postman, IntelliJ IDEA, VS Code |
-| **UI/UX & Creative Design** | Figma, Adobe Photoshop, Adobe Illustrator, Canva |
-| **Learning & Assessment Platforms** | HackerRank, Cisco Networking Academy, Microsoft Learn, CODL LMS UOM, W3Schools, SoloLearn, GeeksforGeeks, AWS Educate, Simplilearn, Kaggle, KodeKloud |
-
----
-
-## Featured Flagship Projects
-
-### 1. LibriQ – Sri Lankan University Library Automation System
-- **Domain**: Full-Stack Desktop & Systems Engineering
-- **Tech Stack**: Java, JavaFX, Scene Builder, MySQL 8, ACID Transactions
-- **Overview**: An automated library management platform engineered for university workflows. Features multi-criteria catalog indexing, member ledger tracking, automated late-fine computation, and automated RFID/barcode inventory validation.
-- **Repository**: [github.com/reezmahanan/LibriQ](https://github.com/reezmahanan/LibriQ)
-
-### 2. STYLEO Ceylon – Full-Stack E-Commerce Platform
-- **Domain**: 3-Tier Web Architecture & E-Commerce
-- **Tech Stack**: Vanilla JavaScript, Node.js, Express.js, MySQL 8, REST APIs
-- **Overview**: A production-ready 3-tier apparel platform featuring an asynchronous native `fetch()` client engine, modular Express routing, and normalized MySQL 8 persistence with ACID transactional checkout and live courier tracking.
-- **Repository**: [github.com/reezmahanan/STYLEO-Ceylon](https://github.com/reezmahanan/STYLEO-Ceylon)
-
-### 3. Event Hub – Student Event Management Web Application
-- **Domain**: Campus Academic Event Management & RBAC
-- **Tech Stack**: PHP, MySQL, JavaScript, Bootstrap, CSS3
-- **Overview**: A dynamic academic event management web portal streamlining campus event discovery, multi-role registrations (Organizers, Attendees, Admins), automated seat capacity tracking, calendar scheduling, instant RSVP confirmations, and automated email alerts.
-- **Repository**: [github.com/reezmahanan/Student-Event-Management-Web-Application](https://github.com/reezmahanan/Student-Event-Management-Web-Application)
-
----
-
-## Additional Software Projects & Prototypes
-
-| Project | Core Stack | Description | Repository |
-| :--- | :--- | :--- | :--- |
-| **TaskFlow** | React, Node.js, Express, MongoDB | Collaborative project management portal with kanban task workflows and analytics. | [View Code](https://github.com/reezmahanan/TaskFlow) |
-| **AgriDirect** | Node.js, Express, MongoDB, Mongoose | Direct farmer-to-consumer digital marketplace streamlining trade and pricing. | [View Code](https://github.com/reezmahanan/AgriDirect) |
-| **Weather App** | React, OpenWeatherMap API, CSS3 | Live meteorological forecast application utilizing OpenWeatherMap API. | [View Code](https://github.com/reezmahanan/Weather-App) |
-| **StudyScore AI** | Python, Scikit-Learn, NumPy, Streamlit | Machine Learning multi-variable regression pipeline forecasting academic metrics with 99.4% R² fit. | [View Code](https://github.com/reezmahanan/StudyScore-AI) |
-| **SCM - Inventory** | React, Spring Boot, MySQL, REST APIs | Supply chain and stock inventory system with dashboards, supplier logs, and invoices. | [View Code](https://github.com/reezmahanan/SCM-IMS) |
-| **Book Nest** | PHP, MySQL, JavaScript, HTML5/CSS3 | E-commerce bookstore application with dynamic catalog, search, and billing invoices. | [View Code](https://github.com/reezmahanan/BookNest) |
-| **POS System** | Laravel, PHP, MySQL, Bootstrap | Retail point-of-sale system managing cash registers, product barcodes, and reports. | [View Code](https://github.com/reezmahanan/POS-System) |
-| **ReciPick** | React, Vite, CSS3 | Culinary discovery application consuming public recipe APIs with filtering. | [View Code](https://github.com/reezmahanan/RECIPICK) |
-| **TasteVerse** | HTML5, CSS3, JavaScript | Restaurant portal showcasing menus, reservation bookings, and location hours. | [View Code](https://github.com/reezmahanan/Taste-Verse) |
-| **Reezma Tech** | HTML5, CSS3, JavaScript | Digital services showcase presenting technical solutions, tiers, and inquiries. | [View Code](https://github.com/reezmahanan/Reezma-Tech-Services) |
-| **CareerBridge** | HTML5, CSS3, JavaScript | Graduation placement portal connecting undergraduates with tech recruiters. | [View Code](https://github.com/reezmahanan/CareerBridge) |
-
----
-
-## Open Source Contributions
-
-A dedicated section highlighting verified participation across 5 global open-source programs:
-
-1. **SWOC '26 (Social Winter of Code)**: Contributed responsive CSS layout enhancements and UI optimizations.
-2. **OSCG '26 (Open Source Community Global)**: Implemented performance fixes and documentation across community repositories.
-3. **SSOC '26 (Social Summer of Code)**: Delivered component enhancements and bug resolutions for web systems.
-4. **GSSOC '26 (GirlScript Summer of Code)**: Implemented animations and modular styles on `SAPTARSHI/EaseMotion-css`.
-5. **OSCI '26 (Open Source Community Initiative)**: Active contributor resolving issues and reviewing pull requests.
-
----
-
-## Technical Articles & Publications
-
-Published engineering breakdowns sharing architectural principles and hands-on lessons:
-
-| # | Article Title | Domain | Read Link |
-| :-: | :--- | :--- | :--- |
-| 1 | **Spring Boot Annotations Explained for Beginners: The Complete Guide with Examples** | Spring Boot / Java | [Read on Medium](https://medium.com/@reezmahanan/spring-boot-annotations-explained-for-beginners-the-complete-guide-with-examples-7636e7e7af22) |
-| 2 | **Why AWS Started Charging for Public IPv4 Addresses and the Modern Approach to Avoid This Cost** | AWS / Cloud Networking | [Read on Medium](https://medium.com/@reezmahanan/why-aws-started-charging-for-public-ipv4-addresses-and-the-modern-approach-to-avoid-this-cost-bd27abb8278e) |
-| 3 | **OSI Model & AWS Load Balancers (ALB, NLB, GLB)** | AWS / Networking Architecture | [Read on Medium](https://medium.com/@reezmahanan/osi-model-aws-load-balancers-alb-nlb-glb-d2b481f2f7bf) |
-| 4 | **EFS vs EBS vs Amazon S3: Choosing the Most Cost-Effective AWS Storage Solution** | AWS / Cloud Storage | [Read on Medium](https://medium.com/@reezmahanan/efs-vs-ebs-vs-amazon-s3-choosing-the-most-cost-effective-aws-storage-solution-cf6a34232ba4) |
-| 5 | **MongoDB for Beginners: A Simple Introduction to NoSQL Databases** | Databases / NoSQL | [Read on Medium](https://medium.com/@reezmahanan/mongodb-for-beginners-a-simple-introduction-to-nosql-databases-cfd539216e68) |
-| 6 | **Native Apps vs Web Apps vs Hybrid Apps vs PWAs: What's the Difference?** | Mobile & Web Systems | [Read on Medium](https://medium.com/@reezmahanan/native-apps-vs-web-apps-vs-hybrid-apps-vs-pwas-whats-the-difference-fcc7f78870a2) |
-| 7 | **Software Testing and Quality Control: Ensuring Better Software Quality** | Software QA & Testing | [Read on Medium](https://medium.com/@reezmahanan/software-testing-and-quality-control-ensuring-better-software-quality-3aee1636fe3e) |
-| 8 | **Amazon RDS vs Amazon Aurora: Which AWS Database Should You Choose?** | AWS / Cloud Databases | [Read on Medium](https://medium.com/@reezmahanan/amazon-rds-vs-amazon-aurora-which-aws-database-should-you-choose-4e9bfc98572a) |
-
----
-
-## Verified Certifications & Badges
-
-- **Frontend Developer (React)**: HackerRank ([Verify Certificate](https://www.hackerrank.com/certificates/6cae31c2c403))
-- **Docker for Absolute Beginners**: KodeKloud ([Verify Certificate](https://learn.kodekloud.com/learn/certificate/3e5f41f9-9caf-4f40-a18c-9e0a6d3f7978))
-- **Cyber Security Essential (LFC108)**: The Linux Foundation
-- **Agile Scrum Foundation**: Simplilearn ([Verify](https://simpli-web.app.link/e/pxITlA1Tb0b))
-- **HackerRank Verified Skills**: React, Java, Python, SQL, JavaScript, CSS ([Verify Profile](https://www.hackerrank.com/profile/reezmahanan))
-- **Front-End Web Development**: University of Moratuwa CODL
-- **Introduction to Cybersecurity**: Cisco Networking Academy
-- **Cybersecurity Essentials**: Cisco Networking Academy
-- **Cloud Computing & AI Badges**: Google Cloud & Microsoft Learn Badges
-
----
-
-## Volunteering & Community
-
-- **AWS Organizing Committee Member**: Actively contributing to organizing AWS cloud community engagements and educational sessions.
-- **Creative Co-Lead – AWS Community Day**: Leading creative direction, event assets, and visual media communication for AWS Community Day.
-
----
-
-## Repository Structure
-
-```
-Portfolio-Website/
-├── index.html              # Main HTML markup with complete responsive section hierarchy
-├── styles.css              # Custom CSS rules, theme variables, glassmorphic effects & media queries
-├── portfolio-script.js     # Client logic: smooth navigation, scrollspy, filter tabs & carousels
-├── Reezma_Hanan_Resume.pdf # Downloadable resume PDF
-├── profile.jpg             # High-resolution portfolio hero and about portrait
-├── screenshots/            # Verified application screenshots, certificates, and article images
-│   ├── AgriDirect.png
-│   ├── ALB-vs-NLB-vs-GLB_03.png
-│   ├── amazon s3.jpg
-│   ├── amazonrds vs arourora.png
-│   ├── Event Hub.png
-│   ├── IPv4.png
-│   ├── LibriQ.png
-│   ├── lightgbm.svg
-│   ├── mongodb.jpg
-│   ├── native vs hybrid vs crossplatform.jpg
-│   ├── numpy.svg
-│   ├── pandas.svg
-│   ├── Quality assurance.png
-│   ├── Springboot.jpg
-│   ├── STYLEO Ceylon.png
-│   ├── TaskFlow.png
-│   └── weather App.png
-└── README.md               # Complete repository documentation
-```
-
----
-
-## Local Setup & Execution
-
-This portfolio is built with zero runtime or build dependencies. To run locally:
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/reezmahanan/Portfolio-Website.git
-
-# 2. Navigate into the directory
-cd Portfolio-Website
-
-# 3. Start a local server (Python 3)
-python -m http.server 5500
-```
-
-Open your browser and navigate to `http://localhost:5500`.
-
----
-
-## Connect & Collaborate
-
-- **Portfolio**: [https://portfolio-website-7mdi.vercel.app](https://portfolio-website-7mdi.vercel.app/)
-- **LinkedIn**: [linkedin.com/in/reezma-hanan](https://linkedin.com/in/reezma-hanan)
-- **GitHub**: [github.com/reezmahanan](https://github.com/reezmahanan)
-- **Email**: [reezmahanan@gmail.com](mailto:reezmahanan@gmail.com)
-- **HackerRank**: [hackerrank.com/profile/reezmahanan](https://www.hackerrank.com/profile/reezmahanan)
-- **Medium**: [medium.com/@reezmahanan](https://medium.com/@reezmahanan)
-
----
+I am always open to discussing new opportunities, full-stack engineering challenges, and internship roles. Feel free to reach out!
 
 <div align="center">
-<sub>2026 Reezma Hanan • IT Undergraduate at ITUM • Sri Lanka</sub>
+
+<a href="https://spectacular-narwhal-9eb659.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Visit_Site-FF61A6?style=for-the-badge&logo=react&logoColor=white"/></a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/reezma-hanan"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;&nbsp;
+<a href="mailto:reezmahanan@gmail.com"><img src="https://img.shields.io/badge/Gmail-Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;&nbsp;
+<a href="https://github.com/reezmahanan"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;&nbsp;
+<a href="https://www.hackerrank.com/profile/reezmahanan"><img src="https://img.shields.io/badge/HackerRank-Profile-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white"/></a>&nbsp;&nbsp;
+<a href="https://medium.com/@reezmahanan"><img src="https://img.shields.io/badge/Medium-Read_Articles-000000?style=for-the-badge&logo=medium&logoColor=white"/></a>
+
+<br/><br/>
+
+<p align="center">
+  <i>"First, solve the problem. Then, write the code." — John Johnson</i>
+</p>
+
+<p align="center">
+  ⭐ <b>If you find my work helpful or interesting, a star on my repositories is always appreciated!</b>
+</p>
+
+<br/>
+
+<!-- Footer Wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=6,11,20&section=footer" width="100%"/>
+
+<sub>
+© 2026 Reezma Hanan • Software Engineering Undergraduate • Sri Lanka 🇱🇰
+</sub>
+
+<br/>
+
+### ✨ Thank you for visiting! ✨
+
 </div>
