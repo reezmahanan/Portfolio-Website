@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        if (['opensource', 'blogs', 'community', 'contact'].includes(currentSectionId)) {
+        if (['leadership', 'opensource', 'blogs', 'creative', 'community', 'contact'].includes(currentSectionId)) {
             if (moreDropdownBtn) moreDropdownBtn.classList.add('active');
         } else {
             if (moreDropdownBtn) moreDropdownBtn.classList.remove('active');

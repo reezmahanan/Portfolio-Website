@@ -80,6 +80,16 @@ Hey there! 👋 I am an **Information Technology Undergraduate at the Institute 
   <img src="https://skillicons.dev/icons?i=figma,ps,ai" />
 </a>
 
+### 👑 Soft Skills & Team Leadership
+<p>
+  <img src="https://img.shields.io/badge/Team_Leadership-00D9FF?style=flat-square&logo=superuser&logoColor=black" />&nbsp;
+  <img src="https://img.shields.io/badge/Problem_Solving-3776AB?style=flat-square&logo=target&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Team_Collaboration-9B59B6?style=flat-square&logo=slack&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Project_Coordination-FFA500?style=flat-square&logo=trello&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Effective_Communication-47A248?style=flat-square&logo=googlechat&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Time_Management-00FF88?style=flat-square&logo=clockify&logoColor=black" />
+</p>
+
 ---
 
 ## 📌 Featured Projects
@@ -146,16 +156,17 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
 </table>
 
 <details>
-<summary>📂 <b>View More Repositories & Prototypes</b></summary>
+<summary>📂 <b>View More Repositories, Prototypes &amp; Team Projects</b></summary>
 
-| Project | Domain / Stack | Repository |
+| Project | Domain / Stack | Repository / Reference |
 | :--- | :--- | :--- |
 | **TaskFlow Dashboard** | TypeScript, Vite, React | [View Code](https://github.com/reezmahanan/TaskFlow) • [Live Demo](https://task-flow-coral-iota.vercel.app/) |
 | **AgriDirect** | Node.js, Express, MongoDB, Mongoose | [View Code](https://github.com/reezmahanan/AgriDirect) |
-| **SCM - Inventory Management** | React, Spring Boot, MySQL | [View Code](https://github.com/reezmahanan/SCM-IMS) |
+| **SCM - Inventory Management** | React, Spring Boot, MySQL | [View Code](https://github.com/reezmahanan/SCM-IMS) • [LinkedIn Post](https://lnkd.in/p/gvsA2c6x) *(Lead Architecture)* |
 | **Retail Point of Sale (POS)** | Laravel, PHP, MySQL, Bootstrap | [View Code](https://github.com/reezmahanan/POS-System) |
 | **Reezma Hanan Portfolio** | React, Netlify, Responsive CSS | [View Code](https://github.com/reezmahanan/Reezma-Hanan-Portfolio) |
-| **Book Nest** | PHP, JavaScript, MySQL | [View Code](https://github.com/reezmahanan/BookNest) |
+| **Book Nest** | PHP, JavaScript, MySQL | [View Code](https://github.com/reezmahanan/BookNest) • [LinkedIn Post](https://lnkd.in/p/g4kNkrrG) *(Team Lead)* |
+| **Smart Home Automation** | ATmega32, Embedded C, Sensors | [View Code](https://github.com/reezmahanan/Smart-Home) • [LinkedIn Post](https://lnkd.in/p/g-3MrqAp) *(Team Leader)* |
 | **Event Hub** | PHP, JavaScript, MySQL | [View Code](https://github.com/reezmahanan/Student-Event-Management-Web-Application) |
 | **ReciPick** | React, Vite, CSS3 | [View Code](https://github.com/reezmahanan/RECIPICK) |
 | **Weather App** | React, OpenWeather API | [View Code](https://github.com/reezmahanan/Weather-App) • [Live Demo](https://weather-app-pi-teal-17.vercel.app/) |
@@ -164,6 +175,47 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
 | **CareerBridge** | Responsive Web UI | [View Code](https://github.com/reezmahanan/CareerBridge) |
 
 </details>
+
+---
+
+## 👑 Leadership Journey & Technical Coordination
+
+*Demonstrated leadership guiding undergraduate engineering teams, directing system architecture, and steering module deliverables through faculty presentations and viva defenses:*
+
+<table width="100%">
+  <tr>
+    <!-- Experience 1: BookNest -->
+    <td width="33.3%" valign="top">
+      <h4><a href="https://github.com/reezmahanan/BookNest">BookNest – Online Bookstore</a></h4>
+      <p><b>Role: Team Lead (4 Members)</b><br/><i>Fundamentals of Software Engineering • ITUM</i></p>
+      <p>Coordinated sprint deliverables, task assignments, and full-stack MVC architecture (PHP/MySQL) through successful faculty CA evaluation under Shashika Ruwanmini Ma'am.</p>
+      <p>
+        <a href="https://lnkd.in/p/g4kNkrrG"><b>LinkedIn Reflection</b></a> • 
+        <a href="https://github.com/reezmahanan/BookNest"><b>Repository</b></a>
+      </p>
+    </td>
+    <!-- Experience 2: Smart Home Automation -->
+    <td width="33.3%" valign="top">
+      <h4><a href="https://github.com/reezmahanan/Smart-Home">Smart Home Automation (ATmega32)</a></h4>
+      <p><b>Role: Team Leader (6 Members)</b><br/><i>Microcontrollers &amp; Industrial Automation • ITUM</i></p>
+      <p>Directed Proteus circuit simulation, automated sensor controls (temp, gas, light), and led team presentation and faculty viva defense under Sanduni Kottawa Ma'am.</p>
+      <p>
+        <a href="https://lnkd.in/p/g-3MrqAp"><b>LinkedIn Reflection</b></a> • 
+        <a href="https://github.com/reezmahanan/Smart-Home"><b>Repository</b></a>
+      </p>
+    </td>
+    <!-- Experience 3: SCM Inventory Management -->
+    <td width="33.3%" valign="top">
+      <h4><a href="https://github.com/reezmahanan/SCM-IMS">SCM – Inventory Management</a></h4>
+      <p><b>Role: Architecture &amp; Technical Core Lead</b><br/><i>Enterprise Supply Chain Architecture</i></p>
+      <p>Designed core database schema, Spring Boot REST APIs, transaction business logic, and guided frontend React integration and Git team collaboration.</p>
+      <p>
+        <a href="https://lnkd.in/p/gvsA2c6x"><b>LinkedIn Reflection</b></a> • 
+        <a href="https://github.com/reezmahanan/SCM-IMS"><b>Repository</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -259,7 +311,7 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
 
 | Certificate | Issuer | View Certificate |
 | :--- | :--- | :--- |
-| **Node.js (Basic)** | HackerRank | [View Credential](https://www.hackerrank.com/certificates/c4f275cc19e0) |
+| **Node.js (Basic)** | HackerRank | [Verify Credential](https://www.hackerrank.com/certificates/c4f275cc19e0) • [View Image](https://github.com/user-attachments/assets/86a4e53d-9969-4579-ba0c-6e57ac72a3c1) |
 | **Introduction to Git** | Microsoft | [View Credential](https://github.com/user-attachments/assets/54776ea4-ec42-4b50-9108-40ea13519724) |
 | **Introduction to Github Copilot** | Microsoft | [View Credential](https://github.com/user-attachments/assets/cef427dc-028d-44b6-b023-43f63b0d7d78) |
 | **Describe Cloud Computing** | Microsoft | [View Credential](https://github.com/user-attachments/assets/caf21974-5cce-47fc-808b-7d1cc7726e45) |
