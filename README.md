@@ -34,7 +34,7 @@ Hey there! 👋 I am an **Information Technology Undergraduate at the Institute 
 - 🎓 **Student Life:** Currently studying IT at ITUM, building strong foundations in software engineering principles, algorithms, clean code, and database architecture.
 - 💻 **What I Build:** End-to-end full-stack systems (React, Spring Boot, Node.js) and predictive Machine Learning models (LightGBM, Scikit-Learn for time-series forecasting and regression).
 - 🔍 **Career Goal:** Actively seeking a **Software Engineering / Full-Stack Developer Internship** where I can learn from experienced mentors, contribute to real production code, and grow as an engineer.
-- 🤝 **Community & Learning:** Open source contributor (SWOC, GSSOC, SSOC) and an enthusiastic team player who enjoys continuous learning every day.
+- 🤝 **Community & Learning:** Open source contributor (SWOC, OSCG, OSCI, SSOC, GSSOC) and an enthusiastic team player who enjoys continuous learning every day.
 
 ---
 
@@ -72,12 +72,29 @@ Hey there! 👋 I am an **Information Technology Undergraduate at the Institute 
 
 ### 🔧 Developer Tools & Testing
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=git,github,npm,postman,idea,vscode" />
+  <img src="https://skillicons.dev/icons?i=git,github,npm,postman,idea,vscode,selenium" />
+</a>
+<a href="https://testng.org">
+  <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/testng.png" width="48" height="48" alt="TestNG" />
+</a>
+
+### ⚡ IoT & Hardware Simulation
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=arduino" />
+</a>
+<a href="https://www.tinkercad.com">
+  <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/tinkercad.png" width="48" height="48" alt="Tinkercad" />
+</a>
+<a href="https://thingspeak.com">
+  <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/thingspeak.png" width="48" height="48" alt="ThingSpeak" />
 </a>
 
 ### 🎨 UI/UX & Prototyping
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=figma,ps,ai" />
+</a>
+<a href="https://www.canva.com">
+  <img src="https://img.icons8.com/color/96/canva.png" width="48" height="48" alt="Canva" />
 </a>
 
 ### 👑 Soft Skills & Team Leadership
@@ -345,6 +362,7 @@ I actively collaborate on community-driven open-source projects, which allows me
 
 * **SWOC (Social Winter of Code):** Open Source Contributor. Contributed to [SafeHaven](https://github.com/archangel2006/SafeHaven)
 * **OSCG (Open Source Connect Global):** Open Source Contributor. Contributed to [blockchain-evidence](https://github.com/Gooichand/blockchain-evidence)
+* **OSCI (Open Source Community Initiative):** Open Source Contributor. Contributed to [OSCI '26](https://github.com/reezmahanan)
 * **SSOC (Social Summer of Code):** Open Source Contributor. Contributed to [E-commerce](https://github.com/AnthropicBots/E-commerce.git)
 * **GSSOC (GirlScript Summer of Code):** Open Source Contributor. Contributed to [EaseMotion-css](https://github.com/SAPTARSHI-coder/EaseMotion-css.git)
 
