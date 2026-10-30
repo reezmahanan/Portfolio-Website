@@ -242,7 +242,27 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
 
 ### 📜 Certifications
 
-<!-- Row 1: 4 Professional Certifications (25% equal width each) -->
+<!-- Featured AI & Machine Learning Specialization (Top Priority) -->
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <b>AI/ML Engineer - Stage 1</b><br/>
+      <i>SLIIT (Faculty of Computing)</i><br/><br/>
+      <a href="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/AIML%20Engineer%20stage%201.png">
+        <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/AIML%20Engineer%20stage%201.png" width="100%" alt="AI/ML Engineer Stage 1 Certificate"/>
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <b>Machine Learning Using Python</b><br/>
+      <i>Simplilearn SkillUp</i><br/><br/>
+      <a href="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/Machile%20Learning%20using%20python.png">
+        <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/Machile%20Learning%20using%20python.png" width="100%" alt="Machine Learning Using Python Certificate"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<!-- Core Engineering & Cloud Certifications -->
 <table width="100%">
   <tr>
     <td width="25%" align="center" valign="top">
@@ -328,6 +348,8 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
 
 | Certificate | Issuer | View Certificate |
 | :--- | :--- | :--- |
+| **AI/ML Engineer - Stage 1** | SLIIT (Faculty of Computing) | [View Image](https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/AIML%20Engineer%20stage%201.png) |
+| **Machine Learning Using Python** | Simplilearn SkillUp | [View Image](https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/Machile%20Learning%20using%20python.png) |
 | **Node.js (Basic)** | HackerRank | [Verify Credential](https://www.hackerrank.com/certificates/c4f275cc19e0) • [View Image](https://github.com/user-attachments/assets/86a4e53d-9969-4579-ba0c-6e57ac72a3c1) |
 | **Introduction to Git** | Microsoft | [View Credential](https://github.com/user-attachments/assets/54776ea4-ec42-4b50-9108-40ea13519724) |
 | **Introduction to Github Copilot** | Microsoft | [View Credential](https://github.com/user-attachments/assets/cef427dc-028d-44b6-b023-43f63b0d7d78) |
