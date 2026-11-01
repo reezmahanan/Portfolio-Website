@@ -117,9 +117,22 @@ Hey there! 👋 I am an **Information Technology Undergraduate at the Institute 
 Highlighting full-stack web platforms, machine learning forecasting, and database design:
 
 <table width="100%">
-  <!-- Row 1: LibriQ & Electricity Demand Predictor -->
+  <!-- Row 1: EduNexus & LibriQ LMS -->
   <tr>
-    <!-- Project 1: LibriQ LMS -->
+    <!-- Project 1: EduNexus SMS -->
+    <td width="50%" valign="top">
+      <h4>🎓 <a href="https://github.com/reezmahanan/Student-Management-System">EduNexus – Advanced Student Management System (SMS)</a></h4>
+      <p>A full-stack enterprise-grade academic management system built with Spring Boot 3, React 19, Material UI, and MySQL/H2. Features multi-role RBAC &amp; JWT security (ADMIN, TEACHER, STUDENT), student directory with course enrollment, roll call attendance register, continuous assessment GPA &amp; G.C.E. A/L Z-Score engine, fee invoicing, AI academic risk early warning advisor, and 1-click official PDF/Excel transcript exports.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" />&nbsp;
+        <img src="https://img.shields.io/badge/Material_UI-007FFF?style=flat-square&logo=mui&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/MySQL_8-4479A1?style=flat-square&logo=mysql&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/AI-Risk_Advisor-9B59B6?style=flat-square&labelColor=1a1a2e" />
+      </p>
+    </td>
+    <!-- Project 2: LibriQ LMS -->
     <td width="50%" valign="top">
       <h4>📚 <a href="https://github.com/reezmahanan/LibriQ">LibriQ – Sri Lankan University Library Management System</a></h4>
       <p>A comprehensive MERN circulation platform tailored for Sri Lankan university standards. Features a dedicated trilingual switcher (English <code>EN</code>, தமிழ் <code>TA</code>, සිංහල <code>SI</code>), role-based permissions (Librarian/Student), barcoded Accession No (<code>ACC-...</code>), Dewey Decimal Call numbers (DDC), student index rosters, and automated LKR late fine calculations (Rs. 10/day).</p>
@@ -132,20 +145,8 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
         <img src="https://img.shields.io/badge/LKR-Rs._Fine_Engine-F4B942?style=flat-square&labelColor=1E3A5F" />
       </p>
     </td>
-    <!-- Project 2: Electricity Consumption Prediction -->
-    <td width="50%" valign="top">
-      <h4>⚡ <a href="https://github.com/reezmahanan/Electricity-Consumption-Prediction">Electricity Consumption Prediction (Sri Lanka Smart Meter)</a></h4>
-      <p>An end-to-end Machine Learning time-series pipeline forecasting 15-minute residential electricity demand across Sri Lankan households using real-world LIRNEasia smart meter data. Implements calendar clues, lag features, and a tuned LightGBM Regressor achieving an outstanding <b>93.1% R² score</b>.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />&nbsp;
-        <img src="https://img.shields.io/badge/LightGBM-2E7D32?style=flat-square&logo=codeforces&logoColor=white" />&nbsp;
-        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />&nbsp;
-        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />&nbsp;
-        <img src="https://img.shields.io/badge/R²_Score-0.9307-brightgreen?style=flat-square" />
-      </p>
-    </td>
   </tr>
-  <!-- Row 2: STYLEO Ceylon & House Price / Academic Predictor -->
+  <!-- Row 2: STYLEO Ceylon & Electricity Demand Predictor -->
   <tr>
     <!-- Project 3: STYLEO Ceylon -->
     <td width="50%" valign="top">
@@ -160,9 +161,23 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
         <img src="https://img.shields.io/github/stars/reezmahanan/STYLEO-Ceylon?style=flat-square&color=blue" />
       </p>
     </td>
-    <!-- Project 4: House Price / Academic Performance Predictor -->
+    <!-- Project 4: Electricity Consumption Prediction -->
     <td width="50%" valign="top">
-      <h4>🏡 <a href="https://github.com/reezmahanan/StudyScore-AI">House Price & Performance Predictor (StudyScore AI)</a></h4>
+      <h4>⚡ <a href="https://github.com/reezmahanan/Electricity-Consumption-Prediction">Electricity Consumption Prediction (Sri Lanka Smart Meter)</a></h4>
+      <p>An end-to-end Machine Learning time-series pipeline forecasting 15-minute residential electricity demand across Sri Lankan households using real-world LIRNEasia smart meter data. Implements calendar clues, lag features, and a tuned LightGBM Regressor achieving an outstanding <b>93.1% R² score</b>.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/LightGBM-2E7D32?style=flat-square&logo=codeforces&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/R²_Score-0.9307-brightgreen?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <!-- Row 3: House Price & Performance Predictor (StudyScore AI) & Event Hub -->
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏡 <a href="https://github.com/reezmahanan/StudyScore-AI">House Price &amp; Performance Predictor (StudyScore AI)</a></h4>
       <p>End-to-end Machine Learning predictive application leveraging multi-variable regression, feature scaling, and outlier filtering to forecast valuations and target scores based on historical indicators, achieving up to <b>99.4% R² regression fit</b>.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />&nbsp;
@@ -170,6 +185,17 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
         <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />&nbsp;
         <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />&nbsp;
         <img src="https://img.shields.io/github/stars/reezmahanan/StudyScore-AI?style=flat-square&color=blue" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🎫 <a href="https://github.com/reezmahanan/Student-Event-Management-Web-Application">Event Hub – Campus Event Management Platform</a></h4>
+      <p>Full-stack dynamic campus event platform streamlining attendee registrations, seat capacity management, multi-role access controls (Admins, Organizers, Attendees), and automated RSVP alerts.</p>
+      <p>
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />&nbsp;
+        <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Auth-Multi--Role-blue?style=flat-square" />
       </p>
     </td>
   </tr>
@@ -180,6 +206,7 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
 
 | Project | Domain / Stack | Repository / Reference |
 | :--- | :--- | :--- |
+| **EduNexus (SMS)** | Spring Boot 3, React 19, Material UI, MySQL 8, Docker | [View Code](https://github.com/reezmahanan/Student-Management-System) |
 | **TaskFlow Dashboard** | TypeScript, Vite, React | [View Code](https://github.com/reezmahanan/TaskFlow) • [Live Demo](https://task-flow-coral-iota.vercel.app/) |
 | **AgriDirect** | Node.js, Express, MongoDB, Mongoose | [View Code](https://github.com/reezmahanan/AgriDirect) |
 | **SCM - Inventory Management** | React, Spring Boot, MySQL | [View Code](https://github.com/reezmahanan/SCM-IMS) • [LinkedIn Post](https://lnkd.in/p/gvsA2c6x) *(Lead Architecture)* |
