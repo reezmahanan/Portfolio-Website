@@ -77,6 +77,9 @@ Hey there! 👋 I am an **Information Technology Undergraduate at the Institute 
 <a href="https://testng.org">
   <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/testng.png" width="48" height="48" alt="TestNG" />
 </a>
+<a href="https://colab.research.google.com">
+  <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/colab.svg" width="48" height="48" alt="Google Colab" />
+</a>
 
 ### ⚡ IoT & Hardware Simulation
 <a href="https://skillicons.dev">
@@ -242,21 +245,47 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
 
 ### 📜 Certifications
 
-<!-- Featured AI & Machine Learning Specialization (Top Priority) -->
+<!-- Featured AI & Machine Learning Specialization - SLIIT University (Top Priority) -->
 <table width="100%">
   <tr>
-    <td width="50%" align="center" valign="top">
+    <td width="33.33%" align="center" valign="top">
       <b>AI/ML Engineer - Stage 1</b><br/>
-      <i>SLIIT (Faculty of Computing)</i><br/><br/>
+      <i>SLIIT University</i><br/><br/>
       <a href="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/AIML%20Engineer%20stage%201.png">
-        <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/AIML%20Engineer%20stage%201.png" width="100%" alt="AI/ML Engineer Stage 1 Certificate"/>
+        <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/AIML%20Engineer%20stage%201.png" width="100%" alt="AI/ML Engineer Stage 1 Certificate - SLIIT University"/>
       </a>
     </td>
+    <td width="33.33%" align="center" valign="top">
+      <b>AI/ML Engineer - Stage 2</b><br/>
+      <i>SLIIT University</i><br/><br/>
+      <a href="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/ai%20ml%20engineer%20stage%202.png">
+        <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/ai%20ml%20engineer%20stage%202.png" width="100%" alt="AI/ML Engineer Stage 2 Certificate - SLIIT University"/>
+      </a>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <b>AI/ML Engineer - Stage 3</b><br/>
+      <i>SLIIT University</i><br/><br/>
+      <a href="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/ai%20ml%20engineer%20stage%203.png">
+        <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/ai%20ml%20engineer%20stage%203.png" width="100%" alt="AI/ML Engineer Stage 3 Certificate - SLIIT University"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table width="100%">
+  <tr>
     <td width="50%" align="center" valign="top">
       <b>Machine Learning Using Python</b><br/>
       <i>Simplilearn SkillUp</i><br/><br/>
       <a href="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/Machile%20Learning%20using%20python.png">
         <img src="https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/Machile%20Learning%20using%20python.png" width="100%" alt="Machine Learning Using Python Certificate"/>
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <b>Frontend Developer React</b><br/>
+      <i>HackerRank</i><br/><br/>
+      <a href="https://www.hackerrank.com/certificates/6cae31c2c403">
+        <img src="https://github.com/user-attachments/assets/181c6d88-12af-4f64-9767-60074e54cbe1" width="100%" alt="Frontend Developer React Certificate"/>
       </a>
     </td>
   </tr>
@@ -348,7 +377,9 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
 
 | Certificate | Issuer | View Certificate |
 | :--- | :--- | :--- |
-| **AI/ML Engineer - Stage 1** | SLIIT (Faculty of Computing) | [View Image](https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/AIML%20Engineer%20stage%201.png) |
+| **AI/ML Engineer - Stage 1** | SLIIT University | [View Image](https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/AIML%20Engineer%20stage%201.png) |
+| **AI/ML Engineer - Stage 2** | SLIIT University | [View Image](https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/ai%20ml%20engineer%20stage%202.png) |
+| **AI/ML Engineer - Stage 3** | SLIIT University | [View Image](https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/ai%20ml%20engineer%20stage%203.png) |
 | **Machine Learning Using Python** | Simplilearn SkillUp | [View Image](https://raw.githubusercontent.com/reezmahanan/Portfolio-Website/main/screenshots/Machile%20Learning%20using%20python.png) |
 | **Node.js (Basic)** | HackerRank | [Verify Credential](https://www.hackerrank.com/certificates/c4f275cc19e0) • [View Image](https://github.com/user-attachments/assets/86a4e53d-9969-4579-ba0c-6e57ac72a3c1) |
 | **Introduction to Git** | Microsoft | [View Credential](https://github.com/user-attachments/assets/54776ea4-ec42-4b50-9108-40ea13519724) |
