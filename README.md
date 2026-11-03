@@ -52,7 +52,7 @@ Hey there! 👋 I am an **Information Technology Undergraduate at the Institute 
 
 ### ⚛️ Frameworks & Runtimes
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=spring,react,nodejs,express,laravel" />
+  <img src="https://skillicons.dev/icons?i=spring,react,nextjs,angular,nodejs,express,laravel" />
 </a>
 
 ### 🗄️ Databases & Persistence
@@ -67,7 +67,7 @@ Hey there! 👋 I am an **Information Technology Undergraduate at the Institute 
 
 ### ☁️ Cloud, DevOps & Systems
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=aws,docker,linux" />
+  <img src="https://skillicons.dev/icons?i=aws,azure,docker,linux" />
 </a>
 
 ### 🔧 Developer Tools & Testing
@@ -157,7 +157,7 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />&nbsp;
         <img src="https://img.shields.io/badge/MySQL_8-4479A1?style=flat-square&logo=mysql&logoColor=white" />&nbsp;
         <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />&nbsp;
-        <a href="https://project-04-production-79a4.up.railway.app/"><img src="https://img.shields.io/badge/Live_Demo-Railway-00D9FF?style=flat-square&logo=railway&logoColor=white" /></a>&nbsp;
+        <a href="https://project-01-nu-ruddy.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-Vercel-000000?style=flat-square&logo=vercel&logoColor=white" /></a>&nbsp;
         <img src="https://img.shields.io/github/stars/reezmahanan/STYLEO-Ceylon?style=flat-square&color=blue" />
       </p>
     </td>
@@ -510,7 +510,7 @@ I am always open to discussing new opportunities, full-stack engineering challen
 
 <div align="center">
 
-<a href="https://spectacular-narwhal-9eb659.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Visit_Site-FF61A6?style=for-the-badge&logo=react&logoColor=white"/></a>&nbsp;&nbsp;
+<a href="https://portfolio-website-7mdi.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit_Site-FF61A6?style=for-the-badge&logo=react&logoColor=white"/></a>&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/reezma-hanan"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;&nbsp;
 <a href="mailto:reezmahanan@gmail.com"><img src="https://img.shields.io/badge/Gmail-Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;&nbsp;
 <a href="https://github.com/reezmahanan"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;&nbsp;
