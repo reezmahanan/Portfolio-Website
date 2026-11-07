@@ -42,7 +42,7 @@ Hey there! 👋 I am an **Information Technology Undergraduate at the Institute 
 
 ### 💻 Programming Languages
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=java,py,js,ts,php,c" />
+  <img src="https://skillicons.dev/icons?i=java,py,js,ts,dart,php,c" />
 </a>
 
 ### 🤖 Machine Learning & Data Science
@@ -52,7 +52,7 @@ Hey there! 👋 I am an **Information Technology Undergraduate at the Institute 
 
 ### ⚛️ Frameworks & Runtimes
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=spring,react,nextjs,angular,nodejs,express,laravel" />
+  <img src="https://skillicons.dev/icons?i=flutter,spring,react,nextjs,angular,nodejs,express,laravel" />
 </a>
 
 ### 🗄️ Databases & Persistence
@@ -67,7 +67,7 @@ Hey there! 👋 I am an **Information Technology Undergraduate at the Institute 
 
 ### ☁️ Cloud, DevOps & Systems
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=aws,azure,docker,linux" />
+  <img src="https://skillicons.dev/icons?i=aws,azure,firebase,docker,linux" />
 </a>
 
 ### 🔧 Developer Tools & Testing
@@ -146,9 +146,22 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
       </p>
     </td>
   </tr>
-  <!-- Row 2: STYLEO Ceylon & Electricity Demand Predictor -->
+  <!-- Row 2: ReEz AI Chatbot & STYLEO Ceylon -->
   <tr>
-    <!-- Project 3: STYLEO Ceylon -->
+    <!-- Project 3: ReEz AI Chatbot -->
+    <td width="50%" valign="top">
+      <h4>🤖 <a href="https://github.com/reezmahanan/Flutter-AI-Chatbot-Application">ReEz AI – Flutter AI Chatbot Application</a></h4>
+      <p>A modern cross-platform conversational AI chatbot powered by <b>Google Gemini AI</b> with low-latency streaming responses. Features Firebase Authentication (reactive <code>AuthGate</code> lifecycle), Cloud Firestore multi-turn persistent chat history, and a sleek Material 3 UI with starter prompt chips and offline fallback handling.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=flat-square&logo=google&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />&nbsp;
+        <img src="https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black" />&nbsp;
+        <a href="https://reezma-ai-chat-2026.web.app/"><img src="https://img.shields.io/badge/Live_Demo-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" /></a>
+      </p>
+    </td>
+    <!-- Project 4: STYLEO Ceylon -->
     <td width="50%" valign="top">
       <h4>🛍️ <a href="https://github.com/reezmahanan/STYLEO-Ceylon">STYLEO Ceylon – Full-Stack E-Commerce System</a></h4>
       <p>A production-ready 3-tier apparel platform featuring an asynchronous native <code>fetch()</code> client engine, Express REST API, and a normalized MySQL 8 database with ACID transactional checkout and live courier tracking.</p>
@@ -161,7 +174,9 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
         <img src="https://img.shields.io/github/stars/reezmahanan/STYLEO-Ceylon?style=flat-square&color=blue" />
       </p>
     </td>
-    <!-- Project 4: Electricity Consumption Prediction -->
+  </tr>
+  <!-- Row 3: Electricity Demand Predictor & StudyScore AI (ML Engines) -->
+  <tr>
     <td width="50%" valign="top">
       <h4>⚡ <a href="https://github.com/reezmahanan/Electricity-Consumption-Prediction">Electricity Consumption Prediction (Sri Lanka Smart Meter)</a></h4>
       <p>An end-to-end Machine Learning time-series pipeline forecasting 15-minute residential electricity demand across Sri Lankan households using real-world LIRNEasia smart meter data. Implements calendar clues, lag features, and a tuned LightGBM Regressor achieving an outstanding <b>93.1% R² score</b>.</p>
@@ -173,9 +188,6 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
         <img src="https://img.shields.io/badge/R²_Score-0.9307-brightgreen?style=flat-square" />
       </p>
     </td>
-  </tr>
-  <!-- Row 3: House Price & Performance Predictor (StudyScore AI) & Event Hub -->
-  <tr>
     <td width="50%" valign="top">
       <h4>🏡 <a href="https://github.com/reezmahanan/StudyScore-AI">House Price &amp; Performance Predictor (StudyScore AI)</a></h4>
       <p>End-to-end Machine Learning predictive application leveraging multi-variable regression, feature scaling, and outlier filtering to forecast valuations and target scores based on historical indicators, achieving up to <b>99.4% R² regression fit</b>.</p>
@@ -187,6 +199,9 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
         <img src="https://img.shields.io/github/stars/reezmahanan/StudyScore-AI?style=flat-square&color=blue" />
       </p>
     </td>
+  </tr>
+  <!-- Row 4: Event Hub (Campus Web Platform) -->
+  <tr>
     <td width="50%" valign="top">
       <h4>🎫 <a href="https://github.com/reezmahanan/Student-Event-Management-Web-Application">Event Hub – Campus Event Management Platform</a></h4>
       <p>Full-stack dynamic campus event platform streamlining attendee registrations, seat capacity management, multi-role access controls (Admins, Organizers, Attendees), and automated RSVP alerts.</p>
@@ -198,6 +213,17 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
         <img src="https://img.shields.io/badge/Auth-Multi--Role-blue?style=flat-square" />
       </p>
     </td>
+    <td width="50%" valign="top">
+      <h4>⚡ <a href="https://github.com/reezmahanan/TaskFlow">TaskFlow – Productivity Dashboard</a></h4>
+      <p>A premium, high-performance productivity dashboard built with TypeScript, React, and Tailwind CSS, bundled with Vite for ultra-responsive task lifecycle management.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />&nbsp;
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />&nbsp;
+        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />&nbsp;
+        <a href="https://task-flow-coral-iota.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-Vercel-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
+      </p>
+    </td>
   </tr>
 </table>
 
@@ -206,6 +232,7 @@ Highlighting full-stack web platforms, machine learning forecasting, and databas
 
 | Project | Domain / Stack | Repository / Reference |
 | :--- | :--- | :--- |
+| **ReEz AI (Flutter Chatbot)** | Flutter, Dart, Google Gemini AI, Firebase | [View Code](https://github.com/reezmahanan/Flutter-AI-Chatbot-Application) • [Live Demo](https://reezma-ai-chat-2026.web.app/) |
 | **EduNexus (SMS)** | Spring Boot 3, React 19, Material UI, MySQL 8, Docker | [View Code](https://github.com/reezmahanan/Student-Management-System) |
 | **TaskFlow Dashboard** | TypeScript, Vite, React | [View Code](https://github.com/reezmahanan/TaskFlow) • [Live Demo](https://task-flow-coral-iota.vercel.app/) |
 | **AgriDirect** | Node.js, Express, MongoDB, Mongoose | [View Code](https://github.com/reezmahanan/AgriDirect) |
