@@ -118,7 +118,7 @@ Highlights 6 core production and academic applications:
 Features documentation and evidence across 5 open-source programs:
 - SWOC '26 (Social Winter of Code)
 - OSCG '26 (Open Source Connect Global)
-- OSCI '26 (Open Source Community Initiative)
+- OSCI '26 (Open Source Connect India)
 - SSOC '26 (Social Summer of Code)
 - GSSOC '26 (GirlScript Summer of Code)
 
