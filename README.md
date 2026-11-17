@@ -3,7 +3,7 @@
 A modern, responsive, and performance-focused developer portfolio website built with semantic HTML5, modern CSS3, and vanilla JavaScript. This repository contains the complete source code, styling architecture, assets, and interactive scripts powering the official portfolio of **Reezma Hanan**.
 
 Live Website: [https://portfolio-website-7mdi.vercel.app/](https://portfolio-website-7mdi.vercel.app/)  
-Alternative Mirror: [https://spectacular-narwhal-9eb659.netlify.app/](https://spectacular-narwhal-9eb659.netlify.app/)
+
 
 ---
 
